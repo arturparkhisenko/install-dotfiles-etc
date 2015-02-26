@@ -1,4 +1,4 @@
-<scheme name="WOW_JB" version="1" parent_scheme="Default">
+<scheme name="WOW_JB" version="2" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Monospaced" />
@@ -1237,7 +1237,7 @@
     </option>
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="b30509" />
+        <option name="FOREGROUND" value="c43d42" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
@@ -1950,6 +1950,16 @@
       </value>
     </option>
     <option name="SCOPE_KEY_Weblogic sources">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SCOPE_KEY_allstyles.scss">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SCOPE_KEY_common.js">
       <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
