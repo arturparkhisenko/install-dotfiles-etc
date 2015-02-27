@@ -1,4 +1,4 @@
-<scheme name="WOW_JB" version="3" parent_scheme="Default">
+<scheme name="WOW_JB" version="5" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Monospaced" />
@@ -9,14 +9,14 @@
     <option name="CARET_ROW_COLOR" value="101112" />
     <option name="CONSOLE_BACKGROUND_KEY" value="151718" />
     <option name="FILESTATUS_ADDED" value="52aed3" />
-    <option name="FILESTATUS_DELETED" value="b30509" />
+    <option name="FILESTATUS_DELETED" value="f90504" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6c6c6c" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="7f29c4" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="d5756c" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="d5756c" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="d5756c" />
     <option name="FILESTATUS_MERGED" value="7dc5f9" />
-    <option name="FILESTATUS_MODIFIED" value="9fca56" />
+    <option name="FILESTATUS_MODIFIED" value="ffff55" />
     <option name="FILESTATUS_NOT_CHANGED" value="" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="6897bb" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="6897bb" />
@@ -446,7 +446,7 @@
     </option>
     <option name="CSS.STRING">
       <value>
-        <option name="FOREGROUND" value="9fd0d8" />
+        <option name="FOREGROUND" value="efc9a0" />
         <option name="BACKGROUND" value="132026" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
@@ -577,7 +577,7 @@
     </option>
     <option name="DEFAULT_COMMA">
       <value>
-        <option name="FOREGROUND" value="d8f6ff" />
+        <option name="FOREGROUND" value="ff087b" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -614,13 +614,13 @@
     </option>
     <option name="DEFAULT_DOT">
       <value>
-        <option name="FOREGROUND" value="d8f6ff" />
+        <option name="FOREGROUND" value="ff087b" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="ffb100" />
+        <option name="FOREGROUND" value="ffba" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -671,7 +671,7 @@
     </option>
     <option name="DEFAULT_LABEL">
       <value>
-        <option name="FOREGROUND" value="d4d7d8" />
+        <option name="FOREGROUND" value="efc9a0" />
         <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
@@ -715,7 +715,7 @@
     </option>
     <option name="DEFAULT_SEMICOLON">
       <value>
-        <option name="FOREGROUND" value="d8f6ff" />
+        <option name="FOREGROUND" value="ff087b" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -735,7 +735,7 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="d8f6ff" />
+        <option name="FOREGROUND" value="efc9a0" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -950,7 +950,7 @@
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="ff8000" />
+        <option name="FOREGROUND" value="efc9a0" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1950,6 +1950,16 @@
       </value>
     </option>
     <option name="SCOPE_KEY_Weblogic sources">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SCOPE_KEY_allstyles.scss">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SCOPE_KEY_common.js">
       <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
