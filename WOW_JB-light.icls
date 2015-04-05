@@ -1,4 +1,4 @@
-<scheme name="WOW_JB-light" version="1" parent_scheme="Default">
+<scheme name="WOW_JB-light" version="2" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="13" />
   <option name="EDITOR_FONT_NAME" value="Monospaced" />
@@ -7,7 +7,7 @@
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
     <option name="CARET_COLOR" value="fed02e" />
     <option name="CARET_ROW_COLOR" value="101112" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="282e36" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="2b2b2b" />
     <option name="FILESTATUS_ADDED" value="52aed3" />
     <option name="FILESTATUS_DELETED" value="f90504" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6c6c6c" />
@@ -1375,7 +1375,7 @@
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="d8f6ff" />
-        <option name="BACKGROUND" value="282e36" />
+        <option name="BACKGROUND" value="2b2b2b" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="ffffff" />
         <option name="EFFECT_TYPE" value="1" />
@@ -2254,7 +2254,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="d4d7d6" />
-        <option name="BACKGROUND" value="282e36" />
+        <option name="BACKGROUND" value="2b2b2b" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
