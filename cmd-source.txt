@@ -1,0 +1,6 @@
+source ~/.bash_profile
+env
+pwd
+cp
+mv
+cd
