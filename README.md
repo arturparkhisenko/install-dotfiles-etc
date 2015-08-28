@@ -1,5 +1,5 @@
 # index
-- [install.md#soft](install.md) - all inside, currently only #soft filled by me (see credits).
+- [install.md](install.md#soft) - all inside, currently only #soft filled by me (see credits).
 - [apt-npm-gem-git-2-install.md](apt-npm-gem-git-2-install.md) - just copy-paste-run
 - [chrome.md](chrome.md) - settings & keybinds & tips
 - [console-shell-cmd.md](console-shell-cmd.md) - commands & tips
