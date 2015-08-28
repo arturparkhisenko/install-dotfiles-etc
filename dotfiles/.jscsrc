@@ -1,0 +1,9 @@
+{
+  "preset": "google",
+  "disallowSpacesInAnonymousFunctionExpression": null,
+  "maximumLineLength": 220,
+  "excludeFiles": [
+    "node_modules/**",
+    "gulpfile.babel.js"
+  ]
+}

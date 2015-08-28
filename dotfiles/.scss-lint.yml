@@ -1,0 +1,15 @@
+linters:
+  Comment:
+    enabled: false
+  PropertySortOrder:
+    enabled: false
+  VendorPrefix:
+    enabled: true
+  ColorVariable:
+    enabled: false
+  QualifyingElement:
+    enabled: true
+  EmptyLineBetweenBlocks:
+    enabled: false
+  SpaceBetweenParents:
+    enabled: false
