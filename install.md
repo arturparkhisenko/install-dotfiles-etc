@@ -71,6 +71,8 @@
 
 ### any os
 - [Atom](https://atom.io/)
+	- `sudo add-apt-repository ppa:webupd8team/atom`
+	- `sudo apt-get update && sudo apt-get install atom`
 - [Google Chrome](https://www.google.com/chrome/)
 - [Google Chrome Canary](https://www.google.com/chrome/browser/canary.html)
 - ﻿[Gimp](https://www.gimp.org/)
