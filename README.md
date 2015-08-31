@@ -4,6 +4,8 @@
 - [chrome.md](chrome.md) - settings & keybinds & tips
 - [console-shell-cmd.md](console-shell-cmd.md) - commands & tips
 - [ide-font-and-lineheight.md](ide-font-and-lineheight.md) - :)
+- [extensions-for-cms-browsers-etc.md](extensions-for-cms-browsers-etc.md)
+- [install-win-specific.md](install-win-specific.md) - fix for updates and secure boot
 - in 999-snippets-gists-patterns is placed all my snippets, starts from filetype name(to easy search). I hope this will be useful
 
 Edited in [stackedit](https://stackedit.io/editor)
