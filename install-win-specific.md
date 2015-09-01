@@ -14,3 +14,22 @@ until you create an admin password. Then you can turn secure boot off.
 
  1. stop service Windows Update
  2. clean c:\Windows\SoftwareDistribution\
+
+## disable update to 10 notification
+- uninstall KB3035583
+- remove `C:\Windows\System32\GWX` or `C:\Windows\SysWOW64\GWX` (in 64-bit systems only)
+
+### Registry Tweak 1:
+1. open `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows`
+2. Create a new key under Windows key and set its name as GWX
+3. So the final key path would be: `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\GWX`
+4. Now select GWX key and in right-side pane create a new DWORD DisableGWX and set its value to 1
+
+### Registry Tweak 2:
+1. open `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows`
+2. Create a new key under Windows key and set its name as WindowsUpdate like `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate`
+3. Now select WindowsUpdate key and in right-side pane create a new DWORD DisableOSUpgrade and set its value to 1
+
+### Registry Tweak 3:
+1. open `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\OSUpgrade`
+2. In right-side pane, look for two DWORDs AllowOSUpgrade and ReservationsAllowed and change their values to 0
