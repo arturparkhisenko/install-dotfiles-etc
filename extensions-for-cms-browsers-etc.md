@@ -1,6 +1,9 @@
 # Np++,Brackets,Chrome,WP ext
 
 ## Chrome:
+- github-notifier
+- github-highlight-selected
+- github-awesome-autocomple
 - uBlock / AdBlock
 - BuiltWith technology profiler
 - Disconnect
