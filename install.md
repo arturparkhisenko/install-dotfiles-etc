@@ -75,7 +75,7 @@
 	- `sudo apt-get update && sudo apt-get install atom`
 - [Google Chrome](https://www.google.com/chrome/)
 - [Google Chrome Canary](https://www.google.com/chrome/browser/canary.html)
-- ﻿[Gimp](https://www.gimp.org/)
+- [Gimp](https://www.gimp.org/)
 - [Git](https://git-scm.com/)
 - [InkScape](https://inkscape.org)
 - [FileZilla](https://filezilla-project.org/)
@@ -95,6 +95,7 @@
 ### win
 - [Github Desktop](https://desktop.github.com/)
 - [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+- [Ccleaner](https://www.piriform.com/ccleaner/download)
 - [Defraggler](https://www.piriform.com/defraggler/download)
 - [KLite Full](http://www.codecguide.com/download_k-lite_codec_pack_full.htm)
 - Kompas
