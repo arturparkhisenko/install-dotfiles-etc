@@ -92,6 +92,7 @@
 - tinymce advanced
 - Portfolio Magic / nimble portfolio
 - Insert Pages
+- MouseWheel Smooth Scroll
 
 - responsive theme
 - wordpress-theme-smartadapt
