@@ -1,3 +1,6 @@
+# Linux
+- Date format - %Y%m%e, %a, %H:%M
+
 # ZSH
 - http://www.rebelcode.ru/linux/ustanovka-oh-zsh-v-ubuntu/
 - http://habrahabr.ru/post/162339/
