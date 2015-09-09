@@ -86,6 +86,11 @@ install newest version of phpunit
 - `bower install jquery#1.8.1 --save --force-latest`
 - `bower cache clean`
 
+#### upgrade node
+- `sudo npm cache clean -f`
+- `sudo npm install -g n`
+- `sudo n stable`
+
 ###nvm
 - `nvm ls-remote`
 - `nvm install 0.11.13`
