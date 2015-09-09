@@ -1,5 +1,5 @@
 # Linux
-- Date format - %Y%m%e, %a, %H:%M
+- Date format `%Y%m%e, %a, %H:%M`
 
 # ZSH
 - http://www.rebelcode.ru/linux/ustanovka-oh-zsh-v-ubuntu/
