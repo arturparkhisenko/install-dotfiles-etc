@@ -92,6 +92,9 @@
 - [Yandex Disk](https://disk.yandex.ua/client/disk)
 - [LibreOffice](https://ru.libreoffice.org/)
 
+### linux
+- [awesome-linux](https://github.com/aleksandar-todorovic/awesome-linux)
+
 ### win
 - [Github Desktop](https://desktop.github.com/)
 - [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
@@ -101,6 +104,9 @@
 - Kompas
 - Corel Draw
 - Solid Works
+
+### osx
+- [awesome-osx](https://github.com/iCHAIT/awesome-osx)
 
 ### not my soft
 
