@@ -67,6 +67,12 @@
 - Pages
 - Final Cut Pro
 
+# OS list
+- Deb. [Linux Mint](http://www.linuxmint.com/) Mate | Xfce | Cinnamon (switch by: `sudo apt-get update && sudo apt-get install mint-meta-mate`)
+- Deb. [Ubuntu](http://www.ubuntu.com/) Mate | Unity | Gnome
+- Arch. [Manjaro](https://manjaro.github.io/) or [Antergos](http://antergos.com/) with ([Pacaur](https://wiki.archlinux.org/index.php/Pacaur) | [Yaourt](https://wiki.archlinux.org/index.php/Yaourt))
+- Osx
+
 # Soft
 
 ### any os
@@ -108,7 +114,7 @@
 ### osx
 - [awesome-osx](https://github.com/iCHAIT/awesome-osx)
 
-### not my soft
+### not my osx soft
 
 
 - [BitTorrent Sync](https://www.getsync.com/platforms/desktop)
