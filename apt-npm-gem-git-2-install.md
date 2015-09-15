@@ -1,3 +1,6 @@
+# Linux
+- Date format `%Y%m%e, %a, %H:%M`
+
 # ZSH
 - http://www.rebelcode.ru/linux/ustanovka-oh-zsh-v-ubuntu/
 - http://habrahabr.ru/post/162339/
@@ -85,6 +88,11 @@ install newest version of phpunit
 
 - `bower install jquery#1.8.1 --save --force-latest`
 - `bower cache clean`
+
+#### upgrade node
+- `sudo npm cache clean -f`
+- `sudo npm install -g n`
+- `sudo n stable`
 
 ###nvm
 - `nvm ls-remote`

@@ -67,6 +67,12 @@
 - Pages
 - Final Cut Pro
 
+# OS list
+- Deb. [Linux Mint](http://www.linuxmint.com/) Mate | Xfce | Cinnamon (switch by: `sudo apt-get update && sudo apt-get install mint-meta-mate`)
+- Deb. [Ubuntu](http://www.ubuntu.com/) Mate | Unity | Gnome
+- Arch. [Manjaro](https://manjaro.github.io/) or [Antergos](http://antergos.com/) with ([Pacaur](https://wiki.archlinux.org/index.php/Pacaur) | [Yaourt](https://wiki.archlinux.org/index.php/Yaourt))
+- Osx
+
 # Soft
 
 ### any os
@@ -75,7 +81,7 @@
 	- `sudo apt-get update && sudo apt-get install atom`
 - [Google Chrome](https://www.google.com/chrome/)
 - [Google Chrome Canary](https://www.google.com/chrome/browser/canary.html)
-- ﻿[Gimp](https://www.gimp.org/)
+- [Gimp](https://www.gimp.org/)
 - [Git](https://git-scm.com/)
 - [InkScape](https://inkscape.org)
 - [FileZilla](https://filezilla-project.org/)
@@ -92,16 +98,23 @@
 - [Yandex Disk](https://disk.yandex.ua/client/disk)
 - [LibreOffice](https://ru.libreoffice.org/)
 
+### linux
+- [awesome-linux](https://github.com/aleksandar-todorovic/awesome-linux)
+
 ### win
 - [Github Desktop](https://desktop.github.com/)
 - [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+- [Ccleaner](https://www.piriform.com/ccleaner/download)
 - [Defraggler](https://www.piriform.com/defraggler/download)
 - [KLite Full](http://www.codecguide.com/download_k-lite_codec_pack_full.htm)
 - Kompas
 - Corel Draw
 - Solid Works
 
-### not my soft
+### osx
+- [awesome-osx](https://github.com/iCHAIT/awesome-osx)
+
+### not my osx soft
 
 
 - [BitTorrent Sync](https://www.getsync.com/platforms/desktop)
