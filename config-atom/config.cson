@@ -1,0 +1,23 @@
+"*":
+  "exception-reporting":
+    userId: "3f387f37-c506-6f93-595e-3916a40a4800"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "seti-ui"
+      "seti-syntax"
+    ]
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    zoomFontWhenCtrlScrolling: false
+    fontSize: 15
+  "atom-beautify":
+    beautifyEntireFileOnSave: false
+    css_convert_quotes: "single"
+    css_force_indentation: true
+    css_selector_separator_newline: true
+    css_preserve_newlines: true
+    _analyticsUserId: "a805b405-b458-45ee-85a5-77aa16b1c90a"
+  jshint: {}

@@ -258,33 +258,64 @@ rwp/) — ищет типичные вредоносные фрагменты
 - jslint
 
 ## Atom
-- [todo-show](https://atom.io/packages/todo-show)
-- [autoclose-html](https://atom.io/packages/autoclose-html)
+- todo-show
+- autoclose-html
+- atom-beautify
+- atom-css-comb
+- autoprefixer
+- docblockr
+- emmet
+- fixmyjs
+- highlight-cov
+- highlight-line
+- highlight-selected
+- language-javascript-better
+- language-javascript-jsx
+- linter
+- linter-csslint
+- linter-htmlhint
+- linter-jscs
+- linter-jshint
+- linter-scss-lint
+- minifier
+- minimap
+- minimap-git-diff
+- seti-syntax
+- seti-ui
+- sindresorhus-atom-editorconfig
+- solarized-dark-syntax
+- solarized-seti-ui
+- sync-settings
+- webbox-color
+
+## Atom temp:
+- linter-xo
+- merge-conflicts
+- autocomplete-modules
+- atom-polymer
+- autocomplete-polymer
 
 ## Atom (old list):
-- Linter
-- Linter csslint
-- Linter Jshint
-- Linter Htmlhint
-- Linter Php
-- Minifier
-- Css Color Highlight
-- Minimap
-- Atom Beautify
+- esformatter
+- angularjs
+- atom-fuzzy-grep
 - atom-terminal
-- Emmet
-- Comment shift-cmd-m
-- Autoprefixer
-- autocomplete-plus
-- Atom Css Comb
-- Livereload
-- FixMyJs
-- Highlight Selected
-- Angularjs
-- Docblockr
-- Seti Ui
-- Seti Monokai
-- remote-edit or Secure Copy
+- atom-x
+- color-picker
+- comment
+- file-icons
+- linter-eslint
+- linter-php
+- linter-phpcs
+- linter-phpmd
+- minimap-color-highlight
+- minimap-highlight-selected
+- myth
+- set-syntax
+- tool-bar
+- tool-bar-main
+- livereload
+- remote-edit or secure copy
 
 ## Brackets:
 - Brackets Fonts
@@ -356,13 +387,14 @@ http://plugins.netbeans.org/plugin/42000/show-path-in-title
 
 ## Php/WebStorm:
 - AngularJS
-- markdown
-- spy-js
+- Markdown
+- Spy-js
 - code glance
 - ignore
 - css-x-fire
 - phonegap
 - scss-lint
+- bashsupport
 
 ## ADBLOCK:
     ##div[class*="banner-widget1-2"]
