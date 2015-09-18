@@ -68,7 +68,9 @@
 - Final Cut Pro
 
 # OS list
-- Deb. [Linux Mint](http://www.linuxmint.com/) Mate | Xfce | Cinnamon (switch by: `sudo apt-get update && sudo apt-get install mint-meta-mate`)
+- Deb. [Linux Mint](http://www.linuxmint.com/) Mate | Xfce | Cinnamon
+    - switch to mate: `sudo apt-get update && sudo apt-get install mint-meta-mate` or synaptics
+    - switch to xfce: synaptics package manager - search xfce4 - mark for install - apply
 - Deb. [Ubuntu](http://www.ubuntu.com/) Mate | Unity | Gnome
 - Arch. [Manjaro](https://manjaro.github.io/) or [Antergos](http://antergos.com/) with ([Pacaur](https://wiki.archlinux.org/index.php/Pacaur) | [Yaourt](https://wiki.archlinux.org/index.php/Yaourt))
 - Osx

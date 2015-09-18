@@ -6,6 +6,8 @@
 - [ide-font-and-lineheight.md](ide-font-and-lineheight.md) - :)
 - [extensions-for-cms-browsers-etc.md](extensions-for-cms-browsers-etc.md)
 - [install-win-specific.md](install-win-specific.md) - fix for updates and secure boot
+- [dualboot.md] - all about win+linux
+- [linux-graphic-card-postinstall.md] - solve some problems
 - in 999-snippets-gists-patterns is placed all my snippets, starts from filetype name(to easy search). I hope this will be useful
 
 Edited in [stackedit](https://stackedit.io/editor)

@@ -5,7 +5,7 @@
 - http://www.rebelcode.ru/linux/ustanovka-oh-zsh-v-ubuntu/
 - http://habrahabr.ru/post/162339/
 
-###install
+### install
 - sudo apt-get install zsh
 - curl -L http://install.ohmyz.sh | sh
 - chsh -s /bin/zsh or chsh -s `which zsh`
@@ -13,26 +13,26 @@
 
 # APT
 
-###all
+### all
 - `sudo apt-get autoclean`
 - `sudo apt-get autoremove`
 - `sudo apt-get update`
 
-###nodejs & npm & build tools
+### nodejs & npm & build tools
 - `sudo apt-get install git git-core curl nodejs npm yui-compressor`
 - `sudo apt-get install zlib1g-dev build-essential sqlite3 libsqlite3-dev python-software-properties`
 - `sudo apt-get install libyaml-dev libssl-dev libreadline-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev`
 
-###ruby
+### ruby
 - `sudo apt-get install ruby-full rubygems-integration`
 
-###java
+### java
 - `sudo apt-get install default-jre default-jdk`
 
-###fonts
+### fonts
 - `sudo apt-get install fonts-droid fonts-noto ttf-mscorefonts-installer`
 
-###fix textures in openGL
+### fix textures in openGL
 - `sudo apt-get install lib32-mesa-libgl`
 - `sudo apt-get install libtxc-dxtn-s2tc0 libtxc-dxtn-s2tc0:i386`
 - `sudo apt-get install program:i386 gcc-multilib`
@@ -40,7 +40,7 @@
 Your steam apps try to use the steam supplied libstdc++.so.6 version and  that's to old for most arch pacakges (in this case the lib32-llvm-libs package ).
 try rm /home/jonas/.local/share/Steam/ubuntu12_32/steam-runtime/i386/usr/lib/i386-linux-gnu/libstdc++.so.6
 
-###PHP & APACHE
+### PHP & APACHE
 - lamp or xampp
 
 - `sudo apt-get install php5 php5-cli php5-common php-apc php-pear php5-xdebug php5-curl php5-dev php5-xsl php5-intl`
@@ -55,7 +55,7 @@ sudo nano /etc/apache2/apache2.conf add-this-at-the-end -> Include /etc/phpmyadm
 - ubuntu 14.0+ sudo systemctl restart apache2
 - ubuntu 15.0+ sudo service apache2 restart
 
-###PHP FIXERS
+### PHP FIXERS
 - `sudo pear channel-update PEAR`
 - `sudo pear upgrade PEAR`
 - `sudo pear channel-discover pear.phing.info`
@@ -75,7 +75,7 @@ install newest version of phpunit
 - `sudo wget http://cs.sensiolabs.org/get/php-cs-fixer.phar -O /usr/local/bin/php-cs-fixer`
 - `sudo chmod a+x /usr/local/bin/php-cs-fixer`
 
-#NPM
+# NPM
 
 - `npm update -g`
 - `npm install NAME -g (globall) or -D (dependency)`
@@ -94,7 +94,7 @@ install newest version of phpunit
 - `sudo npm install -g n`
 - `sudo n stable`
 
-###nvm
+### nvm
 - `nvm ls-remote`
 - `nvm install 0.11.13`
 - `nvm use 0.11.13`
@@ -102,7 +102,7 @@ install newest version of phpunit
 - `nvm ls`
 - `nvm alias default 0.11.13`
 
-###gulp
+### gulp
 - `npm adduser name`
 - `npm publish - to update`
 https://www.npmjs.org/package/gulp-gold
@@ -110,7 +110,7 @@ http://habrahabr.ru/post/177465/
 http://habrahabr.ru/post/208890/
 http://browsenpm.org/package.json
 
-###ionic
+### ionic
 - `npm install -g cordova ionic`
 - `ionic start myApp sidemenu`
 http://ionicframework.com/docs/guide/starting.html
@@ -119,6 +119,7 @@ https://github.com/driftyco/ionic-contrib-frosted-glass
 - `cordova platform update android`
 
 # GEM
+**path to gems will be like:** /var/lib/gems/1.8/bin
 
 https://rubygems.org/pages/download
 - `ruby setup.rb`

@@ -257,6 +257,10 @@ rwp/) — ищет типичные вредоносные фрагменты
 - mime tools
 - jslint
 
+## Atom
+- [todo-show](https://atom.io/packages/todo-show)
+- [autoclose-html](https://atom.io/packages/autoclose-html)
+
 ## Atom (old list):
 - Linter
 - Linter csslint
@@ -327,9 +331,9 @@ rwp/) — ищет типичные вредоносные фрагменты
 - jshint
 - Epic Linter
 
-- #jsonlint extension for brackets
-- #Closure Linter
-- #phplint for brackets php must installed
+- jsonlint extension for brackets
+- Closure Linter
+- phplint for brackets php must installed
 
 ## Sublime2:
 jsbeautify conf

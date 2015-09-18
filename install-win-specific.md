@@ -1,6 +1,4 @@
-
 # secure or fast boot
-
  1. Disable Windows 8 Fast Boot. To do this, go to the Control Panel
 (in Windows 8 hold X while hitting the Windows key and select "Control Panel")
 and select Power Options -> Choose What the power buttons do. Then select the link
@@ -11,9 +9,8 @@ by holding down F2 while powering on. The secure boot option is inaccessible
 until you create an admin password. Then you can turn secure boot off.
 
 # win 7-8 updates
-
- 1. stop service Windows Update
- 2. clean c:\Windows\SoftwareDistribution\
+1. stop service Windows Update
+2. clean c:\Windows\SoftwareDistribution\
 
 ## disable update to 10 notification
 - uninstall KB3035583
