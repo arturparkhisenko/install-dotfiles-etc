@@ -22,6 +22,8 @@
 // You can read more about the new JavaScript features here:
 // https://babeljs.io/docs/learn-es2015/
 
+//To make *.babel.js working run: `npm -i -D babel`
+
 import fs from 'fs';
 import path from 'path';
 import gulp from 'gulp';

@@ -15,7 +15,7 @@
 - `sudo add-apt-repository ppa:yannubuntu/boot-repair`
 - `sudo apt-get update`
 - `sudo apt-get install -y boot-repair`
-- run boot-repair
+- run boot-repair, also u can install grub-customizer
 
 ## time problem on dualboot:
 Switch to windows way and use «UTC», we need edit **/etc/default/rcS** like that:

@@ -2,14 +2,41 @@
 - Date format `%Y%m%e, %a, %H:%M`
 
 # ZSH
+    
+### Required:
+```bash
+sudo apt-get install git-core
+```
+
+### Install:
+```bash
+sudo apt-get install zsh
+```
+
+Getting zsh to work in ubuntu is weird, since `sh` does not understand the `source` command.  So, you do this to install zsh
+```bash
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+```
+or
+```bash
+curl -L http://install.ohmyz.sh | sh
+```
+
+and then you change your shell to zsh
+```bash
+chsh -s `which zsh`
+```
+or 
+```bash
+chsh -s /bin/zsh
+```
+and then **restart** `sudo shutdown -r 0`
+
+- [Themes](http://zshthem.es/all/)
 - http://www.rebelcode.ru/linux/ustanovka-oh-zsh-v-ubuntu/
 - http://habrahabr.ru/post/162339/
-
-### install
-- sudo apt-get install zsh
-- curl -L http://install.ohmyz.sh | sh
-- chsh -s /bin/zsh or chsh -s `which zsh`
-- sudo shutdown -r 0
+- [gist](https://gist.github.com/tsabat/1498393)
+- This problem is explained in depth in [this issue](https://github.com/robbyrussell/oh-my-zsh/issues/227#issuecomment-825773)
 
 # APT
 
