@@ -6,6 +6,7 @@
   "camelcase": true,
   "curly": true,
   "eqeqeq": true,
+  "funcscope": true,
   "immed": true,
   "indent": 2,
   "latedef": true,
@@ -14,6 +15,7 @@
   "undef": true,
   "unused": true,
   "newcap": false,
+  "strict": true,
   "globals": {
     "$": true,
     "jQuery": true,
