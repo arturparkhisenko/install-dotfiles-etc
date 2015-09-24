@@ -183,11 +183,11 @@ gulp.task('vulcanize', function() {
     .pipe($.vulcanize({
       inlineScripts: true,
       inlineCss: true,
-      stripComments: true,
+      stripComments: true
       //excludes: [path.resolve('./dist/third_party/polymer.html')]
       //stripExcludes: false,
     }))
-    // .pipe($.minifyInline()) // TODO: messes up SVG icons
+    // .pipe($.minifyInline()) //messes up SVG icons
     .pipe($.crisper()) // Separate JS into its own file for CSP compliance.
     .pipe(gulp.dest('./dist/elements'))
 });
@@ -222,7 +222,7 @@ gulp.task('default', function() {
   isProd = true;
   return runSequence('clean', 'bump', 'getversion', 'js',
                      allTasks, 'vulcanize', 'precache', 'copy_bower_components');
-})
+});
 
 gulp.task('dev', function() {
   return runSequence('clean', 'getversion', allTasks, 'watch');
