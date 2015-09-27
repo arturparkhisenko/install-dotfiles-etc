@@ -102,17 +102,29 @@ install newest version of phpunit
 - `sudo wget http://cs.sensiolabs.org/get/php-cs-fixer.phar -O /usr/local/bin/php-cs-fixer`
 - `sudo chmod a+x /usr/local/bin/php-cs-fixer`
 
-# NPM
+# NPM and Bower
+**main**
+- `sudo npm i -g uglify-js sass eslint jshint jscs csslint babel gulp gulp-babel bower prettydiff`
+- `npm i -g npm-check-updates bower-check-updates trash`
+- `npm i -g babel-eslint webpack`
 
-- `npm update -g`
-- `npm install NAME -g (globall) or -D (dependency)`
-
-- `sudo npm i -g uglify-js sass eslint jshint jscs babel babel-eslint csslint gulp gulp-babel bower webpack prettydiff`
-
+**webpack**
 - `npm i -D webpack bower-webpack-plugin`
 - `npm i -D style-loader css-loader url-loader babel-loader babel-runtime eslint-loader cssnext-loader`
-- `npm i -g npm-check-updates bower-check-updates trash`
 
+**paths**
+- linux node: `/usr/local/bin/scss`
+- linux ruby: `/var/lib/gems/1.9.1/gems/sass-3.4.16/bin/sass`
+- win node: `c:\users\username\appdata\roaming\npm\node_modules`
+- win ruby: `C:\Programs\rubygems\gem\sass` or `c:\RubyXX\lib`
+
+**intellijIdea watcher conf**
+- `--no-cache --update $FileName$:$FileNameWithoutExtension$.min.css --style compressed`
+- update file with .min too!
+
+**docs**
+- `npm install NAME -g (globall) or -D (dependency)`
+- `npm update -g`
 - `bower install jquery#1.8.1 --save --force-latest`
 - `bower cache clean`
 
