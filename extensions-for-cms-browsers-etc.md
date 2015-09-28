@@ -93,6 +93,8 @@
 - Portfolio Magic / nimble portfolio
 - Insert Pages
 - MouseWheel Smooth Scroll
+- clear-session
+- Responsive Menu
 
 - responsive theme
 - wordpress-theme-smartadapt

@@ -157,6 +157,10 @@ https://github.com/driftyco/ionic-contrib-frosted-glass
 - `cordova platform update ios`
 - `cordova platform update android`
 
+### postCSS
+**Plugins ([here](http://postcss.parts/)):**
+global @use: autoprefixer, css-next, images
+
 # GEM
 **path to gems will be like:** /var/lib/gems/1.8/bin
 
