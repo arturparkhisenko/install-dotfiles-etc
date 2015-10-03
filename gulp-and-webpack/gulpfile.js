@@ -46,10 +46,10 @@ gulp.task('clean', del.bind(null, ['.tmp', 'dist']));
 //   suffix: '.min'
 // }))
 
-var styleTask = function(stylesPath, srcs) {
-  return gulp.src(srcs.map(function(src) {
-      return path.join('src', stylesPath, src);
-    }))
+var styleTask = function (stylesPath, srcs) {
+  return gulp.src(srcs.map(function (src) {
+    return path.join('src', stylesPath, src);
+  }))
     .pipe($.changed(stylesPath, {
       // extension: '.scss'
     }))
@@ -69,7 +69,7 @@ var styleTask = function(stylesPath, srcs) {
 };
 
 // Compile and Automatically Prefix Stylesheets
-gulp.task('styles', function() {
+gulp.task('styles', function () {
   return styleTask('styles', ['all-styles.scss']);
 });
 
@@ -79,10 +79,10 @@ gulp.task('styles', function() {
 
 // WebPack scripts only
 // gulp.task('webpack', function(callback) {
-gulp.task('webpack', function() {
+gulp.task('webpack', function () {
   // return gulp.src('entry.js')
   // .pipe(webpack(require('webpackScripts.config.js')))
-  webpack(wpConfig, function(err, stats) {
+  webpack(wpConfig, function (err, stats) {
     if (err) {
       throw new $.util.PluginError('webpack', err);
     }
@@ -114,12 +114,12 @@ gulp.task('webpack', function() {
 // });
 
 // scripts
-gulp.task('jshint', function() {
+gulp.task('jshint', function () {
   return gulp.src([
-      'src/scripts/**/*.js',
-      'src/elements/**/*.js',
-      'src/elements/**/*.html'
-    ])
+    'src/scripts/**/*.js',
+    'src/elements/**/*.js',
+    'src/elements/**/*.html'
+  ])
     .pipe(reload({
       stream: true,
       once: true
@@ -130,7 +130,7 @@ gulp.task('jshint', function() {
     .pipe($.if(!browserSync.active, $.jshint.reporter('fail')));
 });
 
-gulp.task('scripts', function() {
+gulp.task('scripts', function () {
   var src = gulp.src([
     'src/scripts/**/*.js',
     '!src/scripts/bundle.js'
@@ -138,7 +138,7 @@ gulp.task('scripts', function() {
 });
 
 // Images optimization
-gulp.task('images', function() {
+gulp.task('images', function () {
   return gulp.src(['src/images/**/*', '!src/images/icons-in-svg/**/*'])
     .pipe($.cache($.imagemin({
       progressive: true,
@@ -152,7 +152,7 @@ gulp.task('images', function() {
 });
 
 // Copy All Files At The Root Level (src)
-gulp.task('copy', function() {
+gulp.task('copy', function () {
   var src = gulp.src([
     'src/*',
     '!src/test',
@@ -182,7 +182,7 @@ gulp.task('copy', function() {
 });
 
 // Copy Web Fonts To Dist
-gulp.task('fonts', function() {
+gulp.task('fonts', function () {
   return gulp.src(['src/fonts/**'])
     .pipe(gulp.dest('dist/fonts/'))
     .pipe($.size({
@@ -191,7 +191,7 @@ gulp.task('fonts', function() {
 });
 
 // Scan Your HTML For Assets & Optimize Them
-gulp.task('html', function() {
+gulp.task('html', function () {
   var assets = $.useref.assets({
     searchPath: ['.tmp', 'src', 'dist']
   });
@@ -200,10 +200,10 @@ gulp.task('html', function() {
     // Replace path for vulcanized assets
     // .pipe($.if('*.html', $.replace('elements/elements.html', 'elements/elements.vulcanized.html')))
 
-  // Temporary disabled
-  // .pipe(assets)
-  // Concatenate And Minify JavaScript
-  .pipe($.if('*.js', $.uglify({
+    // Temporary disabled
+    // .pipe(assets)
+    // Concatenate And Minify JavaScript
+    .pipe($.if('*.js', $.uglify({
       preserveComments: 'some'
     })))
     // Concatenate And Minify Styles
@@ -226,7 +226,7 @@ gulp.task('html', function() {
 });
 
 // Vulcanize imports
-gulp.task('vulcanize', function() {
+gulp.task('vulcanize', function () {
   var DEST_DIR = 'dist/elements';
 
   // return gulp.src('dist/elements/elements.vulcanized.html')
@@ -252,7 +252,7 @@ gulp.task('vulcanize', function() {
 });
 
 // Create new task and make svg2png task run before it
-gulp.task('svgssprite', function() {
+gulp.task('svgssprite', function () {
   return gulp.src(['src/images/**/*.svg', '!src/images/icons-in-svg/**/*.svg'])
     // Run the svg-symbols module, whilst prefixing the created classnames
     .pipe($.svgSymbols({
@@ -264,14 +264,14 @@ gulp.task('svgssprite', function() {
     .pipe(gulp.dest('src/images/icons-in-svg/'));
 });
 
-gulp.task('svginject', function() {
+gulp.task('svginject', function () {
   var target = gulp.src('./src/index-test.html');
   return target.pipe($.inject(gulp.src('./src/images/icons-in-svg/svg-symbols.svg'), {
-      name: 'svg',
-      transform: function(filePath, file) {
-        return file.contents.toString('utf8');
-      }
-    }))
+    name: 'svg',
+    transform: function (filePath, file) {
+      return file.contents.toString('utf8');
+    }
+  }))
     .pipe(gulp.dest('./src'));
 });
 
@@ -293,7 +293,7 @@ gulp.task('svginject', function() {
 //   });
 // });
 
-gulp.task('serve', ['clean'], function(cb) {
+gulp.task('serve', ['clean'], function (cb) {
 
   $.connect.server({
     root: 'dist/',
@@ -329,14 +329,14 @@ gulp.task('serve', ['clean'], function(cb) {
 
 // Watch Files For Changes & Reload
 // gulp.task('serve', ['styles', 'elements', 'images'], function() {
-gulp.task('serve:browsersync', ['styles', 'images'], function() {
+gulp.task('serve:browsersync', ['styles', 'images'], function () {
   browserSync({
     notify: false,
     logPrefix: 'SWC',
     snippetOptions: {
       rule: {
         match: '<span id="browser-sync-binding"></span>',
-        fn: function(snippet) {
+        fn: function (snippet) {
           return snippet;
         }
       }
@@ -365,14 +365,14 @@ gulp.task('serve:browsersync', ['styles', 'images'], function() {
 });
 
 // Build and serve the output from the dist build
-gulp.task('serve:dist', ['default'], function() {
+gulp.task('serve:dist', ['default'], function () {
   browserSync({
     notify: false,
     logPrefix: 'SWC',
     snippetOptions: {
       rule: {
         match: '<span id="browser-sync-binding"></span>',
-        fn: function(snippet) {
+        fn: function (snippet) {
           return snippet;
         }
       }
@@ -388,7 +388,7 @@ gulp.task('serve:dist', ['default'], function() {
 });
 
 // Build Production Files, the Default Task
-gulp.task('default', ['clean'], function(cb) {
+gulp.task('default', ['clean'], function (cb) {
   runSequence(
     ['copy', 'styles'],
     'elements', ['jshint', 'images', 'svgssprite', 'fonts', 'html'],
@@ -404,4 +404,5 @@ require('web-component-tester').gulp.init(gulp);
 // Load custom tasks from the `tasks` directory
 try {
   require('require-dir')('tasks');
-} catch (err) {}
+} catch (err) {
+}

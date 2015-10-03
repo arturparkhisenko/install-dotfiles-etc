@@ -61,12 +61,12 @@ var config = {
   plugins: [
     new webpack.optimize.UglifyJsPlugin({
       compress: {
-        warnings: false,
+        warnings: false
       },
 
       output: {
         comments: false,
-        semicolons: true,
+        semicolons: true
       }
     }),
     new webpack.optimize.DedupePlugin(),

@@ -106,7 +106,7 @@ install newest version of phpunit
 **main**
 - `sudo npm i -g uglify-js sass eslint jshint jscs csslint babel gulp gulp-babel bower prettydiff`
 - `npm i -g npm-check-updates bower-check-updates trash`
-- `npm i -g babel-eslint webpack`
+- `npm i -g babel-eslint webpack jspm`
 
 **webpack**
 - `npm i -D webpack bower-webpack-plugin`

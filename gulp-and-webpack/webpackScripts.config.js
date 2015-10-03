@@ -17,7 +17,7 @@ var config = {
   entry: {
     a: [
       //App files
-      './src/scripts/app.js',
+      './src/scripts/app.js'
     ]
   },
 
@@ -52,26 +52,24 @@ var config = {
       // exclude: /(node_modules|'bower_components)/,
       exclude: [nodeModulesPath],
       // loader: 'eslint-loader'
-      // loader: 'babel-loader'
-      // loader: 'babel-loader?optional[]=runtime&stage=0'
-      // loader: 'babel-loader?optional[]=runtime'
-      loader: 'script-loader'
+      loader: 'babel-loader?optional[]=runtime&stage=0!script-loader'
     }]
   },
 
   plugins: [
+
+    new webpack.optimize.DedupePlugin(),
+
     new webpack.optimize.UglifyJsPlugin({
       compress: {
-        warnings: false,
+        warnings: false
       },
 
       output: {
         comments: false,
-        semicolons: true,
+        semicolons: true
       }
     }),
-
-    new webpack.optimize.DedupePlugin(),
 
     // new webpack.ProvidePlugin({
     //   $: 'jquery',

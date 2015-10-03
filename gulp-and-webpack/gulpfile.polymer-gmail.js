@@ -33,12 +33,12 @@ var version = null;
 var isProd = false;
 
 /** Clean */
-gulp.task('clean', function(done) {
+gulp.task('clean', function (done) {
   del(['dist', 'scripts/bundle.js'], done);
 });
 
 /** Styles */
-gulp.task('styles', function() {
+gulp.task('styles', function () {
 //   return gulp.src('./styles/*.scss')
 //       .pipe($.sass())
 //       // .pipe($.autoprefixer([
@@ -71,14 +71,14 @@ gulp.task('styles', function() {
 gulp.task('js', ['jshint', 'jscs']);
 
 // Lint JavaScript
-gulp.task('jshint', function() {
+gulp.task('jshint', function () {
   return gulp.src(['./scripts/**/*.js'])
     .pipe($.jshint('.jshintrc'))
     .pipe($.jshint.reporter('jshint-stylish'))
 });
 
 // Check JS style
-gulp.task('jscs', function() {
+gulp.task('jscs', function () {
   return gulp.src(['./scripts/**/*.js'])
     .pipe($.jscs());
 });
@@ -88,11 +88,11 @@ function buildBundle(file) {
     entries: [file],
     debug: isProd
   })
-  .transform(babelify) // es6 -> e5
-  .bundle();
+    .transform(babelify) // es6 -> e5
+    .bundle();
 }
 
-gulp.task('jsbundle', function() {
+gulp.task('jsbundle', function () {
   console.log('==Building JS bundle==');
 
   //var dest = isProd ? 'dist' : '';
@@ -108,14 +108,14 @@ gulp.task('jsbundle', function() {
 });
 
 /** Root */
-gulp.task('root', ['getversion'], function() {
+gulp.task('root', ['getversion'], function () {
   gulp.src([
-      './*.*',
-      '!{package,bower}.json',
-      '!gulpfile.js',
-      '!deploy.sh',
-      '!*.md'
-    ])
+    './*.*',
+    '!{package,bower}.json',
+    '!gulpfile.js',
+    '!deploy.sh',
+    '!*.md'
+  ])
     .pipe($.replace(/@VERSION@/g, version))
     .pipe(gulp.dest('./dist/'));
 
@@ -125,11 +125,11 @@ gulp.task('root', ['getversion'], function() {
     .pipe(gulp.dest('./dist/'));
 });
 
-gulp.task('copy_bower_components', function() {
+gulp.task('copy_bower_components', function () {
   gulp.src([
-      'bower_components/webcomponentsjs/webcomponents-lite.min.js',
-      'bower_components/platinum-sw/*.js'
-    ], {base: './'})
+    'bower_components/webcomponentsjs/webcomponents-lite.min.js',
+    'bower_components/platinum-sw/*.js'
+  ], {base: './'})
     .pipe(gulp.dest('./dist'));
 
   // Service worker elements want files in a specific location.
@@ -147,23 +147,23 @@ gulp.task('copy_bower_components', function() {
 // });
 
 /** Images */
-gulp.task('images', function() {
+gulp.task('images', function () {
   return gulp.src([
-      './images/**/*.svg',
-      './images/**/*.png',
-      './images/**/*.jpg',
-      '!./images/screenshot.jpg'
-    ])
+    './images/**/*.svg',
+    './images/**/*.png',
+    './images/**/*.jpg',
+    '!./images/screenshot.jpg'
+  ])
     .pipe(gulp.dest('./dist/images'));
 });
 
 
 // Generate a list of files to precached when serving from 'dist'.
 // The list will be consumed by the <platinum-sw-cache> element.
-gulp.task('precache', function(callback) {
+gulp.task('precache', function (callback) {
   var dir = 'dist';
 
-  glob('{elements,scripts,styles}/**/*.*', {cwd: dir}, function(error, files) {
+  glob('{elements,scripts,styles}/**/*.*', {cwd: dir}, function (error, files) {
     if (error) {
       callback(error);
     } else {
@@ -176,7 +176,7 @@ gulp.task('precache', function(callback) {
 
 
 /** Vulcanize */
-gulp.task('vulcanize', function() {
+gulp.task('vulcanize', function () {
   console.log('==Vulcanizing HTML Imports==');
 
   return gulp.src('./elements/elements.html')
@@ -193,7 +193,7 @@ gulp.task('vulcanize', function() {
 });
 
 /** Watches */
-gulp.task('watch', function() {
+gulp.task('watch', function () {
   gulp.watch('./styles/**/*.scss', ['styles']);
   gulp.watch('./*.html', ['root']);
   // gulp.watch('./sw-import.js', ['serviceworker']);
@@ -202,7 +202,7 @@ gulp.task('watch', function() {
   gulp.watch('./scripts/**/*.js', ['jsbundle']);
 });
 
-gulp.task('getversion', function() {
+gulp.task('getversion', function () {
   version = JSON.parse(fs.readFileSync('./package.json', 'utf8')).version;
 });
 
@@ -210,20 +210,20 @@ gulp.task('getversion', function() {
 
 var allTasks = ['root', 'styles', 'jsbundle', 'images'];//, 'serviceworker'];
 
-gulp.task('bump', function() {
+gulp.task('bump', function () {
   return gulp.src([
-      './{package,bower}.json'
-    ])
+    './{package,bower}.json'
+  ])
     .pipe($.bump({type: 'patch'}))
     .pipe(gulp.dest('./'));
 });
 
-gulp.task('default', function() {
+gulp.task('default', function () {
   isProd = true;
   return runSequence('clean', 'bump', 'getversion', 'js',
-                     allTasks, 'vulcanize', 'precache', 'copy_bower_components');
+    allTasks, 'vulcanize', 'precache', 'copy_bower_components');
 });
 
-gulp.task('dev', function() {
+gulp.task('dev', function () {
   return runSequence('clean', 'getversion', allTasks, 'watch');
 });

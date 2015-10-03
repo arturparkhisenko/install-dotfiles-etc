@@ -13,7 +13,7 @@
 - PerfectPixel by WellDoneCode
 - Motivation
 - Https Everywhere
-- Stop YouTube Autoplay
+- [stop-autoplay-for-youtube](https://chrome.google.com/webstore/detail/stop-autoplay-for-youtube/figkapeodjhdgnpiamleongcmecfjccb/)
 - DHC / Postman Interceptor / Postman
 - Meta seo inspector
 - SEO Site Tools, Site Analysis
@@ -98,6 +98,8 @@
 
 - responsive theme
 - wordpress-theme-smartadapt
+- woocommerce:
+ - http://www.designswaggs.com/web-design/20-best-free-woocommerce-plugins-for-wordpress/
 
 **engines:**
 - Visual composer
@@ -372,6 +374,7 @@ rwp/) — ищет типичные вредоносные фрагменты
 jsbeautify conf
 "space_after_anon_function": true,
 "translate_tabs_to_spaces": true,
+- [babel-sublime](https://github.com/babel/babel-sublime)
 
 ## NetBeans:
 http://plugins.netbeans.org/plugin/49666/js-css-minify-compress

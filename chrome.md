@@ -11,3 +11,10 @@
 - chrome://flags/#enable-fast-unload
 - chrome://flags/#enable-javascript-harmony
 - chrome://flags/#disable-hyperlink-auditing — disable it anyway :)
+
+### console pro tips:
+- $0 - selected el
+- $$('header');
+- copy(document.body);
+- inspect(document.body.firstChild);
+- console.timeStamp('Please be super fast, k?');
