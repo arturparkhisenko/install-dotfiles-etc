@@ -281,6 +281,8 @@ rwp/) — ищет типичные вредоносные фрагменты
 - linter-jscs
 - linter-jshint
 - linter-scss-lint
+- javascript-snippets
+- polymer-snippets
 - minifier
 - minimap
 - minimap-git-diff
@@ -298,6 +300,7 @@ rwp/) — ищет типичные вредоносные фрагменты
 - autocomplete-modules
 - atom-polymer
 - autocomplete-polymer
+- react
 
 ## Atom (old list):
 - esformatter
