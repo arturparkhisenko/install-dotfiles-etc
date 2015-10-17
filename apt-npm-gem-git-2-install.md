@@ -45,10 +45,23 @@ and then **restart** `sudo shutdown -r 0`
 - `sudo apt-get autoremove`
 - `sudo apt-get update`
 
-### nodejs & npm & build tools
-- `sudo apt-get install git git-core curl nodejs npm yui-compressor`
+### build tools
+- `sudo apt-get install git git-core curl yui-compressor`
 - `sudo apt-get install zlib1g-dev build-essential sqlite3 libsqlite3-dev python-software-properties`
 - `sudo apt-get install libyaml-dev libssl-dev libreadline-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev`
+
+### nodejs & npm
+- docs [url](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
+**new way**:
+- 1. `curl --silent --location https://deb.nodesource.com/setup_4.x | sudo bash -`
+- 2. `sudo apt-get install --yes nodejs` 
+**old way**:
+- `sudo apt-get install nodejs npm`
+
+#### update nodejs
+- `sudo npm cache clean -f`
+- `sudo npm install -g n`
+- `sudo n stable`
 
 ### ruby
 - `sudo apt-get install ruby-full rubygems-integration`
