@@ -6,8 +6,10 @@
 //gulp serve --gulpfile gulpfile.babel.js
 //gulp file based on PSK
 //https://github.com/PolymerElements/polymer-starter-kit
-//TODO: switch to jspm/systemjs?
+//webpack vs jspm/systemjs
+//TODO: switch to that gulpfile after polybuild suffix support added
 //TODO: clean package.json
+//TODO: add PostCSS
 //https://github.com/PolymerElements/polymer-starter-kit/blob/master/docs/add-es2015-support-babel.md
 //polylint -> polybuild (include: vulcanize, crisper, polyclean)
 

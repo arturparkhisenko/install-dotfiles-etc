@@ -30,3 +30,10 @@ until you create an admin password. Then you can turn secure boot off.
 ### Registry Tweak 3:
 1. open `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\OSUpgrade`
 2. In right-side pane, look for two DWORDs AllowOSUpgrade and ReservationsAllowed and change their values to 0
+
+# win, how to remove long name folders/files
+1. Start a commandprompt (no admin privileges needed)
+2. Use `cd` to navigate to the folder you want to go (you can use `tab` to autocomplete names
+3. type `subst j: .` to create the driveletter association. (instead of the . you can also type the entire path)
+4. Now in explorer you have a new letter. Go to it and do whatever you need to do to the .cache files.
+5. Go back to your cmd window and type `subst /d j:` to remove the drive or alternatively, restart your pc.

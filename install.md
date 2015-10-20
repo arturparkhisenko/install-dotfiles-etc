@@ -68,10 +68,11 @@
 - Final Cut Pro
 
 # OS list
+
+- Deb. [Ubuntu](http://www.ubuntu.com/) Mate | Unity | Gnome
 - Deb. [Linux Mint](http://www.linuxmint.com/) Mate | Xfce | Cinnamon
     - switch to mate: `sudo apt-get update && sudo apt-get install mint-meta-mate` or synaptics
     - switch to xfce: synaptics package manager - search xfce4 - mark for install - apply
-- Deb. [Ubuntu](http://www.ubuntu.com/) Mate | Unity | Gnome
 - Arch. [Manjaro](https://manjaro.github.io/) or [Antergos](http://antergos.com/) with ([Pacaur](https://wiki.archlinux.org/index.php/Pacaur) | [Yaourt](https://wiki.archlinux.org/index.php/Yaourt))
 - Osx
 
@@ -114,11 +115,30 @@
 - Solid Works
 
 ### osx
-- [awesome-osx](https://github.com/iCHAIT/awesome-osx)
+- [LiveView](http://www.zambetti.com/)
+- [Reflector](http://www.airsquirrels.com/reflector/) like LiveView
+- [ScreenFlow](http://www.telestream.net/screenflow/) for recording
+- [Induction](http://inductionapp.com/) db
+- [Paragon NTFS on Mac](http://www.paragon-software.com/home/ntfs-mac/)
+- [F.lux](http://stereopsis.com/flux/) screen color change
+- [Moom](http://manytricks.com/moom/) Managing app windows
+- [The Unarchiver](http://wakaba.c3.cx/s/apps/unarchiver.html)
+- [CrossOver](http://www.codeweavers.com/products/) and [Parallels](http://www.parallels.com/) for win apps
+- [iExplorer](http://www.macroplant.com/iexplorer/) transfering files between ios devices
+- [Monolingual](http://monolingual.sourceforge.net/) remove unnened langs
+- [CleanMyMac](http://macpaw.com/cleanmymac)
 
 ### not my osx soft
+- [awesome-osx](https://github.com/iCHAIT/awesome-osx)
 
+- http://mixture.io/
+- https://www.videolan.org/vlc/index.html
+- http://www.transmissionbt.com/
+- https://imageoptim.com/
 
+- [Icon Slate](http://www.kodlian.com/apps/icon-slate) exporting icons
+- [Slicy](http://macrabbit.com/slicy/) assets from PS
+- [Cut and Slice me](http://www.cutandslice.me/) assets from PS CS
 - [BitTorrent Sync](https://www.getsync.com/platforms/desktop)
 - [ColorSnapper](http://colorsnapper.com/)
 - [ImageOptim](https://imageoptim.com/)

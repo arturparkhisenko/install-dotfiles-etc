@@ -32,6 +32,7 @@
 - RegExp Tester (тестирование регул¤рных выражений)
 - Cacoo (прототипирование и построение диаграмм)
 - Ember Inspector
+- Proxy [Hola](https://chrome.google.com/webstore/detail/unlimited-free-vpn-hola/gkojfkhlekighikafcpjkiklfbnlmeio)
 
 - [ ] batarang
 - [ ] ng-inspector
@@ -283,6 +284,7 @@ rwp/) — ищет типичные вредоносные фрагменты
 - linter-jshint
 - linter-scss-lint
 - javascript-snippets
+- turbo-javascript
 - polymer-snippets
 - minifier
 - minimap
@@ -294,6 +296,9 @@ rwp/) — ищет типичные вредоносные фрагменты
 - solarized-seti-ui
 - sync-settings
 - webbox-color
+- code-links
+- git-log
+- git-plus
 
 ## Atom temp:
 - linter-xo
@@ -301,9 +306,13 @@ rwp/) — ищет типичные вредоносные фрагменты
 - autocomplete-modules
 - atom-polymer
 - autocomplete-polymer
+- project-manager
 - react
+- script
+- clipboard-plus
 
 ## Atom (old list):
+- jshint by sindresorhus
 - esformatter
 - angularjs
 - atom-fuzzy-grep

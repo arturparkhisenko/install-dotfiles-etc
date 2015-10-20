@@ -52,16 +52,23 @@ and then **restart** `sudo shutdown -r 0`
 
 ### nodejs & npm
 - docs [url](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
-**new way**:
+**install, new linux way**:
 - 1. `curl --silent --location https://deb.nodesource.com/setup_4.x | sudo bash -`
-- 2. `sudo apt-get install --yes nodejs` 
-**old way**:
+- 2. `sudo apt-get install --yes nodejs`
+- ``
+**install, old linux way**:
 - `sudo apt-get install nodejs npm`
 
-#### update nodejs
+#### update nodejs on linux
 - `sudo npm cache clean -f`
 - `sudo npm install -g n`
 - `sudo n stable`
+
+#### update npm on windows
+- [npm-windows-upgrade](https://github.com/felixrieseberg/npm-windows-upgrade)
+
+#### npm commands
+- show npm path `npm config get prefix`
 
 ### ruby
 - `sudo apt-get install ruby-full rubygems-integration`
