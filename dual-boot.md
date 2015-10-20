@@ -1,4 +1,5 @@
-# dualboot
+# dual-boot
+
 ### 3 volumes on /sda with MBR:
 - sda1 ntfs 200gb for win
 - sda2 ext4 / 20gb
@@ -25,3 +26,7 @@ Set:
 Also add sync:
 - `sudo apt-get update`
 - `sudo apt-get install ntp`
+
+## battery saving on lenovo and linux
+- [source](http://askubuntu.com/questions/34452/how-can-i-limit-battery-charging-to-80-capacity)
+- [ThinWiki](http://www.thinkwiki.org/wiki/Tp_smapi)
