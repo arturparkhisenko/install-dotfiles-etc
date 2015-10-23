@@ -103,6 +103,7 @@
 
 ### linux
 - [awesome-linux](https://github.com/aleksandar-todorovic/awesome-linux)
+- [Plank](https://launchpad.net/plank)
 
 ### win
 - [Github Desktop](https://desktop.github.com/)
