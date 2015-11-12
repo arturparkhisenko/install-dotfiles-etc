@@ -15,6 +15,13 @@ https://github.com/ebidel/polymer-gmail/blob/master/scripts/app.js
 - backend mockups: mockable.io, apiary.io, jsonplaceholder.typicode.com
 - use https://github.com/ikeagold/task.js yo!
 
+https://github.com/babel/babel/tree/development/packages
+https://www.npmjs.com/search?q=babel-plugin
+
+100% = 1 em ~= 16px ~= 14pt
+
+getBoundingClientRect
+
 ## bundlers
 
 ### es2015
@@ -44,4 +51,4 @@ http://stackoverflow.com/questions/18450276/how-to-share-data-between-different-
   - nice too https://helloanselm.com/cv/
 - REGISTER ON STACKOVERFLOW
 - update gulp-gold and release 0.9.0
-- update ig-pai-app and release 1.0.0 final version (angular1 is out from game) 
+- update ig-pai-app and release 1.0.0 final version (angular1 is out from game)

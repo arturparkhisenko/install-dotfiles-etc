@@ -88,7 +88,7 @@
 - [Git](https://git-scm.com/)
 - [InkScape](https://inkscape.org)
 - [FileZilla](https://filezilla-project.org/)
-- [Skype](https://www.skype.com)
+- [Skype](https://www.skype.com) - web version
 - [Spotify](https://www.spotify.com)
 - [TeamViewer](https://www.teamviewer.com)
 - [phpStorm](https://www.jetbrains.com/phpstorm/)
@@ -102,6 +102,7 @@
 - [LibreOffice](https://ru.libreoffice.org/)
 
 ### linux
+- `sudo apt-get install meld` - diff tool
 - [awesome-linux](https://github.com/aleksandar-todorovic/awesome-linux)
 - [Plank](https://launchpad.net/plank)
 
@@ -114,6 +115,9 @@
 - Kompas
 - Corel Draw
 - Solid Works
+- https://irzyxa.wordpress.com/2015/08/10/volume1-1-4-347/
+- cmder/babun - + Install-plugin posh-git
+- http://nikkhokkho.sourceforge.net/static.php?page=FileOptimizer
 
 ### osx
 - [LiveView](http://www.zambetti.com/)
@@ -136,6 +140,8 @@
 - https://www.videolan.org/vlc/index.html
 - http://www.transmissionbt.com/
 - https://imageoptim.com/
+- https://kapeli.com/dash
+- http://totalterminal.binaryage.com/
 
 - [Icon Slate](http://www.kodlian.com/apps/icon-slate) exporting icons
 - [Slicy](http://macrabbit.com/slicy/) assets from PS

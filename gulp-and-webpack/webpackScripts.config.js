@@ -10,24 +10,24 @@ var BowerWebpackPlugin = require('bower-webpack-plugin');
 var nodeModulesPath = path.resolve(__dirname, 'node_modules');
 
 var config = {
-  // entry: './entry.js',
-
   // using multiple entries because es6 loaders
   // not working with es5 classes in global scope
   entry: {
     a: [
+      './src/bower_components/jquery/dist/jquery.js',
       //App files
-      './src/scripts/app.js'
+      './src/scripts/app.js',
     ]
   },
 
-  devtool: 'source-map',
+  // devtool: 'source-map',
 
   watch: false,
 
   output: {
-    //path: path.join(__dirname, 'assets'),
-    path: __dirname + '/dist/scripts',
+    // path: path.join(__dirname, 'assets'),
+    // path: __dirname + '/dist/scripts',
+    path: __dirname + '/src/scripts',
     filename: 'bundle.js'
   },
 
@@ -51,9 +51,13 @@ var config = {
       test: /\.js$/,
       // exclude: /(node_modules|'bower_components)/,
       exclude: [nodeModulesPath],
-      // loader: 'eslint-loader'
-      loader: 'babel-loader?optional[]=runtime&stage=0!script-loader'
+      // https://github.com/babel/babel-loader#options
+      loader: 'babel-loader?presets[]=es2015&cacheDirectory=true!script-loader!uglify-loader',
     }]
+  },
+
+  'uglify-loader': {
+    mangle: false
   },
 
   plugins: [
@@ -90,9 +94,9 @@ var config = {
       manifestFiles: ['bower.json', '.bower.json'],
       includes: /.*/,
       excludes: /.*\.less$/
-    })
+    }),
 
-    // new WebpackNotifierPlugin()
+    // new WebpackNotifierPlugin(),
   ]
 
 };

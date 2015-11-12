@@ -280,8 +280,7 @@ rwp/) — ищет типичные вредоносные фрагменты
 - linter
 - linter-csslint
 - linter-htmlhint
-- linter-jscs
-- linter-jshint
+- linter-eslint
 - linter-scss-lint
 - javascript-snippets
 - turbo-javascript
@@ -296,11 +295,15 @@ rwp/) — ищет типичные вредоносные фрагменты
 - solarized-seti-ui
 - sync-settings
 - webbox-color
-- code-links
+- hyperclick
+- js-hyperclick
 - git-log
 - git-plus
+- merge-conficts
 
 ## Atom temp:
+- linter-jscs
+- linter-jshint
 - linter-xo
 - merge-conflicts
 - autocomplete-modules
@@ -321,7 +324,6 @@ rwp/) — ищет типичные вредоносные фрагменты
 - color-picker
 - comment
 - file-icons
-- linter-eslint
 - linter-php
 - linter-phpcs
 - linter-phpmd
@@ -333,6 +335,11 @@ rwp/) — ищет типичные вредоносные фрагменты
 - tool-bar-main
 - livereload
 - remote-edit or secure copy
+
+## atom shortcuts
+ctrl-shift-d - duplicate line
+ctrl+r - symbol lookup
+ctrl+alt+w - wrap text inside a html tag
 
 ## Brackets:
 - Brackets Fonts

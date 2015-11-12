@@ -2,7 +2,7 @@
 - Date format `%Y%m%e, %a, %H:%M`
 
 # ZSH
-    
+
 ### Required:
 ```bash
 sudo apt-get install git-core
@@ -26,7 +26,7 @@ and then you change your shell to zsh
 ```bash
 chsh -s `which zsh`
 ```
-or 
+or
 ```bash
 chsh -s /bin/zsh
 ```
@@ -51,12 +51,12 @@ and then **restart** `sudo shutdown -r 0`
 - `sudo apt-get install libyaml-dev libssl-dev libreadline-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev`
 
 ### nodejs & npm
-- docs [url](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
-**install, new linux way**:
+- [linux](https://github.com/nodesource/distributions#installation-instructions)
+
+**install, old linux way**:
 - 1. `curl --silent --location https://deb.nodesource.com/setup_4.x | sudo bash -`
 - 2. `sudo apt-get install --yes nodejs`
-- ``
-**install, old linux way**:
+- docs [url](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 - `sudo apt-get install nodejs npm`
 
 #### update nodejs on linux
@@ -124,9 +124,12 @@ install newest version of phpunit
 
 # NPM and Bower
 **main**
-- `sudo npm i -g uglify-js sass eslint jshint jscs csslint babel gulp gulp-babel bower prettydiff`
-- `npm i -g npm-check-updates bower-check-updates trash`
-- `npm i -g babel-eslint webpack jspm`
+- `sudo npm i -g eslint csslint babel-core gulp bower prettydiff`
+- `npm i -g npm-check-updates bower-check-updates`
+
+**off**
+- `npm i -g babel-preset-es2015`
+- `npm i -g uglify-js gulp-babel sass babel-eslint jspm trash jshint jscs`
 
 **webpack**
 - `npm i -D webpack bower-webpack-plugin`
