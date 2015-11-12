@@ -271,37 +271,35 @@ rwp/) — ищет типичные вредоносные фрагменты
 - autoprefixer
 - docblockr
 - emmet
-- fixmyjs
 - highlight-cov
 - highlight-line
 - highlight-selected
 - language-javascript-better
-- language-javascript-jsx
 - linter
 - linter-csslint
 - linter-htmlhint
 - linter-eslint
-- linter-scss-lint
 - javascript-snippets
 - turbo-javascript
-- polymer-snippets
-- minifier
 - minimap
 - minimap-git-diff
-- seti-syntax
 - seti-ui
-- sindresorhus-atom-editorconfig
-- solarized-dark-syntax
-- solarized-seti-ui
-- sync-settings
+- solarized-dark-syntax (default)
+- editorconfig (sindresorhus)
 - webbox-color
 - hyperclick
 - js-hyperclick
 - git-log
 - git-plus
-- merge-conficts
+- sync-settings
 
 ## Atom temp:
+- seti-syntax
+- minifier
+- polymer-snippets
+- linter-scss-lint
+- language-javascript-jsx
+- fixmyjs
 - linter-jscs
 - linter-jshint
 - linter-xo
@@ -316,7 +314,6 @@ rwp/) — ищет типичные вредоносные фрагменты
 
 ## Atom (old list):
 - jshint by sindresorhus
-- esformatter
 - angularjs
 - atom-fuzzy-grep
 - atom-terminal
