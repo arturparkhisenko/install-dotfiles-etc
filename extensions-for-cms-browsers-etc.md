@@ -292,6 +292,7 @@ rwp/) — ищет типичные вредоносные фрагменты
 - git-log
 - git-plus
 - sync-settings
+- atom-language-postcss
 
 ## Atom temp:
 - seti-syntax

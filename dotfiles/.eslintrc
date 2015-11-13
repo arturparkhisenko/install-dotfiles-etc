@@ -1,16 +1,13 @@
 {
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "es6": true
   },
   "globals": {
     "$": true,
     "jQuery": true,
-    "wrap": true,
-    "unwrap": true,
     "Polymer": true,
-    "Platform": true,
-    "page": true,
     "app": true
   },
   "rules": {
@@ -25,8 +22,7 @@
     ],
     "indent": [
       2,
-      2,
-      {
+      2, {
         "SwitchCase": 1
       }
     ],

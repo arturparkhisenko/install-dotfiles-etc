@@ -35,6 +35,7 @@ http://help.ubuntu.ru/wiki/ssd
 
 ## fonts
 place new and local fonts to user /home/.fonts/
+- for global ttf fonts `sudo mkdir /usr/share/fonts/truetype/newfonts`
 - `sudo apt-get install ttf-mscorefonts-installer`
 - `cd && wget http://webupd8.googlecode.com/files/install-google-fonts`
 - `chmod +x install-google-fonts`
@@ -42,3 +43,12 @@ place new and local fonts to user /home/.fonts/
 - `sudo fc-cache -fv`
 - `sudo dpkg-reconfigure fontconfig`
 - `fc-list`
+
+# fonts list:
+- Consolas
+- Ubuntu Mono
+- [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) from adobe
+- [Hack](https://github.com/chrissimpkins/Hack)
+- Menlo
+- Monaco
+- Inconsolata

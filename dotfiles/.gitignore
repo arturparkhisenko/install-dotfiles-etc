@@ -62,5 +62,3 @@ $RECYCLE.BIN/
 .dist
 .tmp
 src/bower_components
-prepros.cfg
-package.json
