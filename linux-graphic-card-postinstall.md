@@ -1,7 +1,9 @@
 # nvidia
-- `sudo add-apt-repoistory ppa:xorg-edgers/ppa`
+- Add [this](https://launchpad.net/~xorg-edgers/+archive/ubuntu/ppa) ppa
+- `sudo add-apt-repository ppa:xorg-edgers/ppa -y`
 - `sudo apt-get update`
-- `sudo apt-get install nvidia-XXX (355)` - check latest [here](https://launchpad.net/~xorg-edgers/+archive/ubuntu/ppa)
+- `sudo apt-get install nvidia-XXX (352, only major)` - check latest [here](http://www.nvidia.com/page/home.html)
+- or `sudo apt-get install nvidia-current` - for latest
 
 ### after install:
 - add panel widget, or go to nvidia settings
