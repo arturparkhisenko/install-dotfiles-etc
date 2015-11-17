@@ -50,26 +50,6 @@ and then **restart** `sudo shutdown -r 0`
 - `sudo apt-get install zlib1g-dev build-essential sqlite3 libsqlite3-dev python-software-properties`
 - `sudo apt-get install libyaml-dev libssl-dev libreadline-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev`
 
-### nodejs & npm
-- [linux](https://github.com/nodesource/distributions#installation-instructions)
-
-**install, old linux way**:
-- 1. `curl --silent --location https://deb.nodesource.com/setup_4.x | sudo bash -`
-- 2. `sudo apt-get install --yes nodejs`
-- docs [url](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
-- `sudo apt-get install nodejs npm`
-
-#### update nodejs on linux
-- `sudo npm cache clean -f`
-- `sudo npm install -g n`
-- `sudo n stable`
-
-#### update npm on windows
-- [npm-windows-upgrade](https://github.com/felixrieseberg/npm-windows-upgrade)
-
-#### npm commands
-- show npm path `npm config get prefix`
-
 ### ruby
 - `sudo apt-get install ruby-full rubygems-integration`
 
@@ -122,9 +102,30 @@ install newest version of phpunit
 - `sudo wget http://cs.sensiolabs.org/get/php-cs-fixer.phar -O /usr/local/bin/php-cs-fixer`
 - `sudo chmod a+x /usr/local/bin/php-cs-fixer`
 
+### nodejs & npm
+- [linux](https://github.com/nodesource/distributions#installation-instructions)
+
+**install, old linux way**:
+- 1. `curl --silent --location https://deb.nodesource.com/setup_4.x | sudo bash -`
+- 2. `sudo apt-get install --yes nodejs`
+- docs [url](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
+- `sudo apt-get install nodejs npm`
+
+#### update nodejs on linux
+- `sudo npm cache clean -f`
+- `sudo npm install -g n`
+- `sudo n stable`
+
+#### update npm on windows
+- [npm-windows-upgrade](https://github.com/felixrieseberg/npm-windows-upgrade)
+
+#### npm commands
+- show npm path `npm config get prefix`
+- show globally installed plugins `npm list -g --depth=0`
+
 # NPM and Bower
 **main**
-- `sudo npm i -g eslint csslint babel-core gulp bower prettydiff`
+- `sudo npm i -g eslint eslint-plugin-html csslint babel-core gulp bower prettydiff`
 - `npm i -g npm-check-updates bower-check-updates`
 
 **off**

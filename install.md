@@ -136,6 +136,18 @@
 ### not my osx soft
 - [awesome-osx](https://github.com/iCHAIT/awesome-osx)
 
+- Pttrns.com
+- gitup
+- caleidoscope
+- alcatraz
+- dash
+- cocoapods
+- carthage
+- mogenerator
+- charles
+- fastlane
+- fabric.io
+
 - http://mixture.io/
 - https://www.videolan.org/vlc/index.html
 - http://www.transmissionbt.com/

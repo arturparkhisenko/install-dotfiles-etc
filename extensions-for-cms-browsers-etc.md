@@ -266,6 +266,7 @@ rwp/) — ищет типичные вредоносные фрагменты
 ## Atom
 - todo-show
 - autoclose-html
+- autocomplete-paths
 - atom-beautify
 - atom-css-comb
 - autoprefixer
