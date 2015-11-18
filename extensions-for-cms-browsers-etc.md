@@ -4,6 +4,7 @@
 - github-notifier
 - github-highlight-selected
 - github-awesome-autocomple
+- Polymer DevTools Extension
 - uBlock / AdBlock
 - BuiltWith technology profiler
 - Disconnect
@@ -270,6 +271,7 @@ rwp/) — ищет типичные вредоносные фрагменты
 - atom-beautify
 - atom-css-comb
 - autoprefixer
+- Polymer Atom (from polylabs)
 - docblockr
 - emmet
 - highlight-cov

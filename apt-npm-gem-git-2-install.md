@@ -115,20 +115,29 @@ install newest version of phpunit
 - `sudo npm cache clean -f`
 - `sudo npm install -g n`
 - `sudo n stable`
+- `npm install NAME -g (globall) or -D (dependency)`
+- `npm install arturparkhisenko/ig-css-addons`
+- `npm update -g`
 
 #### update npm on windows
 - [npm-windows-upgrade](https://github.com/felixrieseberg/npm-windows-upgrade)
 
 #### npm commands
+- root folder of global modules `npm root -g`
 - show npm path `npm config get prefix`
 - show globally installed plugins `npm list -g --depth=0`
+- `npm cache clean`
+**bower**
+- `bower cache clean`
 
-# NPM and Bower
+# NPM
 **main**
 - `sudo npm i -g eslint eslint-plugin-html csslint babel-core gulp bower prettydiff`
 - `npm i -g npm-check-updates bower-check-updates`
+- all bower packages install from github like arturparkhisenko/ig-css-addons
 
 **off**
+- `npm i -g sw-precache sw-toolbox`
 - `npm i -g babel-preset-es2015`
 - `npm i -g uglify-js gulp-babel sass babel-eslint jspm trash jshint jscs`
 
@@ -145,12 +154,6 @@ install newest version of phpunit
 **intellijIdea watcher conf**
 - `--no-cache --update $FileName$:$FileNameWithoutExtension$.min.css --style compressed`
 - update file with .min too!
-
-**docs**
-- `npm install NAME -g (globall) or -D (dependency)`
-- `npm update -g`
-- `bower install jquery#1.8.1 --save --force-latest`
-- `bower cache clean`
 
 #### upgrade node
 - `sudo npm cache clean -f`

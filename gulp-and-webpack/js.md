@@ -4,6 +4,7 @@
 - crisp
 - babel crisped - to app.js
 - alright alright alright!
+- sw-precache sw-toolbox app-shell add to js
 
 - polylint -> polybuild (include: vulcanize, crisper, polyclean)
 
