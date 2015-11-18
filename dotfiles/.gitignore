@@ -59,6 +59,6 @@ $RECYCLE.BIN/
 #########
 .idea
 .vagrant
-.dist
-.tmp
-src/bower_components
+dist/
+tmp/
+src/bower_components/
