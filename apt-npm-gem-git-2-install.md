@@ -102,7 +102,9 @@ install newest version of phpunit
 - `sudo wget http://cs.sensiolabs.org/get/php-cs-fixer.phar -O /usr/local/bin/php-cs-fixer`
 - `sudo chmod a+x /usr/local/bin/php-cs-fixer`
 
-### nodejs & npm
+# nodejs & npm
+
+### install
 - [linux](https://github.com/nodesource/distributions#installation-instructions)
 
 **install, old linux way**:
@@ -122,24 +124,25 @@ install newest version of phpunit
 #### update npm on windows
 - [npm-windows-upgrade](https://github.com/felixrieseberg/npm-windows-upgrade)
 
-#### npm commands
-- root folder of global modules `npm root -g`
-- show npm path `npm config get prefix`
-- show globally installed plugins `npm list -g --depth=0`
-- `npm cache clean`
+### npm commands
+- `npm root -g` root folder of global modules
+- `npm config get prefix` show npm path
+- `npm list -g --depth=0` show globally installed plugins
+- `npm cache clean -f`
 **bower**
 - `bower cache clean`
 
-# NPM
-**main**
-- `sudo npm i -g eslint eslint-plugin-html csslint babel-core gulp bower prettydiff`
-- `npm i -g npm-check-updates bower-check-updates`
+### npm packages
+- `sudo npm i -g eslint eslint-plugin-html csslint babel-core gulp prettydiff`
+- `npm i -g npm-check-updates `
 - all bower packages install from github like arturparkhisenko/ig-css-addons
+- `ncu -m bower` - check bower.json updates
+- `ncu -g` - check global updates
 
-**off**
+**not global**
 - `npm i -g sw-precache sw-toolbox`
 - `npm i -g babel-preset-es2015`
-- `npm i -g uglify-js gulp-babel sass babel-eslint jspm trash jshint jscs`
+- `npm i -g uglify-js gulp-babel sass babel-eslint jspm trash jshint jscs bower bower-check-updates`
 
 **webpack**
 - `npm i -D webpack bower-webpack-plugin`
