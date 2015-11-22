@@ -41,14 +41,18 @@ gulp.task('styles', () => {
 
   const AUTOPREFIXER_BROWSERS = [
     'ie >= 10',
-    'ie_mob >= 10',
+    // 'ie_mob',
     'ff >= 26',
+    'and_ff >= 42',
     'chrome >= 34',
-    'safari >= 7',
-    'opera >= 23',
+    'and_chr >= 46',
+    'safari >= 8', //require plugin
+    'opera >= 21',
+    // 'op_mini'
+    'op_mob >= 33',
     'ios >= 7',
     'android >= 4.4',
-    'bb >= 10'
+    // 'bb'
   ];
 
   return gulp.src(srcs.map(function(src) {

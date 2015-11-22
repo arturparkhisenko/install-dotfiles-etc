@@ -67,14 +67,17 @@
 - Pages
 - Final Cut Pro
 
-# OS list
+# OS
+- Deb.(deb) [Linux Mint](http://www.linuxmint.com/) Mate | Xfce | Cinnamon
+- Deb.(deb) [Ubuntu](http://www.ubuntu.com/) Unity | Mate | Gnome
+- Arch(rpm) [Antergos](http://antergos.com/) | [Fedora](https://getfedora.org/)
+- OS_X
 
-- Deb. [Ubuntu](http://www.ubuntu.com/) Mate | Unity | Gnome
-- Deb. [Linux Mint](http://www.linuxmint.com/) Mate | Xfce | Cinnamon
-    - switch to mate: `sudo apt-get update && sudo apt-get install mint-meta-mate` or synaptics
-    - switch to xfce: synaptics package manager - search xfce4 - mark for install - apply
-- Arch. [Manjaro](https://manjaro.github.io/) or [Antergos](http://antergos.com/) with ([Pacaur](https://wiki.archlinux.org/index.php/Pacaur) | [Yaourt](https://wiki.archlinux.org/index.php/Yaourt))
-- Osx
+## related to that
+- video server `wayland`
+- switch mint to mate desktop: `sudo apt-get update && sudo apt-get install mint-meta-mate` or synaptics
+- switch mint to xfce desktop: synaptics package manager - search xfce4 - mark for install - apply
+- Arch OS use with ([Pacaur](https://wiki.archlinux.org/index.php/Pacaur) | [Yaourt](https://wiki.archlinux.org/index.php/Yaourt))
 
 # Soft
 

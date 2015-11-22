@@ -8,17 +8,6 @@
 
 - `sudo apt-get autoremove` - is used to remove packages that were automatically installed to satisfy dependencies for some package and that are no more needed.
 
-## greeter
-
-run: `sudo gedit /etc/lightdm/lightdm.conf`
-
-add:
-```
-[SeatDefaults]
-greeter-session=unity-greeter
-allow-guest=false
-```
-
 ## ssd/hdd
 
 1. `/` - 25gb
@@ -27,6 +16,18 @@ allow-guest=false
 4. ~15% reserved space for ssd
 
 http://help.ubuntu.ru/wiki/ssd
+
+## Ubuntu greeter
+
+run: `sudo gedit /etc/lightdm/lightdm.conf`
+
+add:
+```
+[SeatDefaults]
+greeter-session=unity-greeter
+allow-guest=false
+play-ready-sound=false
+```
 
 ## tweaks
 
