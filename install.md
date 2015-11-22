@@ -1,4 +1,64 @@
-# System
+# OS
+
+- Deb.(deb) [Linux Mint](http://www.linuxmint.com/) Mate | Xfce | Cinnamon
+- Deb.(deb) [Ubuntu](http://www.ubuntu.com/) Unity | Mate | Gnome
+- Arch(rpm) [Antergos](http://antergos.com/) | [Fedora](https://getfedora.org/)
+- OS_X
+
+## related to that
+
+- video server `wayland`
+- switch mint to mate desktop: `sudo apt-get update && sudo apt-get install mint-meta-mate` or synaptics
+- switch mint to xfce desktop: synaptics package manager - search xfce4 - mark for install - apply
+- Arch OS use with ([Pacaur](https://wiki.archlinux.org/index.php/Pacaur) | [Yaourt](https://wiki.archlinux.org/index.php/Yaourt))
+
+# Soft
+
+## Any OS
+
+- [Git](https://git-scm.com/) - for GitHub/BitBucket
+- [Atom](https://atom.io/)
+	- `sudo add-apt-repository ppa:webupd8team/atom`
+	- `sudo apt-get update && sudo apt-get install atom`
+- [Google Chrome](https://www.google.com/chrome/)
+- [Google Chrome Canary](https://www.google.com/chrome/browser/canary.html)
+- [Gimp](https://www.gimp.org/)
+- [InkScape](https://inkscape.org)
+- [FileZilla](https://filezilla-project.org/) -ftp client
+- [Skype](https://www.skype.com) - use web version
+- [Spotify](https://www.spotify.com)
+- [TeamViewer](https://www.teamviewer.com)
+- [webStorm](https://www.jetbrains.com/webstorm/) - or [phpStorm](https://www.jetbrains.com/phpstorm/)
+- [DropBox](https://www.dropbox.com/)
+- [Yandex Disk](https://disk.yandex.ua/client/disk)
+- [LibreOffice](https://ru.libreoffice.org/)
+- [Steam](https://store.steampowered.com/)
+- [BattleNet](https://eu.battle.net/)
+- [Curse](https://www.curse.com)
+
+## Linux (apt)
+
+- `sudo apt-get install meld` - diff tool
+- [Plank](https://launchpad.net/plank)
+- [awesome-linux](https://github.com/aleksandar-todorovic/awesome-linux)
+
+## Win
+
+- [Github Desktop](https://desktop.github.com/)
+- [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+- [Ccleaner](https://www.piriform.com/ccleaner/download)
+- [Defraggler](https://www.piriform.com/defraggler/download)
+- [KLite Full](http://www.codecguide.com/download_k-lite_codec_pack_full.htm)
+- Kompas
+- Corel Draw
+- Solid Works
+- https://irzyxa.wordpress.com/2015/08/10/volume1-1-4-347/
+- cmder/babun - + Install-plugin posh-git
+- http://nikkhokkho.sourceforge.net/static.php?page=FileOptimizer
+
+## OS_X
+
+### System
 
 1. Set up iCloud Keychain
 2. Remove icons and hide Dock
@@ -23,14 +83,14 @@
 	- Name and password
 16. Accessibility — Zoom — Use scroll gesture, smooth: off
 
-# Contacts
+### Contacts
 
 1. Remove local contacts group
 2. Hide groups Cmd 1
 3. Show first name last
 4. Sort by last name
 
-# Finder
+### Finder
 
 1. Hide and sort sidebar icons
 2. Show Tab, Path, Status; remove toolbar icons
@@ -49,80 +109,8 @@
 	- Sort Name
 8. Hide Public folder: chflags hidden ~/Public/
 
-# App Store
+### OS_X Soft
 
-- iA Writer Pro
-- Fantastical 2
-- DM1
-- Coinverter
-- Slack
-- xScope 4
-- Dash 3
-- Elmedia
-- MindNode 2
-- Sketch 3
-- 1Password
-- Keynote
-- Numbers
-- Pages
-- Final Cut Pro
-
-# OS
-- Deb.(deb) [Linux Mint](http://www.linuxmint.com/) Mate | Xfce | Cinnamon
-- Deb.(deb) [Ubuntu](http://www.ubuntu.com/) Unity | Mate | Gnome
-- Arch(rpm) [Antergos](http://antergos.com/) | [Fedora](https://getfedora.org/)
-- OS_X
-
-## related to that
-- video server `wayland`
-- switch mint to mate desktop: `sudo apt-get update && sudo apt-get install mint-meta-mate` or synaptics
-- switch mint to xfce desktop: synaptics package manager - search xfce4 - mark for install - apply
-- Arch OS use with ([Pacaur](https://wiki.archlinux.org/index.php/Pacaur) | [Yaourt](https://wiki.archlinux.org/index.php/Yaourt))
-
-# Soft
-
-### any os
-- [Atom](https://atom.io/)
-	- `sudo add-apt-repository ppa:webupd8team/atom`
-	- `sudo apt-get update && sudo apt-get install atom`
-- [Google Chrome](https://www.google.com/chrome/)
-- [Google Chrome Canary](https://www.google.com/chrome/browser/canary.html)
-- [Gimp](https://www.gimp.org/)
-- [Git](https://git-scm.com/)
-- [InkScape](https://inkscape.org)
-- [FileZilla](https://filezilla-project.org/)
-- [Skype](https://www.skype.com) - web version
-- [Spotify](https://www.spotify.com)
-- [TeamViewer](https://www.teamviewer.com)
-- [phpStorm](https://www.jetbrains.com/phpstorm/)
-- [webStorm](https://www.jetbrains.com/webstorm/)
-- [Github](https://github.com/)
-- [BattleNet](https://eu.battle.net/)
-- [Steam](https://store.steampowered.com/)
-- [Curse](https://www.curse.com)
-- [DropBox](https://www.dropbox.com/)
-- [Yandex Disk](https://disk.yandex.ua/client/disk)
-- [LibreOffice](https://ru.libreoffice.org/)
-
-### linux
-- `sudo apt-get install meld` - diff tool
-- [awesome-linux](https://github.com/aleksandar-todorovic/awesome-linux)
-- [Plank](https://launchpad.net/plank)
-
-### win
-- [Github Desktop](https://desktop.github.com/)
-- [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
-- [Ccleaner](https://www.piriform.com/ccleaner/download)
-- [Defraggler](https://www.piriform.com/defraggler/download)
-- [KLite Full](http://www.codecguide.com/download_k-lite_codec_pack_full.htm)
-- Kompas
-- Corel Draw
-- Solid Works
-- https://irzyxa.wordpress.com/2015/08/10/volume1-1-4-347/
-- cmder/babun - + Install-plugin posh-git
-- http://nikkhokkho.sourceforge.net/static.php?page=FileOptimizer
-
-### osx
 - [LiveView](http://www.zambetti.com/)
 - [Reflector](http://www.airsquirrels.com/reflector/) like LiveView
 - [ScreenFlow](http://www.telestream.net/screenflow/) for recording
@@ -136,7 +124,7 @@
 - [Monolingual](http://monolingual.sourceforge.net/) remove unnened langs
 - [CleanMyMac](http://macpaw.com/cleanmymac)
 
-### not my osx soft
+### not mine OS_X soft
 - [awesome-osx](https://github.com/iCHAIT/awesome-osx)
 
 - Pttrns.com
@@ -176,24 +164,40 @@
 - [TunnelBear](https://www.tunnelbear.com/download/)
 - [Parallels Desktop](http://www.parallels.com/products/desktop/download/)
 
-# ColorSnapper
+- iA Writer Pro
+- Fantastical 2
+- DM1
+- Coinverter
+- Slack
+- xScope 4
+- Dash 3
+- Elmedia
+- MindNode 2
+- Sketch 3
+- 1Password
+- Keynote
+- Numbers
+- Pages
+- Final Cut Pro
 
-1. Ctrl Shift `
+### ColorSnapper
+
+1. Ctrl Shift ~
 2. CSS Hex
 3. Shorthand version
 
-# Parallels Desktop
+### Parallels Desktop
 
 1. Show Parallels icon in menu bar: Off
 2. Virtual machines folder: ~/Applications/Parallels
 
-# Clean My Mac
+### Clean My Mac
 
 1. Play sounds: Off
 2. Scheduler: Never
 3. Menu, offer: Off
 
-# Spectacle
+### Spectacle
 
 1. A11y in System Preferences
 2. Launch at login
@@ -212,19 +216,19 @@
 	- Larger =
 	- Smaller -
 
-# BitTorrent Sync
+### BitTorrent Sync
 
 1. Links device (Screen Sharing)
 2. Pause sync
-3. rm -rf ~/F && mv ~/F\ \(1\)/ ~/F for
+3. `rm -rf ~/F && mv ~/F\ \(1\)/ ~/F` for
 	- Desktop
 	- Documents
 	- Downloads
 4. Resume sync
 5. Store deleted files Off for every folder
-6. Remove all archives rm -rf ~/*/.sync/Archive/
+6. Remove all archives `rm -rf ~/*/.sync/Archive/`
 
-# Sketch
+### Sketch
 
 1. Grid
 	- Dark 20% red
@@ -240,7 +244,7 @@
 	- View
 4. Rename duplicated layers: Off
 
-# Markdown Service Tools
+### Markdown Service Tools
 
 1. [Download](http://brettterpstra.com/projects/markdown-service-tools/)
 2. md - Convert - HTML to Clipboard
@@ -250,13 +254,13 @@
 	- HTML to Markdown
 5. Copy to ~/Library/Services
 
-# Slack
+### Slack
 
 1. odevrel
 2. web-standards
 3. polymer
 
-# Tower
+### Tower
 
 1. Diff, Merge tool: Kaleidoscope
 2. Service accounts: GitHub
@@ -264,22 +268,22 @@
 4. Git binary: /usr/local/bin/git
 4. Integration: Install
 
-# Environment
+### Environment
 
 1. CLI tools: make
 2. [io.js](https://iojs.org/en/index.html)
 3. sh utils.sh
 
-# Terminal
+### Terminal
 
 1. Shell open with command: /usr/local/bin/bash
 2. Ask before closing: never
 3. Pepelsbey.terminal profile
 4. Font: Consolas, 14pt
 
-# Sublime Text
+### Sublime Text
 1. Install [Package Control](https://packagecontrol.io/installation) by Ctrl` and pasting code.
 
-# Atom
+### Atom
 
 1. Install: sync-settings

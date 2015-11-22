@@ -21,7 +21,6 @@
 - `sudo apt-get update`
 - `sudo apt-get install nvidia-XXX (352, only major)` - check latest [here](http://www.nvidia.com/page/home.html)
 - or `sudo apt-get install nvidia-current` - for latest (352)
--
 
 # ATI
 
