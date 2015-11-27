@@ -14,9 +14,6 @@
     "html"
   ],
   "rules": {
-    "prefer-arrow-callback": 2,
-    "prefer-spread": 2,
-    "object-shorthand": [2, "always"],
     "arrow-parens": 2,
     "trailing-spaces": 0,
     "comma-dangle": [2, "never"],

@@ -1,4 +1,5 @@
 ### commands
+
 - nginx 80: netstat -tulpn | grep :80 by ssh
 - source ~/.bash_profile
 - env
@@ -9,12 +10,15 @@
 - clear
 - htop
 
-#### folder sizes:
+#### folder sizes
+
 - du --si --max-depth=1
 - du -h filename
 
-#### catalogs full view:
+#### catalogs full view
+
 - ls -la
 
-#### read last strings:
+#### read last strings
+
 - tail filename

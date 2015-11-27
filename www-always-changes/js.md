@@ -53,3 +53,13 @@ http://stackoverflow.com/questions/18450276/how-to-share-data-between-different-
 - REGISTER ON STACKOVERFLOW
 - update gulp-gold and release 0.9.0
 - update ig-pai-app and release 1.0.0 final version (angular1 is out from game)
+
+# software design principles:
+- DRY don't repeat yourself
+- YAGNI you aren't gonna need it (yet)
+- SRP single responsible reason
+- TDA tell(to do), don't ask (forEach aka map aka filter vs for)
+- OCP open closed principle (open for extension, closed for modifying)
+- LSP liskov's substution principle (use inheritance only if you mean substitutability)
+- DIP dependency injection principle
+- CQRS Command-Query Responsibility Segregation

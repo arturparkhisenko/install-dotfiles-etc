@@ -40,6 +40,10 @@
 
 - `sudo apt-get install meld` - diff tool
 - [Plank](https://launchpad.net/plank)
+  - `sudo add-apt-repository ppa:docky-core/stable`
+  - `sudo apt-get update`
+  - `sudo apt-get install plank`
+  - remove icon, run like `plank --help`
 - [awesome-linux](https://github.com/aleksandar-todorovic/awesome-linux)
 
 ## Win

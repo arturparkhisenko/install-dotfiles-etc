@@ -35,6 +35,7 @@ play-ready-sound=false
 - CompizConfig Settings Manager - install in app store
 
 ## fonts
+
 place new and local fonts to user /home/.fonts/
 - for global ttf fonts `sudo mkdir /usr/share/fonts/truetype/newfonts`
 - `sudo apt-get install ttf-mscorefonts-installer`
@@ -45,7 +46,8 @@ place new and local fonts to user /home/.fonts/
 - `sudo dpkg-reconfigure fontconfig`
 - `fc-list`
 
-# fonts list:
+# fonts list
+
 - Consolas
 - Ubuntu Mono
 - [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) from adobe

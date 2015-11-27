@@ -1,49 +1,23 @@
 # Linux
 - Date format `%Y%m%e, %a, %H:%M`
 
-# ZSH
+# [Oh My ZSH](http://ohmyz.sh/)
 
 ### Required:
-```bash
-sudo apt-get install git-core
-```
+- `sudo apt-get install git-core`
 
 ### Install:
-```bash
-sudo apt-get install zsh
-```
+- `sudo apt-get install zsh`
+- `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+- `sudo shutdown -r 0` - restart after install
 
-Getting zsh to work in ubuntu is weird, since `sh` does not understand the `source` command.  So, you do this to install zsh
-```bash
-wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
-```
-or
-```bash
-curl -L http://install.ohmyz.sh | sh
-```
-
-and then you change your shell to zsh
-```bash
-chsh -s `which zsh`
-```
-or
-```bash
-chsh -s /bin/zsh
-```
-and then **restart** `sudo shutdown -r 0`
-
-- [Themes](http://zshthem.es/all/)
-- http://www.rebelcode.ru/linux/ustanovka-oh-zsh-v-ubuntu/
-- http://habrahabr.ru/post/162339/
-- [gist](https://gist.github.com/tsabat/1498393)
-- This problem is explained in depth in [this issue](https://github.com/robbyrussell/oh-my-zsh/issues/227#issuecomment-825773)
+### Config:
+- [Themes](http://zshthem.es)
 
 # APT
 
 ### all
-- `sudo apt-get autoclean`
-- `sudo apt-get autoremove`
-- `sudo apt-get update`
+- `sudo apt-get autoclean && sudo apt-get autoremove && sudo apt-get update`
 
 ### build tools
 - `sudo apt-get install git git-core curl yui-compressor`
@@ -106,12 +80,6 @@ install newest version of phpunit
 
 ### install
 - [linux](https://github.com/nodesource/distributions#installation-instructions)
-
-**install, old linux way**:
-- 1. `curl --silent --location https://deb.nodesource.com/setup_4.x | sudo bash -`
-- 2. `sudo apt-get install --yes nodejs`
-- docs [url](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
-- `sudo apt-get install nodejs npm`
 
 #### update nodejs on linux
 - `sudo npm cache clean -f`

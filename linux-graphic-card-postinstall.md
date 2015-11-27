@@ -1,7 +1,6 @@
 # Nvidia
 
-
-### After install:
+### After install
 
 - `sudo nvidia-settings` add panel widget, or go to nvidia settings
 - save a x-server profile to home folder
