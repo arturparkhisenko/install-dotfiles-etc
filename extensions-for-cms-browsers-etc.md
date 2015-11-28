@@ -80,6 +80,8 @@
 - `ctrl-shift-d` - duplicate line
 - `ctrl+r` - symbol lookup
 - `ctrl+alt+w` - wrap text inside a html tag
+- `ctrl+p` - fuzzy search
+- `ctrl+shift+p` - command palette
 
 ## IntelliJ IDEA Php/WebStorm
 

@@ -1,6 +1,16 @@
 # Linux
 - Date format `%Y%m%e, %a, %H:%M`
 
+# Git config (first commit/push)
+- `git config --global user.email "your@email.com"`
+- `git config --global user.name "yourname"`
+- `git config --global push.default simple`
+- `git add .` or `git add --all` with removed
+- `git status`
+- `git commit -a -m "init commit"`
+- `git config --global push.default simple`
+- `git push`
+
 # [Oh My ZSH](http://ohmyz.sh/)
 
 ### Required:
@@ -9,6 +19,7 @@
 ### Install:
 - `sudo apt-get install zsh`
 - `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+- `sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
 - `sudo shutdown -r 0` - restart after install
 
 ### Config:
