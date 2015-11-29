@@ -30,6 +30,7 @@
 - [x] minimap-git-diff
 - [x] editorconfig (sindresorhus)
 - [x] pigments / webbox-color
+- [x] merge-conflicts
 - [ ] hyperclick
 - [ ] js-hyperclick
 - [ ] git-log
