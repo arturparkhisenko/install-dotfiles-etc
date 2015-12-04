@@ -8,6 +8,7 @@
 - [x] solarized-dark-syntax (default)
 - [x] seti-ui
 - [x] todo-show
+- [x] atom-ternjs
 - [x] autoclose-html
 - [x] autocomplete-paths
 - [x] atom-beautify
@@ -25,6 +26,7 @@
 - [x] linter-csslint
 - [x] linter-htmlhint
 - [x] linter-eslint
+- [x] local-history
 - [x] javascript-snippets
 - [x] minimap
 - [x] minimap-git-diff
@@ -131,7 +133,7 @@
 - [ ] Live Web Development
 - [ ] Simple Time Track
 - [ ] Tab Ahead
-- [ ] Fontface Ninja (позвол¤ет узнать название шрифта на странице и скачать его)
+- [ ] The Great Suspender
 - [ ] qSnap (скриншоты страницы + хостинг скриншотов)
 - [ ] RegExp Tester (тестирование регул¤рных выражений)
 - [ ] Cacoo (прототипирование и построение диаграмм)

@@ -1,4 +1,4 @@
-# js the right way
+# js the right way aka bleeding edge
 
 - vulcanize
 - crisp
@@ -23,6 +23,8 @@ https://www.npmjs.com/search?q=babel-plugin
 
 getBoundingClientRect
 
+gulp -> npm start / npm test on src/dist
+
 ## bundlers
 
 ### es2015
@@ -30,6 +32,7 @@ getBoundingClientRect
 ### webpack
 
 ### jspm
+
 https://github.com/jspm/jspm-cli/blob/master/docs/getting-started.md#4-write-application-code
 https://github.com/jspm/jspm-cli/issues/171
 https://stackoverflow.com/questions/31350001/use-jspm-to-load-script-that-depends-on-global-jquery
@@ -40,9 +43,11 @@ https://github.com/systemjs/systemjs/blob/master/docs/config-api.md#meta
 - `jspm bundle react + bluebird + react-router dependency-bundle.js`
 
 ### rollup
+
 http://rollupjs.org/
 
 ### requirejs
+
 http://stackoverflow.com/questions/5608685/using-requirejs-how-do-i-pass-in-global-objects-or-singletons-around
 http://stackoverflow.com/questions/18450276/how-to-share-data-between-different-modules-in-requirejs-javascript
 
@@ -54,7 +59,8 @@ http://stackoverflow.com/questions/18450276/how-to-share-data-between-different-
 - update gulp-gold and release 0.9.0
 - update ig-pai-app and release 1.0.0 final version (angular1 is out from game)
 
-# software design principles:
+# software design principles
+
 - DRY don't repeat yourself
 - YAGNI you aren't gonna need it (yet)
 - SRP single responsible reason
@@ -63,3 +69,28 @@ http://stackoverflow.com/questions/18450276/how-to-share-data-between-different-
 - LSP liskov's substution principle (use inheritance only if you mean substitutability)
 - DIP dependency injection principle
 - CQRS Command-Query Responsibility Segregation
+
+# Technology stack
+
+- TT(technology trigger): Rust
+- EE(extended expectations): React
+- SE(slofp enlightment): Ember
+- PP(plato of productivity): Node, Java
+
+## bpbp555 (for new tec or languages)
+
+- build tools
+- package manager
+- basic ideas
+- philosophy
+- 5-10 most popular libs
+- 5-10 people
+- 5-10 products using it
+- all + and - of tec.
+
+## 4 steps of bpbp555
+
+- awareness (10% of time)
+- exploration (20% of time)
+- investment (60% of time)
+- practice ($)

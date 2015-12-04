@@ -44,3 +44,7 @@ until you create an admin password. Then you can turn secure boot off.
 3. type `subst j: .` to create the driveletter association. (instead of the . you can also type the entire path)
 4. Now in explorer you have a new letter. Go to it and do whatever you need to do to the .cache files.
 5. Go back to your cmd window and type `subst /d j:` to remove the drive or alternatively, restart your pc.
+
+# Win problems solving
+- [blue-screen](http://www.nirsoft.net/utils/blue_screen_view.html#DownloadLinks
+)

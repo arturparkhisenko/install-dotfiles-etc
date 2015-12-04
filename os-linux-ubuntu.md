@@ -33,6 +33,7 @@ play-ready-sound=false
 
 - http://ubuntu-tweak.com/ - cleaner here
 - CompizConfig Settings Manager - install in app store
+- [fix for suspend/hibernate on old ubuntu/videocard](http://chriseiffel.com/everything-linux/how-i-got-suspend-and-hibernate-working-in-linux-ubuntu-11-04-mint-11/)
 
 ## fonts
 

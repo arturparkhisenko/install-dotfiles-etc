@@ -1,15 +1,16 @@
 # index
 
-- [install.md](install.md) - all what you need ;)
-- [apt-npm-gem-git-2-install.md](apt-npm-gem-git-2-install.md) - copy-paste-run
-- [console-shell-cmd.md](console-shell-cmd.md) - commands & tips
-- [install-win-specific.md](install-win-specific.md) - fix for updates and secure boot
-- [dual-boot.md](dual-boot.md) - all about win+linux
-- [linux-graphic-card-postinstall.md](linux-graphic-card-postinstall.md) - how to..after install
-- [linux-ubuntu.md](linux-ubuntu.md) - some tweaks
-- [ide-font-and-lineheight.md](ide-font-and-lineheight.md) - :)
-- [extensions-for-cms-browsers-etc.md](extensions-for-cms-browsers-etc.md)
-- [chrome.md](chrome.md) - settings & keybinds & tips
+- :page_facing_up: [install.md](install.md) - all what you need
+- :gemini: [dual-boot.md](dual-boot.md) - all about win+linux
+- :sunrise: [os-linux-ubuntu.md](os-linux-ubuntu.md) - some tweaks
+- :eyeglasses: [os-linux-graphics.md](os-linux-graphics.md) - how to before/after install
+- :green_apple: [os-x.md](os-x.md) - apple
+- :house: [os-windows.md](os-windows.md) - fix for updates and secure boot
+- :package: [apt-npm-gem-git.md](apt-npm-gem-git.md) - copy-paste-run
+- :shell: [console-shell-cmd.md](console-shell-cmd.md) - commands & tips
+- :pencil: [editor-config.md](editor-config.md) - text-editor/ide
+- :zap: [extensions.md](extensions.md) - extensions and plugins for cms/browsers/etc
+- :cloud: [chrome.md](chrome.md) - settings & keybinds & tips
 - in 999-snippets-gists-patterns is placed all my snippets. I hope this will be useful
 
 ### credits

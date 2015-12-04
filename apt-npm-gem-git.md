@@ -11,6 +11,18 @@
 - `git config --global push.default simple`
 - `git push`
 
+## git update forked repository (syncing-a-fork) [official doc](https://help.github.com/articles/syncing-a-fork/)
+
+- `git remote add upstream https://github.com/whoever/whatever.git`
+- `git fetch upstream`
+- `git checkout master`
+- `git merge upstream/master` or `git rebase upstream/master`
+or
+- `git stash`
+- `git pull`
+- `git stash list`
+- `git stash pop`
+
 # [Oh My ZSH](http://ohmyz.sh/)
 
 ### Required:
@@ -90,9 +102,11 @@ install newest version of phpunit
 # nodejs & npm
 
 ### install
+
 - [linux](https://github.com/nodesource/distributions#installation-instructions)
 
 #### update nodejs on linux
+
 - `sudo npm cache clean -f`
 - `sudo npm install -g n`
 - `sudo n stable`
@@ -101,17 +115,21 @@ install newest version of phpunit
 - `npm update -g`
 
 #### update npm on windows
+
 - [npm-windows-upgrade](https://github.com/felixrieseberg/npm-windows-upgrade)
 
 ### npm commands
+
 - `npm root -g` root folder of global modules
 - `npm config get prefix` show npm path
 - `npm list -g --depth=0` show globally installed plugins
+- `sudo chown -R artur /usr/lib/node_modules/` fixing npm permissions
 - `npm cache clean -f`
 **bower**
 - `bower cache clean`
 
 ### npm packages
+
 - `sudo npm i -g eslint eslint-plugin-html csslint babel-core gulp prettydiff`
 - `npm i -g npm-check-updates `
 - all bower packages install from github like arturparkhisenko/ig-css-addons
