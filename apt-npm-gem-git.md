@@ -23,6 +23,9 @@ or
 - `git stash list`
 - `git stash pop`
 
+## git revert commit (not files)
+- `git config --global alias.undo-commit 'reset --soft HEAD^'` Then just type git `undo-commit`
+
 # [Oh My ZSH](http://ohmyz.sh/)
 
 ### Required:
