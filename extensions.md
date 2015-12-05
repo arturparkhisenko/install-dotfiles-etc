@@ -26,10 +26,12 @@
 - [x] linter-csslint
 - [x] linter-htmlhint
 - [x] linter-eslint
+- [x] linter-jsxhint
 - [x] local-history
 - [x] javascript-snippets
 - [x] minimap
 - [x] minimap-git-diff
+- [x] react
 - [x] editorconfig (sindresorhus)
 - [x] pigments / webbox-color
 - [x] merge-conflicts
@@ -38,12 +40,12 @@
 - [ ] git-log
 - [ ] git-plus
 - [ ] turbo-javascript
+- [ ] activate-power-mode
 
 ## Atom temporary
 
 - [ ] linter-scss-lint
 - [ ] language-javascript-jsx
-- [ ] react
 - seti-syntax
 - minifier
 - polymer-snippets

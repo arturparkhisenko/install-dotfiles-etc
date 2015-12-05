@@ -1,7 +1,9 @@
 # Linux
+
 - Date format `%Y%m%e, %a, %H:%M`
 
 # Git config (first commit/push)
+
 - `git config --global user.email "your@email.com"`
 - `git config --global user.name "yourname"`
 - `git config --global push.default simple`
@@ -24,42 +26,52 @@ or
 - `git stash pop`
 
 ## git revert commit (not files)
+
 - `git config --global alias.undo-commit 'reset --soft HEAD^'` Then just type git `undo-commit`
 
 # [Oh My ZSH](http://ohmyz.sh/)
 
 ### Required:
+
 - `sudo apt-get install git-core`
 
 ### Install:
+
 - `sudo apt-get install zsh`
 - `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 - `sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
 - `sudo shutdown -r 0` - restart after install
 
 ### Config:
+
 - [Themes](http://zshthem.es)
 
 # APT
 
 ### all
+
 - `sudo apt-get autoclean && sudo apt-get autoremove && sudo apt-get update`
 
 ### build tools
+
 - `sudo apt-get install git git-core curl yui-compressor`
 - `sudo apt-get install zlib1g-dev build-essential sqlite3 libsqlite3-dev python-software-properties`
 - `sudo apt-get install libyaml-dev libssl-dev libreadline-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev`
 
 ### ruby
+
 - `sudo apt-get install ruby-full rubygems-integration`
 
 ### java
+
 - `sudo apt-get install default-jre default-jdk`
 
 ### fonts
+
 - `sudo apt-get install fonts-droid fonts-noto ttf-mscorefonts-installer`
 
 ### fix textures in openGL
+
 - `sudo apt-get install lib32-mesa-libgl`
 - `sudo apt-get install libtxc-dxtn-s2tc0 libtxc-dxtn-s2tc0:i386`
 - `sudo apt-get install program:i386 gcc-multilib`
@@ -68,6 +80,7 @@ Your steam apps try to use the steam supplied libstdc++.so.6 version and  that's
 try rm /home/jonas/.local/share/Steam/ubuntu12_32/steam-runtime/i386/usr/lib/i386-linux-gnu/libstdc++.so.6
 
 ### PHP & APACHE
+
 - lamp or xampp
 
 - `sudo apt-get install php5 php5-cli php5-common php-apc php-pear php5-xdebug php5-curl php5-dev php5-xsl php5-intl`
@@ -79,10 +92,10 @@ try rm /home/jonas/.local/share/Steam/ubuntu12_32/steam-runtime/i386/usr/lib/i38
 - `sudo apt-get install phpmyadmin`
 sudo nano /etc/apache2/apache2.conf add-this-at-the-end -> Include /etc/phpmyadmin/apache.conf
 
-- ubuntu 14.0+ sudo systemctl restart apache2
 - ubuntu 15.0+ sudo service apache2 restart
 
 ### PHP FIXERS
+
 - `sudo pear channel-update PEAR`
 - `sudo pear upgrade PEAR`
 - `sudo pear channel-discover pear.phing.info`
@@ -159,11 +172,13 @@ install newest version of phpunit
 - update file with .min too!
 
 #### upgrade node
+
 - `sudo npm cache clean -f`
 - `sudo npm install -g n`
 - `sudo n stable`
 
 ### nvm
+
 - `nvm ls-remote`
 - `nvm install 0.11.13`
 - `nvm use 0.11.13`
@@ -172,6 +187,7 @@ install newest version of phpunit
 - `nvm alias default 0.11.13`
 
 ### gulp
+
 - `npm adduser name`
 - `npm publish - to update`
 https://www.npmjs.org/package/gulp-gold
@@ -180,6 +196,7 @@ http://habrahabr.ru/post/208890/
 http://browsenpm.org/package.json
 
 ### ionic
+
 - `npm install -g cordova ionic`
 - `ionic start myApp sidemenu`
 http://ionicframework.com/docs/guide/starting.html
@@ -188,10 +205,12 @@ https://github.com/driftyco/ionic-contrib-frosted-glass
 - `cordova platform update android`
 
 ### postCSS
+
 **Plugins ([here](http://postcss.parts/)):**
 global @use: autoprefixer, css-next, images
 
 # GEM
+
 **path to gems will be like:** /var/lib/gems/1.8/bin
 
 https://rubygems.org/pages/download
