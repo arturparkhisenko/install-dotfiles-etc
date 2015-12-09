@@ -1,5 +1,9 @@
 # js the right way aka bleeding edge
 
+2 ways of app:
+use webpack + webpackdevserver (optionally: babel loader)
+use browsersync + browserify (optionally: babelify)
+
 - vulcanize
 - crisp
 - babel crisped - to app.js

@@ -109,6 +109,7 @@
 - [x] Google Docs Offline
 - [x] Motivation
 - [x]  [stop-autoplay-for-youtube](https://chrome.google.com/webstore/detail/stop-autoplay-for-youtube/figkapeodjhdgnpiamleongcmecfjccb/)
+- [x] HTTP/2 and SPDY indicator
 - [ ] Polymer DevTools Extension
 - [ ] uBlock Origin / AdBlock
 - [ ] Perfmap
