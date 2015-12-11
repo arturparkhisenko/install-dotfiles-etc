@@ -1,39 +1,43 @@
 # js the right way aka bleeding edge
 
-2 ways of app:
-use webpack + webpackdevserver (optionally: babel loader)
-use browsersync + browserify (optionally: babelify)
+2 best ways of app:
+- use webpack + webpackdevserver (optionally: babel loader)
+- use browsersync + browserify/jspm (optionally: babelify)
 
-- vulcanize
-- crisp
-- babel crisped - to app.js
-- alright alright alright!
-- sw-precache sw-toolbox app-shell add to js
+- [x] app-shell (wsk/amp)
+- [ ] https://github.com/ikeagold/task.js
 
-- polylint -> polybuild (include: vulcanize, crisper, polyclean)
-
-https://github.com/PolymerElements/polymer-starter-kit/blob/master/docs/add-es2015-support-babel.md
-https://github.com/ebidel/polymer-gmail/blob/master/index.html
-https://github.com/ebidel/polymer-gmail/blob/master/scripts/app.js
-
-- run es6 in console with babel-node
 - backend mockups: mockable.io, apiary.io, jsonplaceholder.typicode.com
-- use https://github.com/ikeagold/task.js yo!
 
-https://github.com/babel/babel/tree/development/packages
-https://www.npmjs.com/search?q=babel-plugin
+- getBoundingClientRect
 
-100% = 1 em ~= 16px ~= 14pt
+- gulp -> npm start / npm test on src/dist
 
-getBoundingClientRect
+## tips
 
-gulp -> npm start / npm test on src/dist
+- `<noscript><link rel=stylesheet href="style.css"></noscript>`
+
+## linting
+
+- [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
 
 ## bundlers
 
+## transpile
+
+### babel
+
+- run es6 in console with babel-node
+- https://github.com/babel/babel/tree/development/packages
+- https://www.npmjs.com/search?q=babel-plugin
+
 ### es2015
 
+- [frontender.info/es6-modules](http://frontender.info/es6-modules/)
+
 ### webpack
+
+- [youtube webpack screencast](https://www.youtube.com/watch?v=Om6yGdU_YlQ&list=PLDyvV36pndZHfBThhg4Z0822EEG9VGenn&index=17)
 
 ### jspm
 
@@ -56,6 +60,7 @@ http://stackoverflow.com/questions/5608685/using-requirejs-how-do-i-pass-in-glob
 http://stackoverflow.com/questions/18450276/how-to-share-data-between-different-modules-in-requirejs-javascript
 
 ## todo
+
 - update my site and use colors from my palette and http://www.colorhunt.co/
   - I DO: FRONT-END DEVELOPMENT, FRONT-END PROJECT MANAGEMENT & CONSULTING, WEBSITE TESTING, CODE AUDITS AND REVIEWS. I WRITE ARTICLES.
   - nice too https://helloanselm.com/cv/

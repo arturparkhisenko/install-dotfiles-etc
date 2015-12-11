@@ -32,6 +32,7 @@
 - [x] minimap
 - [x] minimap-git-diff
 - [x] react
+- [x] rainbow-tabs (or rainbox-tabs)
 - [x] editorconfig (sindresorhus)
 - [x] pigments / webbox-color
 - [x] merge-conflicts

@@ -1,5 +1,7 @@
 # css the right way aka bleeding edge
 
+100% = 1 em ~= 16px ~= 14pt
+
 ## PostCSS
 
 - [video tuts](http://leveluptuts.com/tutorials/postcss-tutorials/)
@@ -7,7 +9,7 @@
 ### plugins
 
 - https://github.com/postcss/gulp-postcss
-- https://github.com/postcss/autoprefixer
+- https://github.com/postcss/autoprefixer (-core is deprecated)
 - https://github.com/cssnext/postcss-cssnext
 - https://github.com/ben-eb/cssnano
 - https://github.com/jonathantneal/precss

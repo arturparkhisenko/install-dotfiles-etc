@@ -11,7 +11,8 @@
     "app": true
   },
   "plugins": [
-    "html"
+    "html",
+    "import"
   ],
   "rules": {
     "prefer-arrow-callback": 2,

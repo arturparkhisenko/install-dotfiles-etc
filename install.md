@@ -34,7 +34,12 @@
 - [LibreOffice](https://ru.libreoffice.org/)
 - [Steam](https://store.steampowered.com/)
 - [BattleNet](https://eu.battle.net/)
-- [Curse](https://www.curse.com)
+
+- [ ] [f.lux](https://justgetflux.com/)
+  - `sudo add-apt-repository ppa:kilian/f.lux`
+  - `sudo apt-get update`
+  - `sudo apt-get install fluxgui`
+  - lat 47.8334 long 35.1425
 
 ## Linux (apt)
 
@@ -61,3 +66,4 @@
 - [FileOptimizer](http://nikkhokkho.sourceforge.net/static.php?page=FileOptimizer)
 - [blue-screen](http://www.nirsoft.net/utils/blue_screen_view.html#DownloadLinks
 )
+- [Curse](https://www.curse.com)
