@@ -1,0 +1,13 @@
+{
+  "name": "Polymer Offline Weather",
+  "short_name": "Weather",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "../final/index.html",
+  "display": "standalone"
+}

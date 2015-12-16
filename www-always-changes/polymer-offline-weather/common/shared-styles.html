@@ -1,0 +1,44 @@
+<dom-module id="shared-styles">
+  <template>
+    <style>
+      body {
+        background-color: #e0f7fa;
+        color: #006064;
+      }
+
+      #weather-icon {
+        width: 200px;
+        height: 200px;
+      }
+
+      #request-progress {
+        --paper-progress-active-color: #006064;
+        --paper-progress-container-color: #e0f7fa;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+
+      #location {
+        margin-top: 8px;
+      }
+
+      #update-time {
+        margin-top: 12px;
+      }
+
+      paper-icon-button {
+        margin-left: 16px;
+        height: 32px;
+        width: 32px;
+      }
+
+      /* Needed until https://github.com/PolymerElements/paper-icon-button/pull/41 is live. */
+      paper-icon-button::shadow #icon {
+        width: 32px;
+        height: 32px;
+      }
+    </style>
+  </template>
+</dom-module>

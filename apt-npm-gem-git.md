@@ -213,9 +213,17 @@ global @use: autoprefixer, css-next, images
 
 **path to gems will be like:** /var/lib/gems/1.8/bin
 
-https://rubygems.org/pages/download
+[RubyGems](https://rubygems.org/pages/download)
 - `ruby setup.rb`
-- `sudo gem install sass scss_lint sass-globbing bundler autoprefixer-rails bourbon`
+- `gem list` or `gem query --local` list of all installed gem's
+- `gem outdated` show a list of outdated gem's
+- `gem update` or `gem update name` update all or specified gem's
+- `gem clean` remove outdated versions of gem's
+- `gem uninstall mysql` remove gem
+
+## My gems
+- [x] `sudo gem install sass scss_lint`
+- [ ] `gem install sass-globbing bundler bourbon`
 
 # GIT
 

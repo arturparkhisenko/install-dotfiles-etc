@@ -1,0 +1,210 @@
+<!doctype html>
+<!--
+Copyright 2015 Google Inc. All rights reserved.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+  http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Polymer Offline Weather</title>
+
+    <link rel="manifest" href="common/manifest.json">
+    <meta name="theme-color" content="#006064">
+    <link rel="icon" href="common/icon.png">
+
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link rel="import" href="common/elements.html">
+
+    <!-- See https://www.polymer-project.org/1.0/docs/devguide/styling.html#style-modules -->
+    <style is="custom-style" include="shared-styles"></style>
+  </head>
+
+  <body class="fit vertical layout center-center">
+    <template is="dom-bind" id="t">
+      <platinum-sw-register skip-waiting
+                            clients-claim
+                            auto-register
+                            reload-on-install>
+        <platinum-sw-import-script href="weather-fetch-handler.js"></platinum-sw-import-script>
+        <platinum-sw-fetch handler="weatherFetchHandler"
+                           path="/v1/public/yql"
+                           origin="https://query.yahooapis.com">
+        </platinum-sw-fetch>
+        <platinum-sw-cache default-cache-strategy="fastest"></platinum-sw-cache>
+      </platinum-sw-register>
+
+      <template is="dom-if" if="[[coordinates]]">
+        <iron-ajax id="weather-ajax"
+                   auto
+                   loading="{{activeRequest}}"
+                   url="[[weatherApiUrl]]"
+                   params="[[_calculateWeatherParams(coordinates.latitude, coordinates.longitude)]]"
+                   handle-as="json"
+                   last-response="{{weatherResponse}}">
+        </iron-ajax>
+      </template>
+
+      <paper-progress id="request-progress"
+                      indeterminate
+                      hidden$="[[!activeRequest]]">
+      </paper-progress>
+
+      <template is="dom-if" if="[[weatherResponse]]">
+        <div class="horizontal justified layout">
+          <h3 id="location">
+            Weather for
+            <span>[[_calculateLocationString(weatherResponse.query.results.channel.location)]]</span>
+          </h3>
+          <paper-icon-button icon="maps:my-location"
+                             alt="Detect current location"
+                             disabled$="[[disableLocationButton]]"
+                             on-click="_getCurrentPosition">
+          </paper-icon-button>
+        </div>
+
+        <iron-icon id="weather-icon"
+                   icon="[[_calculateWeatherIcon(weatherResponse.query.results.channel.item.condition.code)]]">
+        </iron-icon>
+
+        <h2>
+          <span>[[weatherResponse.query.results.channel.item.condition.temp]]</span>°
+          <span>[[weatherResponse.query.results.channel.units.temperature]]</span>,
+          <span>[[weatherResponse.query.results.channel.item.condition.text]]</span>
+        </h2>
+        <div class="horizontal justified layout">
+          <h5 id="update-time">
+            As of <span>[[weatherResponse.query.results.channel.item.condition.date]]</span>
+          </h5>
+          <paper-icon-button icon="refresh"
+                             alt="Refresh current weather"
+                             disabled$="[[activeRequest]]"
+                             on-click="_requestWeatherData">
+          </paper-icon-button>
+        </div>
+        <a href="https://www.yahoo.com/?ilc=401" target="_blank">
+          <img src="https://poweredby.yahoo.com/purple.png">
+        </a>
+      </template>
+    </template>
+
+    <script>
+      var t = document.querySelector('#t');
+
+      t.weatherApiUrl = 'https://query.yahooapis.com/v1/public/yql';
+
+      // Use the lat/long for Mountain View, CA as the default location.
+      t.defaultCoordinates = {
+        latitude: 37.4209397,
+        longitude: -122.0934599
+      };
+
+      t._getCurrentPosition = function() {
+        t.disableLocationButton = true;
+        navigator.geolocation.getCurrentPosition(function(position) {
+          t.coordinates = position.coords;
+          t.disableLocationButton = false;
+        }, function(error) {
+          t.coordinates = t.defaultCoordinates;
+        });
+      };
+
+      t._requestWeatherData = function() {
+        document.querySelector('#weather-ajax').generateRequest();
+      };
+
+      // See https://developer.yahoo.com/weather/
+      t._calculateWeatherParams = function(latitude, longitude) {
+        var latLongString = latitude + ',' + longitude;
+        return {
+          format: 'json',
+          q: 'select * from weather.forecast where woeid in ' +
+             '(SELECT woeid FROM geo.placefinder WHERE text="' + latLongString + '" and gflags="R")'
+        };
+      };
+
+      // See https://developer.yahoo.com/weather/documentation.html#codes for a list of codes.
+      // There are a few mismatches, limited by the set of weather-related Material Design icons.
+      t._calculateWeatherIcon = function(code) {
+        if (code <= 12 || code >= 37) {
+          return 'image:flash-on';
+        }
+
+        if (code <= 18) {
+          return 'image:flare';
+        }
+
+        if (code <= 30) {
+          return 'image:wb-cloudy';
+        }
+
+        return 'image:wb-sunny';
+      };
+
+      t._calculateLocationString = function(location) {
+        if (location.city && location.region) {
+          return location.city + ', ' + location.region;
+        }
+
+        return location.city || 'Unknown';
+      };
+
+      // http://updates.html5rocks.com/2015/04/permissions-api-for-the-web
+      if (navigator.permissions && navigator.permissions.query) {
+        // If the Permissions Query API is available, let's use it!
+        navigator.permissions.query({name: 'geolocation'}).then(function(permission) {
+          if (permission.state === 'granted') {
+            // If geolocation permissions were previously granted, then make a request for the
+            // most recent position.
+            t.activeRequest = true;
+            t._getCurrentPosition();
+          } else {
+            // If we don't have geolocation permission (yet), use the default coordinates instead
+            // of the real position.
+            t.coordinates = t.defaultCoordinates;
+            if (permission.state === 'denied') {
+              // If the user has denied geolocation permission, disable the "My Location" button.
+              t.disableLocationButton = true;
+            }
+          }
+
+          permission.addEventListener('change', function(e) {
+            if (e.target.state === 'denied') {
+              // If the user has denied geolocation permission, disable the "My Location" button.
+              t.disableLocationButton = true;
+            }
+          });
+        });
+      } else {
+        // If the Permissions Query API isn't available, just use the default coordinates each time.
+        // The "My Location" button can be used to obtain the real position.
+        t.coordinates = t.defaultCoordinates;
+      }
+
+      // If there is a previously cached weather API response, use that to populate the UI as soon
+      // as the application loads. This isn't strictly required, but it does mean we can display
+      // something immediately before we get a response back for the freshest request.
+      if ('caches' in window) {
+        window.caches.match(t.weatherApiUrl).then(function(response) {
+          if (response) {
+            response.json().then(function(json) {
+              // Only set t.weatherResponse if we don't already have a response, which might
+              // have been fetched asynchronously in the meantime.
+              if (!t.weatherResponse && json) {
+                t.weatherResponse = json;
+              }
+            });
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

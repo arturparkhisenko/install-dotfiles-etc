@@ -1,65 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Polymer-edge</title>
 </head>
+
 <body>
 
+  <style>
+    /* :host ::content or >>>. Deprecated: /deep/ and ::shadow */
+
+    :host(div) {}
+
+    :host(x-foo) {}
+
+    :host(x-foo:host) {}
+
+    :host(x-foo:host::content) {}
+
+    :host(x-foo:host::shadow) {}
+
+    x-tabs::shadow x-panel::shadow h1 {}
+
+    :host::content x-panel::content h1 {}
+
+    x-foo /deep/ h1 {}
+
+    x-foo >>> h1 {}
+
+    :host::content {}
+
+    :host.state,
+    :host(.classOrAttr) {}
+
+    :host-context(.blocky)::content {}
+
+    .content-wrapper >::content .special {}
+  </style>
+
   <script>
-// Transpile all JS to ES5.
-gulp.task('js', function() {
-  return gulp.src(['app/**/*.{js,html}'])
-    .pipe($.sourcemaps.init())
-    .pipe($.if('*.html', $.crisper())) // Extract JS from .html files
-    .pipe($.if('*.js', $.babel({
-      presets: ['es2015']
-    })))
-    .pipe($.sourcemaps.write('.'))
-    .pipe(gulp.dest('.tmp/'))
-    .pipe(gulp.dest('dist/'));
-});
-</script>
+    window.Polymer = window.Polymer || {};
+    window.Polymer.dom = 'shady'; //'shadow'
 
-Polymer:
+    // Transpile all JS to ES5.
+    gulp.task('js', function() {
+      return gulp.src(['app/**/*.{js,html}'])
+        .pipe($.sourcemaps.init())
+        .pipe($.if('*.html', $.crisper())) // Extract JS from .html files
+        .pipe($.if('*.js', $.babel({
+          presets: ['es2015']
+        })))
+        .pipe($.sourcemaps.write('.'))
+        .pipe(gulp.dest('.tmp/'))
+        .pipe(gulp.dest('dist/'));
+    });
 
-<script>
-HTMLImports.whenReady(function() {
-  (function(document) {
-    Polymer({});
-  })(document);
-});
+    HTMLImports.whenReady(function() {
+      (function(document) {
+        Polymer({});
+      })(document);
+    });
 
-Polymer.dom(Polymer.dom(this.parentNode).parentNode).node
-Polymer.dom(this).parentNode
-</script>
+    Polymer.dom(Polymer.dom(this.parentNode).parentNode).node
+    Polymer.dom(this).parentNode
 
-- querySelector: `Polymer.dom(this.root).querySelector() === this.$$()`
-<br/>
-- querySelectorAll: `this.$$('#parent').querySelectorAll()`
-<br/>
-- css: `:host ::content`
-<br/>
-- :host-context(.blocky)
-<br/>
-- :host.state
-<br/>
-- http://jsbin.com/esufiv/3/edit?html,output
+    //querySelector:
+    Polymer.dom(this.root).querySelector('') //=== this.$$()
+      //querySelectorAll:
 
-<script>
-//Polymer events fix:
-attached: function(){
-  window.addEventListner('event', this._mylstnr = function(){
-    ...
-  });
-}
+    this.$$('#parent').querySelectorAll('')
 
-detached: function(){
-  window.removeEventListner('event', this._mylstnr);
-}
-</script>
+    // http://jsbin.com/esufiv/3/edit?html,output
 
-<script>
+    //Polymer events fix:
+    attached: function() {
+      window.addEventListner('event', this._mylstnr = function() {});
+    }
+
+    detached: function() {
+      window.removeEventListner('event', this._mylstnr);
+    }
+
+    //es2015
     class AwesomeMeme {
       beforeRegister() {
         this.is = 'awesome-meme';
@@ -83,64 +106,51 @@ detached: function(){
       detached() {}
       attributeChanged() {}
     }
-
     Polymer(AwesomeMeme);
   </script>
 
+  <!-- See https://www.polymer-project.org/1.0/docs/devguide/styling.html#style-modules -->
+  index.html
+  <link rel="import" href="shared-styles.html">
+  <style is="custom-style" include="shared-styles"></style>
 
-element.html
-<!-- See https://www.polymer-project.org/1.0/docs/devguide/styling.html#style-modules -->
-<link rel="import" href="shared-styles.html">
+  element.html
+  <dom-module id="shared-styles">
+    <template>
+      <style>
+        body {
+          background-color: #e0f7fa;
+          color: #006064;
+        }
 
-index.html
-<!-- See https://www.polymer-project.org/1.0/docs/devguide/styling.html#style-modules -->
-<style is="custom-style" include="shared-styles"></style>
+        #request-progress {
+          --paper-progress-active-color: #006064;
+          --paper-progress-container-color: #e0f7fa;
+          left: 0;
+          position: fixed;
+          top: 0;
+          width: 100%;
+        }
+        /* Needed until https://github.com/PolymerElements/paper-icon-button/pull/41 is live. */
 
-<dom-module id="shared-styles">
-  <template>
-    <style>
-      body {
-        background-color: #e0f7fa;
-        color: #006064;
-      }
+        paper-icon-button::shadow #icon {
+          width: 32px;
+          height: 32px;
+        }
+      </style>
+    </template>
+  </dom-module>
 
-      #request-progress {
-        --paper-progress-active-color: #006064;
-        --paper-progress-container-color: #e0f7fa;
-        left: 0;
-        position: fixed;
-        top: 0;
-        width: 100%;
-      }
-
-      /* Needed until https://github.com/PolymerElements/paper-icon-button/pull/41 is live. */
-      paper-icon-button::shadow #icon {
-        width: 32px;
-        height: 32px;
-      }
-    </style>
-  </template>
-</dom-module>
-
-
-<platinum-sw-register skip-waiting
-                            clients-claim
-                            auto-register
-                            reload-on-install>
-        <platinum-sw-cache default-cache-strategy="fastest"></platinum-sw-cache>
-      </platinum-sw-register>
-
-<platinum-sw-register skip-waiting
-                            clients-claim
-                            auto-register
-                            reload-on-install>
-        <platinum-sw-import-script href="weather-fetch-handler.js"></platinum-sw-import-script>
-        <platinum-sw-fetch handler="weatherFetchHandler"
-                           path="/v1/public/yql"
-                           origin="https://query.yahooapis.com">
-        </platinum-sw-fetch>
-        <platinum-sw-cache default-cache-strategy="fastest"></platinum-sw-cache>
-      </platinum-sw-register>
+  <platinum-sw-register skip-waiting clients-claim auto-register reload-on-install>
+    <platinum-sw-cache default-cache-strategy="fastest"></platinum-sw-cache>
+  </platinum-sw-register>
+  <platinum-sw-register skip-waiting clients-claim auto-register reload-on-install>
+    <platinum-sw-import-script href="weather-fetch-handler.js"></platinum-sw-import-script>
+    <platinum-sw-fetch handler="weatherFetchHandler" path="/v1/public/yql" origin="https://query.yahooapis.com">
+    </platinum-sw-fetch>
+    <platinum-sw-cache default-cache-strategy="fastest"></platinum-sw-cache>
+  </platinum-sw-register>
 
 </body>
+
 </html>
