@@ -141,12 +141,13 @@ install newest version of phpunit
 - `npm list -g --depth=0` show globally installed plugins
 - `sudo chown -R artur /usr/lib/node_modules/` fixing npm permissions
 - `npm cache clean -f`
+
 **bower**
 - `bower cache clean`
 
 ### npm packages
 
-- `sudo npm i -g eslint eslint-plugin-html csslint babel-core gulp prettydiff`
+- `sudo npm i -g eslint eslint-plugin-html eslint-plugin-import csslint babel-core gulp prettydiff`
 - `npm i -g npm-check-updates `
 - all bower packages install from github like arturparkhisenko/ig-css-addons
 - `ncu -m bower` - check bower.json updates

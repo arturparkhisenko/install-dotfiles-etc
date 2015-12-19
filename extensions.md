@@ -36,6 +36,9 @@
 - [x] editorconfig (sindresorhus)
 - [x] pigments / webbox-color
 - [x] merge-conflicts
+- [ ] symbols-tree-view
+- [ ] synced-sidebar
+- [ ] tree-view-open-files
 - [ ] hyperclick
 - [ ] js-hyperclick
 - [ ] git-log

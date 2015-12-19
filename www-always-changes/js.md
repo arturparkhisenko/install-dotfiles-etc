@@ -39,6 +39,12 @@
 
 - [youtube webpack screencast](https://www.youtube.com/watch?v=Om6yGdU_YlQ&list=PLDyvV36pndZHfBThhg4Z0822EEG9VGenn&index=17)
 
+- webpack externals - for libs from tag script or cdn
+- webpack providePlugin - for libs from local path
+- imports-loader
+- exports-loader: imports!exports
+- expose-loader: expose!imports!exports
+
 ### jspm
 
 https://github.com/jspm/jspm-cli/blob/master/docs/getting-started.md#4-write-application-code
