@@ -13,7 +13,7 @@ var config = {
   // using multiple entries because es6 loaders
   // not working with es5 classes in global scope
   entry: {
-    a: [
+    bundle: [
       './src/bower_components/jquery/dist/jquery.js',
       //App files
       './src/scripts/app.js',
@@ -28,31 +28,17 @@ var config = {
     // path: path.join(__dirname, 'assets'),
     // path: __dirname + '/dist/scripts',
     path: __dirname + '/src/scripts',
-    filename: 'bundle.js'
+    filename: '[name].js'
   },
-
-  resolve: {
-    root: [path.join(__dirname, '/dist/bower_components')]
-  },
-
-  // externals: {
-  // require("jquery") is external and available on the global var jQuery
-  //   'jquery': 'jQuery'
-  //   'jquery': {
-  //     root: 'jQuery',
-  //     commonjs: 'jquery',
-  //     commonjs2: 'jquery',
-  //     amd: 'jquery'
-  //   }
-  // },
 
   module: {
     loaders: [{
       test: /\.js$/,
-      // exclude: /(node_modules|'bower_components)/,
+      // exclude: /(node_modules|bower_components)/,
       exclude: [nodeModulesPath],
       // https://github.com/babel/babel-loader#options
-      loader: 'babel-loader?presets[]=es2015&cacheDirectory=true!script-loader!uglify-loader',
+      // loader: 'babel?presets[]=es2015&cacheDirectory=true!script!uglify'
+      loader: 'script-loader!uglify-loader'
     }]
   },
 
@@ -60,7 +46,43 @@ var config = {
     mangle: false
   },
 
+  // resolve: {
+  //   root: [path.join(__dirname, '/src/bower_components')]
+  // },
+
+  // externals - for libs from tag script or cdn
+  // externals: {
+  //   'jquery': 'jQuery',
+  //   'jquery': '$'
+  // },
+
   plugins: [
+
+    new webpack.NoErrorsPlugin(),
+
+    new webpack.ResolverPlugin(
+      [new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin('bower.json', ['main'])], ['normal', 'loader']
+    ),
+
+    // new BowerWebpackPlugin({
+    //   modulesDirectories: ['src/bower_components'],
+    //   manifestFiles: 'bower.json',
+    //   includes: /.*/,
+    //   excludes: /.*\.less$/
+    // }),
+
+    // providePlugin - for libs from local path
+    // new webpack.ProvidePlugin({
+    //   $: 'jquery',
+    //   jQuery: 'jquery',
+    //   'window.jQuery': 'jquery'
+    //   // 'jquery-ui',
+    //   // 'jquery.ui.touch-punch-improved',
+    //   // 'jquery.scrollbar',
+    //   // 'jquery.validate',
+    //   // 'attrchange',
+    //   // 'pubnub',
+    // }),
 
     new webpack.optimize.DedupePlugin(),
 
@@ -71,30 +93,11 @@ var config = {
 
       output: {
         comments: false,
-        semicolons: true
+        // semicolons: true
       }
     }),
 
-    // new webpack.ProvidePlugin({
-    //   $: 'jquery',
-    //   jQuery: 'jquery',
-    //   'window.jQuery': 'jquery',
-    //   PUBNUB: 'PUBNUB',
-    //   Cookies: 'js-cookie'
-    // }),
-
     // new webpack.HotModuleReplacementPlugin(),
-
-    new webpack.ResolverPlugin(
-      [new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin('bower.json', ['main'])], ['normal', 'loader']
-    ),
-
-    new BowerWebpackPlugin({
-      modulesDirectories: ['bower_components'],
-      manifestFiles: ['bower.json', '.bower.json'],
-      includes: /.*/,
-      excludes: /.*\.less$/
-    }),
 
     // new WebpackNotifierPlugin(),
   ]

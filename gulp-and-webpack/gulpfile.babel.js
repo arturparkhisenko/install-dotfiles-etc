@@ -5,6 +5,7 @@
 // gulp serve --gulpfile gulpfile.babel.js
 // https://github.com/PolymerElements/polymer-starter-kit
 // webpack vs jspm/systemjs
+// babel-polyfill, babel-runtime https://medium.com/@jcse/clearing-up-the-babel-6-ecosystem-c7678a314bf3#.hp4onxplh
 // TODO: switch to that gulpfile after polybuild suffix support added
 // TODO: clean package.json
 // TODO: add PostCSS, by guide http://code.tutsplus.com/tutorials/postcss-quickstart-guide-gulp-setup--cms-24543

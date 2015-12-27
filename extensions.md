@@ -4,85 +4,88 @@
 
 ## Atom
 
-- [ ] sync-settings
-- [x] solarized-dark-syntax (default)
-- [x] seti-ui
-- [x] todo-show
-- [x] atom-ternjs
-- [x] autoclose-html
-- [x] autocomplete-paths
 - [x] atom-beautify
 - [x] atom-css-comb
 - [x] atom-language-postcss
+- [x] atom-ternjs
+- [x] autoclose-html
+- [x] autocomplete-paths
 - [x] autoprefixer
-- [x] polymer-atom (from polylabs)
 - [x] docblockr
+- [x] editorconfig (sindresorhus)
 - [x] emmet
-- [ ] highlight-cov
 - [x] highlight-line
 - [x] highlight-selected
+- [x] javascript-snippets
 - [x] language-javascript-better
 - [x] linter
 - [x] linter-csslint
-- [x] linter-htmlhint
 - [x] linter-eslint
+- [x] linter-htmlhint
 - [x] linter-jsxhint
+- [x] linter-stylelint
 - [x] local-history
-- [x] javascript-snippets
+- [x] merge-conflicts
 - [x] minimap
 - [x] minimap-git-diff
-- [x] react
-- [x] rainbow-tabs (or rainbox-tabs)
-- [x] editorconfig (sindresorhus)
 - [x] pigments / webbox-color
-- [x] merge-conflicts
-- [ ] symbols-tree-view
-- [ ] synced-sidebar
-- [ ] tree-view-open-files
-- [ ] hyperclick
-- [ ] js-hyperclick
+- [x] polymer-atom (from polylabs)
+- [x] rainbow-tabs (or rainbox-tabs)
+- [x] react
+- [x] seti-ui
+- [x] solarized-dark-syntax (default)
+- [x] todo-show
+- [ ] activate-power-mode
+- [ ] atom-typescript
+- [ ] cursor-history
 - [ ] git-log
 - [ ] git-plus
+- [ ] highlight-cov
+- [ ] hyperclick
+- [ ] js-hyperclick
+- [ ] symbols-tree-view
+- [ ] sync-settings
+- [ ] synced-sidebar
+- [ ] tree-view-open-files
 - [ ] turbo-javascript
-- [ ] activate-power-mode
 
 ## Atom temporary
 
-- [ ] linter-scss-lint
-- [ ] language-javascript-jsx
-- seti-syntax
-- minifier
-- polymer-snippets
-- fixmyjs
-- linter-jscs
-- linter-jshint
-- linter-xo
-- jshint by sindresorhus
-- merge-conflicts
-- autocomplete-modules
-- atom-polymer
-- autocomplete-polymer
-- project-manager
-- script
-- clipboard-plus
 - angularjs
 - atom-fuzzy-grep
+- atom-polymer
 - atom-terminal
 - atom-x
+- autocomplete-modules
+- autocomplete-polymer
+- clipboard-plus
 - color-picker
 - comment
 - file-icons
+- fixmyjs
+- jshint by sindresorhus
+- language-javascript-jsx
+- linter-jscs
+- linter-jshint
 - linter-php
 - linter-phpcs
 - linter-phpmd
+- linter-scss-lint
+- linter-xo
+- livereload
+- merge-conflicts
+- minifier
 - minimap-color-highlight
 - minimap-highlight-selected
 - myth
+- polymer-snippets
+- project-manager
+- remote-edit or secure copy
+- script
 - set-syntax
+- seti-syntax
 - tool-bar
 - tool-bar-main
-- livereload
-- remote-edit or secure copy
 
 ## Atom shortcuts
 
@@ -94,147 +97,147 @@
 
 ## IntelliJ IDEA Php/WebStorm
 
-- [x] Markdown
-- [x] Spy-js
+- [x] bashsupport
 - [x] code glance
 - [x] ignore
-- [x] bashsupport
+- [x] Markdown
+- [x] Spy-js
 - [ ] AngularJS
-- [ ] scss-lint
 - [ ] css-x-fire
 - [ ] phonegap
+- [ ] scss-lint
 
 ## Chrome
 
-- [x] github-notifier
-- [x] github-highlight-selected
 - [x] github-awesome-autocomple
-- [x] Https Everywhere
+- [x] github-highlight-selected
+- [x] github-notifier
 - [x] Google Docs Offline
+- [x] HTTP/2 and SPDY indicator
+- [x] Https Everywhere
 - [x] Motivation
 - [x]  [stop-autoplay-for-youtube](https://chrome.google.com/webstore/detail/stop-autoplay-for-youtube/figkapeodjhdgnpiamleongcmecfjccb/)
-- [x] HTTP/2 and SPDY indicator
-- [ ] Polymer DevTools Extension
-- [ ] uBlock Origin / AdBlock
-- [ ] Perfmap
-- [ ] Password Alert
+- [ ] batarang
 - [ ] BuiltWith technology profiler
-- [ ] Disconnect
-- [ ] Yslow
-- [ ] JetBrains IDE Support
-- [ ] WhatFont / Fontface Ninja
-- [ ] PerfectPixel by WellDoneCode
+- [ ] Cacoo (прототипирование и построение диаграмм)
+- [ ] clear-session
+- [ ] CSS Shapes Editor
 - [ ] DHC / Postman Interceptor / Postman
-- [ ] Meta seo inspector
-- [ ] SEO Site Tools, Site Analysis
-- [ ] SEOquake
-- [ ] perfectpixel-by-welldonec
 - [ ] Dimensions Legacy
-- [ ] MyPermissions Cleaner
-- [ ] LinguaLeo English Tracker
-- [ ] Visual Event
-- [ ] Kingsquare HTML Validator
-- [ ] PageSpeed Insights (by Google)
-- [ ] Page Ruler
+- [ ] Disconnect
+- [ ] Ember Inspector
 - [ ] JavaScript Error Notifier
+- [ ] JetBrains IDE Support
+- [ ] Kingsquare HTML Validator
+- [ ] LinguaLeo English Tracker
 - [ ] Live Web Development
-- [ ] Simple Time Track
-- [ ] Tab Ahead
-- [ ] The Great Suspender
+- [ ] Meta seo inspector
+- [ ] MyPermissions Cleaner
+- [ ] ng-inspector for AngularJS
+- [ ] Page Ruler
+- [ ] PageSpeed Insights (by Google)
+- [ ] Password Alert
+- [ ] perfectpixel-by-welldonec
+- [ ] PerfectPixel by WellDoneCode
+- [ ] Perfmap
+- [ ] Polymer DevTools Extension
+- [ ] Proxy [Hola](https://chrome.google.com/webstore/detail/unlimited-free-vpn-hola/gkojfkhlekighikafcpjkiklfbnlmeio)
+- [ ] qSnap
 - [ ] qSnap (скриншоты страницы + хостинг скриншотов)
 - [ ] RegExp Tester (тестирование регул¤рных выражений)
-- [ ] Cacoo (прототипирование и построение диаграмм)
-- [ ] Ember Inspector
-- [ ] Proxy [Hola](https://chrome.google.com/webstore/detail/unlimited-free-vpn-hola/gkojfkhlekighikafcpjkiklfbnlmeio)
-- [ ] batarang
-- [ ] ng-inspector for AngularJS
-- [ ] CSS Shapes Editor
-- [ ] qSnap
+- [ ] SEOquake
+- [ ] SEO Site Tools, Site Analysis
+- [ ] Simple Time Track
+- [ ] Tab Ahead
 - [ ] Tape
+- [ ] The Great Suspender
+- [ ] uBlock Origin / AdBlock
+- [ ] Visual Event
 - [ ] Web Developer Checklist
+- [ ] WhatFont / Fontface Ninja
 - [ ] Xdebug helper
-- [ ] clear-session
+- [ ] Yslow
 
 **url to run chrome app list:**
 "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --show-app-list
 
 ## Firefox
 
-- pixel-perfect
 - adblock-plus
 - builtwith
 - disconnect
-- yslow
 - dust-me-selectors
+- pixel-perfect
+- yslow
 
 ## Wordpress
 
-- iThemes Security
 - All in one Favicon
 - AntiVirus
+- BackupWordpress
+- BackWPup Free - WordPress Backup Plugin
 - Contact form 7
+- Crayon syntax
+- Custom login
+- easy-prism-syntax-highlighter
+- Google Captcha
 - Google Language Translator
 - Hide Comments, Disable Comments
-- Use Google Libraries
-- Custom login
-- Crayon syntax
-- easy-prism-syntax-highlighter
-- BackWPup Free - WordPress Backup Plugin
-- BackupWordpress
+- iThemes Security
+- Login LockDown
 - mail poet newsletters
-- RSS Footer
 - qTranslate
 - query monitor
-- Login LockDown
 - Revisium WordPress Theme Checker
+- RSS Footer
 - Sucuri Security
-- Google Captcha
+- Use Google Libraries
 
 ### SEO
 
-- Yoast SEO, WordPress SEO Plugin
 - Redirection
 - Rus-to-lat / Cyr-To-Lat / Polylang
+- Yoast SEO, WordPress SEO Plugin
 
 ### performance
 
+- cache-buddy
 - Prerender and Prefetch
 - w3-total-cache / WP Super Cache / WP-HTML-Compression
-- Wp-optimize / Autoptimize
 - Wp-maintanance
-- cache-buddy
+- Wp-optimize / Autoptimize
 
 ### content (sliders/etc.)
 
+- amr shortcode any widget
+- Blocks Of Content
+- Collapsing Categories
+- EWWW Image Optimizer
+- Insert Pages
+- master slider
+- Master Slider
+- Mega menu
+- Menu icons
+- MouseWheel Smooth Scroll
+- Note - A live edit text widget
+- Portfolio Magic / nimble portfolio
+- PostMash
+- Responsive Lightbox
+- Responsive Lightbox
+- Responsive Menu
+- Responsive WordPress Slider - Soliloquy Lite
+- revolution slider
+- Slideshow Gallery
+- Smart WYSIWYG
+- Smooth Scroll
+- testimonial slider
+- TinyMCE advanced
+- Typekit WP
+- WYSIWYG Widgets / Widget Blocks
 - [ACF  Advanced Сustom Fields](https://github.com/elliotcondon/acf/)
 - [CPT UI](https://wordpress.org/plugins/custom-post-type-ui/)
-- [shortcode-widget](https://wordpress.org/plugins/shortcode-widget/)
-- amr shortcode any widget
 - [list-category-posts](https://wordpress.org/plugins/list-category-posts/)
-- Note - A live edit text widget
-- Insert Pages
-- Collapsing Categories
-- WYSIWYG Widgets / Widget Blocks
-- TinyMCE advanced
-- EWWW Image Optimizer
-- Responsive Lightbox
-- Typekit WP
-- Menu icons
-- Slideshow Gallery
-- Smooth Scroll
-- Mega menu
-- revolution slider
-- master slider
-- testimonial slider
-- Responsive WordPress Slider - Soliloquy Lite
-- Master Slider
-- Responsive Lightbox
-- Portfolio Magic / nimble portfolio
-- MouseWheel Smooth Scroll
-- Responsive Menu
-- Blocks Of Content
-- PostMash
-- Smart WYSIWYG
+- [shortcode-widget](https://wordpress.org/plugins/shortcode-widget/)
 
 ### theme/commerce
 
@@ -269,47 +272,47 @@ Allow: /
 
 ## Brackets
 
+- angularjs code hints
+- angularjs for brackets
+- atom light theme
+- autoprefixer
+- Beautify
+- Bigger Extensions Panel
 - Brackets Fonts
 - brackets icons
-- Bigger Extensions Panel
+- Closure Linter
 - CSSfier
-- emmet
+- csslint
 - editorconfig
+- emmet
+- Epic Linter
 - ES6 As JS
 - extension highlighter
 - Extensions Rating
+- FixMyJs
+- FTP-Sync (eqFTP)
+- htmlhint better than Brackets htmllint
+- http://www.apptoix.com/#bracketstoix
+- Indent Guides
+- Integrated Development
+- jshint
+- jsonlint extension for brackets
 - markdown preview
+- minifier
+- monokai theme
+- More HTML5 Code Hints
+- php code quality tools
+- phplint for brackets php must installed
+- php syntax hint
+- Pop-up Menu Brackets
 - preferences setup ui
-- quickdocsphp
 - quickdocsjs
+- quickdocsphp
 - Quick Search
 - response for brackets
-- FTP-Sync (eqFTP)
-- http://www.apptoix.com/#bracketstoix
-- Integrated Development
-- Indent Guides
-- Pop-up Menu Brackets
-- monokai theme
-- atom light theme
-- angularjs code hints
-- angularjs for brackets
-- php code quality tools
-- [PHP-SIG] PHP SmartHints
-- php syntax hint
-- Strict JavaScript
-- FixMyJs
-- Beautify
-- minifier
-- autoprefixer
-- More HTML5 Code Hints
-- htmlhint better than Brackets htmllint
-- csslint
 - scsslint
-- jshint
-- Epic Linter
-- jsonlint extension for brackets
-- Closure Linter
-- phplint for brackets php must installed
+- Strict JavaScript
+- [PHP-SIG] PHP SmartHints
 
 ## ADBLOCK
 

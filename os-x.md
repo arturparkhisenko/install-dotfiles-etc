@@ -56,18 +56,18 @@
 
 ## OS_X Soft
 
+- [CleanMyMac](http://macpaw.com/cleanmymac)
+- [CrossOver](http://www.codeweavers.com/products/) and [Parallels](http://www.parallels.com/) for win apps
+- [F.lux](http://stereopsis.com/flux/) screen color change
+- [iExplorer](http://www.macroplant.com/iexplorer/) transfering files between ios devices
+- [Induction](http://inductionapp.com/) db
 - [LiveView](http://www.zambetti.com/)
+- [Monolingual](http://monolingual.sourceforge.net/) remove unnened langs
+- [Moom](http://manytricks.com/moom/) Managing app windows
+- [Paragon NTFS on Mac](http://www.paragon-software.com/home/ntfs-mac/)
 - [Reflector](http://www.airsquirrels.com/reflector/) like LiveView
 - [ScreenFlow](http://www.telestream.net/screenflow/) for recording
-- [Induction](http://inductionapp.com/) db
-- [Paragon NTFS on Mac](http://www.paragon-software.com/home/ntfs-mac/)
-- [F.lux](http://stereopsis.com/flux/) screen color change
-- [Moom](http://manytricks.com/moom/) Managing app windows
 - [The Unarchiver](http://wakaba.c3.cx/s/apps/unarchiver.html)
-- [CrossOver](http://www.codeweavers.com/products/) and [Parallels](http://www.parallels.com/) for win apps
-- [iExplorer](http://www.macroplant.com/iexplorer/) transfering files between ios devices
-- [Monolingual](http://monolingual.sourceforge.net/) remove unnened langs
-- [CleanMyMac](http://macpaw.com/cleanmymac)
 
 ## not mine OS_X soft
 - [awesome-osx](https://github.com/iCHAIT/awesome-osx)
