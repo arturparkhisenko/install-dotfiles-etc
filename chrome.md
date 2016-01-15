@@ -1,23 +1,19 @@
-## config
-
+# config
 - enable sourcemaps + livereload for css/js
 - add blackboxing in chrome like that: `/jquery.*\.js`
 
-## keybinds
-
+# keybinds
 - ctrl+u - source
 - f12 - devtools
 - ctrl+w - close
 - shift+tab / ctrl+shift+tab - moving on tabs
 
-## flags
-
+# flags
 - chrome://flags/#enable-fast-unload
 - chrome://flags/#enable-javascript-harmony
-- chrome://flags/#disable-hyperlink-auditing — disable it anyway :)
+- chrome://flags/#disable-hyperlink-auditing -- disable it anyway :)
 
-## console pro tips
-
+# console pro tips
 - `$_` the result of the last expression
 - `$0` or `$$0` selected el DOM node in the elements panel
 - `$$('header')`

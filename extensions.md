@@ -1,9 +1,7 @@
 # Extensions for TextEditor's/IDE's/CMS's
-
 > currently installed - marked as completed
 
 ## Atom
-
 - [x] atom-beautify
 - [x] atom-css-comb
 - [x] atom-language-postcss
@@ -16,7 +14,6 @@
 - [x] emmet
 - [x] highlight-line
 - [x] highlight-selected
-- [x] javascript-snippets
 - [x] language-javascript-better
 - [x] linter
 - [x] linter-csslint
@@ -28,6 +25,7 @@
 - [x] merge-conflicts
 - [x] minimap
 - [x] minimap-git-diff
+- [x] minimap-linter
 - [x] pigments / webbox-color
 - [x] polymer-atom (from polylabs)
 - [x] rainbow-tabs (or rainbox-tabs)
@@ -35,21 +33,32 @@
 - [x] seti-ui
 - [x] solarized-dark-syntax (default)
 - [x] todo-show
+- [x] turbo-javascript
 - [ ] activate-power-mode
+- [ ] atom-react-native-css
 - [ ] atom-typescript
 - [ ] cursor-history
 - [ ] git-log
 - [ ] git-plus
 - [ ] highlight-cov
 - [ ] hyperclick
+- [ ] javascript-snippets
 - [ ] js-hyperclick
 - [ ] symbols-tree-view
 - [ ] sync-settings
 - [ ] synced-sidebar
 - [ ] tree-view-open-files
-- [ ] turbo-javascript
+
+- [ ] fast-eslint
+- [ ] headerify
+- [ ] emoji-syntax
 
 ## Atom temporary
+
+- github-2016-syntax
+- atom-refactoring-tools
+- megafinder
+- atom-watcher
 
 - angularjs
 - atom-fuzzy-grep
@@ -88,7 +97,6 @@
 - tool-bar-main
 
 ## Atom shortcuts
-
 - `ctrl-shift-d` - duplicate line
 - `ctrl+r` - symbol lookup
 - `ctrl+alt+w` - wrap text inside a html tag
@@ -96,7 +104,6 @@
 - `ctrl+shift+p` - command palette
 
 ## IntelliJ IDEA Php/WebStorm
-
 - [x] bashsupport
 - [x] code glance
 - [x] ignore
@@ -108,7 +115,6 @@
 - [ ] scss-lint
 
 ## Chrome
-
 - [x] github-awesome-autocomple
 - [x] github-highlight-selected
 - [x] github-notifier
@@ -134,6 +140,7 @@
 - [ ] Meta seo inspector
 - [ ] MyPermissions Cleaner
 - [ ] ng-inspector for AngularJS
+- [ ] [Octo Linker](https://chrome.google.com/webstore/detail/octo-linker/jlmafbaeoofdegohdhinkhilhclaklkp)
 - [ ] Page Ruler
 - [ ] PageSpeed Insights (by Google)
 - [ ] Password Alert
@@ -158,11 +165,9 @@
 - [ ] Xdebug helper
 - [ ] Yslow
 
-**url to run chrome app list:**
-"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --show-app-list
+**url to run chrome app list:** "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --show-app-list
 
 ## Firefox
-
 - adblock-plus
 - builtwith
 - disconnect
@@ -171,7 +176,6 @@
 - yslow
 
 ## Wordpress
-
 - All in one Favicon
 - AntiVirus
 - BackupWordpress
@@ -194,13 +198,11 @@
 - Use Google Libraries
 
 ### SEO
-
 - Redirection
 - Rus-to-lat / Cyr-To-Lat / Polylang
 - Yoast SEO, WordPress SEO Plugin
 
 ### performance
-
 - cache-buddy
 - Prerender and Prefetch
 - w3-total-cache / WP Super Cache / WP-HTML-Compression
@@ -208,7 +210,6 @@
 - Wp-optimize / Autoptimize
 
 ### content (sliders/etc.)
-
 - amr shortcode any widget
 - Blocks Of Content
 - Collapsing Categories
@@ -240,7 +241,6 @@
 - [shortcode-widget](https://wordpress.org/plugins/shortcode-widget/)
 
 ### theme/commerce
-
 - responsive theme
 - wordpress-theme-smartadapt
 - [woocommerce plugins](http://www.designswaggs.com/web-design/20-best-free-woocommerce-plugins-for-wordpress/)
@@ -249,6 +249,7 @@
 - Visual composer
 
 robots.txt:
+
 ```
 User-Agent: *
 Disallow: /cgi-bin
@@ -263,7 +264,6 @@ Allow: /
 ```
 
 ## NP++
-
 - [x] converter
 - [x] dspellcheck
 - [x] html tag
@@ -271,7 +271,6 @@ Allow: /
 - [x] jslint
 
 ## Brackets
-
 - angularjs code hints
 - angularjs for brackets
 - atom light theme
@@ -292,7 +291,7 @@ Allow: /
 - FixMyJs
 - FTP-Sync (eqFTP)
 - htmlhint better than Brackets htmllint
-- http://www.apptoix.com/#bracketstoix
+- [http://www.apptoix.com/#bracketstoix](http://www.apptoix.com/#bracketstoix)
 - Indent Guides
 - Integrated Development
 - jshint
@@ -316,15 +315,17 @@ Allow: /
 
 ## ADBLOCK
 
-    ##div[class*="banner-widget1-2"]
-    ##div[class*="banner-widget1-1"]
-    ##http://gotlinks.co/
-    @@|*anistar.ru*
-    @@|*gravatar*
-    @@|*git*
-    @@|*jsfiddle.net*
-    @@|*valkyrie-wow*
-    @@|*battle.net*
-    @@|*codeschool.com*
-    @@|*github.io*
-    @@|*inbox.google.com*
+```
+##div[class*="banner-widget1-2"]
+##div[class*="banner-widget1-1"]
+##http://gotlinks.co/
+@@|*anistar.ru*
+@@|*gravatar*
+@@|*git*
+@@|*jsfiddle.net*
+@@|*valkyrie-wow*
+@@|*battle.net*
+@@|*codeschool.com*
+@@|*github.io*
+@@|*inbox.google.com*
+```

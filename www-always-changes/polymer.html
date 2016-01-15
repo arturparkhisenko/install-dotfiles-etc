@@ -4,12 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <title>Polymer-edge</title>
+
+  <!-- When Safari is in split-screen mode, viewport meta tags
+  with the "width=device-width" attribute cause the page to
+  scale down to fit content that overflows the viewport bounds.
+  You can override this behavior by adding "shrink-to-fit=no"
+  to your meta tag, as shown below. The added value will
+  prevent the page from scaling to fit the viewport. When
+  Safari is not in split-screen mode, the content will
+  not scale down. -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
 </head>
 
 <body>
 
   <style>
-    /* :host ::content or >>>. Deprecated: /deep/ and ::shadow */
 
     :host(div) {}
 
@@ -25,6 +36,8 @@
 
     :host::content x-panel::content h1 {}
 
+    /* :host ::content or >>>. Deprecated: /deep/ and ::shadow */
+    /*http://www.w3.org/TR/css-scoping-1/#deep-combinator*/
     x-foo /deep/ h1 {}
 
     x-foo >>> h1 {}
