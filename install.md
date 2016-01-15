@@ -41,6 +41,8 @@
 - [ ] [fbreader](https://fbreader.org/)
 - [ ] [KeePass](http://keepass.info/)
 
+Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) [https://windirstat.info](https://windirstat.info)
+
 ## Linux (apt)
 - `sudo apt-get install meld` - diff tool
 - [Plank](https://launchpad.net/plank)
@@ -58,17 +60,68 @@
 - [ ] [Back in Time](http://backintime.le-web.org/)
 
 ## Win
-- Corel Draw
+- Corel Draw / Corel Painter
 - Kompas
 - Solid Works
-- [blue-screen]([http://www.nirsoft.net/utils/blue_screen_view.html#DownloadLinks](http://www.nirsoft.net/utils/blue_screen_view.html#DownloadLinks)
+- [adwCleaner](https://toolslib.net/downloads/viewdownload/1-adwcleaner/)
+- [ASCON KOMPAS](http://edu.ascon.ru/main/download/freeware/)
+- Audacity
+- avc-free
+- avz4
+- [Babun](https://babun.github.io/)
+- [blue-screen]([http://www.nirsoft.net/utils/blue_screen_view.html#DownloadLinks)
+- CCEnhancer
 - [Ccleaner](https://www.piriform.com/ccleaner/download)
-- [cmder](http://cmder.net/)/[babun](https://babun.github.io/) - + Install-plugin posh-git
+- [Cmder](http://cmder.net/)
+- CD burner xp cdbxp
+- ClassicShell
+- Cmder
+- Composer
+- Curl
 - [Curse](https://www.curse.com)
+- DarkComet RAT Legacy
 - [Defraggler](https://www.piriform.com/defraggler/download)
+- DevID_agent
+- DjVuSolo
+- DoNotSpy10
+- DoPDF
+- dxWebSetup
+- FreeCommander
 - [FileOptimizer](http://nikkhokkho.sourceforge.net/static.php?page=FileOptimizer)
+- freeFTPd
+- freeSSHd
+- GeForce Experience
 - [Github Desktop](https://desktop.github.com/)
-- [https://irzyxa.wordpress.com/2015/08/10/volume1-1-4-347/](https://irzyxa.wordpress.com/2015/08/10/volume1-1-4-347/)
+- HDDLLF
+- HijackThis
+- i.Disk
 - [InternetCensor](http://icensor.ru/)
+- IpScan
+- JPEGmini
 - [KLite Full](http://www.codecguide.com/download_k-lite_codec_pack_full.htm)
+- mp3tag
+- MySQLWorkbench
+- Notepad++
+- Novicorp WinToFlash
+- Open Server
+- procexp
 - [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+- Rufus
+- SOCRAT (translator)
+- Sony PC Companion_Web
+- Speccy
+- sqlyog
+- [svg explorer extension](https://svgextension.codeplex.com/)
+- Tnod
+- Tweak-Me
+- UNetBootin-windows
+- Universal-USB-Installer
+- USBVaccineSetup
+- USBWriter
+- UwAmp web server
+- Win-to-usb-DirectGRUB
+- WinDjView
+- WinSCP
+- WinSetupFromUSB
+- winsxslite
+- [https://irzyxa.wordpress.com/2015/08/10/volume1-1-4-347/](https://irzyxa.wordpress.com/2015/08/10/volume1-1-4-347/)

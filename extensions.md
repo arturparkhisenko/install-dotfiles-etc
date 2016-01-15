@@ -9,6 +9,7 @@
 - [x] autoclose-html
 - [x] autocomplete-paths
 - [x] autoprefixer
+- [x] background-tips
 - [x] docblockr
 - [x] editorconfig (sindresorhus)
 - [x] emmet
@@ -38,20 +39,20 @@
 - [ ] atom-react-native-css
 - [ ] atom-typescript
 - [ ] cursor-history
+- [ ] emoji-syntax
+- [ ] fast-eslint
 - [ ] git-log
 - [ ] git-plus
+- [ ] headerify
 - [ ] highlight-cov
 - [ ] hyperclick
 - [ ] javascript-snippets
 - [ ] js-hyperclick
+- [ ] paste-image-2
 - [ ] symbols-tree-view
 - [ ] sync-settings
 - [ ] synced-sidebar
 - [ ] tree-view-open-files
-
-- [ ] fast-eslint
-- [ ] headerify
-- [ ] emoji-syntax
 
 ## Atom temporary
 

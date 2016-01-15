@@ -10,9 +10,12 @@
 // TODO: clean package.json
 // TODO: add PostCSS, by guide http://code.tutsplus.com/tutorials/postcss-quickstart-guide-gulp-setup--cms-24543
 // TODO: add gulp-strip-debug ?
+// cssnano
 // TODO: eslint check with flag, disabled by default
 // TODO: https://github.com/PolymerElements/polymer-starter-kit/blob/master/docs/add-es2015-support-babel.md
 // polylint -> polybuild (include: vulcanize, crisper, polyclean)
+// babel-core babel-preset-es2015 gulp-babel prettydiff
+// also we can use babel-cli locally
 
 // plugins & paths
 import gulp from 'gulp';
@@ -237,7 +240,7 @@ gulp.task('html', () => {
     // .pipe($.if('*.css', $.cssmin()))
     .pipe($.useref())
     // Minify Any HTML
-    .pipe($.minifyHtml({
+    .pipe($.htmlmin({
       empty: true,
       spare: true,
       quotes: true,
@@ -261,7 +264,7 @@ gulp.task('polybuild', () => {
     }))
     .pipe(gulp.dest('src/elements'));
 
-  // .pipe($.minifyHtml({
+  // .pipe($.htmlmin({
   //   empty: true,
   //   spare: true,
   //   quotes: true,

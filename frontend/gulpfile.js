@@ -26,7 +26,10 @@ var path = require('path');
 var version = null;
 var isProd = false;
 
-//cssmin -> minifycss = require('gulp-minify-css'),
+// babel-core babel-preset-es2015 gulp-babel prettydiff
+// also we can use babel-cli locally
+
+//cssmin -> cssnano = require('gulp-minify-css'),
 //minifyInline = require('gulp-minify-inline'),
 
 gulp.task('getversion', function() {
@@ -278,7 +281,7 @@ gulp.task('html', function() {
     .pipe(assets.restore())
     .pipe($.useref())
     // Minify Any HTML
-    .pipe($.if('*.html', $.minifyHtml({
+    .pipe($.if('*.html', $.htmlmin({
       quotes: true,
       empty: true,
       spare: true

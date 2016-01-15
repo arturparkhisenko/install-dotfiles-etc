@@ -12,6 +12,7 @@
 - Intel Smart Response Technology (SRT)
 
 ## boot fix, run from liveCD
+- [Boot-repair](https://help.ubuntu.com/community/Boot-Repair)
 - `sudo add-apt-repository ppa:yannubuntu/boot-repair`
 - `sudo apt-get update`
 - `sudo apt-get install -y boot-repair`

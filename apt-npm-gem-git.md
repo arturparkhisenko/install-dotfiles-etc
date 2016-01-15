@@ -1,9 +1,7 @@
 # Linux
-
 - Date format `%Y%m%e, %a, %H:%M`
 
 # Git config (first commit/push)
-
 - `git config --global user.email "your@email.com"`
 - `git config --global user.name "yourname"`
 - `git config --global push.default simple`
@@ -14,75 +12,57 @@
 - `git push`
 
 ## git update forked repository (syncing-a-fork) [official doc](https://help.github.com/articles/syncing-a-fork/)
-
 - `git remote add upstream https://github.com/whoever/whatever.git`
 - `git fetch upstream`
 - `git checkout master`
 - `git merge upstream/master` or `git rebase upstream/master`
-or
+- or
 - `git stash`
 - `git pull`
 - `git stash list`
 - `git stash pop`
 
 ## git revert commit (not files)
-
 - `git config --global alias.undo-commit 'reset --soft HEAD^'` Then just type git `undo-commit`
 
 # [Oh My ZSH](http://ohmyz.sh/)
-
-### Required:
-
+## Required:
 - `sudo apt-get install git-core`
 
-### Install:
-
+## Install:
 - `sudo apt-get install zsh`
 - `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 - `sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
 - `sudo shutdown -r 0` - restart after install
 
-### Config:
-
+## Config:
 - [Themes](http://zshthem.es)
 
 # APT
-
-### all
-
+## all
 - `sudo apt-get autoclean && sudo apt-get autoremove && sudo apt-get update`
 
-### build tools
-
+## build tools
 - `sudo apt-get install git git-core curl yui-compressor`
 - `sudo apt-get install zlib1g-dev build-essential sqlite3 libsqlite3-dev python-software-properties`
 - `sudo apt-get install libyaml-dev libssl-dev libreadline-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev`
 
-### ruby
-
+## ruby
 - `sudo apt-get install ruby-full rubygems-integration`
 
-### java
-
+## java
 - `sudo apt-get install default-jre default-jdk`
 
-### fonts
-
+## fonts
 - `sudo apt-get install fonts-droid fonts-noto ttf-mscorefonts-installer`
 
-### fix textures in openGL
-
+## fix textures in openGL
 - `sudo apt-get install lib32-mesa-libgl`
 - `sudo apt-get install libtxc-dxtn-s2tc0 libtxc-dxtn-s2tc0:i386`
 - `sudo apt-get install program:i386 gcc-multilib`
 
-Your steam apps try to use the steam supplied libstdc++.so.6 version and  that's to old for most arch pacakges (in this case the lib32-llvm-libs package ).
-try rm /home/jonas/.local/share/Steam/ubuntu12_32/steam-runtime/i386/usr/lib/i386-linux-gnu/libstdc++.so.6
-
-### PHP & APACHE
-
+## PHP & APACHE
 - lamp or xampp
-
 - `sudo apt-get install php5 php5-cli php5-common php-apc php-pear php5-xdebug php5-curl php5-dev php5-xsl php5-intl`
 - `sudo apt-get install apache2`
 - `sudo a2enmod rewrite`
@@ -90,21 +70,23 @@ try rm /home/jonas/.local/share/Steam/ubuntu12_32/steam-runtime/i386/usr/lib/i38
 - `sudo apt-get install mysql-server mysql-client`
 - `sudo apt-get install php5-mysql`
 - `sudo apt-get install phpmyadmin`
-sudo nano /etc/apache2/apache2.conf add-this-at-the-end -> Include /etc/phpmyadmin/apache.conf
+
+config:
+  - `sudo nano /etc/apache2/apache2.conf ``
+  - add-this-at-the-end -> `Include /etc/phpmyadmin/apache.conf`
 
 - ubuntu 15.0+ sudo service apache2 restart
 
-### PHP FIXERS
-
+## PHP FIXERS
 - `sudo pear channel-update PEAR`
 - `sudo pear upgrade PEAR`
 - `sudo pear channel-discover pear.phing.info`
 - `sudo pear install phing/phing`
 - `sudo pear install PHP_CodeSniffer`
-necessary if you already have installed phpunit via apt-get
+- necessary if you already have installed phpunit via apt-get
 - `sudo apt-get remove phpunit`
-https://phpunit.de/getting-started.html
-install newest version of phpunit
+- [https://phpunit.de/getting-started.html](https://phpunit.de/getting-started.html)
+- install newest version of phpunit
 - `sudo pear channel-discover pear.phpunit.de`
 - `sudo pear channel-discover pear.symfony-project.com`
 - `sudo pear channel-discover components.ez.no`
@@ -116,13 +98,10 @@ install newest version of phpunit
 - `sudo chmod a+x /usr/local/bin/php-cs-fixer`
 
 # nodejs & npm
-
-### install
-
+## install
 - [linux](https://github.com/nodesource/distributions#installation-instructions)
 
-#### update nodejs on linux
-
+### update nodejs on linux
 - `sudo npm cache clean -f`
 - `sudo npm install -g n`
 - `sudo n stable`
@@ -130,12 +109,10 @@ install newest version of phpunit
 - `npm install arturparkhisenko/ig-css-addons`
 - `npm update -g`
 
-#### update npm on windows
-
+### update npm on windows
 - [npm-windows-upgrade](https://github.com/felixrieseberg/npm-windows-upgrade)
 
-### npm commands
-
+## npm commands
 - `npm root -g` root folder of global modules
 - `npm config get prefix` show npm path
 - `npm list -g --depth=0` show globally installed plugins
@@ -145,10 +122,9 @@ install newest version of phpunit
 **bower**
 - `bower cache clean`
 
-### npm packages
-
-- `sudo npm i -g eslint eslint-plugin-html eslint-plugin-import csslint babel-core gulp prettydiff`
-- `npm i -g npm-check-updates `
+## npm packages
+- `sudo npm i -g eslint eslint-plugin-html eslint-plugin-import csslint gulp`
+- `npm i -g npm-check-updates`
 - all bower packages install from github like arturparkhisenko/ig-css-addons
 - `ncu -m bower` - check bower.json updates
 - `ncu -g` - check global updates
@@ -172,14 +148,12 @@ install newest version of phpunit
 - `--no-cache --update $FileName$:$FileNameWithoutExtension$.min.css --style compressed`
 - update file with .min too!
 
-#### upgrade node
-
+### upgrade node
 - `sudo npm cache clean -f`
 - `sudo npm install -g n`
 - `sudo n stable`
 
-### nvm
-
+## nvm
 - `nvm ls-remote`
 - `nvm install 0.11.13`
 - `nvm use 0.11.13`
@@ -187,31 +161,23 @@ install newest version of phpunit
 - `nvm ls`
 - `nvm alias default 0.11.13`
 
-### gulp
-
+## gulp
 - `npm adduser name`
 - `npm publish - to update`
-https://www.npmjs.org/package/gulp-gold
-http://habrahabr.ru/post/177465/
-http://habrahabr.ru/post/208890/
-http://browsenpm.org/package.json
+- [https://www.npmjs.org/package/gulp-gold](https://www.npmjs.org/package/gulp-gold)
+- [http://habrahabr.ru/post/177465/](http://habrahabr.ru/post/177465/)
+- [http://habrahabr.ru/post/208890/](http://habrahabr.ru/post/208890/)
+- [http://browsenpm.org/package.json](http://browsenpm.org/package.json)
 
-### ionic
-
+## ionic
 - `npm install -g cordova ionic`
 - `ionic start myApp sidemenu`
-http://ionicframework.com/docs/guide/starting.html
-https://github.com/driftyco/ionic-contrib-frosted-glass
+- [http://ionicframework.com/docs/guide/starting.html](http://ionicframework.com/docs/guide/starting.html)
+- [https://github.com/driftyco/ionic-contrib-frosted-glass](https://github.com/driftyco/ionic-contrib-frosted-glass)
 - `cordova platform update ios`
 - `cordova platform update android`
 
-### postCSS
-
-**Plugins ([here](http://postcss.parts/)):**
-global @use: autoprefixer, css-next, images
-
 # GEM
-
 **path to gems will be like:** /var/lib/gems/1.8/bin
 
 [RubyGems](https://rubygems.org/pages/download)
@@ -227,7 +193,6 @@ global @use: autoprefixer, css-next, images
 - [ ] `gem install sass-globbing bundler bourbon`
 
 # GIT
-
 - `git config --global color.ui true`
 - `git config --global user.name "YOUR NAME"`
 - `git config --global user.email "YOUR@EMAIL.com"`
@@ -236,19 +201,17 @@ global @use: autoprefixer, css-next, images
 - `ssh -T git@github.com`
 
 # phpStorm
-
 - for PHPUnit Code Completion add PHPUnit path under file->settings->directories
-- Usually it’s stored in
-/usr/share/php/PHPUnit
+- Usually it's stored in
+- /usr/share/php/PHPUnit
 - for PHPUnit Skeleton Generator add phpunit-skelgen under file->settings->ProjectSettings->PHP->PHPUnit->SkeletonGenerator
 - Usually it's stored in
-/usr/bin/phpunit-skelgen
+- /usr/bin/phpunit-skelgen
 
 # PHP CONFIG
-
-Change this settings in /etc/php5/cli/php.ini for for all webservers
-Change this settings in /etc/php5/apache2/php.ini if you have installed apache2
-Change this settings in /etc/php5/fpm/php.ini if you have installed nginx and fpm
+- Change this settings in /etc/php5/cli/php.ini for for all webservers
+- Change this settings in /etc/php5/apache2/php.ini if you have installed apache2
+- Change this settings in /etc/php5/fpm/php.ini if you have installed nginx and fpm
 - memory_limit = 512m
 - display_errors = On
 - html_errors = On
@@ -256,20 +219,14 @@ Change this settings in /etc/php5/fpm/php.ini if you have installed nginx and fp
 - upload_max_filesize = 32m
 - default_charset = utf8
 
-Debugging with XDebug on Browser and Command line
-The example is made for PHPStorm IDE with Apache2 webserver. But other IDE's or webservers should work in a similar way.
+```
+Debugging with XDebug on Browser and Command line The example is made for PHPStorm IDE with Apache2 webserver. But other IDE's or webservers should work in a similar way.
+```
 
-Ubuntu 12.04
-Edit /etc/php5/cli/conf.d/xdebug.ini
-Ubuntu 14.04
-with php-fpm -> sudo ln -s /etc/php5/mods-available/xdebug.ini /etc/php5/fpm/conf.d/20-xdebug.ini
-with apache2 -> sudo ln -s /etc/php5/mods-available/xdebug.ini /etc/php5/apache2/conf.d/20-xdebug.ini
-with cli -> sudo ln -s /etc/php5/mods-available/xdebug.ini /etc/php5/cli/conf.d/20-xdebug.ini
-Edit /etc/php5/mods-available/xdebug.ini
-Configuration
+- Ubuntu 12.04 Edit `/etc/php5/cli/conf.d/xdebug.ini`
+- Ubuntu 14.04 with php-fpm -> sudo ln -s /etc/php5/mods-available/xdebug.ini /etc/php5/fpm/conf.d/20-xdebug.ini with apache2 -> sudo ln -s /etc/php5/mods-available/xdebug.ini /etc/php5/apache2/conf.d/20-xdebug.ini with cli -> sudo ln -s /etc/php5/mods-available/xdebug.ini /etc/php5/cli/conf.d/20-xdebug.ini Edit /etc/php5/mods-available/xdebug.ini Configuration
 
 # xdebug.ini
-
 - xdebug.remote_enable=On
 - xdebug.remote_host=localhost
 - xdebug.remote_port=9002
@@ -279,31 +236,18 @@ Configuration
 - xdebug.profiler_enable_trigger=Off
 - xdebug.profiler_output_dir="/tmp/kcachegrind"
 - xdebug.max_nesting_level = 1000
-
 - `sudo service apache2 restart`
 
--Add to /home/<your_username>/.bashrc
-export XDEBUG_CONFIG="PHPSTORM";
+-Add to /home/<your_username>/.bashrc export XDEBUG_CONFIG="PHPSTORM";
 
--reload bash settings
-source ~/.bashrc
-Edit Settings in PHPStorm
-Go to File->Settings->PHP->Debug
-Change XDebug Debug Port to 9002
-Install Easy XDebug Plugin for Firefox
-https://addons.mozilla.org/de/firefox/addon/easy-xdebug/
+-reload bash settings source ~/.bashrc Edit Settings in PHPStorm Go to File->Settings->PHP->Debug Change XDebug Debug Port to 9002 Install Easy XDebug Plugin for Firefox [https://addons.mozilla.org/de/firefox/addon/easy-xdebug/](https://addons.mozilla.org/de/firefox/addon/easy-xdebug/)
 
 # SERVER
+if phpmyadmin not found: sudo ln -s /usr/share/phpmyadmin /var/www/html/ Include /etc/phpmyadmin/apache.conf
 
-if phpmyadmin not found:
-sudo ln -s /usr/share/phpmyadmin /var/www/html/
-Include /etc/phpmyadmin/apache.conf
+-dontuse: -vsftpd -[http://ubuntuforums.org/showthread.php?t=518293](http://ubuntuforums.org/showthread.php?t=518293) -[https://www.digitalocean.com/community/tutorials/how-to-configure-vsftpd-to-use-ssl-tls-on-an-ubuntu-vps](https://www.digitalocean.com/community/tutorials/how-to-configure-vsftpd-to-use-ssl-tls-on-an-ubuntu-vps)
 
--dontuse:
--vsftpd
--http://ubuntuforums.org/showthread.php?t=518293
--https://www.digitalocean.com/community/tutorials/how-to-configure-vsftpd-to-use-ssl-tls-on-an-ubuntu-vps
-
+```
     <VirtualHost dropbox.local:80>
         DocumentRoot "E:/Documenten/Dropbox/Dropbox/dummy-htdocs"
         ServerName dropbox.local
@@ -376,3 +320,4 @@ Include /etc/phpmyadmin/apache.conf
     Restart the server
 
     All the things are in place now. Restart the server and open http://localhost.samplewebsite. You should see your website…
+```
