@@ -29,8 +29,9 @@ var isProd = false;
 // babel-core babel-preset-es2015 gulp-babel prettydiff
 // also we can use babel-cli locally
 
-//cssmin -> cssnano = require('gulp-minify-css'),
-//minifyInline = require('gulp-minify-inline'),
+// cssmin || minifyCss -> cssnano = require('gulp-cssnano'),
+// minifyHtml -> htmlmin (gulp)
+// minifyInline = require('gulp-minify-inline'),
 
 gulp.task('getversion', function() {
   version = JSON.parse(fs.readFileSync('./package.json', 'utf8')).version;

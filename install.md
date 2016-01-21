@@ -40,6 +40,7 @@
 
 - [ ] [fbreader](https://fbreader.org/)
 - [ ] [KeePass](http://keepass.info/)
+- [ ] xnview mp
 
 Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) [https://windirstat.info](https://windirstat.info)
 

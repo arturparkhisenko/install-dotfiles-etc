@@ -54,6 +54,8 @@
 - [ ] synced-sidebar
 - [ ] tree-view-open-files
 
+- [ ] meld-diff
+
 ## Atom temporary
 
 - github-2016-syntax
