@@ -78,6 +78,22 @@
     Polymer.dom(this).classList.add('module-audio-mixer-tab-content');
     this.toggleClass('module-audio-mixer-tab-content', true);
 
+    // polymer parent:
+    //dom: 'shadow', noone working!
+    var parentThis = Polymer.dom(this);
+    var parentPoly = Polymer.dom(this).parentNode;
+    var parentIn0 = Polymer.dom(this).parentNode.querySelector('main-control-panel');
+    var parentIn1 = Polymer.dom(this.parentNode).node.querySelector('.layout-co');
+    var parentParent = Polymer.dom(parent);
+    var parentParent = Polymer.dom(this.root);
+    //dom: 'shady'
+    var getParentPoly = Polymer.dom(this).parentElement;
+    var getParentPolyParentNode = Polymer.dom(this).parentNode;
+    var getParentPolyInParentNode = Polymer.dom(this.parentNode).node;
+    var getParentNode = this.parentNode;
+    var getParentElement = this.parentElement;
+
+    // they are equall
     Polymer.dom(Polymer.dom(this.parentNode).parentNode).node
     Polymer.dom(this).parentNode
 
