@@ -53,16 +53,13 @@
 - [ ] sync-settings
 - [ ] synced-sidebar
 - [ ] tree-view-open-files
-
 - [ ] meld-diff
 
 ## Atom temporary
-
 - github-2016-syntax
 - atom-refactoring-tools
 - megafinder
 - atom-watcher
-
 - angularjs
 - atom-fuzzy-grep
 - atom-polymer
@@ -167,6 +164,8 @@
 - [ ] WhatFont / Fontface Ninja
 - [ ] Xdebug helper
 - [ ] Yslow
+- [ ] [data-saver](https://chrome.google.com/webstore/detail/data-saver/pfmgfdlgomnbgkofeojodiodmgpgmkac)
+- [ ] [dotjs](https://chrome.google.com/webstore/detail/dotjs/dlnccnmhpmdidoiecanghgienhoglnim)
 
 **url to run chrome app list:** "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --show-app-list
 

@@ -9,6 +9,7 @@
 - gulp -> npm start / npm test on src/dist
 
 ## linting
+- eslint-plugin-html
 - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
 
 ## bundlers

@@ -76,5 +76,7 @@ place new and local fonts to user /home/.fonts/
 - Menlo
 - Monaco
 - Ubuntu Mono
+- [monoid](https://github.com/larsenwork/monoid)
+- [Gidole](https://github.com/larsenwork/Gidole)
 - [Hack](https://github.com/chrissimpkins/Hack)
 - [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) from adobe

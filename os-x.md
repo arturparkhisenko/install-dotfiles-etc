@@ -95,6 +95,7 @@
 - Sketch 3
 - Slack
 - xScope 4
+- [alfred](https://github.com/willfarrell/alfred-pkgman-workflow)
 - [awesome-osx](https://github.com/iCHAIT/awesome-osx)
 - [BitTorrent Sync](https://www.getsync.com/platforms/desktop)
 - [ColorSnapper](http://colorsnapper.com/)
