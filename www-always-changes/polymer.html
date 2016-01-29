@@ -50,6 +50,30 @@
     :host-context(.blocky)::content {}
 
     .content-wrapper >::content .special {}
+
+    /*CSS selectors like :host.className don't seem to work under shadow DOM in Chrome, but do work under shady DOM. Conversely, :host-context(:host.className) doesn't work under shady DOM, but does work under shadow DOM.*/
+    :host.green { color: green; }
+    /*Works in shady DOM: http://jsfiddle.net/mgiuffrida/whL7n62m/
+    Doesn't work in shadow DOM: http://jsfiddle.net/mgiuffrida/ym39fs8x/*/
+    :host-context(:host.green) { color: green; }
+    /*Doesn't work in shady DOM: http://jsfiddle.net/mgiuffrida/7o9eq5n1/
+    Works in shadow DOM: http://jsfiddle.net/mgiuffrida/qvswxkmb/*/
+    :host-context(body.mac) .selector {
+      padding-top: 5px;
+    }
+    /*http://jsbin.com/mituyibuzu/edit?html,output
+    Using .class ::content div will not override outside styling.
+    Using #container ::content div will.*/
+
+    /* working like: if a parent have this class, i will be red!*/
+    :host-context(.blocky) {
+      display: block;
+      background: red;
+    }
+    :host {
+      display: block;
+      background: green;
+    }
   </style>
 
   <script>

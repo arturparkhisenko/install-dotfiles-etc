@@ -42,6 +42,7 @@
 - gulp-jscs-stylish: ^1.3.0,
 - gulp-jscs: ^3.0.2,
 - gulp-jshint: ^2.0.0,
+- gulp-license
 - gulp-livereload: ^3.8.1,
 - gulp-load-plugins: ^1.2.0,
 - gulp-minify-inline: ^0.1.1,

@@ -4,6 +4,13 @@
   "version": "1.0.0",
   "description": "example-package.json",
   "main": "index.js",
+  "jsnext:main": "index.es2015.js",
+  "babel": {
+    "presets": [
+      "es2015",
+      "retainLines": true
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arturparkhisenko/example-package.json.git"
@@ -24,7 +31,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
     "test": "gulp test:local",
     "start": "gulp serve",
-    "start": "npm run lite",
+    "start": "npm run lite && run xxx",
     "lite": "lite-server",
     "lint": "gulp lint",
     "clean": "rimraf ./dist && mkdir dist",

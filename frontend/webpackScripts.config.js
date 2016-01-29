@@ -1,22 +1,20 @@
 //webpack --progress --colors
 //webpack-dev-server --progress --colors
 //http://localhost:8080/webpack-dev-server/
+//https://github.com/webpack/docs/wiki/shimming-modules
+//https://www.npmjs.com/package/globals-loader
+//http://stackoverflow.com/questions/23305599/webpack-provideplugin-vs-externals
 
 var webpack = require('webpack');
 var path = require('path');
-
-var BowerWebpackPlugin = require('bower-webpack-plugin');
-// var WebpackNotifierPlugin = require('webpack-notifier');
+// var BowerWebpackPlugin = require('bower-webpack-plugin');
 var nodeModulesPath = path.resolve(__dirname, 'node_modules');
 
 var config = {
-  // using multiple entries because es6 loaders
-  // not working with es5 classes in global scope
   entry: {
     bundle: [
-      './src/bower_components/jquery/dist/jquery.js',
       //App files
-      './src/scripts/app.js',
+      '.app.js'
     ]
   },
 
@@ -25,8 +23,6 @@ var config = {
   watch: false,
 
   output: {
-    // path: path.join(__dirname, 'assets'),
-    // path: __dirname + '/dist/scripts',
     path: __dirname + '/src/scripts',
     filename: '[name].js'
   },
@@ -60,9 +56,9 @@ var config = {
 
     new webpack.NoErrorsPlugin(),
 
-    new webpack.ResolverPlugin(
-      [new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin('bower.json', ['main'])], ['normal', 'loader']
-    ),
+    // new webpack.ResolverPlugin(
+    //   [new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin('bower.json', ['main'])], ['normal', 'loader']
+    // ),
 
     // new BowerWebpackPlugin({
     //   modulesDirectories: ['src/bower_components'],
@@ -90,16 +86,12 @@ var config = {
       compress: {
         warnings: false
       },
-
       output: {
-        comments: false,
+        comments: false
         // semicolons: true
       }
-    }),
+    })
 
-    // new webpack.HotModuleReplacementPlugin(),
-
-    // new WebpackNotifierPlugin(),
   ]
 
 };

@@ -1,5 +1,9 @@
 {
   "extends": "eslint:recommended",
+  "parser": "babel-eslint",
+  "ecmaFeatures": {
+    "modules": true
+  },
   "env": {
     "browser": true,
     "node": true,

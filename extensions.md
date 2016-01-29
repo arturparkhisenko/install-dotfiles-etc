@@ -54,6 +54,7 @@
 - [ ] synced-sidebar
 - [ ] tree-view-open-files
 - [ ] meld-diff
+- [ ] atomic-chrome
 
 ## Atom temporary
 - github-2016-syntax
@@ -109,6 +110,7 @@
 - [x] ignore
 - [x] Markdown
 - [x] Spy-js
+- [x] key promoter
 - [ ] AngularJS
 - [ ] css-x-fire
 - [ ] phonegap

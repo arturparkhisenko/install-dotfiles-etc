@@ -42,6 +42,8 @@ In the "device" section of your xorg.conf:
 - `sudo apt-get autoclean` - Like clean, autoclean clears out the local repository of retrieved package files. The difference is that it only removes package files that can no longer be downloaded, and are largely useless. This allows a cache to be maintained over a long period without it growing out of control. The configuration option APT::Clean-Installed will prevent installed packages from being erased if it is set to off.
 - `sudo apt-get autoremove` - is used to remove packages that were automatically installed to satisfy dependencies for some package and that are no more needed.
 
+- `sudo dmidecode --type 0` hardware info
+
 ## Ubuntu greeter
 run: `sudo gedit /etc/lightdm/lightdm.conf`
 
