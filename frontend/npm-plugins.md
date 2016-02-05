@@ -27,12 +27,14 @@
 - gulp-autoprefixer: ^3.1.0,
 - gulp-babel: ^6.1.1,
 - gulp-cache: ^0.4.1,
+- gulp-cached(slower) === gulp-since (faster, touch)
 - gulp-changed: ^1.3.0,
 - gulp-concat: ^2.6.0,
 - gulp-connect: ^2.3.1,
 - gulp-crisper: ^1.0.0,
 - gulp-csslint: ^0.2.0,
 - gulp-cssnano: ^2.1.0,
+- gulp-debug (echo filenames)
 - gulp-gh-pages: ^0.5.4,
 - gulp-html-extract: ^0.1.0,
 - gulp-html-postcss: ^6.0.1,
@@ -46,8 +48,12 @@
 - gulp-livereload: ^3.8.1,
 - gulp-load-plugins: ^1.2.0,
 - gulp-minify-inline: ^0.1.1,
+- gulp-newer
+- gulp-notify
 - gulp-order: ^1.1.1,
 - gulp-postcss: ^6.0.1,
+- gulp-plumber
+- gulp-remember (for css/js)
 - gulp-rename: ^1.2.2,
 - gulp-replace: ^0.5.4,
 - gulp-rollup: ^1.7.0,
@@ -84,6 +90,7 @@
 - sw-precache
 - sw-toolbox
 - trash
+- tiny-lr (livereload)
 - uglify-js
 - uglify-loader: ^1.3.0,
 - url-loader

@@ -409,3 +409,45 @@ var fs = require('fs');
 gulp.task('getversion', function() {
   version = JSON.parse(fs.readFileSync('./package.json', 'utf8')).version;
 });
+
+// NEW GULP4+ -----------------------------------------------------------------
+
+gulp.task('build', gulp.series(
+  'clean',
+  gulp.parallel('styles', 'assets')
+));
+gulp.task('assets', function(){
+  return gulp.src('src/**', {since: gulp.lastRun('src')})
+    .pipe(newer('dist'))
+    //autoprefixer or babel for remember
+    //clean is placed in watcher
+    .pipe(remember('nameAkaStyles'))
+    .pipe(debug({title: 'assets'}))
+    .pipe(gulp.dest('dist'))
+});
+gulp.task('assets', function(){
+  return gulp.src('src/**')
+    .pipe(cached('assets'))
+    //autoprefixer or babel for remember
+    //clean is placed in watcher
+    .pipe(remember('nameAkaStyles'))
+    .pipe(debug({title: 'assets'}))
+    .pipe(gulp.dest('dist'))
+});
+gulp.task('watch', function(){
+  gulp.watch('src/**', gulp.series('assets'))
+  //gulp dont delere files from dist, use unlink
+    .on('unlink', function(filepath){
+      remember.forget('assets', path.resolve(filepath));
+      delete cached.caches.styles[path.resolve(filepath)];
+    });
+});
+gulp.task('serve', function(){
+  browserSync.init({
+    server: 'dist'
+  });
+  browserSync.watch('src/**/*.*').on('change', browserSync.reload);
+});
+gulp.task('dev',
+  gulp.series('build', gulp.parallel('watch', 'serve'))
+);

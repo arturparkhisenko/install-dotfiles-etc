@@ -25,6 +25,12 @@
 ## git revert commit (not files)
 - `git config --global alias.undo-commit 'reset --soft HEAD^'` Then just type git `undo-commit`
 
+## clone git repository with specific revision/changeset?
+- `git clone $URL`
+- `git reset --hard $SHA1`
+- that's all!
+- `git pull` - go back to the most recent commit
+
 # [Oh My ZSH](http://ohmyz.sh/)
 ## Required:
 - `sudo apt-get install git-core`

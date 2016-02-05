@@ -20,3 +20,7 @@
 - `copy(document.body)` copy to the clipboard, and will JSON.stringify objects, but also get the outer HTML of DOM nodes, `copy($0)` is pretty common for me
 - `inspect(document.body.firstChild)`
 - `console.timeStamp('Please be super fast, k?')`
+
+# blackboxing
+- `/jquery.*\.js`
+- `/polymer.*\.html`

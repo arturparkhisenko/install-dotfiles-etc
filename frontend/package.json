@@ -7,9 +7,10 @@
   "jsnext:main": "index.es2015.js",
   "babel": {
     "presets": [
-      "es2015",
-      "retainLines": true
-    ]
+      "es2015"
+    ],
+    "retainLines": true,
+    "only": "gulpfile.babel.js"
   },
   "repository": {
     "type": "git",
@@ -28,7 +29,7 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
     "test": "gulp test:local",
     "start": "gulp serve",
     "start": "npm run lite && run xxx",
@@ -36,9 +37,10 @@
     "lint": "gulp lint",
     "clean": "rimraf ./dist && mkdir dist",
     "prebuild": "npm run clean",
-    "build": "node build.js"
+    "build": "node build.js",
     "build2": "cross-env NODE_ENV=production webpack",
-    "postbuild": "echo I run after the build script"
+    "postbuild": "echo I run after the build script",
+    "gulp": "./node_modules/.bin/gulp"
   },
   "engines": {
     "node": ">=0.10.0"

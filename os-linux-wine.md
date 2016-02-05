@@ -1,6 +1,6 @@
 # wine-staging
 - I'd prefer to use 32bit wine now
-- `sudo apt-get install wine-staging-compat` or [install from wine-compholio](https://github.com/wine-compholio/wine-staging/wiki/Installation#-ubuntulinux-mint)
+- install [wine-staging](https://wine-staging.com/) from [wine-compholio](https://github.com/wine-compholio/wine-staging/wiki/Installation#-ubuntulinux-mint)
 - install [this packages](https://github.com/arturparkhisenko/install-dotfiles-etc/blob/master/apt-npm-gem-git.md#build-tools)
 - install WineTricks and [this libs](https://github.com/arturparkhisenko/install-dotfiles-etc/blob/master/os-linux-wine.md#required-libs)
 - that's all!

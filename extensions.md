@@ -55,6 +55,7 @@
 - [ ] tree-view-open-files
 - [ ] meld-diff
 - [ ] atomic-chrome
+- [ ] codecademy-atom-syntax
 
 ## Atom temporary
 - github-2016-syntax
@@ -168,6 +169,8 @@
 - [ ] Yslow
 - [ ] [data-saver](https://chrome.google.com/webstore/detail/data-saver/pfmgfdlgomnbgkofeojodiodmgpgmkac)
 - [ ] [dotjs](https://chrome.google.com/webstore/detail/dotjs/dlnccnmhpmdidoiecanghgienhoglnim)
+- [ ] [motivation (untill)](https://chrome.google.com/webstore/detail/motivation/kcngcjbgnnhcdgnaonkmjheanflddmpo?hl=ru)
+- [ ] [Leoh New Tab](https://chrome.google.com/webstore/detail/leoh-new-tab/ijhhakihjccpanbibbcceofpjnebokcb)
 
 **url to run chrome app list:** "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --show-app-list
 
