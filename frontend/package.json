@@ -40,6 +40,7 @@
     "build": "node build.js",
     "build2": "cross-env NODE_ENV=production webpack",
     "postbuild": "echo I run after the build script",
+    "prepublish": "npm run build && npm test",
     "gulp": "./node_modules/.bin/gulp"
   },
   "engines": {
