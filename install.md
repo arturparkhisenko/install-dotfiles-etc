@@ -3,7 +3,8 @@
 - OS_X
 - Deb.(deb) [Linux Mint](http://www.linuxmint.com/) Mate | Xfce | Cinnamon
 - Deb.(deb) [Ubuntu](http://www.ubuntu.com/) Unity | Mate | Gnome
-- Arch(rpm) [Manjaro](https://manjaro.github.io/) | [Antergos](http://antergos.com/) | [Fedora](https://getfedora.org/)
+- Deb.(deb) [Kali](https://www.kali.org/)
+- Arch(rpm) [Fedora](https://getfedora.org/) | [Manjaro](https://manjaro.github.io/) | [Antergos](http://antergos.com/)
 
 ## related to that
 - video server `wayland`

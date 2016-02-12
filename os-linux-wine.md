@@ -1,7 +1,7 @@
 # wine-staging
 - I'd prefer to use 32bit wine now
 - install [wine-staging](https://wine-staging.com/) from [wine-compholio](https://github.com/wine-compholio/wine-staging/wiki/Installation#-ubuntulinux-mint)
-- install [this packages](https://github.com/arturparkhisenko/install-dotfiles-etc/blob/master/apt-npm-gem-git.md#build-tools)
+- install(maybe you need only `build-essentials`) [this packages](https://github.com/arturparkhisenko/install-dotfiles-etc/blob/master/apt-npm-gem-git.md#build-tools)
 - install WineTricks and [this libs](https://github.com/arturparkhisenko/install-dotfiles-etc/blob/master/os-linux-wine.md#required-libs)
 - that's all!
 - if you have issues with textures you can fix it by installing [this packages](https://github.com/arturparkhisenko/install-dotfiles-etc/blob/master/apt-npm-gem-git.md#fix-textures-in-opengl)
@@ -50,12 +50,19 @@ WINEPREFIX=$scriptdir"/d3_hs_prefix" setarch i386 -3 wine "Battle.net Launcher.e
 # required libs
 - `sudo apt-get install winetricks`
 - everything beginning with `d3dx`, `dx9`, `dinput`, `direct` or `d3d`:
-- winetricks d3dx9 d3dx10 droid winxp sound=alsa volnum dotnet20 ie6 corefonts physx
+- install also this winetricks libs:
+```
+winetricks d3dx9 d3dx10 winxp sound=alsa dotnet20 ie6 corefonts physx
 winetricks quartz vcrun2005 vcrun2008 vcrun2010 wininet xact xact_jun2010 xinput
 winetricks glsl-disable ddr=opengl allfonts orm=fbo coresounds
 winetricks mfc40 mfc42 wmp10
 winetricks msxml3 msxml4 msxml6
 winetricks vb6run vcrun2003 vcrun6sp6 vcrun6 wsh56vb wsh57
+```
+- old winetricks libs:
+```
+winetricks droid volnum
+```
 
 # reinstall wine
 

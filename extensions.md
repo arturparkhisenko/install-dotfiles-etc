@@ -56,6 +56,7 @@
 - [ ] meld-diff
 - [ ] atomic-chrome
 - [ ] codecademy-atom-syntax
+- [ ] flux
 
 ## Atom temporary
 - github-2016-syntax
