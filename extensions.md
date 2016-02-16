@@ -45,9 +45,9 @@
 - [ ] git-plus
 - [ ] headerify
 - [ ] highlight-cov
-- [ ] hyperclick
+- [x] hyperclick
 - [ ] javascript-snippets
-- [ ] js-hyperclick
+- [x] js-hyperclick
 - [ ] paste-image-2
 - [ ] symbols-tree-view
 - [ ] sync-settings
@@ -57,6 +57,8 @@
 - [ ] atomic-chrome
 - [ ] codecademy-atom-syntax
 - [ ] flux
+- [x] sort-lines
+- [ ] atom-html-preview
 
 ## Atom temporary
 - github-2016-syntax
@@ -172,6 +174,7 @@
 - [ ] [dotjs](https://chrome.google.com/webstore/detail/dotjs/dlnccnmhpmdidoiecanghgienhoglnim)
 - [ ] [motivation (untill)](https://chrome.google.com/webstore/detail/motivation/kcngcjbgnnhcdgnaonkmjheanflddmpo?hl=ru)
 - [ ] [Leoh New Tab](https://chrome.google.com/webstore/detail/leoh-new-tab/ijhhakihjccpanbibbcceofpjnebokcb)
+- [ ] [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
 
 **url to run chrome app list:** "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --show-app-list
 

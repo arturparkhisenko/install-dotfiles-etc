@@ -11,9 +11,9 @@
 # Win updates
 1. stop service Windows Update
 2. clean c:\Windows\SoftwareDistribution\
-3. [BlockWindows aka Anti-Spy](https://github.com/WindowsLies/BlockWindows) and
-4. [CleanUnwantedUpdates](https://github.com/KOLANICH/CleanUnwantedUpdates)
-5. [WinsxsLite](https://sites.google.com/site/winsxslite/)
+3. [CleanUnwantedUpdates](https://github.com/KOLANICH/CleanUnwantedUpdates)
+4. [WinsxsLite](https://sites.google.com/site/winsxslite/)
+5. [DisableWinTracking](https://github.com/10se1ucgo/DisableWinTracking) or [BlockWindows aka Anti-Spy](https://github.com/WindowsLies/BlockWindows)
 
 ## Disable update to 10 notification
 - [GWX Control Panel](http://ultimateoutsider.com/downloads/)

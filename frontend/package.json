@@ -33,15 +33,24 @@
     "test": "gulp test:local",
     "start": "gulp serve",
     "start": "npm run lite && run xxx",
+    "server": "live-server --port=4240",
     "lite": "lite-server",
     "lint": "gulp lint",
     "clean": "rimraf ./dist && mkdir dist",
     "prebuild": "npm run clean",
     "build": "node build.js",
     "build2": "cross-env NODE_ENV=production webpack",
+    "build:js": "webpack",
     "postbuild": "echo I run after the build script",
     "prepublish": "npm run build && npm test",
-    "gulp": "./node_modules/.bin/gulp"
+    "gulp": "./node_modules/.bin/gulp",
+    "modulefoo": "modulefoo ./index.js",
+    "js:browserify:reactify": "browserify --debug -t reactify ./entry.js",
+    "watch:js": "npm run build:js --watch",
+    "css": "node-sass ./input.scss ./output.css",
+    "dist": "babel src --out-dir dist",
+    "sub-tasks": "npm-run-all build:* dist watch",
+    "parallel": "npm-run-all --parallel css js images"
   },
   "engines": {
     "node": ">=0.10.0"
