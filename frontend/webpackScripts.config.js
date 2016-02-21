@@ -83,12 +83,16 @@ var config = {
     new webpack.optimize.DedupePlugin(),
 
     new webpack.optimize.UglifyJsPlugin({
-      compress: {
+      compress: { //or compressor
+        pure_getters: true,
+        unsafe: true,
         warnings: false
+        // unsafe_comps: true, //not documented
+        // screw_ie8: true //not documented
       },
       output: {
         comments: false
-        // semicolons: true
+          // semicolons: true
       }
     })
 

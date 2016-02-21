@@ -10,11 +10,14 @@
 - [x] autocomplete-paths
 - [x] autoprefixer
 - [x] background-tips
+- [x] css-clean
 - [x] docblockr
 - [x] editorconfig (sindresorhus)
 - [x] emmet
 - [x] highlight-line
 - [x] highlight-selected
+- [x] hyperclick
+- [x] js-hyperclick
 - [x] language-javascript-better
 - [x] linter
 - [x] linter-csslint
@@ -33,32 +36,30 @@
 - [x] react
 - [x] seti-ui
 - [x] solarized-dark-syntax (default)
+- [x] sort-lines
 - [x] todo-show
 - [x] turbo-javascript
 - [ ] activate-power-mode
+- [ ] atom-html-preview
 - [ ] atom-react-native-css
 - [ ] atom-typescript
+- [ ] atomic-chrome
+- [ ] codecademy-atom-syntax
 - [ ] cursor-history
 - [ ] emoji-syntax
 - [ ] fast-eslint
+- [ ] flux
 - [ ] git-log
 - [ ] git-plus
 - [ ] headerify
 - [ ] highlight-cov
-- [x] hyperclick
 - [ ] javascript-snippets
-- [x] js-hyperclick
+- [ ] meld-diff
 - [ ] paste-image-2
 - [ ] symbols-tree-view
 - [ ] sync-settings
 - [ ] synced-sidebar
 - [ ] tree-view-open-files
-- [ ] meld-diff
-- [ ] atomic-chrome
-- [ ] codecademy-atom-syntax
-- [ ] flux
-- [x] sort-lines
-- [ ] atom-html-preview
 
 ## Atom temporary
 - github-2016-syntax
@@ -107,6 +108,18 @@
 - `ctrl+alt+w` - wrap text inside a html tag
 - `ctrl+p` - fuzzy search
 - `ctrl+shift+p` - command palette
+
+## Atom tip
+1. Emmet in .php
+If anyone reads this, I found another way:
+In your `keybindings.cson`, simply add
+```
+'.pane .editor:not(.mini)':
+  'tab': 'emmet:expand-abbreviation'
+```
+This will make Emmet works in .php files (overriding emmet:expand-abbreviation-with-tab action)
+Care this might cause conflicts with other plugins as autocomplete or autocomplete-plus.
+
 
 ## IntelliJ IDEA Php/WebStorm
 - [x] bashsupport
@@ -188,19 +201,24 @@
 
 ## Wordpress
 - All in one Favicon
+- All in One SEO Pack
 - AntiVirus
 - BackupWordpress
 - BackWPup Free - WordPress Backup Plugin
+- bbPress
 - Contact form 7
 - Crayon syntax
 - Custom login
+- Dropbox Backup & Restore
 - easy-prism-syntax-highlighter
+- Google Analytics Dashboard for WP
 - Google Captcha
 - Google Language Translator
 - Hide Comments, Disable Comments
 - iThemes Security
 - Login LockDown
 - mail poet newsletters
+- Ninja Forms
 - qTranslate
 - query monitor
 - Revisium WordPress Theme Checker
