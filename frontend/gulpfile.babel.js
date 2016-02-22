@@ -7,7 +7,6 @@
 // rollup vs webpack vs jspm/systemjs
 // https://github.com/MaKleSoft/gulp-style-modules
 // TODO: add https://github.com/benmosher/eslint-plugin-import
-// TODO: postcss using autoprefixer + cssnano
 
 // Plugins & paths
 import gulp from 'gulp';
@@ -20,9 +19,15 @@ import path from 'path';
 import historyApiFallback from 'connect-history-api-fallback';
 import webpack from 'webpack';
 import wpConfig from './webpack.config.js';
-import autoprefixer from 'autoprefixer';
-import cssnano from 'cssnano';
 import polybuild from 'polybuild';
+
+// import autoprefixer from 'autoprefixer';
+import postcssImport from 'postcss-import';
+// import postcssUrl from 'postcss-url';
+import postcssCssnext from 'postcss-cssnext';
+import cssnano from 'cssnano';
+// import postcssBrowserReporter from 'postcss-browser-reporter';
+// import postcssReporter from 'postcss-reporter';
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
@@ -43,10 +48,16 @@ gulp.task('styles', () => {
       // extension: '.scss'
     }))
     .pipe($.sourcemaps.init())
-    .pipe($.sass({
-      outputStyle: 'compressed'
-    }))
-    .pipe($.autoprefixer(AUTOPREFIXER_BROWSERS))
+    .pipe($.postcss([
+      postcssImport(),
+      // require('postcss-url')(),
+      postcssCssnext({
+        // browsers: AUTOPREFIXER_BROWSERS
+      }), //autoprefixer included
+      cssnano()
+      // require('postcss-browser-reporter'),
+      // postcssReporter()
+    ]))
     .pipe($.rename({
       suffix: '.min'
     }))
@@ -79,6 +90,7 @@ gulp.task('scripts', () => {
   return gulp.src([
       'src/scripts/**/*.js'
     ])
+    .pipe($.changed('dist/scripts/'))
     .pipe(gulp.dest('dist/scripts/'))
     .pipe($.connect.reload());
 });
@@ -86,6 +98,7 @@ gulp.task('scripts', () => {
 // Images optimization
 gulp.task('images', () => {
   return gulp.src(['src/images/**/*'])
+    .pipe($.changed('dist/images/'))
     .pipe($.cache($.imagemin({
       progressive: true,
       interlaced: true
@@ -100,6 +113,7 @@ gulp.task('images', () => {
 // Scan Your HTML For Assets & Optimize Them
 gulp.task('html', () => {
   return gulp.src(['src/**/*.html', '!src/{elements,test}/**/*.html', '!src/scripts/third-party/**/*.html'])
+    .pipe($.changed('dist/'))
     // Minify Any HTML
     .pipe($.htmlmin({
       collapseWhitespace: true
@@ -116,6 +130,7 @@ gulp.task('html', () => {
 // Elements optimizations (for http2)
 const optimizeElementsTask = (src, dest) => {
   return gulp.src(src)
+    .pipe($.changed(dest))
     // .pipe($.fileAssets())
 
   // Script's (js)
@@ -396,6 +411,7 @@ gulp.task('jsbundle', function() {
 
 var babelify = require('babelify');
 var browserify = require('browserify');
+
 function buildBundle(file) {
   return browserify({
       entries: [file],
@@ -416,33 +432,39 @@ gulp.task('build', gulp.series(
   'clean',
   gulp.parallel('styles', 'assets')
 ));
-gulp.task('assets', function(){
-  return gulp.src('src/**', {since: gulp.lastRun('src')})
+gulp.task('assets', function() {
+  return gulp.src('src/**', {
+      since: gulp.lastRun('src')
+    })
     .pipe(newer('dist'))
     //autoprefixer or babel for remember
     //clean is placed in watcher
     .pipe(remember('nameAkaStyles'))
-    .pipe(debug({title: 'assets'}))
+    .pipe(debug({
+      title: 'assets'
+    }))
     .pipe(gulp.dest('dist'))
 });
-gulp.task('assets', function(){
+gulp.task('assets', function() {
   return gulp.src('src/**')
     .pipe(cached('assets'))
     //autoprefixer or babel for remember
     //clean is placed in watcher
     .pipe(remember('nameAkaStyles'))
-    .pipe(debug({title: 'assets'}))
+    .pipe(debug({
+      title: 'assets'
+    }))
     .pipe(gulp.dest('dist'))
 });
-gulp.task('watch', function(){
+gulp.task('watch', function() {
   gulp.watch('src/**', gulp.series('assets'))
-  //gulp dont delere files from dist, use unlink
-    .on('unlink', function(filepath){
+    //gulp dont delere files from dist, use unlink
+    .on('unlink', function(filepath) {
       remember.forget('assets', path.resolve(filepath));
       delete cached.caches.styles[path.resolve(filepath)];
     });
 });
-gulp.task('serve', function(){
+gulp.task('serve', function() {
   browserSync.init({
     server: 'dist'
   });

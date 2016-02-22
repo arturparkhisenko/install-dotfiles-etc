@@ -5,13 +5,6 @@
   "description": "example-package.json",
   "main": "index.js",
   "jsnext:main": "index.es2015.js",
-  "babel": {
-    "presets": [
-      "es2015"
-    ],
-    "retainLines": true,
-    "only": "gulpfile.babel.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arturparkhisenko/example-package.json.git"
@@ -26,6 +19,26 @@
   },
   "homepage": "https://github.com/arturparkhisenko/example-package.json#readme",
   "private": true,
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "retainLines": true,
+    "only": "gulpfile.babel.js"
+  },
+  "stylelint": {
+    "rules": {
+      "at-rule-empty-line-before": "never",
+      "comment-empty-line-before": "never",
+      "comment-whitespace-inside": "never",
+      "indentation": [
+        2
+      ]
+    }
+  },
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
@@ -51,8 +64,5 @@
     "dist": "babel src --out-dir dist",
     "sub-tasks": "npm-run-all build:* dist watch",
     "parallel": "npm-run-all --parallel css js images"
-  },
-  "engines": {
-    "node": ">=0.10.0"
   }
 }

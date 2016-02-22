@@ -82,3 +82,27 @@
 - exploration (20% of time)
 - investment (60% of time)
 - practice ($)
+
+## not an architecture
+### Code patterns:
+- Middleware
+- Routers
+- Single entry point...
+
+### OOP patterns:
+- Facade, Singletone
+- Mixin, Closure
+- Factory, Decorator
+- Class, Object
+- Prototype, Dependency Injection
+
+### GUI&DB Patterns:
+- MVC, MVP, MVVM
+- ORM, CRUD, Key-Value
+
+### Communication Patterns:
+- Pull/Push, Pub/Sub
+- REST, RPC, etc.
+
+### Deployment models:
+- Cloud, SaaS, PaaS

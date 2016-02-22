@@ -20,7 +20,7 @@
 - [x] js-hyperclick
 - [x] language-javascript-better
 - [x] linter
-- [x] linter-csslint
+- [ ] linter-csslint
 - [x] linter-eslint
 - [x] linter-htmlhint
 - [x] linter-jsxhint

@@ -57,6 +57,7 @@
 ## OS_X Soft
 - [CleanMyMac](http://macpaw.com/cleanmymac)
 - [CrossOver](http://www.codeweavers.com/products/) and [Parallels](http://www.parallels.com/) for win apps
+- [Dash](https://kapeli.com/dash) offline access to 150+ API documentation sets
 - [F.lux](http://stereopsis.com/flux/) screen color change
 - [iExplorer](http://www.macroplant.com/iexplorer/) transfering files between ios devices
 - [Induction](http://inductionapp.com/) db

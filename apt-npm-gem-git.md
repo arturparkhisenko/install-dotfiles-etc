@@ -5,6 +5,7 @@
 - `git config --global user.email "your@email.com"`
 - `git config --global user.name "yourname"`
 - `git config --global push.default simple`
+- `git config --global help.autocorrect -1`
 - `git add .` or `git add --all` with removed
 - `git status`
 - `git commit -a -m "init commit"`
@@ -129,8 +130,8 @@ config:
 - `bower cache clean`
 
 ## npm packages
-- `sudo npm i -g eslint eslint-plugin-html eslint-plugin-import csslint gulp`
-- `npm i -g npm-check-updates`
+- `sudo npm i -g eslint eslint-plugin-html eslint-plugin-import stylelint`
+- `npm i -g npm-check-updates npm-check npm-windows-upgrade`
 - all bower packages install from github like arturparkhisenko/ig-css-addons
 - `ncu -m bower` - check bower.json updates
 - `ncu -g` - check global updates
@@ -138,7 +139,7 @@ config:
 **not global**
 - `npm i -g sw-precache sw-toolbox`
 - `npm i -g babel-preset-es2015`
-- `npm i -g uglify-js gulp-babel sass babel-eslint jspm trash jshint jscs bower bower-check-updates`
+- `npm i -g uglify-js gulp-babel sass babel-eslint jspm trash csslint jshint jscs bower bower-check-updates`
 
 **webpack**
 - `npm i -D webpack bower-webpack-plugin`
