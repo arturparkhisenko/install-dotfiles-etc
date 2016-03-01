@@ -60,6 +60,9 @@
 - [ ] sync-settings
 - [ ] synced-sidebar
 - [ ] tree-view-open-files
+- [ ] scroll-percentage
+- [ ] vim-mode
+- [ ] ex-mode
 
 ## Atom temporary
 - github-2016-syntax

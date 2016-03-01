@@ -89,7 +89,7 @@
 - Routers
 - Single entry point...
 
-### OOP patterns:
+### OOP patterns (OOP it's all about state):
 - Facade, Singletone
 - Mixin, Closure
 - Factory, Decorator

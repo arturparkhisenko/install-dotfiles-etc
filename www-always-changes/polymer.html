@@ -28,21 +28,21 @@
 
     :host(x-foo:host) {}
 
-    :host(x-foo:host::content) {}
+    :host(x-foo::content) {}
 
     :host(x-foo:host::shadow) {}
 
     x-tabs::shadow x-panel::shadow h1 {}
 
-    :host::content x-panel::content h1 {}
+    ::content x-panel::content h1 {}
 
-    /* :host ::content or >>>. Deprecated: /deep/ and ::shadow */
+    /* ::content or >>>. Deprecated: /deep/ and ::shadow */
     /*http://www.w3.org/TR/css-scoping-1/#deep-combinator*/
     x-foo /deep/ h1 {}
 
     x-foo >>> h1 {}
 
-    :host::content {}
+    ::content {}
 
     :host.state,
     :host(.classOrAttr) {}
