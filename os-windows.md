@@ -44,5 +44,8 @@
 5. Go back to your cmd window and type `subst /d j:` to remove the drive or alternatively, restart your pc.
 
 # Win problems solving
-- [blue-screen]([http://www.nirsoft.net/utils/blue_screen_view.html#DownloadLinks](http://www.nirsoft.net/utils/blue_screen_view.html#DownloadLinks)
-- )
+- [blue_screen_view](http://www.nirsoft.net/utils/blue_screen_view.html#DownloadLinks)
+- cmd command: `sfc /scannow` check and replace
+- cmd command: `bootrec /FixMbr`
+- cmd command: `bootrec /FixBoot`
+- cmd command: `bootrec /RebuildBcd`

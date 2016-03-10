@@ -62,6 +62,7 @@
 - [iExplorer](http://www.macroplant.com/iexplorer/) transfering files between ios devices
 - [Induction](http://inductionapp.com/) db
 - [LiveView](http://www.zambetti.com/)
+- [Memory Clean - Monitor and Free Up Memory](https://itunes.apple.com/ru/app/memory-clean-monitor-free/id451444120?mt=12)
 - [Monolingual](http://monolingual.sourceforge.net/) remove unnened langs
 - [Moom](http://manytricks.com/moom/) Managing app windows
 - [Paragon NTFS on Mac](http://www.paragon-software.com/home/ntfs-mac/)

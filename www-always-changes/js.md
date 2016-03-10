@@ -11,6 +11,7 @@
 ## linting
 - eslint-plugin-html
 - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
+- [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
 
 ## bundlers
 ## transpile

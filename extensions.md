@@ -20,7 +20,6 @@
 - [x] js-hyperclick
 - [x] language-javascript-better
 - [x] linter
-- [ ] linter-csslint
 - [x] linter-eslint
 - [x] linter-htmlhint
 - [x] linter-jsxhint
@@ -47,22 +46,24 @@
 - [ ] codecademy-atom-syntax
 - [ ] cursor-history
 - [ ] emoji-syntax
+- [ ] ex-mode
 - [ ] fast-eslint
 - [ ] flux
+- [ ] git-control
 - [ ] git-log
 - [ ] git-plus
 - [ ] headerify
 - [ ] highlight-cov
 - [ ] javascript-snippets
+- [ ] linter-csslint
 - [ ] meld-diff
 - [ ] paste-image-2
+- [ ] scroll-percentage
 - [ ] symbols-tree-view
 - [ ] sync-settings
 - [ ] synced-sidebar
 - [ ] tree-view-open-files
-- [ ] scroll-percentage
 - [ ] vim-mode
-- [ ] ex-mode
 
 ## Atom temporary
 - github-2016-syntax
@@ -191,6 +192,8 @@ Care this might cause conflicts with other plugins as autocomplete or autocomple
 - [ ] [motivation (untill)](https://chrome.google.com/webstore/detail/motivation/kcngcjbgnnhcdgnaonkmjheanflddmpo?hl=ru)
 - [ ] [Leoh New Tab](https://chrome.google.com/webstore/detail/leoh-new-tab/ijhhakihjccpanbibbcceofpjnebokcb)
 - [ ] [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
+- [ ] [User-Agent Switcher for Google Chrome](https://chrome.google.com/webstore/detail/user-agent-switcher-for-g/ffhkkpnppgnfaobgihpdblnhmmbodake/related?hl=en-US&gl=US)
+- [ ] [Vysor](https://chrome.google.com/webstore/detail/vysor-beta/gidgenkbbabolejbgbpnhbimgjbffefm/related?hl=en-US)
 
 **url to run chrome app list:** "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --show-app-list
 

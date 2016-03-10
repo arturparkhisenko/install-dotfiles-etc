@@ -115,6 +115,7 @@ config:
 - `npm install NAME -g (globall) or -D (dependency)`
 - `npm install arturparkhisenko/ig-css-addons`
 - `npm update -g`
+- `npm-prune` to remove unlisted packages in package.json
 
 ### update npm on windows
 - [npm-windows-upgrade](https://github.com/felixrieseberg/npm-windows-upgrade)
