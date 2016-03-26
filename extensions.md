@@ -31,23 +31,27 @@
 - [x] minimap-linter
 - [x] pigments / webbox-color
 - [x] polymer-atom (from polylabs)
-- [x] rainbow-tabs (or rainbox-tabs)
 - [x] react
 - [x] seti-ui
 - [x] solarized-dark-syntax (default)
 - [x] sort-lines
 - [x] todo-show
 - [x] turbo-javascript
+- [x] vim-mode
 - [ ] activate-power-mode
+- [ ] atom-commander
 - [ ] atom-html-preview
 - [ ] atom-react-native-css
 - [ ] atom-typescript
 - [ ] atomic-chrome
+- [ ] auto-detect-indentation
+- [ ] auto-update-packages
 - [ ] codecademy-atom-syntax
 - [ ] cursor-history
 - [ ] emoji-syntax
 - [ ] ex-mode
 - [ ] fast-eslint
+- [ ] file-icons
 - [ ] flux
 - [ ] git-control
 - [ ] git-log
@@ -57,13 +61,18 @@
 - [ ] javascript-snippets
 - [ ] linter-csslint
 - [ ] meld-diff
+- [ ] no-syntax-highlighting-syntax
+- [ ] package-sync
+- [ ] package-sync-plus
 - [ ] paste-image-2
+- [ ] rainbow-tabs (or rainbox-tabs)
 - [ ] scroll-percentage
+- [ ] selectors
+- [ ] split-diff
 - [ ] symbols-tree-view
 - [ ] sync-settings
 - [ ] synced-sidebar
 - [ ] tree-view-open-files
-- [ ] vim-mode
 
 ## Atom temporary
 - github-2016-syntax
@@ -80,7 +89,6 @@
 - clipboard-plus
 - color-picker
 - comment
-- file-icons
 - fixmyjs
 - jshint by sindresorhus
 - language-javascript-jsx
@@ -138,6 +146,7 @@ Care this might cause conflicts with other plugins as autocomplete or autocomple
 - [ ] scss-lint
 
 ## Chrome
+- [x] [devtools-author](https://chrome.google.com/webstore/detail/devtools-author/egfhcfdfnajldliefpdoaojgahefjhhi)
 - [x] github-awesome-autocomple
 - [x] github-highlight-selected
 - [x] github-notifier

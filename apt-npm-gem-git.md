@@ -126,6 +126,7 @@ config:
 - `npm list -g --depth=0` show globally installed plugins
 - `sudo chown -R artur /usr/lib/node_modules/` fixing npm permissions
 - `npm cache clean -f`
+- `npm outdated`
 
 **bower**
 - `bower cache clean`

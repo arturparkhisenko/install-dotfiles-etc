@@ -103,6 +103,7 @@
     this.toggleClass('module-audio-mixer-tab-content', true);
 
     // polymer parent:
+    this.domHost === Polymer.dom(this).getOwnerRoot().host === Polymer.dom(this.parentNode).node
     //dom: 'shadow', noone working!
     var parentThis = Polymer.dom(this);
     var parentPoly = Polymer.dom(this).parentNode;
@@ -121,6 +122,15 @@
     Polymer.dom(Polymer.dom(this.parentNode).parentNode).node
     Polymer.dom(this).parentNode
 
+    Polymer.dom(document.body).querySelector('select-studio').shadowRoot.querySelector('.container')
+    The equivalent of `querySelector('el-parent').$$('#findme')` is `querySelector('el-parent').shadowRoot.querySelector('#findme')`
+    var divElement = document.createElement('select-studio');
+    divElement.attachShadow({mode: 'open'}); //v1
+    divElement.createShadowRoot({mode: 'open'}); //v0
+    app.innerHTML = '';
+    app.appendChild(divElement);
+
+
     //querySelector:
     Polymer.dom(this.root).querySelector('') //=== this.$$()
       //querySelectorAll:
@@ -128,6 +138,8 @@
     this.$$('#parent').querySelectorAll('')
 
     // http://jsbin.com/esufiv/3/edit?html,output
+    // child to parent
+    // http://jsbin.com/keyuxoxupe/edit?html,console,output
 
     //Polymer events fix:
     attached: function() {
