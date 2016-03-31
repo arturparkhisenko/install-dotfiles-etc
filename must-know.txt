@@ -1,0 +1,237 @@
+﻿# MUST KNOW (minimal? for web):
+> draft, пока черновик, список собирался с 2014го, чуть надо обновить
+
+## START
+
+Начать надо с самого главного:
+https://ru.wikipedia.org/wiki/HTTP
+https://github.com/karmazzin/eloquentjavascript_ru/blob/master/chapters/chapter17.md
+http://htmlbook.ru/samhtml/ssylki/absolyutnye-i-otnositelnye-ssylki
+
+Потом:
+https://ru.wikipedia.org/wiki/CSS
+https://ru.wikipedia.org/wiki/JavaScript
+
+[Книга EloquentJS](https://github.com/karmazzin/eloquentjavascript_ru), ну и по частям:
+Структура программ - https://github.com/karmazzin/eloquentjavascript_ru/blob/master/chapters/chapter2.md
+Структуры данных - https://github.com/karmazzin/eloquentjavascript_ru/blob/master/chapters/chapter4.md
+Функции - https://github.com/karmazzin/eloquentjavascript_ru/blob/master/chapters/chapter3.md
+Регулярные выражения - https://github.com/karmazzin/eloquentjavascript_ru/blob/master/chapters/chapter9.md
+Поля ввода форм - https://github.com/karmazzin/eloquentjavascript_ru/blob/master/chapters/chapter18.md
+
+DevTools(en):
+http://discover-devtools.codeschool.com/chapters/1/challenges/7
+
+Версионность
+http://semver.org/
+и конечно https://en.wikipedia.org/wiki/Version_control
+а туда же git/github (из старых: меркуриал)
+
+Респонсив, лейауты, вьюпорт:
+https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/set-the-viewport
+https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
+https://developers.google.com/speed/docs/insights/ConfigureViewport?hl=ru
+responsive and breakpoints
+https://www.google.com/design/spec/layout/responsive-ui.html#responsive-ui-breakpoints
+
+Список всего лучшего для работы по категориям
+https://github.com/bayandin/awesome-awesomeness
+
+Вроде норм кодгайд написания кода
+http://workmanship.io/
+http://forwebdev.ru/html/principles-for-writing-idiomatic-html/
+
+для тех кто знает/любит математику -> теория автоматов
+
+
+## FRONTEND
+https://developer.mozilla.org/ru/docs/Web/HTML
+https://developer.mozilla.org/ru/docs/Web/CSS
+https://developer.mozilla.org/ru/docs/Web/JavaScript
+
+html5/css3, css4, html5-boilerplate, bootstrap
+    CSS methodology
+    https://ru.bem.info/method/
+    https://operatino.github.io/MCSS/
+    http://habrahabr.ru/post/256109/
+    good to know: SVG, css animations/transitions, onediv styles, psd etiquette
+    http://i-love-psd.ru/
+    http://photoshopetiquette.com/
+    http://one-div.com/
+    http://a.singlediv.com/
+    http://ru.learnlayout.com/
+    pt,px,%,em,rem,vh,vw and etc:
+    http://shpargalkablog.ru/2013/03/px-em-calc.html
+    https://developers.google.com/web/fundamentals/layouts/rwd-patterns/
+    https://bradfrost.github.io/this-is-responsive/patterns.html
+JavaScript (ecmascript), es6, es7, babeljs
+    https://www.youtube.com/watch?v=aGTjRU7Dp20&list=PLo6puixMwuSNxJCgadaaavKqq4-ocKPrR
+    https://github.com/ikeagold/eloquentjavascript_ru/blob/master/chapters/chapter1.md
+    https://learn.javascript.ru/array-iteration
+  	https://github.com/ericelliott/essential-javascript-links
+    http://callbackhell.com/
+jquery, ui, mobile
+    http://jquery.com/
+    http://api.jquery.com/jQuery.noConflict/ noconflict mode
+bower
+    http://bower.io/
+    http://nano.sapegin.ru/all/bower
+    https://habrahabr.ru/post/250569/
+npm
+    https://www.npmjs.com/
+gulp
+    http://gulpjs.com/
+    http://habrahabr.ru/post/208890/
+    http://frontender.info/no-need-to-grunt-take-a-gulp-of-fresh-air/
+git
+    https://git-scm.com/
+    https://try.github.io/levels/1/challenges/1
+    https://git-scm.com/book/ru/v1/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5
+
+
+## BACKEND
+php - (wikipedia + онлайн академии для обучения)
+    https://www.youtube.com/watch?v=Ajmn6afKsYM пространства имен пхп
+
+composer - (менеджер зависимостей для php, аналог ruby gems для руби, позволяет подключать к вашим проектам сторонние библиотеки/фреймворки и так далее)
+mysql - база данных, большинство всех сайтов и у нее много форков с разными именами (остальные noSql redis/mongodb)
+wordpress - blog cms на php (удобный движок для создания сайтов любого типа, куча плагинов и тд.)
+    https://www.youtube.com/watch?v=aPC-Hch3vN8
+
+Тостерный вопрос ответ
+https://toster.ru/q/196885
+
+
+## mustlisten & read
+http://design-pattern.ru/
+http://uptodate.frontendrescue.org/
+http://pumainthailand.com/otvechayu-na-voprosy-o-rabote-na-amerikanskoj-frilanserskoj-birzhe-odesk-com/
+https://www.youtube.com/watch?v=e95fdZEb6uk
+http://pumainthailand.com/diskussiya-o-frilanse-i-odeske-na-radio-anon-fm-s-pumoj/
+http://pumainthailand.com/metody-vy-voda-deneg-s-amerikanskoj-frilanserskoj-birzhy-odesk-com/
+
+habr.ru
+http://tympanus.net/codrops/
+
+Subscribe2:
+общий список подписок https://gist.github.com/sapegin/ed5b432d0d0ada4aa956
+http://javascriptweekly.com/
+http://css-weekly.com/
+http://html5weekly.com/
+https://umaar.com/dev-tips/
+
+## ENGLISH
+LinguaLeo
+and that videos to practice:
+https://www.youtube.com/watch?v=XCvwCcEP74Q&t=09
+https://vimeo.com/88427776
+https://vimeo.com/88427773
+https://vimeo.com/88427770
+https://www.youtube.com/user/TEDtalksDirector/videos
+http://www.fiveminutegeekshow.com/30
+
+http://jqueryuk.com/2015/videos.php?s=architecting-resilient-front-ends
+http://jqueryuk.com/2015/videos.php?s=reactive-game-development
+http://jqueryuk.com/2015/videos.php?s=the-cure-for-your-web-components-hangover
+http://jqueryuk.com/2015/videos.php?s=es6-is-the-answer-what-was-the-problem
+
+## FILMS AND VIDEOS
+Компьютерщики (IT CROWD) (сериал) http://rutor.org/torrent/286989/kompjuterwiki_the-it-crowd-s01-04-2006-2010-hdtvrip-pdtvrip-lostfilm
+Силиконовая долина (сериал) http://rutor.org/torrent/359943/kremnievaja-dolina_silikonovaja-dolina_silicon-valley-s01-2014-hdtvrip-kubik-v-kube
+Кадры (гугл) http://rutor.org/torrent/309826/kadry_the-internship-2013-hdrip-unrated-licenzija
+
+Каналы для просмотра и следования (sorax, addi, paul, uwebpodcast, hexlet, loftblog and etc.)
+https://www.youtube.com/channel/UCfetJpmQH2XpFj8uFgWsezw
+https://www.youtube.com/channel/UCf7pOCNs6qmbSsBz2xQBI4g
+https://www.youtube.com/channel/UCUFbBYzSUafxMpUbTmroGhg
+https://www.youtube.com/channel/UCbn1OgGei-DV7aSRo_HaAiw
+https://www.youtube.com/channel/UCyIe-61Y8C4_o-zZCtO4ETQ
+https://www.youtube.com/channel/UCqLPYxuAz-WbdEBLBk_Tb7g
+https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw
+https://www.youtube.com/channel/UC3NDbeN0Jq_InNAhiJtvHcQ
+https://www.youtube.com/channel/UC_kJL5zl2zCVVviI8EPmUug
+https://www.youtube.com/channel/UCKW92i7iQFuNILqQOUOCrFw
+https://www.youtube.com/channel/UCIIt69f5D44s2cdb9vXQNzA
+https://www.youtube.com/channel/UCUzksGhlJU0rNF5KneUZkSA
+https://www.youtube.com/channel/UC0Fl0gKuawQQs8jf35T_kfg
+https://www.youtube.com/channel/UCEGUP3TJJfMsEM_1y8iviSQ
+https://www.youtube.com/channel/UCdnFX7mzgup9moXG2fULOog
+https://www.youtube.com/channel/UCZeU17nbVfzczAkJVTay9vw
+https://www.youtube.com/channel/UCD15yBvmQElLP7EFL8vW6Yw
+https://www.youtube.com/channel/UCuY7IWDg7cU897STZIEDgMg
+https://www.youtube.com/channel/UCzsFlqz1szB85w12St9vicw
+
+https://www.youtube.com/user/TPMGTU/videos
+https://www.youtube.com/user/easygamedev/videos
+https://www.youtube.com/channel/UCoQvColVafC905L1wyqfjcg/videos
+https://www.youtube.com/user/webformyself/videos
+
+## PEOPLE2FOLLOW (twitter/medium/github)
+Addy Osmani https://speakerdeck.com/addyosmani
+Paul Irish
+Андрей Ситник
+
+
+## ALL URLS HERE
+
+Всё в одном месте (en) http://www.frontendhandbook.com/
+
+события:
+http://dou.ua/calendar/city/%D0%97%D0%B0%D0%BF%D0%BE%D1%80%D0%BE%D0%B6%D1%8C%D0%B5/
+
+сайты:
+http://habrahabr.ru/
+http://toster.ru/
+http://stackoverflow.com/
+
+http://habrahabr.ru/post/247893/ - online tuts videos and all all for web-dev
+http://habrahabr.ru/post/250621/
+http://habrahabr.ru/company/dataart/blog/258301/ - bootsrap 50 best plugins
+
+http://www.toptal.com/
+http://goit.com.ua/
+https://www.upwork.com/
+
+
+## COURSES
+https://www.khanacademy.org/
+http://geekbrains.ru/
+http://htmlacademy.ru/
+https://www.codeschool.com/
+http://www.codecademy.com/
+https://www.udacity.com/
+https://www.udemy.com/
+https://phpacademy.org/
+http://www.educba.com/courses/all/it/
+http://lifehacker.ru/2013/02/22/50-mirovykh-resursov-besplatnogo-onlajjn-obrazovaniya/
+
+
+## HELP
+http://stackoverflow.com/
+https://toster.ru/
+http://www.askdev.ru/
+https://gist.github.com/
+http://caniuse.com/
+http://codepen.io/max1128/pen/dooeMa
+https://jsfiddle.net/
+http://phpfiddle.org/
+
+Примеры:
+http://codepen.io/
+https://css-tricks.com/
+
+
+## ENVIRONMENT
+
+PHPSTORM/WEBSTORM, ATOM, SUBLIME
+
+SVG: http://ask.dev.cpeople.ru/pres/svg/
+
+https://www.digitalocean.com/community/tutorials/apache-ubuntu-14-04-lts-ru
+
+http://habrahabr.ru/post/248209/ - WP-CHILD-THEMES
+
+SASS:
+https://www.youtube.com/watch?v=iWOGk_b2yac
+https://www.youtube.com/watch?v=bIe824m5Deg
+https://www.youtube.com/watch?v=ATTkMjabQOI
