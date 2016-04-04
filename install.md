@@ -45,6 +45,7 @@
 - [ ] [SourceTreeapp](https://www.sourcetreeapp.com/)
 - [ ] [ImageMinApp](https://github.com/imagemin/imagemin-app)
 - [ ] [franz](http://meetfranz.com/)
+- [ ] [backblaze](https://secure.backblaze.com/)
 
 Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) [https://windirstat.info](https://windirstat.info)
 

@@ -69,6 +69,7 @@
 - [Reflector](http://www.airsquirrels.com/reflector/) like LiveView
 - [ScreenFlow](http://www.telestream.net/screenflow/) for recording
 - [The Unarchiver](http://wakaba.c3.cx/s/apps/unarchiver.html)
+- [Safari technology-preview](https://developer.apple.com/safari/technology-preview/)
 
 ## not mine OS_X soft
 - 1Password

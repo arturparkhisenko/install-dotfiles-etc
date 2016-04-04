@@ -14,6 +14,7 @@
 - [x] docblockr
 - [x] editorconfig (sindresorhus)
 - [x] emmet
+- [x] git-time-machine
 - [x] highlight-line
 - [x] highlight-selected
 - [x] hyperclick
@@ -146,7 +147,9 @@ Care this might cause conflicts with other plugins as autocomplete or autocomple
 - [ ] scss-lint
 
 ## Chrome
+- [x]  [stop-autoplay-for-youtube](https://chrome.google.com/webstore/detail/stop-autoplay-for-youtube/figkapeodjhdgnpiamleongcmecfjccb/)
 - [x] [devtools-author](https://chrome.google.com/webstore/detail/devtools-author/egfhcfdfnajldliefpdoaojgahefjhhi)
+- [X] [Twitter for GitHub](https://chrome.google.com/webstore/detail/twitter-for-github/joalalcafnlmimkfkihjbdgmphgedojc)
 - [x] github-awesome-autocomple
 - [x] github-highlight-selected
 - [x] github-notifier
@@ -154,7 +157,6 @@ Care this might cause conflicts with other plugins as autocomplete or autocomple
 - [x] HTTP/2 and SPDY indicator
 - [x] Https Everywhere
 - [x] Motivation
-- [x]  [stop-autoplay-for-youtube](https://chrome.google.com/webstore/detail/stop-autoplay-for-youtube/figkapeodjhdgnpiamleongcmecfjccb/)
 - [ ] batarang
 - [ ] BuiltWith technology profiler
 - [ ] Cacoo (прототипирование и построение диаграмм)

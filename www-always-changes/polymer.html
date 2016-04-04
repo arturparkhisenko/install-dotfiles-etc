@@ -44,6 +44,11 @@
 
     ::content {}
 
+    /*v1---------------------------------------------------------------------*/
+    ::content -> ::slotted
+    ::shadow & /deep/ (deprecated)
+    /*v1-end-----------------------------------------------------------------*/
+
     :host.state,
     :host(.classOrAttr) {}
 
@@ -102,6 +107,11 @@
     Polymer.dom(this).classList.add('module-audio-mixer-tab-content');
     this.toggleClass('module-audio-mixer-tab-content', true);
 
+    //Retrieve all <span> elements in the light DOM.
+    var allSpans = Polymer.dom(this).querySelectorAll('span');
+    //or better do that
+    `this.$$('#parent').querySelectorAll('.anchor')`
+
     // polymer parent:
     this.domHost === Polymer.dom(this).getOwnerRoot().host === Polymer.dom(this.parentNode).node
     //dom: 'shadow', noone working!
@@ -130,6 +140,7 @@
     app.innerHTML = '';
     app.appendChild(divElement);
 
+    Polymer.dom(this).appendChild() //Polymer.dom(this).node.appendChild()
 
     //querySelector:
     Polymer.dom(this.root).querySelector('') //=== this.$$()

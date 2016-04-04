@@ -1,33 +1,44 @@
 "*":
   welcome:
     showOnStartup: false
-  core:
-    themes: [
-      "seti-ui"
-      "solarized-dark-syntax"
-    ]
   editor:
-    invisibles: {}
-    fontSize: 15
+    fontSize: 17
     lineHeight: 1.1
     showIndentGuide: true
     tabType: "soft"
     zoomFontWhenCtrlScrolling: false
-  linter: {}
+  "exception-reporting":
+    userId: "9295d08c-0c7b-383a-085b-88929d08cf02"
+  core:
+    disabledPackages: [
+      "vim-mode"
+    ]
+    themes: [
+      "seti-ui"
+      "solarized-dark-syntax"
+    ]
+  "atom-beautify":
+    css:
+      convert_quotes: "double"
+      force_indentation: true
+      newline_between_rules: true
+      selector_separator_newline: true
+    general:
+      _analyticsUserId: "846a2c51-e063-4159-8fdb-5da28c9d1cc6"
+      analytics: false
+      beautifyEntireFileOnSave: false
+  "atom-css-comb":
+    readyMadeConfigs: "zen"
+  linter:
+    errorPanelHeight: 142
   "linter-eslint":
+    disableWhenNoEslintConfig: false
     lintHtmlFiles: true
   minimap:
     plugins:
       "git-diff": true
-  "atom-beautify":
-    _analyticsUserId: "846a2c51-e063-4159-8fdb-5da28c9d1cc6"
-    css_preserve_newlines: true
-    css_selector_separator_newline: true
-    beautifyEntireFileOnSave: false
-    analytics: false
-    css_force_indentation: true
-    css_convert_quotes: "single"
-    css_newline_between_rules: true
-    css_no_lead_zero: true
-  "atom-css-comb":
-    readyMadeConfigs: "zen"
+      "git-diffDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+      "highlight-selected": true
+      selection: true
