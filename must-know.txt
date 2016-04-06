@@ -34,12 +34,18 @@ https://developers.google.com/speed/docs/insights/ConfigureViewport?hl=ru
 responsive and breakpoints
 https://www.google.com/design/spec/layout/responsive-ui.html#responsive-ui-breakpoints
 
+Удаленная отладка мобильных устройств
+https://developer.chrome.com/devtools/docs/remote-debugging
+
 Список всего лучшего для работы по категориям
 https://github.com/bayandin/awesome-awesomeness
 
 Вроде норм кодгайд написания кода
 http://workmanship.io/
 http://forwebdev.ru/html/principles-for-writing-idiomatic-html/
+
+Как работают браузеры (en)
+http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 
 для тех кто знает/любит математику -> теория автоматов
 
