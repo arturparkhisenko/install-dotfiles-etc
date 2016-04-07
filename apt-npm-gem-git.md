@@ -32,6 +32,10 @@
 - that's all!
 - `git pull` - go back to the most recent commit
 
+## git gpg
+- https://www.gnupg.org/download/
+- https://help.github.com/categories/gpg/
+
 # [Oh My ZSH](http://ohmyz.sh/)
 ## Required:
 - `sudo apt-get install git-core`
