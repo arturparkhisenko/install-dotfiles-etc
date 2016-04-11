@@ -43,6 +43,7 @@ In the "device" section of your xorg.conf:
 - `sudo apt-get autoremove` - is used to remove packages that were automatically installed to satisfy dependencies for some package and that are no more needed.
 
 - `sudo dmidecode --type 0` hardware info
+- [other commands](http://www.binarytides.com/linux-commands-hardware-info/)
 
 ## Ubuntu greeter
 run: `sudo gedit /etc/lightdm/lightdm.conf`

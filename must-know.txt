@@ -47,6 +47,8 @@ http://forwebdev.ru/html/principles-for-writing-idiomatic-html/
 Как работают браузеры (en)
 http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 
+mvc/mvp/mvvp:
+
 для тех кто знает/любит математику -> теория автоматов
 
 

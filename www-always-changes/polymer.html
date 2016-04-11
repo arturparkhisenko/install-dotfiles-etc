@@ -140,6 +140,9 @@
     app.innerHTML = '';
     app.appendChild(divElement);
 
+    Polymer.dom(this.root).appendChild()
+    Polymer.dom(this.$$('selector')).appendChild()
+
     Polymer.dom(this).appendChild() //Polymer.dom(this).node.appendChild()
 
     //querySelector:
@@ -186,6 +189,20 @@
       attributeChanged() {}
     }
     Polymer(AwesomeMeme);
+
+
+  // REDUX
+  //Jordan Last 11:17 AM, Apr 11th
+  //@gpx, @nwwells, @ikeagold, I've been experimenting with a simple and
+  //declarative way to use redux in polymer. Whenever you want to listen for
+  //state changes, you just pop a `<redux-store></redux-store>` element into
+  //your element and listen for a 'stateChange' event. To dispatch an action,
+  //just data bind to the `action` property on the redux store, like so:
+  //`<redux-store action="[[action]]"></redux-store>`. Whenever the action is
+  //set, it gets dispatched. There is one store for the entire application.
+  //And here is the link to the experimental repo:
+  //https://github.com/lastmjs/polymer-redux-store
+
   </script>
 
   <!-- See https://www.polymer-project.org/1.0/docs/devguide/styling.html#style-modules -->

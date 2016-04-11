@@ -98,6 +98,7 @@ Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) [
 - freeSSHd
 - GeForce Experience
 - [Github Desktop](https://desktop.github.com/)
+- [handbrake](https://handbrake.fr/) (video conv)
 - HDDLLF
 - HijackThis
 - i.Disk

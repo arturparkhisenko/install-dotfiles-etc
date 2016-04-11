@@ -116,11 +116,12 @@
 - tool-bar-main
 
 ## Atom shortcuts
-- `ctrl-shift-d` - duplicate line
+- `ctrl+shift+d` - duplicate line
 - `ctrl+r` - symbol lookup
 - `ctrl+alt+w` - wrap text inside a html tag
 - `ctrl+p` - fuzzy search
 - `ctrl+shift+p` - command palette
+- `ctrl+shift+l` - select syntax
 
 ## Atom tip
 1. Emmet in .php

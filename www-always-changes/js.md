@@ -83,6 +83,8 @@
 - exploration (20% of time)
 - investment (60% of time)
 - practice ($)
+- communication
+- productivity
 
 ## not an architecture
 ### Code patterns:

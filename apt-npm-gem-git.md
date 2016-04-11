@@ -35,6 +35,8 @@
 ## git gpg
 - https://www.gnupg.org/download/
 - https://help.github.com/categories/gpg/
+- https://github.com/blog/2144-gpg-signature-verification
+- https://twitter.com/steveklabnik/status/717514738389925889
 
 # [Oh My ZSH](http://ohmyz.sh/)
 ## Required:
