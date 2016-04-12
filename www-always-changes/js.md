@@ -3,7 +3,7 @@
 - use webpack + webpackdevserver (optionally: babel loader)
 - use browsersync + browserify/jspm (optionally: babelify)
 - [x] app-shell (wsk/amp)
-- [ ] [https://github.com/ikeagold/task.js](https://github.com/ikeagold/task.js)
+- [ ] [https://github.com/arturparkhisenko/task.js](https://github.com/arturparkhisenko/task.js)
 - backend mockups: mockable.io, apiary.io, jsonplaceholder.typicode.com
 - getBoundingClientRect
 - gulp -> npm start / npm test on src/dist

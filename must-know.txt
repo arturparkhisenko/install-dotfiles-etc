@@ -74,7 +74,7 @@ html5/css3, css4, html5-boilerplate, bootstrap
     https://bradfrost.github.io/this-is-responsive/patterns.html
 JavaScript (ecmascript), es6, es7, babeljs
     https://www.youtube.com/watch?v=aGTjRU7Dp20&list=PLo6puixMwuSNxJCgadaaavKqq4-ocKPrR
-    https://github.com/ikeagold/eloquentjavascript_ru/blob/master/chapters/chapter1.md
+    https://github.com/arturparkhisenko/eloquentjavascript_ru/blob/master/chapters/chapter1.md
     https://learn.javascript.ru/array-iteration
   	https://github.com/ericelliott/essential-javascript-links
     http://callbackhell.com/
