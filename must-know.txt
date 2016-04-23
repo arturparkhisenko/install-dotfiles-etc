@@ -117,6 +117,7 @@ http://pumainthailand.com/otvechayu-na-voprosy-o-rabote-na-amerikanskoj-frilanse
 https://www.youtube.com/watch?v=e95fdZEb6uk
 http://pumainthailand.com/diskussiya-o-frilanse-i-odeske-na-radio-anon-fm-s-pumoj/
 http://pumainthailand.com/metody-vy-voda-deneg-s-amerikanskoj-frilanserskoj-birzhy-odesk-com/
+https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976#.1qaexrxzx
 
 habr.ru
 http://tympanus.net/codrops/

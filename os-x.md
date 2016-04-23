@@ -87,6 +87,7 @@
 - Fantastical 2
 - fastlane
 - Final Cut Pro
+- Hazel
 - gitup
 - iA Writer Pro
 - Keynote

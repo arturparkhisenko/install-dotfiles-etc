@@ -258,6 +258,8 @@ Debugging with XDebug on Browser and Command line The example is made for PHPSto
 -reload bash settings source ~/.bashrc Edit Settings in PHPStorm Go to File->Settings->PHP->Debug Change XDebug Debug Port to 9002 Install Easy XDebug Plugin for Firefox [https://addons.mozilla.org/de/firefox/addon/easy-xdebug/](https://addons.mozilla.org/de/firefox/addon/easy-xdebug/)
 
 # SERVER
+- [win ssl on apache](http://adminsnotes.blogspot.com/2008/01/apache-openssl-windows.html)
+
 if phpmyadmin not found: sudo ln -s /usr/share/phpmyadmin /var/www/html/ Include /etc/phpmyadmin/apache.conf
 
 -dontuse: -vsftpd -[http://ubuntuforums.org/showthread.php?t=518293](http://ubuntuforums.org/showthread.php?t=518293) -[https://www.digitalocean.com/community/tutorials/how-to-configure-vsftpd-to-use-ssl-tls-on-an-ubuntu-vps](https://www.digitalocean.com/community/tutorials/how-to-configure-vsftpd-to-use-ssl-tls-on-an-ubuntu-vps)

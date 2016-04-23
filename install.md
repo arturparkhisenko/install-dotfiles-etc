@@ -19,26 +19,28 @@
   - `sudo apt-get update && sudo apt-get install atom`
 
 - [BattleNet](https://eu.battle.net/)
-- [DropBox](https://www.dropbox.com/)
 - [FileZilla](https://filezilla-project.org/) -ftp client
 - [Gimp](https://www.gimp.org/)
 - [Git](https://git-scm.com/) - for GitHub/BitBucket
 - [Google Chrome Canary](https://www.google.com/chrome/browser/canary.html)
 - [Google Chrome](https://www.google.com/chrome/)
+- [Google Drive](https://www.google.com/drive/)
 - [InkScape](https://inkscape.org)
 - [LibreOffice](https://ru.libreoffice.org/)
 - [Skype](https://www.skype.com) - use web version
 - [Spotify](https://www.spotify.com)
 - [Steam](https://store.steampowered.com/)
 - [TeamViewer](https://www.teamviewer.com)
+- [TunnelBear (vpn, proxy)](https://www.tunnelbear.com/)
 - [webStorm](https://www.jetbrains.com/webstorm/) - or [phpStorm](https://www.jetbrains.com/phpstorm/)
-- [Yandex Disk](https://disk.yandex.ua/client/disk)
+
 - [ ] [f.lux](https://justgetflux.com/)
   - `sudo add-apt-repository ppa:kilian/f.lux`
   - `sudo apt-get update`
   - `sudo apt-get install fluxgui`
   - lat 47.8334 long 35.1425
-
+- [ ] [Yandex Disk](https://disk.yandex.ua/client/disk)
+- [ ] [DropBox](https://www.dropbox.com/)
 - [ ] [fbreader](https://fbreader.org/)
 - [ ] [KeePass](http://keepass.info/)
 - [ ] [XnViewMP](http://www.xnview.com/en/xnviewmp/)

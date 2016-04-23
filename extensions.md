@@ -158,6 +158,8 @@ Care this might cause conflicts with other plugins as autocomplete or autocomple
 - [x] HTTP/2 and SPDY indicator
 - [x] Https Everywhere
 - [x] Motivation
+- [x] [Google Keep](https://chrome.google.com/webstore/detail/google-keep-chrome-extens/lpcaedmchfhocbbapmcbpinfpgnhiddi)
+- [x] [Google Inbox](https://chrome.google.com/webstore/detail/inbox-by-gmail/gkljgfmjocfalijkgoogmfffkhmkbgol)
 - [ ] batarang
 - [ ] BuiltWith technology profiler
 - [ ] Cacoo (прототипирование и построение диаграмм)
