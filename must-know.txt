@@ -12,6 +12,11 @@ http://htmlbook.ru/samhtml/ssylki/absolyutnye-i-otnositelnye-ssylki
 https://ru.wikipedia.org/wiki/CSS
 https://ru.wikipedia.org/wiki/JavaScript
 
+Dom:
+https://learn.javascript.ru/document
+Events:
+https://learn.javascript.ru/events-and-interfaces
+
 [Книга EloquentJS](https://github.com/karmazzin/eloquentjavascript_ru), ну и по частям:
 Структура программ - https://github.com/karmazzin/eloquentjavascript_ru/blob/master/chapters/chapter2.md
 Структуры данных - https://github.com/karmazzin/eloquentjavascript_ru/blob/master/chapters/chapter4.md
@@ -33,6 +38,11 @@ https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
 https://developers.google.com/speed/docs/insights/ConfigureViewport?hl=ru
 responsive and breakpoints
 https://www.google.com/design/spec/layout/responsive-ui.html#responsive-ui-breakpoints
+
+Паттерны
+https://joshbedo.github.io/JS-Design-Patterns/
+https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani
+https://github.com/nnupoor/js_designpatterns#javascript-design-patterns-cheat-sheet-using-jquery-for-some-examples
 
 Удаленная отладка мобильных устройств
 https://developer.chrome.com/devtools/docs/remote-debugging
@@ -121,6 +131,7 @@ https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pu
 
 habr.ru
 http://tympanus.net/codrops/
+https://habrahabr.ru/post/282674/ - developer after 40
 
 Subscribe2:
 общий список подписок https://gist.github.com/sapegin/ed5b432d0d0ada4aa956

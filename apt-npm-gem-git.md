@@ -6,10 +6,10 @@
 - `git config --global user.name "yourname"`
 - `git config --global push.default simple`
 - `git config --global help.autocorrect -1`
+- `git config --global alias.l "log --graph --oneline --decorate --all"`
 - `git add .` or `git add --all` with removed
 - `git status`
 - `git commit -a -m "init commit"`
-- `git config --global push.default simple`
 - `git push`
 
 ## git update forked repository (syncing-a-fork) [official doc](https://help.github.com/articles/syncing-a-fork/)

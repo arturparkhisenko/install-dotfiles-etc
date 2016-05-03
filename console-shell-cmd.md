@@ -8,6 +8,7 @@
 - cd
 - clear
 - htop
+- `touch filename.ext`
 
 ## folder sizes
 - du --si --max-depth=1

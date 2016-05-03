@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 
 // es2015 by babel
 // To make *.babel.js working run: `npm i -D babel-core babel-preset-es2015`
@@ -6,7 +6,6 @@
 // https://github.com/PolymerElements/polymer-starter-kit
 // rollup vs webpack vs jspm/systemjs
 // https://github.com/MaKleSoft/gulp-style-modules
-// TODO: add https://github.com/benmosher/eslint-plugin-import
 
 // Plugins & paths
 import gulp from 'gulp';
@@ -19,9 +18,8 @@ import path from 'path';
 import historyApiFallback from 'connect-history-api-fallback';
 import webpack from 'webpack';
 import wpConfig from './webpack.config.js';
-import polybuild from 'polybuild';
-
-// import autoprefixer from 'autoprefixer';
+// import polybuild from 'polybuild';
+import autoprefixer from 'autoprefixer';
 import postcssImport from 'postcss-import';
 // import postcssUrl from 'postcss-url';
 import postcssCssnext from 'postcss-cssnext';
@@ -30,7 +28,25 @@ import cssnano from 'cssnano';
 // import postcssReporter from 'postcss-reporter';
 
 const $ = gulpLoadPlugins();
+const bs = browserSync.create();
 const reload = browserSync.reload;
+
+// Configured by support links:
+// list https://github.com/ai/browserslist
+// http://caniuse.com/
+
+const AUTOPREFIXER_BROWSERS = [
+  'Edge >= 13',
+  'ff >= 31',
+  'and_ff >= 44',
+  'Chrome >= 38',
+  'and_chr >= 47',
+  'Safari >= 9',
+  'ios_saf >= 9',
+  'Opera >= 21',
+  'op_mob >= 33',
+  'Android >= 5.0'
+];
 
 // Clean Output Directory
 gulp.task('clean', () => del(['.tmp', 'dist']));
@@ -68,8 +84,7 @@ gulp.task('styles', () => {
     .pipe(gulp.dest('src/' + stylesPath))
     .pipe($.size({
       title: stylesPath
-    }))
-    .pipe($.connect.reload());
+    }));
 });
 
 // WebPack scripts only
@@ -93,14 +108,12 @@ gulp.task('scripts', () => {
       'src/scripts/**/*.js'
     ])
     // .pipe($.changed('dist/scripts/'))
-    .pipe(gulp.dest('dist/scripts/'))
-    .pipe($.connect.reload());
+    .pipe(gulp.dest('dist/scripts/'));
 });
 
 // Images optimization
 gulp.task('images', () => {
   return gulp.src(['src/images/**/*'])
-    // .pipe($.changed('dist/images/'))
     .pipe($.cache($.imagemin({
       progressive: true,
       interlaced: true
@@ -108,8 +121,7 @@ gulp.task('images', () => {
     .pipe(gulp.dest('dist/images/'))
     .pipe($.size({
       title: 'images'
-    }))
-    .pipe($.connect.reload());
+    }));
 });
 
 // Scan Your HTML For Assets & Optimize Them
@@ -125,8 +137,23 @@ gulp.task('html', () => {
     .pipe(gulp.dest('dist/'))
     .pipe($.size({
       title: 'html'
-    }))
-    .pipe($.connect.reload());
+    }));
+});
+
+// Scan your HTML for assets & optimize them
+gulp.task('optimize', ['images', 'fonts'], function() {
+  return gulp.src(['app/**/*.html', '!app/{elements,test,bower_components}/**/*.html'])
+    .pipe($.useref())
+    .pipe($.if('*.js', $.uglify({
+      preserveComments: 'some'
+    })))
+    .pipe($.if('*.css', $.minifyCss()))
+    .pipe($.if('*.html', $.minifyHtml({
+      quotes: true,
+      empty: true,
+      spare: true
+    })))
+    .pipe(gulp.dest(dist()))
 });
 
 // Elements optimizations (for http2)
@@ -161,7 +188,9 @@ const optimizeElementsTask = (src, dest) => {
       [autoprefixer({
           browsers: AUTOPREFIXER_BROWSERS
         }),
-        // cssnano()
+        cssnano({
+          safe: true
+        })
       ])
   ))
 
@@ -236,93 +265,59 @@ gulp.task('copy', () => {
     }));
 });
 
-// Main task
-gulp.task('serve', ['clean'], (cb) => {
-  //http://localhost:8080/
-  $.connect.server({
-    root: 'src/',
-    livereload: true
-  });
-
+// Main task, watch files for changes & reload
+gulp.task('serve', ['clean'], function(cb) {
   runSequence(
     ['copy', 'styles'], ['images', 'html', 'scripts'],
     'vulcanize',
     'webpack',
     cb);
 
-  gulp.watch(['src/**/*.html', '!src/{elements,test}/**/*.html', '!src/scripts/third-party/**/*.html'], ['html']);
-  gulp.watch(['src/elements/**/**/*.html', '!src/elements/elements.vulcanized.html'], ['vulcanize']);
-  gulp.watch(['src/styles/**/*.css', '!src/styles/**/*.min.css'], ['styles']);
-  gulp.watch(['src/{scripts,elements}/**/*.js', '!src/scripts/third-party/**/*', '!src/scripts/bundle.js'], ['scripts', 'webpack']);
-  gulp.watch(['src/images/**/*'], ['images']);
-});
-
-gulp.task('serve:dist', ['clean'], (cb) => {
-  //http://localhost:8080/
-  $.connect.server({
-    root: 'dist/',
-    livereload: true
-  });
-
-  runSequence(
-    ['copy', 'styles'], ['images', 'html', 'scripts'],
-    'vulcanize',
-    'webpack',
-    cb);
-
-  gulp.watch(['src/**/*.html', '!src/{elements,test}/**/*.html', '!src/scripts/third-party/**/*.html'], ['html']);
-  gulp.watch(['src/elements/**/**/*.html', '!src/elements/elements.vulcanized.html'], ['vulcanize']);
-  gulp.watch(['src/styles/**/*.css', '!src/styles/**/*.min.css'], ['styles']);
-  gulp.watch(['src/{scripts,elements}/**/*.js', '!src/scripts/third-party/**/*', '!src/scripts/bundle.js'], ['scripts', 'webpack']);
-  gulp.watch(['src/images/**/*'], ['images']);
-});
-
-// Watch Files For Changes & Reload
-gulp.task('serve:browsersync', ['clean'], function(cb) {
-  runSequence(
-    ['copy', 'styles'], ['images', 'html', 'scripts'],
-    'vulcanize',
-    'webpack',
-    cb);
-
-  //https://localhost:3000/
-  //https://localhost:3001/
-  browserSync({
+  bs.init({
+    logPrefix: 'bsSrc',
     notify: false,
-    logPrefix: 'gulp.es2015',
-    snippetOptions: {
-      rule: {
-        match: '<span id="browser-sync-binding"></span>',
-        fn: function(snippet) {
-          return snippet;
-        }
-      }
-    },
-    // Run as an https by uncommenting 'https: true'
-    // Note: this uses an unsigned certificate which on first access
-    //       will present a certificate warning in the browser.
+    port: 8080,
+    // Note: unsigned certificate which will present a certificate warning
     https: true,
-    files: [
-      'src/**/*.html',
-      'src/elements/**/**/*.html', '!src/elements/elements.vulcanized.html',
-      'src/styles/**/*.css',
-      'src/{scripts,elements}/**/*.js', '!src/scripts/bundle.js',
-      'src/images/**/*'
-    ],
     server: {
       baseDir: 'src',
-      middleware: [historyApiFallback()],
-      routes: {
-        '/bower_components': 'bower_components'
-      }
+      middleware: [historyApiFallback()]
     },
     browser: 'chrome'
   });
 
-  gulp.watch(['src/**/*.html'], ['html', reload]);
+  gulp.watch(['src/**/*.html', '!src/{elements,test}/**/*.html', '!src/scripts/third-party/**/*.html'], ['html', reload]);
   gulp.watch(['src/elements/**/**/*.html', '!src/elements/elements.vulcanized.html'], ['vulcanize', reload]);
   gulp.watch(['src/styles/**/*.css', '!src/styles/**/*.min.css'], ['styles', reload]);
-  gulp.watch(['src/{scripts,elements}/**/*.js', '!src/scripts/bundle.js'], ['scripts', 'webpack', reload]);
+  gulp.watch(['src/{scripts,elements}/**/*.js', '!src/scripts/bundle.js', '!src/scripts/third-party/**/*'], ['scripts', 'webpack', reload]);
+  gulp.watch(['src/images/**/*'], ['images', reload]);
+});
+
+// Main task, watch files for changes & reload
+gulp.task('serve:dist', ['clean'], function(cb) {
+  runSequence(
+    ['copy', 'styles'], ['images', 'html', 'scripts'],
+    'vulcanize',
+    'webpack',
+    cb);
+
+  bs.init({
+    logPrefix: 'bsDist',
+    notify: false,
+    port: 8080,
+    // Note: unsigned certificate which will present a certificate warning
+    https: true,
+    server: {
+      baseDir: 'dist',
+      middleware: [historyApiFallback()]
+    },
+    browser: 'chrome'
+  });
+
+  gulp.watch(['src/**/*.html', '!src/{elements,test}/**/*.html', '!src/scripts/third-party/**/*.html'], ['html', reload]);
+  gulp.watch(['src/elements/**/**/*.html', '!src/elements/elements.vulcanized.html'], ['vulcanize', reload]);
+  gulp.watch(['src/styles/**/*.css', '!src/styles/**/*.min.css'], ['styles', reload]);
+  gulp.watch(['src/{scripts,elements}/**/*.js', '!src/scripts/bundle.js', '!src/scripts/third-party/**/*'], ['scripts', 'webpack', reload]);
   gulp.watch(['src/images/**/*'], ['images', reload]);
 });
 

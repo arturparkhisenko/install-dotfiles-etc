@@ -9,6 +9,23 @@
 
 [http://help.ubuntu.ru/wiki/ssd](http://help.ubuntu.ru/wiki/ssd)
 
+## antergos (arch)
+
+### soft
+- `broadcom-wl` - wifi drivers
+- `ethtool` - network drivers and hardware control
+
+
+### commands
+- `ctrl+h` - show hidden files
+- `yaourt -Syua` - fully upgrade the system
+
+### nvidia bumblebee
+- `sudo pacman -S bumblebee mesa xf86-video-intel nvidia lib32-nvidia-utils lib32-virtualgl lib32-mesa-libgl nvidia-settings bbswitch`
+- `sudo gpasswd -a $USER bumblebee` - (replace user with your name)
+- `optirun --status` - check
+- `optirun pwd` - run
+
 ## Nvidia
 ### After install of drivers in driver-manager
 - `sudo nvidia-settings` add panel widget, or go to nvidia settings

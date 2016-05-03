@@ -4,7 +4,7 @@
 - Deb.(deb) [Linux Mint](http://www.linuxmint.com/) Mate | Xfce | Cinnamon
 - Deb.(deb) [Ubuntu](http://www.ubuntu.com/) Unity | Mate | Gnome
 - Deb.(deb) [Kali](https://www.kali.org/)
-- Arch(rpm) [Fedora](https://getfedora.org/) | [Manjaro](https://manjaro.github.io/) | [Antergos](http://antergos.com/)
+- Arch(rpm) [Antergos](http://antergos.com/) | [Fedora](https://getfedora.org/) | [Manjaro](https://manjaro.github.io/)
 
 ## related to that
 - video server `wayland`
@@ -52,6 +52,8 @@
 Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) [https://windirstat.info](https://windirstat.info)
 
 ## Linux (apt)
+- [Terminator](http://gnometerminator.blogspot.com/p/introduction.html)
+  - terminator + settings of opacity / theme, run command: `bash` yeah!
 - `sudo apt-get install meld` - diff tool
 - [Plank](https://launchpad.net/plank)
   - `sudo add-apt-repository ppa:docky-core/stable`

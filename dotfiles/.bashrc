@@ -1,3 +1,7 @@
+# completion-ignore-case on
+bind "set completion-ignore-case on"
+bind "set show-all-if-ambiguous on"
+
 # @gf3’s Sexy Bash Prompt, inspired by “Extravagant Zsh Prompt”
 # Shamelessly copied from https://github.com/gf3/dotfiles
 
