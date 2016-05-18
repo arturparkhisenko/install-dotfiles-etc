@@ -1,5 +1,7 @@
 # OS_X
+
 ## System
+
 1. Set up iCloud Keychain
 2. Remove icons and hide Dock
 3. Default address in iMessage
@@ -14,33 +16,39 @@
 12. Turn off screen saver: Never
 13. Disable guest user
 14. Add login items
+
   - iTunes
   - Spectacle
   - BitTorent Sync
   - Fantastical
 
 15. Login options
+
   - Hide buttons
   - Name and password
 
 16. Accessibility -- Zoom -- Use scroll gesture, smooth: off
 
 ## Hardware
+
 - [External monitor fix](http://www.ireckon.net/2013/03/force-rgb-mode-in-mac-os-x-to-fix-the-picture-quality-of-an-external-monitor)
 
 ## Contacts
+
 1. Remove local contacts group
 2. Hide groups Cmd 1
 3. Show first name last
 4. Sort by last name
 
 ## Finder
+
 1. Hide and sort sidebar icons
 2. Show Tab, Path, Status; remove toolbar icons
 3. Remove Remote Dics, hide tags
 4. New windows show ~/
 5. Search the current folder
 6. Icons View:
+
   - Sort Name
   - Size 16
   - Grid Max
@@ -48,6 +56,7 @@
   - Use as Default
 
 7. Desktop view
+
   - Size 64
   - Grid Min
   - Sort Name
@@ -55,6 +64,7 @@
 8. Hide Public folder: chflags hidden ~/Public/
 
 ## OS_X Soft
+
 - [CleanMyMac](http://macpaw.com/cleanmymac)
 - [CrossOver](http://www.codeweavers.com/products/) and [Parallels](http://www.parallels.com/) for win apps
 - [Dash](https://kapeli.com/dash) offline access to 150+ API documentation sets
@@ -72,6 +82,7 @@
 - [Safari technology-preview](https://developer.apple.com/safari/technology-preview/)
 
 ## not mine OS_X soft
+
 - 1Password
 - alcatraz
 - caleidoscope
@@ -126,24 +137,29 @@
 - [vlc](https://www.videolan.org/vlc/index.html)
 
 ## ColorSnapper
+
 1. Ctrl Shift ~
 2. CSS Hex
 3. Shorthand version
 
 ## Parallels Desktop
+
 1. Show Parallels icon in menu bar: Off
 2. Virtual machines folder: ~/Applications/Parallels
 
 ## Clean My Mac
+
 1. Play sounds: Off
 2. Scheduler: Never
 3. Menu, offer: Off
 
 ## Spectacle
+
 1. A11y in System Preferences
 2. Launch at login
 3. Run as a background application
 4. Shortcuts with Ctr Option Cmd
+
   - Center M
   - Full F
   - Left ?
@@ -158,28 +174,36 @@
   - Smaller -
 
 ## BitTorrent Sync
+
 1. Links device (Screen Sharing)
 2. Pause sync
 3. `rm -rf ~/F && mv ~/F\ \(1\)/ ~/F` for
+
   - Desktop
   - Documents
   - Downloads
 
 4. Resume sync
+
 5. Store deleted files Off for every folder
 6. Remove all archives `rm -rf ~/*/.sync/Archive/`
 
 ## Sketch
+
 1. Grid
+
   - Dark 20% red
   - Light 10% red
 
 2. Layout
+
   - Stroke outline
   - Dark, Light #4affff
 
 3. Canvas guides #4affff
+
 4. Toolbar dropdowns
+
   - Insert
   - Tools
   - Combine
@@ -188,21 +212,25 @@
 5. Rename duplicated layers: Off
 
 ## Markdown Service Tools
+
 1. [Download](http://brettterpstra.com/projects/markdown-service-tools/)
 2. md - Convert - HTML to Clipboard
 3. md - Convert - HTML to Markdown
 4. Show package content, Info.plist
+
   - Markdown to HTML
   - HTML to Markdown
 
 5. Copy to ~/Library/Services
 
 ## Slack
+
 1. odevrel
 2. web-standards
 3. polymer
 
 ## Tower
+
 1. Diff, Merge tool: Kaleidoscope
 2. Service accounts: GitHub
 3. Hide toolbar
@@ -210,18 +238,22 @@
 5. Integration: Install
 
 ## Environment
+
 1. CLI tools: make
 2. [io.js](https://iojs.org/en/index.html)
 3. sh utils.sh
 
 ## Terminal
+
 1. Shell open with command: /usr/local/bin/bash
 2. Ask before closing: never
 3. Pepelsbey.terminal profile
 4. Font: Consolas, 14pt
 
 ## Sublime Text
-1. Install [Package Control](https://packagecontrol.io/installation) by Ctrl  and pasting code.
+
+1. Install [Package Control](https://packagecontrol.io/installation) by Ctrl and pasting code.
 
 ## Atom
+
 1. Install: sync-settings

@@ -1,4 +1,5 @@
 # index
+
 - :page_facing_up: [install.md](install.md) - all what you need
 - :gemini: [dual-boot.md](dual-boot.md) - all about win+linux
 - :sunrise: [os-linux.md](os-linux.md) - some tweaks
@@ -13,6 +14,7 @@
 - in 999-snippets-gists-patterns is placed all my snippets. I hope this will be useful
 
 ## credits
+
 - edited in [stackedit](https://stackedit.io/editor)
 - [pepelsbey install.md](https://gist.github.com/pepelsbey/2c9acf8917364e0150d4)
 

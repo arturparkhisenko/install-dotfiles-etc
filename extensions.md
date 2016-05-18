@@ -1,7 +1,9 @@
 # Extensions for TextEditor's/IDE's/CMS's
+
 > currently installed - marked as completed
 
 ## Atom
+
 - [x] atom-beautify
 - [x] atom-css-comb
 - [x] atom-language-postcss
@@ -74,8 +76,11 @@
 - [ ] sync-settings
 - [ ] synced-sidebar
 - [ ] tree-view-open-files
+- [ ] language-lua-wow
+- [ ] you-complete-me
 
 ## Atom temporary
+
 - github-2016-syntax
 - atom-refactoring-tools
 - megafinder
@@ -116,6 +121,7 @@
 - tool-bar-main
 
 ## Atom shortcuts
+
 - `ctrl+shift+d` - duplicate line
 - `ctrl+r` - symbol lookup
 - `ctrl+alt+w` - wrap text inside a html tag
@@ -124,18 +130,18 @@
 - `ctrl+shift+l` - select syntax
 
 ## Atom tip
-1. Emmet in .php
-If anyone reads this, I found another way:
-In your `keybindings.cson`, simply add
-```
-'.pane .editor:not(.mini)':
-  'tab': 'emmet:expand-abbreviation'
-```
-This will make Emmet works in .php files (overriding emmet:expand-abbreviation-with-tab action)
-Care this might cause conflicts with other plugins as autocomplete or autocomplete-plus.
 
+1. Emmet in `.php`, In your `keybindings.cson`, simply add
+
+  ```
+  '.pane .editor:not(.mini)':
+  'tab': 'emmet:expand-abbreviation'
+  ```
+
+  This will make Emmet works in .php files (overriding emmet:expand-abbreviation-with-tab action) Care this might cause conflicts with other plugins as autocomplete or autocomplete-plus.
 
 ## IntelliJ IDEA Php/WebStorm
+
 - [x] bashsupport
 - [x] code glance
 - [x] ignore
@@ -148,7 +154,8 @@ Care this might cause conflicts with other plugins as autocomplete or autocomple
 - [ ] scss-lint
 
 ## Chrome
-- [x]  [stop-autoplay-for-youtube](https://chrome.google.com/webstore/detail/stop-autoplay-for-youtube/figkapeodjhdgnpiamleongcmecfjccb/)
+
+- [x] [stop-autoplay-for-youtube](https://chrome.google.com/webstore/detail/stop-autoplay-for-youtube/figkapeodjhdgnpiamleongcmecfjccb/)
 - [x] [devtools-author](https://chrome.google.com/webstore/detail/devtools-author/egfhcfdfnajldliefpdoaojgahefjhhi)
 - [X] [Twitter for GitHub](https://chrome.google.com/webstore/detail/twitter-for-github/joalalcafnlmimkfkihjbdgmphgedojc)
 - [x] github-awesome-autocomple
@@ -212,6 +219,7 @@ Care this might cause conflicts with other plugins as autocomplete or autocomple
 **url to run chrome app list:** "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --show-app-list
 
 ## Firefox
+
 - adblock-plus
 - builtwith
 - disconnect
@@ -220,6 +228,7 @@ Care this might cause conflicts with other plugins as autocomplete or autocomple
 - yslow
 
 ## Wordpress
+
 - All in one Favicon
 - All in One SEO Pack
 - AntiVirus
@@ -247,11 +256,13 @@ Care this might cause conflicts with other plugins as autocomplete or autocomple
 - Use Google Libraries
 
 ### SEO
+
 - Redirection
 - Rus-to-lat / Cyr-To-Lat / Polylang
 - Yoast SEO, WordPress SEO Plugin
 
 ### performance
+
 - cache-buddy
 - Prerender and Prefetch
 - w3-total-cache / WP Super Cache / WP-HTML-Compression
@@ -259,6 +270,7 @@ Care this might cause conflicts with other plugins as autocomplete or autocomple
 - Wp-optimize / Autoptimize
 
 ### content (sliders/etc.)
+
 - amr shortcode any widget
 - Blocks Of Content
 - Collapsing Categories
@@ -284,17 +296,19 @@ Care this might cause conflicts with other plugins as autocomplete or autocomple
 - TinyMCE advanced
 - Typekit WP
 - WYSIWYG Widgets / Widget Blocks
-- [ACF  Advanced Сustom Fields](https://github.com/elliotcondon/acf/)
+- [ACF Advanced Сustom Fields](https://github.com/elliotcondon/acf/)
 - [CPT UI](https://wordpress.org/plugins/custom-post-type-ui/)
 - [list-category-posts](https://wordpress.org/plugins/list-category-posts/)
 - [shortcode-widget](https://wordpress.org/plugins/shortcode-widget/)
 
 ### theme/commerce
+
 - responsive theme
 - wordpress-theme-smartadapt
 - [woocommerce plugins](http://www.designswaggs.com/web-design/20-best-free-woocommerce-plugins-for-wordpress/)
 
 **engines:**
+
 - Visual composer
 
 robots.txt:
@@ -313,6 +327,7 @@ Allow: /
 ```
 
 ## NP++
+
 - [x] converter
 - [x] dspellcheck
 - [x] html tag
@@ -320,6 +335,7 @@ Allow: /
 - [x] jslint
 
 ## Brackets
+
 - angularjs code hints
 - angularjs for brackets
 - atom light theme
@@ -340,7 +356,7 @@ Allow: /
 - FixMyJs
 - FTP-Sync (eqFTP)
 - htmlhint better than Brackets htmllint
-- [http://www.apptoix.com/#bracketstoix](http://www.apptoix.com/#bracketstoix)
+- <http://www.apptoix.com/#bracketstoix>
 - Indent Guides
 - Integrated Development
 - jshint

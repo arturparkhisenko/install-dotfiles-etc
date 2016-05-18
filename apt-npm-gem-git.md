@@ -7,6 +7,7 @@
 - `git config --global push.default simple`
 - `git config --global help.autocorrect -1`
 - `git config --global alias.l "log --graph --oneline --decorate --all"`
+- `git config --global credential.helper 'cache --timeout=86400'`
 - `git add .` or `git add --all` with removed
 - `git status`
 - `git commit -a -m "init commit"`
@@ -56,7 +57,7 @@
 - `sudo apt-get autoclean && sudo apt-get autoremove && sudo apt-get update`
 
 ## build tools
-- `sudo apt-get install git git-core curl yui-compressor`
+- `sudo apt-get install git curl yui-compressor`
 - `sudo apt-get install zlib1g-dev build-essential sqlite3 libsqlite3-dev python-software-properties`
 - `sudo apt-get install libyaml-dev libssl-dev libreadline-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev`
 
@@ -138,7 +139,7 @@ config:
 - `bower cache clean`
 
 ## npm packages
-- `sudo npm i -g eslint eslint-plugin-html eslint-plugin-import stylelint`
+- `sudo npm i -g eslint eslint-plugin-html eslint-plugin-import stylelint tern`
 - `npm i -g npm-check-updates npm-check npm-windows-upgrade`
 - all bower packages install from github like arturparkhisenko/ig-css-addons
 - `ncu -m bower` - check bower.json updates

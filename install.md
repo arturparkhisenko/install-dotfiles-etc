@@ -1,4 +1,5 @@
 # OS
+
 - Windows
 - OS_X
 - Deb.(deb) [Linux Mint](http://www.linuxmint.com/) Mate | Xfce | Cinnamon
@@ -7,18 +8,23 @@
 - Arch(rpm) [Antergos](http://antergos.com/) | [Fedora](https://getfedora.org/) | [Manjaro](https://manjaro.github.io/)
 
 ## related to that
+
 - video server `wayland`
 - switch mint to mate desktop: `sudo apt-get update && sudo apt-get install mint-meta-mate` or synaptics
 - switch mint to xfce desktop: synaptics package manager - search xfce4 - mark for install - apply
 - Arch OS use with ([Pacaur](https://wiki.archlinux.org/index.php/Pacaur) | [Yaourt](https://wiki.archlinux.org/index.php/Yaourt))
 
 # Soft
+
 ## Any OS
+
 - [Atom](https://atom.io/)
+
   - `sudo add-apt-repository ppa:webupd8team/atom`
   - `sudo apt-get update && sudo apt-get install atom`
 
 - [BattleNet](https://eu.battle.net/)
+
 - [FileZilla](https://filezilla-project.org/) -ftp client
 - [Gimp](https://www.gimp.org/)
 - [Git](https://git-scm.com/) - for GitHub/BitBucket
@@ -35,10 +41,12 @@
 - [webStorm](https://www.jetbrains.com/webstorm/) - or [phpStorm](https://www.jetbrains.com/phpstorm/)
 
 - [ ] [f.lux](https://justgetflux.com/)
+
   - `sudo add-apt-repository ppa:kilian/f.lux`
   - `sudo apt-get update`
   - `sudo apt-get install fluxgui`
   - lat 47.8334 long 35.1425
+
 - [ ] [Yandex Disk](https://disk.yandex.ua/client/disk)
 - [ ] [DropBox](https://www.dropbox.com/)
 - [ ] [fbreader](https://fbreader.org/)
@@ -48,21 +56,28 @@
 - [ ] [ImageMinApp](https://github.com/imagemin/imagemin-app)
 - [ ] [franz](http://meetfranz.com/)
 - [ ] [backblaze](https://secure.backblaze.com/)
+- [ ] [vpnbook openvpn](https://www.vpnbook.com/howto/setup-openvpn-on-ubuntu)
 
-Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) [https://windirstat.info](https://windirstat.info)
+Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <https://windirstat.info>
 
 ## Linux (apt)
+
 - [Terminator](http://gnometerminator.blogspot.com/p/introduction.html)
+
   - terminator + settings of opacity / theme, run command: `bash` yeah!
+
 - `sudo apt-get install meld` - diff tool
 - [Plank](https://launchpad.net/plank)
+
   - `sudo add-apt-repository ppa:docky-core/stable`
   - `sudo apt-get update`
   - `sudo apt-get install plank`
   - remove icon, run like `plank --help`
 
 - [awesome-linux](https://github.com/aleksandar-todorovic/awesome-linux)
+
 - grub-customizer
+
   - `sudo add-apt-repository ppa:danielrichter2007/grub-customizer`
   - `sudo apt-get update`
   - `sudo apt-get install grub-customizer`
@@ -70,6 +85,7 @@ Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) [
 - [ ] [Back in Time](http://backintime.le-web.org/)
 
 ## Win
+
 - Corel Draw / Corel Painter
 - Kompas
 - Solid Works
@@ -135,4 +151,4 @@ Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) [
 - WinSCP
 - WinSetupFromUSB
 - winsxslite
-- [https://irzyxa.wordpress.com/2015/08/10/volume1-1-4-347/](https://irzyxa.wordpress.com/2015/08/10/volume1-1-4-347/)
+- <https://irzyxa.wordpress.com/2015/08/10/volume1-1-4-347/>

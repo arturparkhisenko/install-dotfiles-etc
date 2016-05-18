@@ -49,8 +49,6 @@
   - nice too [https://helloanselm.com/cv/](https://helloanselm.com/cv/)
 
 - REGISTER ON STACKOVERFLOW
-- update gulp-gold and release 0.9.0
-- update ig-pai-app and release 1.0.0 final version (angular1 is out from game)
 
 # software design principles
 - DRY don't repeat yourself

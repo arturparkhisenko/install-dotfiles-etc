@@ -1,4 +1,5 @@
 # wine-staging
+
 - I'd prefer to use 32bit wine now
 - install [wine-staging](https://wine-staging.com/) from [wine-compholio](https://github.com/wine-compholio/wine-staging/wiki/Installation#-ubuntulinux-mint)
 - install(maybe you need only `build-essentials`) [this packages](https://github.com/arturparkhisenko/install-dotfiles-etc/blob/master/apt-npm-gem-git.md#build-tools)
@@ -6,12 +7,17 @@
 - that's all!
 - if you have issues with textures you can fix it by installing [this packages](https://github.com/arturparkhisenko/install-dotfiles-etc/blob/master/apt-npm-gem-git.md#fix-textures-in-opengl)
 - better if you run bnet client, but if you wont you can make a direct link:
+
   - link example: `setarch i386 -3 /usr/share/playonlinux/playonlinux --run "Diablo III"`
+
 - ~~run `winecfg` and **disable** the `d3d11` dll in library tab.~~
 
 ## game tests and guides
+
 - [WOW - gold, on appdb.winehq.org](https://appdb.winehq.org/objectManager.php?sClass=application&iId=1922)
+
   - [WOW guide on webupd8](http://www.webupd8.org/2014/09/how-to-install-world-of-warcraft-in.html)
+
 - [Diablo3 - gold, on appdb.winehq.org](https://appdb.winehq.org/objectManager.php?sClass=application&iId=13484)
 
 # etc stuff, not important
@@ -24,6 +30,7 @@ WINEPREFIX=$scriptdir"/d3_hs_prefix" setarch i386 -3 wine "Battle.net Launcher.e
 ```
 
 **To use winecfg to automatically enable/disable dbhelp.dll:**
+
 1. Run winecfg. (If you have multiple prefixes, make sure it is the correct prefix.)
 2. In the 'Libraries' tab type dbghelp into the 'New override for library' box.
 3. Click 'Add', then 'Yes'.
@@ -48,21 +55,25 @@ WINEPREFIX=$scriptdir"/d3_hs_prefix" setarch i386 -3 wine "Battle.net Launcher.e
 **Note:** The above steps will disable dbghelp for _all_ programs other than Diablo III. It is suggested that you use a separate prefix for Diablo III if you are going to do this. It is hard to tell what application(s) need dbghelp disabled, so it is easier to just enable it for 'Diablo III.exe'.
 
 # required libs
+
 - `sudo apt-get install winetricks`
 - everything beginning with `d3dx`, `dx9`, `dinput`, `direct` or `d3d`:
 - install also this winetricks libs:
-```
-winetricks d3dx9 d3dx10 winxp sound=alsa dotnet20 ie6 corefonts physx
-winetricks quartz vcrun2005 vcrun2008 vcrun2010 wininet xact xact_jun2010 xinput
-winetricks glsl-disable ddr=opengl allfonts orm=fbo coresounds
-winetricks mfc40 mfc42 wmp10
-winetricks msxml3 msxml4 msxml6
-winetricks vb6run vcrun2003 vcrun6sp6 vcrun6 wsh56vb wsh57
-```
+
+  ```
+  winetricks d3dx9 d3dx10 winxp sound=alsa dotnet20 ie6 corefonts physx
+  winetricks quartz vcrun2005 vcrun2008 vcrun2010 wininet xact xact_jun2010 xinput
+  winetricks glsl-disable ddr=opengl allfonts orm=fbo coresounds
+  winetricks mfc40 mfc42 wmp10
+  winetricks msxml3 msxml4 msxml6
+  winetricks vb6run vcrun2003 vcrun6sp6 vcrun6 wsh56vb wsh57
+  ```
+
 - old winetricks libs:
-```
-winetricks droid volnum
-```
+
+  ```
+  winetricks droid volnum
+  ```
 
 # reinstall wine
 
@@ -73,6 +84,7 @@ WINEARCH='win32' WINEPREFIX=~/.wine winecfg
 ```
 
 # other configurations from guides, a little bit old
+
 Fix it by launching "Configure Wine" from the menu / Dash (or press ALT + F2 and enter: winecfg) and on the Libraries tab, under "New override for library", enter "dbghelp" (without the quotes), then click "Add". Next, select "dbghelp" under "Existing overrides" and click "Edit" and in the new pop-up, set it to "Disable"
 
 ```sh
