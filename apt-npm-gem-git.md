@@ -1,7 +1,9 @@
 # Linux
+
 - Date format `%Y%m%e, %a, %H:%M`
 
 # Git config (first commit/push)
+
 - `git config --global user.email "your@email.com"`
 - `git config --global user.name "yourname"`
 - `git config --global push.default simple`
@@ -14,6 +16,7 @@
 - `git push`
 
 ## git update forked repository (syncing-a-fork) [official doc](https://help.github.com/articles/syncing-a-fork/)
+
 - `git remote add upstream https://github.com/whoever/whatever.git`
 - `git fetch upstream`
 - `git checkout master`
@@ -25,57 +28,72 @@
 - `git stash pop`
 
 ## git revert commit (not files)
+
 - `git config --global alias.undo-commit 'reset --soft HEAD^'` Then just type git `undo-commit`
 
 ## clone git repository with specific revision/changeset?
+
 - `git clone $URL`
 - `git reset --hard $SHA1`
 - that's all!
 - `git pull` - go back to the most recent commit
 
 ## git gpg
-- https://www.gnupg.org/download/
-- https://help.github.com/categories/gpg/
-- https://github.com/blog/2144-gpg-signature-verification
-- https://twitter.com/steveklabnik/status/717514738389925889
+
+- <https://www.gnupg.org/download/>
+- <https://help.github.com/categories/gpg/>
+- <https://github.com/blog/2144-gpg-signature-verification>
+- <https://twitter.com/steveklabnik/status/717514738389925889>
 
 # [Oh My ZSH](http://ohmyz.sh/)
+
 ## Required:
+
 - `sudo apt-get install git-core`
 
 ## Install:
+
 - `sudo apt-get install zsh`
 - `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 - `sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
 - `sudo shutdown -r 0` - restart after install
 
 ## Config:
+
 - [Themes](http://zshthem.es)
 
 # APT
+
 ## all
+
 - `sudo apt-get autoclean && sudo apt-get autoremove && sudo apt-get update`
 
 ## build tools
+
 - `sudo apt-get install git curl yui-compressor`
 - `sudo apt-get install zlib1g-dev build-essential sqlite3 libsqlite3-dev python-software-properties`
 - `sudo apt-get install libyaml-dev libssl-dev libreadline-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev`
 
 ## ruby
+
 - `sudo apt-get install ruby-full rubygems-integration`
 
 ## java
+
 - `sudo apt-get install default-jre default-jdk`
 
 ## fonts
+
 - `sudo apt-get install fonts-droid fonts-noto ttf-mscorefonts-installer`
 
 ## fix textures in openGL
+
 - `sudo apt-get install lib32-mesa-libgl`
 - `sudo apt-get install libtxc-dxtn-s2tc0 libtxc-dxtn-s2tc0:i386`
 - `sudo apt-get install program:i386 gcc-multilib`
 
 ## PHP & APACHE
+
 - lamp or xampp
 - `sudo apt-get install php5 php5-cli php5-common php-apc php-pear php5-xdebug php5-curl php5-dev php5-xsl php5-intl`
 - `sudo apt-get install apache2`
@@ -86,12 +104,14 @@
 - `sudo apt-get install phpmyadmin`
 
 config:
-  - `sudo nano /etc/apache2/apache2.conf ``
-  - add-this-at-the-end -> `Include /etc/phpmyadmin/apache.conf`
+
+- `sudo nano /etc/apache2/apache2.conf ``
+- add-this-at-the-end -> `Include /etc/phpmyadmin/apache.conf`
 
 - ubuntu 15.0+ sudo service apache2 restart
 
 ## PHP FIXERS
+
 - `sudo pear channel-update PEAR`
 - `sudo pear upgrade PEAR`
 - `sudo pear channel-discover pear.phing.info`
@@ -99,7 +119,7 @@ config:
 - `sudo pear install PHP_CodeSniffer`
 - necessary if you already have installed phpunit via apt-get
 - `sudo apt-get remove phpunit`
-- [https://phpunit.de/getting-started.html](https://phpunit.de/getting-started.html)
+- <https://phpunit.de/getting-started.html>
 - install newest version of phpunit
 - `sudo pear channel-discover pear.phpunit.de`
 - `sudo pear channel-discover pear.symfony-project.com`
@@ -112,10 +132,13 @@ config:
 - `sudo chmod a+x /usr/local/bin/php-cs-fixer`
 
 # nodejs & npm
+
 ## install
+
 - [linux](https://github.com/nodesource/distributions#installation-instructions)
 
 ### update nodejs on linux
+
 - `sudo npm cache clean -f`
 - `sudo npm install -g n`
 - `sudo n stable`
@@ -125,9 +148,11 @@ config:
 - `npm-prune` to remove unlisted packages in package.json
 
 ### update npm on windows
+
 - [npm-windows-upgrade](https://github.com/felixrieseberg/npm-windows-upgrade)
 
 ## npm commands
+
 - `npm root -g` root folder of global modules
 - `npm config get prefix` show npm path
 - `npm list -g --depth=0` show globally installed plugins
@@ -136,40 +161,48 @@ config:
 - `npm outdated`
 
 **bower**
+
 - `bower cache clean`
 
 ## npm packages
+
 - `sudo npm i -g eslint eslint-plugin-html eslint-plugin-import stylelint tern`
-- `npm i -g npm-check-updates npm-check npm-windows-upgrade`
+- `npm i -g npm-check-updates npm-check npm-windows-upgrade gulp-cli bower`
 - all bower packages install from github like arturparkhisenko/ig-css-addons
 - `ncu -m bower` - check bower.json updates
 - `ncu -g` - check global updates
 
 **not global**
+
 - `npm i -g sw-precache sw-toolbox`
 - `npm i -g babel-preset-es2015`
 - `npm i -g uglify-js gulp-babel sass babel-eslint jspm trash csslint jshint jscs bower bower-check-updates`
 
 **webpack**
+
 - `npm i -D webpack bower-webpack-plugin`
 - `npm i -D style-loader css-loader url-loader babel-loader babel-runtime eslint-loader cssnext-loader`
 
 **paths**
+
 - linux node: `/usr/local/bin/scss`
 - linux ruby: `/var/lib/gems/1.9.1/gems/sass-3.4.16/bin/sass`
 - win node: `c:\users\username\appdata\roaming\npm\node_modules`
 - win ruby: `C:\Programs\rubygems\gem\sass` or `c:\RubyXX\lib`
 
 **intellijIdea watcher conf**
+
 - `--no-cache --update $FileName$:$FileNameWithoutExtension$.min.css --style compressed`
 - update file with .min too!
 
 ### upgrade node
+
 - `sudo npm cache clean -f`
 - `sudo npm install -g n`
 - `sudo n stable`
 
 ## nvm
+
 - `nvm ls-remote`
 - `nvm install 0.11.13`
 - `nvm use 0.11.13`
@@ -178,25 +211,29 @@ config:
 - `nvm alias default 0.11.13`
 
 ## gulp
+
 - `npm adduser name`
 - `npm publish - to update`
-- [https://www.npmjs.org/package/gulp-gold](https://www.npmjs.org/package/gulp-gold)
-- [http://habrahabr.ru/post/177465/](http://habrahabr.ru/post/177465/)
-- [http://habrahabr.ru/post/208890/](http://habrahabr.ru/post/208890/)
-- [http://browsenpm.org/package.json](http://browsenpm.org/package.json)
+- <https://www.npmjs.org/package/gulp-gold>
+- <http://habrahabr.ru/post/177465/>
+- <http://habrahabr.ru/post/208890/>
+- <http://browsenpm.org/package.json>
 
 ## ionic
+
 - `npm install -g cordova ionic`
 - `ionic start myApp sidemenu`
-- [http://ionicframework.com/docs/guide/starting.html](http://ionicframework.com/docs/guide/starting.html)
-- [https://github.com/driftyco/ionic-contrib-frosted-glass](https://github.com/driftyco/ionic-contrib-frosted-glass)
+- <http://ionicframework.com/docs/guide/starting.html>
+- <https://github.com/driftyco/ionic-contrib-frosted-glass>
 - `cordova platform update ios`
 - `cordova platform update android`
 
 # GEM
+
 **path to gems will be like:** /var/lib/gems/1.8/bin
 
 [RubyGems](https://rubygems.org/pages/download)
+
 - `ruby setup.rb`
 - `gem list` or `gem query --local` list of all installed gem's
 - `gem outdated` show a list of outdated gem's
@@ -205,10 +242,12 @@ config:
 - `gem uninstall mysql` remove gem
 
 ## My gems
+
 - [x] `sudo gem install sass scss_lint`
 - [ ] `gem install sass-globbing bundler bourbon`
 
 # GIT
+
 - `git config --global color.ui true`
 - `git config --global user.name "YOUR NAME"`
 - `git config --global user.email "YOUR@EMAIL.com"`
@@ -217,6 +256,7 @@ config:
 - `ssh -T git@github.com`
 
 # phpStorm
+
 - for PHPUnit Code Completion add PHPUnit path under file->settings->directories
 - Usually it's stored in
 - /usr/share/php/PHPUnit
@@ -225,6 +265,7 @@ config:
 - /usr/bin/phpunit-skelgen
 
 # PHP CONFIG
+
 - Change this settings in /etc/php5/cli/php.ini for for all webservers
 - Change this settings in /etc/php5/apache2/php.ini if you have installed apache2
 - Change this settings in /etc/php5/fpm/php.ini if you have installed nginx and fpm
@@ -243,6 +284,7 @@ Debugging with XDebug on Browser and Command line The example is made for PHPSto
 - Ubuntu 14.04 with php-fpm -> sudo ln -s /etc/php5/mods-available/xdebug.ini /etc/php5/fpm/conf.d/20-xdebug.ini with apache2 -> sudo ln -s /etc/php5/mods-available/xdebug.ini /etc/php5/apache2/conf.d/20-xdebug.ini with cli -> sudo ln -s /etc/php5/mods-available/xdebug.ini /etc/php5/cli/conf.d/20-xdebug.ini Edit /etc/php5/mods-available/xdebug.ini Configuration
 
 # xdebug.ini
+
 - xdebug.remote_enable=On
 - xdebug.remote_host=localhost
 - xdebug.remote_port=9002
@@ -254,16 +296,19 @@ Debugging with XDebug on Browser and Command line The example is made for PHPSto
 - xdebug.max_nesting_level = 1000
 - `sudo service apache2 restart`
 
--Add to /home/<your_username>/.bashrc export XDEBUG_CONFIG="PHPSTORM";
+-Add to /home/
 
--reload bash settings source ~/.bashrc Edit Settings in PHPStorm Go to File->Settings->PHP->Debug Change XDebug Debug Port to 9002 Install Easy XDebug Plugin for Firefox [https://addons.mozilla.org/de/firefox/addon/easy-xdebug/](https://addons.mozilla.org/de/firefox/addon/easy-xdebug/)
+<your_username>/.bashrc export XDEBUG_CONFIG="PHPSTORM";</your_username>
+
+-reload bash settings source ~/.bashrc Edit Settings in PHPStorm Go to File->Settings->PHP->Debug Change XDebug Debug Port to 9002 Install Easy XDebug Plugin for Firefox <https://addons.mozilla.org/de/firefox/addon/easy-xdebug/>
 
 # SERVER
+
 - [win ssl on apache](http://adminsnotes.blogspot.com/2008/01/apache-openssl-windows.html)
 
 if phpmyadmin not found: sudo ln -s /usr/share/phpmyadmin /var/www/html/ Include /etc/phpmyadmin/apache.conf
 
--dontuse: -vsftpd -[http://ubuntuforums.org/showthread.php?t=518293](http://ubuntuforums.org/showthread.php?t=518293) -[https://www.digitalocean.com/community/tutorials/how-to-configure-vsftpd-to-use-ssl-tls-on-an-ubuntu-vps](https://www.digitalocean.com/community/tutorials/how-to-configure-vsftpd-to-use-ssl-tls-on-an-ubuntu-vps)
+-dontuse: -vsftpd -<http://ubuntuforums.org/showthread.php?t=518293> -<https://www.digitalocean.com/community/tutorials/how-to-configure-vsftpd-to-use-ssl-tls-on-an-ubuntu-vps>
 
 ```
     <VirtualHost dropbox.local:80>

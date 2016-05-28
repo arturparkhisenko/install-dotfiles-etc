@@ -30,6 +30,7 @@ https://stackoverflow.com/questions/9742395/scope-of-sessionstorage-and-localsto
 Поля ввода форм - https://github.com/karmazzin/eloquentjavascript_ru/blob/master/chapters/chapter18.md
 - [Основы систем счисления](https://habrahabr.ru/post/124395/)
 
+- [jscourse tasks](http://jscourse.com/tasks)
 
 DevTools(en):
 http://discover-devtools.codeschool.com/chapters/1/challenges/7
@@ -60,6 +61,8 @@ https://developer.chrome.com/devtools/docs/remote-debugging
 
 Список всего лучшего для работы по категориям
 https://github.com/bayandin/awesome-awesomeness
+
+[12factor](http://12factor.net/ru/)
 
 Руководство по псевдоклассам и псевдоэлементам
 http://prgssr.ru/development/polnoe-rukovodstvo-po-psevdoklassam-i-psevdoelementam.html
@@ -135,6 +138,8 @@ wordpress - blog cms на php (удобный движок для создани
 Тостерный вопрос ответ
 https://toster.ru/q/196885
 
+[Junior Php](http://anton.shevchuk.name/php/required-skills-for-junior-php-developer/)
+[hexlet php challenges](https://ru.hexlet.io/challenges)
 
 ## mustlisten & read
 http://design-pattern.ru/

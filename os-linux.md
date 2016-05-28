@@ -15,11 +15,6 @@
 
 - `sudo rm /var/lib/pacman/db.lck` to fix pacman lib error
 
-### soft
-
-- `broadcom-wl` - wifi drivers
-- `ethtool` - network drivers and hardware control
-
 ### commands
 
 - `ctrl+h` - show hidden files
@@ -108,15 +103,3 @@ place new and local fonts to user /home/.fonts/
 - `sudo fc-cache -fv`
 - `sudo dpkg-reconfigure fontconfig`
 - `fc-list`
-
-# fonts list
-
-- Consolas
-- Inconsolata
-- Menlo
-- Monaco
-- Ubuntu Mono
-- [monoid](https://github.com/larsenwork/monoid)
-- [Gidole](https://github.com/larsenwork/Gidole)
-- [Hack](https://github.com/chrissimpkins/Hack)
-- [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) from adobe

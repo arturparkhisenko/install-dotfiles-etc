@@ -2,15 +2,15 @@
 
 - Windows
 - OS_X
-- Deb.(deb) [Linux Mint](http://www.linuxmint.com/) Mate | Xfce | Cinnamon
-- Deb.(deb) [Ubuntu](http://www.ubuntu.com/) Unity | Mate | Gnome
+- Deb.(deb) [Linux Mint](http://www.linuxmint.com/) Mate | Cinnamon
+- Deb.(deb) [Ubuntu](http://www.ubuntu.com/)
 - Deb.(deb) [Kali](https://www.kali.org/)
 - Arch(rpm) [Antergos](http://antergos.com/) | [Fedora](https://getfedora.org/) | [Manjaro](https://manjaro.github.io/)
 
 ## related to that
 
-- video server `wayland`
-- switch mint to mate desktop: `sudo apt-get update && sudo apt-get install mint-meta-mate` or synaptics
+- video server `wayland` / `Weston`
+- switch mint from Cinnamon to Mate desktop: `sudo apt-get update && sudo apt-get install mint-meta-mate` or synaptics
 - switch mint to xfce desktop: synaptics package manager - search xfce4 - mark for install - apply
 - Arch OS use with ([Pacaur](https://wiki.archlinux.org/index.php/Pacaur) | [Yaourt](https://wiki.archlinux.org/index.php/Yaourt))
 
@@ -76,6 +76,11 @@ Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <
 
 - [awesome-linux](https://github.com/aleksandar-todorovic/awesome-linux)
 
+- [rclone gdrive client](http://rclone.org/drive/)
+
+- `broadcom-wl` - wifi drivers
+- `ethtool` - network drivers and hardware control
+
 - grub-customizer
 
   - `sudo add-apt-repository ppa:danielrichter2007/grub-customizer`
@@ -103,6 +108,7 @@ Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <
 - ClassicShell
 - Cmder
 - Composer
+- [Chocolatey](https://chocolatey.org/)
 - Curl
 - [Curse](https://www.curse.com)
 - DarkComet RAT Legacy
@@ -152,3 +158,17 @@ Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <
 - WinSetupFromUSB
 - winsxslite
 - <https://irzyxa.wordpress.com/2015/08/10/volume1-1-4-347/>
+
+# fonts list
+
+- Consolas
+- Inconsolata
+- Menlo
+- Monaco
+- Ubuntu Mono
+- [monoid](https://github.com/larsenwork/monoid)
+- [Gidole](https://github.com/larsenwork/Gidole)
+- [Hack](https://github.com/chrissimpkins/Hack)
+- [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) from adobe
+- [Montserrat](https://www.google.com/fonts/specimen/Montserrat)
+- [Hind](https://www.google.com/fonts/specimen/Hind)
