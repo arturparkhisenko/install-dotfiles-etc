@@ -4,14 +4,18 @@
   editor:
     fontSize: 17
     lineHeight: 1.1
+    scrollPastEnd: true
     showIndentGuide: true
     tabType: "soft"
     zoomFontWhenCtrlScrolling: false
   "exception-reporting":
     userId: "9295d08c-0c7b-383a-085b-88929d08cf02"
   core:
+    audioBeep: false
     disabledPackages: [
+      "turbo-javascript"
       "vim-mode"
+      "polymer-atom"
     ]
     themes: [
       "seti-ui"
@@ -29,8 +33,10 @@
       beautifyEntireFileOnSave: false
   "atom-css-comb":
     readyMadeConfigs: "zen"
+  "atom-ternjs":
+    useSnippets: true
   linter:
-    errorPanelHeight: 142
+    errorPanelHeight: 25
   "linter-eslint":
     disableWhenNoEslintConfig: false
     lintHtmlFiles: true
@@ -38,7 +44,10 @@
     plugins:
       "git-diff": true
       "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
       linter: true
       linterDecorationsZIndex: 0
-      "highlight-selected": true
       selection: true
+  "seti-ui":
+    compactView: true
+    font: "Default Atom Font"
