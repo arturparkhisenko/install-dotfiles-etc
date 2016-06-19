@@ -77,9 +77,11 @@
 - [Moom](http://manytricks.com/moom/) Managing app windows
 - [Paragon NTFS on Mac](http://www.paragon-software.com/home/ntfs-mac/)
 - [Reflector](http://www.airsquirrels.com/reflector/) like LiveView
-- [ScreenFlow](http://www.telestream.net/screenflow/) for recording
-- [The Unarchiver](http://wakaba.c3.cx/s/apps/unarchiver.html)
 - [Safari technology-preview](https://developer.apple.com/safari/technology-preview/)
+- [ScreenFlow](http://www.telestream.net/screenflow/) for recording
+- [TermHere](https://itunes.apple.com/us/app/termhere/id1114363220?mt=12)
+- [The Unarchiver](http://wakaba.c3.cx/s/apps/unarchiver.html)
+- [ ] [karabiner](https://pqrs.org/osx/karabiner/)
 
 ## not mine OS_X soft
 

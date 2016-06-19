@@ -6,6 +6,9 @@
 - [udacity ud015](https://www.udacity.com/courses/ud015)
 - [udacity offline-web-applications](https://www.udacity.com/course/offline-web-applications--ud899)
 - [udacity javascript-promises](https://www.udacity.com/course/javascript-promises--ud898)
+- [coursera algs4partI](https://www.coursera.org/course/algs4partI)
+- [coursera algs4partII](https://www.coursera.org/course/algs4partII)
+- [svg](https://htmlacademy.ru/courses/130)
 
 # todo
 

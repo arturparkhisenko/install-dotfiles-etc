@@ -59,6 +59,7 @@
 - [ ] git-control
 - [ ] git-log
 - [ ] git-plus
+- [ ] gulp-control
 - [ ] headerify
 - [ ] highlight-cov
 - [ ] javascript-snippets
@@ -126,6 +127,7 @@
 - `ctrl+r` - symbol lookup
 - `ctrl+alt+w` - wrap text inside a html tag
 - `ctrl+p` - fuzzy search
+- `ctrl+d` - select word
 - `ctrl+shift+p` - command palette
 - `ctrl+shift+l` - select syntax
 
@@ -167,6 +169,9 @@
 - [x] Motivation
 - [x] [Google Keep](https://chrome.google.com/webstore/detail/google-keep-chrome-extens/lpcaedmchfhocbbapmcbpinfpgnhiddi)
 - [x] [Google Inbox](https://chrome.google.com/webstore/detail/inbox-by-gmail/gkljgfmjocfalijkgoogmfffkhmkbgol)
+- [ ] [aria-validator](https://chrome.google.com/webstore/detail/aria-validator/oigghlanfjgnkcndchmnlnmaojahnjoc)
+- [ ] [xss-rays](https://chrome.google.com/webstore/detail/xss-rays/kkopfbcgaebdaklghbnfmjeeonmabidj)
+- [ ] [Isometric Contributions](https://chrome.google.com/webstore/detail/isometric-contributions/mjoedlfflcchnleknnceiplgaeoegien)
 - [ ] batarang
 - [ ] BuiltWith technology profiler
 - [ ] Cacoo (прототипирование и построение диаграмм)

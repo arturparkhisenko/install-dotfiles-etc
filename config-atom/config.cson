@@ -24,12 +24,12 @@
   "atom-beautify":
     css:
       convert_quotes: "double"
+      default_beautifier: "Pretty Diff"
       force_indentation: true
       newline_between_rules: true
       selector_separator_newline: true
     general:
       _analyticsUserId: "846a2c51-e063-4159-8fdb-5da28c9d1cc6"
-      analytics: false
       beautifyEntireFileOnSave: false
   "atom-css-comb":
     readyMadeConfigs: "zen"

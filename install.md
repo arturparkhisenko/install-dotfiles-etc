@@ -63,7 +63,7 @@ Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <
 ## Linux (apt)
 
 - [Terminator](http://gnometerminator.blogspot.com/p/introduction.html)
-
+- [Linux Brew](http://linuxbrew.sh/)
   - terminator + settings of opacity / theme, run command: `bash` yeah!
 
 - `sudo apt-get install meld` - diff tool
@@ -88,6 +88,7 @@ Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <
   - `sudo apt-get install grub-customizer`
 
 - [ ] [Back in Time](http://backintime.le-web.org/)
+- [ ] [gTile](https://github.com/lundal/vibou.gTile)
 
 ## Win
 
@@ -158,6 +159,7 @@ Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <
 - WinSetupFromUSB
 - winsxslite
 - <https://irzyxa.wordpress.com/2015/08/10/volume1-1-4-347/>
+- [blindscanner](http://www.blindscanner.com/ru/download.html)
 
 # fonts list
 

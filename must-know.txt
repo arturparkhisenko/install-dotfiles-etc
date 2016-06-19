@@ -29,8 +29,16 @@ https://stackoverflow.com/questions/9742395/scope-of-sessionstorage-and-localsto
 Регулярные выражения - https://github.com/karmazzin/eloquentjavascript_ru/blob/master/chapters/chapter9.md
 Поля ввода форм - https://github.com/karmazzin/eloquentjavascript_ru/blob/master/chapters/chapter18.md
 - [Основы систем счисления](https://habrahabr.ru/post/124395/)
-
+- [Иммутабельные структуры данных](http://prgssr.ru/development/pogruzhenie-v-react-redux.html#heading-section-7)
+  - Примитивные типы данных в JavaScript (число, строка, логическое значение, Undefined и Null) всегда неизменны.
+  - Объекты, массивы и функции изменяемы.
+- [как понимать код](http://jscourse.com/article/how-to-become-better-programmer-by-learning-how-you-understand-code)
+- [ssh basics](https://www.youtube.com/watch?v=sbVYRf_6Hvg)
 - [jscourse tasks](http://jscourse.com/tasks)
+- [новички или senior/junior, от девушки филолога](https://www.youtube.com/watch?v=qFeCi6E3e14&feature=youtu.be)
+- [From Zero to Front-end Hero (Part 1)](https://medium.freecodecamp.com/from-zero-to-front-end-hero-part-1-7d4f7f0bff02#.p0pooc2p6)
+- [From Zero to Front-end Hero (Part 2)](https://medium.freecodecamp.com/from-zero-to-front-end-hero-part-2-adfa4824da9b#.uj93oo4y8)
+- [From Carpenter to Front End Developer in under 5 months](https://medium.freecodecamp.com/this-is-my-story-about-how-i-went-from-being-a-carpenter-with-zero-experience-in-the-tech-world-to-4252e93cb73#.azj4fczdn)
 
 DevTools(en):
 http://discover-devtools.codeschool.com/chapters/1/challenges/7
@@ -222,6 +230,8 @@ https://www.youtube.com/watch?v=QQ9gs-5lRKc
 - [About Time and Sport](https://youtu.be/YiPN0A-y3xQ)
 - [algorythms, Traveling Salesman Problem Visualization](https://www.youtube.com/watch?v=SC5CX8drAtU)
 - [Git and GitHub for Poets](https://www.youtube.com/watch?v=BCQHnlnPusY)
+- [vim, hexlet](https://www.youtube.com/watch?v=79OWQ1qJwto)
+- [vim, full](https://www.youtube.com/watch?v=9ECVZurn3S8&list=PLfujefkh3GSrjtBImpmPXjfTEqumaqqY1)
 
 ## Switchers
 http://dou.ua/lenta/columns/epistle-to-switchers/
