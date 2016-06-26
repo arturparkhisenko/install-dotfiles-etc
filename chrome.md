@@ -2,6 +2,7 @@
 
 - enable sourcemaps + livereload for css/js
 - add blackboxing in chrome like that: `/jquery.*\.js`
+- [two step verification by phone](https://www.google.com/intl/ru/landing/2step/)
 
 # keybinds
 

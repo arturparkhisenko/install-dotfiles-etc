@@ -11,7 +11,7 @@
 - :zap: [extensions.md](extensions.md) - extensions and plugins for cms/browsers/etc
 - :cloud: [chrome.md](chrome.md) - settings & keybinds & tips
 - :video_game: [os-linux-wine.md](os-linux-wine.md) - Run Windows Games on Linux
-- in 999-snippets-gists-patterns is placed all my snippets. I hope this will be useful
+- [My github gists](https://gist.github.com/arturparkhisenko) where is placed all my snippets. I hope they will be useful
 
 ## credits
 
