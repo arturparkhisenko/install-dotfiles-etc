@@ -153,12 +153,17 @@ config:
 
 ## npm commands
 
+- `.npmrc`
 - `npm root -g` root folder of global modules
 - `npm config get prefix` show npm path
 - `npm list -g --depth=0` show globally installed plugins
 - `sudo chown -R artur /usr/lib/node_modules/` fixing npm permissions
 - `npm cache clean -f`
 - `npm outdated`
+- `npm outdated -g`
+- `npm install --cache-min 5`
+- `npm version major` major/minor/patch
+- `npm version patch -m "bump to version %s"`
 
 **bower**
 
@@ -168,15 +173,18 @@ config:
 
 - `sudo npm i -g eslint eslint-plugin-html eslint-plugin-import stylelint tern`
 - `npm i -g npm-check-updates npm-check npm-windows-upgrade gulp-cli bower`
+- `npm i -g npm-upgrade`
 - all bower packages install from github like arturparkhisenko/ig-css-addons
 - `ncu -m bower` - check bower.json updates
 - `ncu -g` - check global updates
+- `npm outdated -g` - check global updates
+- `npm install nsp -g && nsp check`
 
 **not global**
 
-- `npm i -g sw-precache sw-toolbox`
-- `npm i -g babel-preset-es2015`
-- `npm i -g uglify-js gulp-babel sass babel-eslint jspm trash csslint jshint jscs bower bower-check-updates`
+- `npm i sw-precache sw-toolbox`
+- `npm i babel-preset-es2015`
+- `npm i uglify-js gulp-babel jspm trash bower bower-check-updates`
 
 **webpack**
 

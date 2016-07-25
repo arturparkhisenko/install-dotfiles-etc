@@ -40,6 +40,11 @@ https://stackoverflow.com/questions/9742395/scope-of-sessionstorage-and-localsto
 - [From Zero to Front-end Hero (Part 2)](https://medium.freecodecamp.com/from-zero-to-front-end-hero-part-2-adfa4824da9b#.uj93oo4y8)
 - [From Carpenter to Front End Developer in under 5 months](https://medium.freecodecamp.com/this-is-my-story-about-how-i-went-from-being-a-carpenter-with-zero-experience-in-the-tech-world-to-4252e93cb73#.azj4fczdn)
 - [5 min, from 36](https://www.youtube.com/watch?v=iBHr8gKc5L8)
+- [linuxjourney](https://linuxjourney.com/)
+- [first node module](https://medium.com/@jdaudier/how-to-create-and-publish-your-first-node-js-module-444e7585b738#.bozzp5cn3)
+- [Live Coding a JavaScript Poll App](https://www.youtube.com/watch?v=M7g76xnRxmA&list=PL5ze0DjYv5Da1lnrtzRXCvtQvAcOZkxF2&index=1)
+
+- https://htmlacademy.github.io/codeguide/
 
 DevTools(en):
 http://discover-devtools.codeschool.com/chapters/1/challenges/7
@@ -110,6 +115,7 @@ html5/css3, css4, html5-boilerplate, bootstrap
     http://shpargalkablog.ru/2013/03/px-em-calc.html
     https://developers.google.com/web/fundamentals/layouts/rwd-patterns/
     https://bradfrost.github.io/this-is-responsive/patterns.html
+    https://github.com/yoksel/common-words
 JavaScript (ecmascript), es6, es7, babeljs
     https://www.youtube.com/watch?v=aGTjRU7Dp20&list=PLo6puixMwuSNxJCgadaaavKqq4-ocKPrR
     https://github.com/arturparkhisenko/eloquentjavascript_ru/blob/master/chapters/chapter1.md

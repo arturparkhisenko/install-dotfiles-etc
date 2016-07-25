@@ -41,6 +41,7 @@
 - [webStorm](https://www.jetbrains.com/webstorm/) - or [phpStorm](https://www.jetbrains.com/phpstorm/)
 
 - [ ] [f.lux](https://justgetflux.com/)
+- [ ] [odrive](https://www.odrive.com/)
 
   - `sudo add-apt-repository ppa:kilian/f.lux`
   - `sudo apt-get update`
@@ -160,6 +161,7 @@ Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <
 - winsxslite
 - <https://irzyxa.wordpress.com/2015/08/10/volume1-1-4-347/>
 - [blindscanner](http://www.blindscanner.com/ru/download.html)
+- [wox](http://www.getwox.com/)
 
 # fonts list
 

@@ -87,6 +87,7 @@
 
 - 1Password
 - alcatraz
+- [macbartender](https://www.macbartender.com/)
 - caleidoscope
 - carthage
 - charles
@@ -137,6 +138,9 @@
 - [Transmission](http://www.transmissionbt.com/download/)
 - [TunnelBear](https://www.tunnelbear.com/download/)
 - [vlc](https://www.videolan.org/vlc/index.html)
+- [choosyosx](https://www.choosyosx.com/)
+- [patterns](http://krillapps.com/patterns/)
+- [functionflip](http://kevingessner.com/software/functionflip/)
 
 ## ColorSnapper
 
