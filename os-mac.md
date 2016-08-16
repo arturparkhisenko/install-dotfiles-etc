@@ -1,4 +1,4 @@
-# OS_X
+# macOS
 
 ## System
 
@@ -63,7 +63,7 @@
 
 8. Hide Public folder: chflags hidden ~/Public/
 
-## OS_X Soft
+## macOS Soft
 
 - [CleanMyMac](http://macpaw.com/cleanmymac)
 - [CrossOver](http://www.codeweavers.com/products/) and [Parallels](http://www.parallels.com/) for win apps
@@ -83,7 +83,7 @@
 - [The Unarchiver](http://wakaba.c3.cx/s/apps/unarchiver.html)
 - [ ] [karabiner](https://pqrs.org/osx/karabiner/)
 
-## not mine OS_X soft
+## not mine macOS soft
 
 - 1Password
 - alcatraz
@@ -141,6 +141,9 @@
 - [choosyosx](https://www.choosyosx.com/)
 - [patterns](http://krillapps.com/patterns/)
 - [functionflip](http://kevingessner.com/software/functionflip/)
+
+## macOS config
+- [zchee](https://github.com/zchee/scripts/blob/master/mac/mac-secret-settings.sh)
 
 ## ColorSnapper
 

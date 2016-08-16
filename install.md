@@ -39,6 +39,7 @@
 - [TeamViewer](https://www.teamviewer.com)
 - [TunnelBear (vpn, proxy)](https://www.tunnelbear.com/)
 - [webStorm](https://www.jetbrains.com/webstorm/) - or [phpStorm](https://www.jetbrains.com/phpstorm/)
+- [Anki](http://ankisrs.net/)
 
 - [ ] [f.lux](https://justgetflux.com/)
 - [ ] [odrive](https://www.odrive.com/)
