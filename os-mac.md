@@ -65,13 +65,16 @@
 
 ## macOS Soft
 
+- [arthur, settings](http://arthur-osx.com/)
 - [CleanMyMac](http://macpaw.com/cleanmymac)
 - [CrossOver](http://www.codeweavers.com/products/) and [Parallels](http://www.parallels.com/) for win apps
+- [BetterZip 3](https://macitbetter.com/) zip
 - [Dash](https://kapeli.com/dash) offline access to 150+ API documentation sets
 - [F.lux](http://stereopsis.com/flux/) screen color change
 - [iExplorer](http://www.macroplant.com/iexplorer/) transfering files between ios devices
 - [Induction](http://inductionapp.com/) db
 - [LiveView](http://www.zambetti.com/)
+- [GitUp](http://gitup.co/)
 - [Memory Clean - Monitor and Free Up Memory](https://itunes.apple.com/ru/app/memory-clean-monitor-free/id451444120?mt=12)
 - [Monolingual](http://monolingual.sourceforge.net/) remove unnened langs
 - [Moom](http://manytricks.com/moom/) Managing app windows
@@ -79,9 +82,14 @@
 - [Reflector](http://www.airsquirrels.com/reflector/) like LiveView
 - [Safari technology-preview](https://developer.apple.com/safari/technology-preview/)
 - [ScreenFlow](http://www.telestream.net/screenflow/) for recording
+- [ShiftIt](https://github.com/fikovnik/ShiftIt)
 - [TermHere](https://itunes.apple.com/us/app/termhere/id1114363220?mt=12)
 - [The Unarchiver](http://wakaba.c3.cx/s/apps/unarchiver.html)
 - [ ] [karabiner](https://pqrs.org/osx/karabiner/)
+- [ ] [gasmask](https://github.com/2ndalpha/gasmask)
+- [ ] [EnvPane](https://github.com/hschmidt/EnvPane)
+- [ ] [dlite](https://github.com/nlf/dlite)
+- [ ] [iterm2](https://www.iterm2.com/)
 
 ## not mine macOS soft
 
@@ -102,7 +110,6 @@
 - fastlane
 - Final Cut Pro
 - Hazel
-- gitup
 - iA Writer Pro
 - Keynote
 - MindNode 2

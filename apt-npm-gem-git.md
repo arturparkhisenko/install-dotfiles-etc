@@ -171,7 +171,7 @@ config:
 
 ## npm packages
 
-- `sudo npm i -g eslint eslint-plugin-html eslint-plugin-import stylelint tern`
+- `sudo npm i -g n np eslint eslint-plugin-html eslint-plugin-import stylelint tern`
 - `npm i -g npm-check-updates npm-check npm-windows-upgrade gulp-cli bower`
 - `npm i -g npm-upgrade`
 - all bower packages install from github like arturparkhisenko/ig-css-addons

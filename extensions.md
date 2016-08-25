@@ -55,6 +55,7 @@
 - [ ] ex-mode
 - [ ] fast-eslint
 - [ ] file-icons
+- [ ] filecolor
 - [ ] flux
 - [ ] git-control
 - [ ] git-log
@@ -70,6 +71,7 @@
 - [ ] package-sync-plus
 - [ ] paste-image-2
 - [ ] rainbow-tabs (or rainbox-tabs)
+- [ ] regex-railroad-diagram
 - [ ] scroll-percentage
 - [ ] selectors
 - [ ] split-diff
