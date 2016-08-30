@@ -62,7 +62,8 @@
     "test2": "gulp test:local",
     "watch:js": "npm run build:js --watch",
     "watch": "watchify main.js -p browserify-hmr -o public/bundle.js -dv",
-    "www": "ecstatic -p 8000 public"
+    "www": "ecstatic -p 8000 public",
+    "check-updates": "npm outdated -g && ncu && ncu -m bower"
   },
   "dependencies": {
     "angular2": "^2.0.0-beta.17",

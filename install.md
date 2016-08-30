@@ -1,13 +1,13 @@
 # OS
 
 - Windows
-- OS_X
-- Deb.(deb) [Linux Mint](http://www.linuxmint.com/) Mate | Cinnamon
-- Deb.(deb) [Ubuntu](http://www.ubuntu.com/)
-- Deb.(deb) [Kali](https://www.kali.org/)
-- Arch(rpm) [Antergos](http://antergos.com/) | [Fedora](https://getfedora.org/) | [Manjaro](https://manjaro.github.io/)
+- MacOS
+- Linux
+  - Deb [Linux Mint](http://www.linuxmint.com/) | [Kubuntu](https://www.kubuntu.org/) | [Ubuntu](http://www.ubuntu.com/)
+  - Deb [Kali](https://www.kali.org/) | [BlackArch](http://blackarch.org/)
+  - Arch [Antergos](http://antergos.com/) | [Apricity](https://apricityos.com/) | [Fedora](https://getfedora.org/)
 
-## related to that
+## Related to that
 
 - video server `wayland` / `Weston`
 - switch mint from Cinnamon to Mate desktop: `sudo apt-get update && sudo apt-get install mint-meta-mate` or synaptics
