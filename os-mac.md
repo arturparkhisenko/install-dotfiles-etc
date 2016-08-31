@@ -90,6 +90,7 @@
 - [ ] [EnvPane](https://github.com/hschmidt/EnvPane)
 - [ ] [dlite](https://github.com/nlf/dlite)
 - [ ] [iterm2](https://www.iterm2.com/)
+- [ ] [svgs](http://www.svgs.us/)
 
 ## not mine macOS soft
 
