@@ -1,0 +1,11 @@
+[ignore]
+.*/node_modules/**/*
+
+[include]
+
+[libs]
+
+[options]
+unsafe.enable_getters_and_setters=true
+munge_underscores=true
+suppress_comment=\\(.\\|\n\\)*\\$FlowIssue
