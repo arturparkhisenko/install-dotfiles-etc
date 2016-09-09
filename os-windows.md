@@ -20,10 +20,6 @@
 ## Disable update to 10 notification
 
 - [GWX Control Panel](http://ultimateoutsider.com/downloads/)
-- or
-
-  - uninstall KB3035583
-  - remove `C:\Windows\System32\GWX` or `C:\Windows\SysWOW64\GWX` (in 64-bit systems only)
 
 ### Registry Tweak 1
 

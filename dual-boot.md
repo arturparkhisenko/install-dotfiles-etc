@@ -1,5 +1,9 @@
 # dual-boot
 
+## uefi
+- [UEFI and GPT, habr, ru](https://habrahabr.ru/post/259283/)
+- [UEFI and Secure Boot, habr, ru](https://habrahabr.ru/post/185492/)
+
 ## 3 volumes on /sda with MBR
 
 - sda1 ntfs 200gb for win
