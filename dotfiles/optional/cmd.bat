@@ -1,2 +1,3 @@
 @echo off
-cmd.exe /K "cd C:\Users\artur\Documents\GitHub"
+cmd.exe /K "cd %userprofile%\Documents\GitHub"
+

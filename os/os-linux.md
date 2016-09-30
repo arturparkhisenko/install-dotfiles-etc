@@ -103,3 +103,7 @@ place new and local fonts to user /home/.fonts/
 - `sudo fc-cache -fv`
 - `sudo dpkg-reconfigure fontconfig`
 - `fc-list`
+
+## virtualbox shared folder
+- sudo adduser xxxxxxx vboxsf
+- and share it on windows for all with full access

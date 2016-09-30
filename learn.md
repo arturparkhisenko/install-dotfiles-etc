@@ -36,10 +36,6 @@ exports.IsValidTrue = function(variable) {
 
 MY IDEAS::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 https://twitter.com/andrey_sitnik/status/703203060294639618
-fonts:
-https://www.google.com/fonts/specimen/Montserrat
-https://www.google.com/fonts/specimen/Hind
-
 
 MY SITE:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

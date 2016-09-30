@@ -1,0 +1,17 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+[user]
+
+[push]
+	default = simple
+[alias]
+	l = log --graph --oneline --decorate --all
+[credential]
+
+[core]
+	eol = lf
+	autocrlf = input
+[credential]
+	helper = cache --timeout=86400

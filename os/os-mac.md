@@ -84,6 +84,7 @@
 - [ScreenFlow](http://www.telestream.net/screenflow/) for recording
 - [ShiftIt](https://github.com/fikovnik/ShiftIt)
 - [TermHere](https://itunes.apple.com/us/app/termhere/id1114363220?mt=12)
+- [breaks](http://www.dejal.com/)
 - [The Unarchiver](http://wakaba.c3.cx/s/apps/unarchiver.html)
 - [ ] [karabiner](https://pqrs.org/osx/karabiner/)
 - [ ] [gasmask](https://github.com/2ndalpha/gasmask)

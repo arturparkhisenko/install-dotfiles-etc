@@ -1,3 +1,8 @@
+# Intel Drivers
+
+- [link, by processors, ru](http://www.intel.ru/content/www/ru/ru/support/graphics-drivers.html)
+- [link, en](https://downloadcenter.intel.com/)
+
 # Secure or fast boot
 
 1. Disable Windows 8 Fast Boot. To do this, go to the Control Panel

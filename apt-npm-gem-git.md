@@ -164,6 +164,10 @@ config:
 - `npm install --cache-min 5`
 - `npm version major` major/minor/patch
 - `npm version patch -m "bump to version %s"`
+  - npm publish
+  - git push
+- `npm i --production` - without devDependencies
+- `npm prune --production` - clear from devDependencies
 
 **bower**
 
@@ -171,17 +175,20 @@ config:
 
 ## npm packages
 
-- `sudo npm i -g n np eslint eslint-plugin-html eslint-plugin-import stylelint tern`
-- `npm i -g npm-check-updates npm-check npm-windows-upgrade gulp-cli bower`
+- `sudo npm i -g n np nsp eslint eslint-plugin-html eslint-plugin-import stylelint flow`
+- `npm i -g npm-check-updates npm-check npm-windows-upgrade gulp-cli bower tern`
 - `npm i -g npm-upgrade`
 - all bower packages install from github like arturparkhisenko/ig-css-addons
 - `ncu -m bower` - check bower.json updates
 - `ncu -g` - check global updates
 - `npm outdated -g` - check global updates
 - `npm install nsp -g && nsp check`
+- `npm i -g shrinkpack` (.tar.gz in node_shinkwrap, and updates npm-shrinkwrap.json, fix current deps --dev, speedups install in 2.5times! creates npm-shrinkwrap.json)
+- greenkeper.io
 
 **not global**
 
+- `npm i husky -D` (adds scripts support: precommit, prepush, postcommit, postpush)
 - `npm i sw-precache sw-toolbox`
 - `npm i babel-preset-es2015`
 - `npm i uglify-js gulp-babel jspm trash bower bower-check-updates`

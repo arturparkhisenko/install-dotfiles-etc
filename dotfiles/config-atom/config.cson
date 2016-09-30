@@ -6,6 +6,8 @@
     lineHeight: 1.1
     scrollPastEnd: true
     showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
     tabType: "soft"
     zoomFontWhenCtrlScrolling: false
   "exception-reporting":

@@ -34,6 +34,10 @@ tail filename.ext - last 10 lines of file (-f will show up to date) (linux&mac)
 
 grep 'what' filename.ext - find string in file (linux&mac), find/findstr (win)
 
+- ctrl+z (background, fg -resume, bg- resume all)
+- type command (shows description)
+- ls -l (as list)
+
 #pager for big files (less, more)
 less system.log - open paginated big file in vim mode, q-quit h-help (linux&mac),
 

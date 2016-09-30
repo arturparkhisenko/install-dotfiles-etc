@@ -23,3 +23,7 @@
 ## read last strings
 
 - tail filename
+
+## windows cmd config
+- opacity 90%
+- colors: bg(0 43 54), text(147 161 161)

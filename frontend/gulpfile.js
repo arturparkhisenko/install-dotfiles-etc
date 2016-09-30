@@ -7,6 +7,10 @@
 // rollup vs webpack vs jspm/systemjs
 // https://github.com/MaKleSoft/gulp-style-modules
 
+const pkg = require('./package.json');
+// and usage:
+// pkg.main or pkg['jsnext:main']
+
 // Plugins & paths
 var gulp = require('gulp');
 var del = require('del');

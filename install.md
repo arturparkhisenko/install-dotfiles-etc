@@ -40,6 +40,7 @@
 - [TunnelBear (vpn, proxy)](https://www.tunnelbear.com/)
 - [webStorm](https://www.jetbrains.com/webstorm/) - or [phpStorm](https://www.jetbrains.com/phpstorm/)
 - [Anki](http://ankisrs.net/)
+- [obsproject, studio, video](https://obsproject.com/)
 
 - [ ] [f.lux](https://justgetflux.com/)
 - [ ] [odrive](https://www.odrive.com/)
@@ -59,6 +60,8 @@
 - [ ] [franz](http://meetfranz.com/)
 - [ ] [backblaze](https://secure.backblaze.com/)
 - [ ] [vpnbook openvpn](https://www.vpnbook.com/howto/setup-openvpn-on-ubuntu)
+- [ ] [buffer](https://buffer.com/)
+- [ ] [ack(grep)](http://beyondgrep.com/)
 
 Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <https://windirstat.info>
 
@@ -177,3 +180,7 @@ Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <
 - [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) from adobe
 - [Montserrat](https://www.google.com/fonts/specimen/Montserrat)
 - [Hind](https://www.google.com/fonts/specimen/Hind)
+
+# credits
+
+- [pepelsbey install.md](https://gist.github.com/pepelsbey/2c9acf8917364e0150d4)

@@ -14,9 +14,9 @@
 - [x] background-tips
 - [x] css-clean
 - [x] docblockr
+- [x] double-tag
 - [x] editorconfig (sindresorhus)
 - [x] emmet
-- [x] git-time-machine
 - [x] highlight-line
 - [x] highlight-selected
 - [x] hyperclick
@@ -26,6 +26,7 @@
 - [x] linter-eslint
 - [x] linter-htmlhint
 - [x] linter-jsxhint
+- [x] linter-jsonlint
 - [x] linter-stylelint
 - [x] local-history
 - [x] merge-conflicts
@@ -60,16 +61,20 @@
 - [ ] git-control
 - [ ] git-log
 - [ ] git-plus
+- [ ] git-time-machine
 - [ ] gulp-control
 - [ ] headerify
 - [ ] highlight-cov
 - [ ] javascript-snippets
+- [ ] language-lua-wow
 - [ ] linter-csslint
 - [ ] meld-diff
+- [ ] minimap-cursorline
 - [ ] no-syntax-highlighting-syntax
 - [ ] package-sync
 - [ ] package-sync-plus
 - [ ] paste-image-2
+- [ ] platformio-ide-terminal
 - [ ] rainbow-tabs (or rainbox-tabs)
 - [ ] regex-railroad-diagram
 - [ ] scroll-percentage
@@ -79,7 +84,6 @@
 - [ ] sync-settings
 - [ ] synced-sidebar
 - [ ] tree-view-open-files
-- [ ] language-lua-wow
 - [ ] you-complete-me
 
 ## Atom temporary
@@ -223,6 +227,8 @@
 - [ ] [User-Agent Switcher for Google Chrome](https://chrome.google.com/webstore/detail/user-agent-switcher-for-g/ffhkkpnppgnfaobgihpdblnhmmbodake/related?hl=en-US&gl=US)
 - [ ] [Vysor](https://chrome.google.com/webstore/detail/vysor-beta/gidgenkbbabolejbgbpnhbimgjbffefm/related?hl=en-US)
 - [html5-video-speed-control](https://chrome.google.com/webstore/detail/html5-video-speed-control/ejdipbccipeloijefbkiakckfhdbgocg)
+- [notifier-for-github-chrome](https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn)
+- [tunnelbear-vpn](https://chrome.google.com/webstore/detail/tunnelbear-vpn/omdakjcmkglenbhjadbccaookpfjihpa)
 
 **url to run chrome app list:** "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --show-app-list
 
