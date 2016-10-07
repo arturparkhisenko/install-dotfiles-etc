@@ -2,7 +2,7 @@
   welcome:
     showOnStartup: false
   editor:
-    fontSize: 17
+    fontSize: 16
     lineHeight: 1.1
     scrollPastEnd: true
     showIndentGuide: true
@@ -11,16 +11,11 @@
     tabType: "soft"
     zoomFontWhenCtrlScrolling: false
   "exception-reporting":
-    userId: "9295d08c-0c7b-383a-085b-88929d08cf02"
+    userId: "009b4c30-7938-233f-c016-ca09c6844536"
   core:
     audioBeep: false
-    disabledPackages: [
-      "turbo-javascript"
-      "vim-mode"
-      "polymer-atom"
-    ]
     themes: [
-      "seti-ui"
+      "one-dark-ui"
       "solarized-dark-syntax"
     ]
   "atom-beautify":
@@ -38,10 +33,15 @@
   "atom-ternjs":
     useSnippets: true
   linter:
+    alwaysTakeMinimumSpace: false
     errorPanelHeight: 25
+    inlineTooltipInterval: 120
   "linter-eslint":
     disableWhenNoEslintConfig: false
     lintHtmlFiles: true
+  "linter-stylelint":
+    enableHtmlLinting: true
+    usePreset: true
   minimap:
     plugins:
       "git-diff": true
@@ -50,6 +50,17 @@
       linter: true
       linterDecorationsZIndex: 0
       selection: true
-  "seti-ui":
-    compactView: true
-    font: "Default Atom Font"
+  "one-dark-ui":
+    layoutMode: "Compact"
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+  "todo-show":
+    ignoreThesePaths: [
+      "**/node_modules/"
+      "**/vendor/"
+      "**/bower_components/"
+      "**/src/bower_components/"
+    ]

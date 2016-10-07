@@ -92,45 +92,6 @@
 - `sudo apt-get install libtxc-dxtn-s2tc0 libtxc-dxtn-s2tc0:i386`
 - `sudo apt-get install program:i386 gcc-multilib`
 
-## PHP & APACHE
-
-- lamp or xampp
-- `sudo apt-get install php5 php5-cli php5-common php-apc php-pear php5-xdebug php5-curl php5-dev php5-xsl php5-intl`
-- `sudo apt-get install apache2`
-- `sudo a2enmod rewrite`
-- `sudo apt-get install libapache2-mod-php5`
-- `sudo apt-get install mysql-server mysql-client`
-- `sudo apt-get install php5-mysql`
-- `sudo apt-get install phpmyadmin`
-
-config:
-
-- `sudo nano /etc/apache2/apache2.conf ``
-- add-this-at-the-end -> `Include /etc/phpmyadmin/apache.conf`
-
-- ubuntu 15.0+ sudo service apache2 restart
-
-## PHP FIXERS
-
-- `sudo pear channel-update PEAR`
-- `sudo pear upgrade PEAR`
-- `sudo pear channel-discover pear.phing.info`
-- `sudo pear install phing/phing`
-- `sudo pear install PHP_CodeSniffer`
-- necessary if you already have installed phpunit via apt-get
-- `sudo apt-get remove phpunit`
-- <https://phpunit.de/getting-started.html>
-- install newest version of phpunit
-- `sudo pear channel-discover pear.phpunit.de`
-- `sudo pear channel-discover pear.symfony-project.com`
-- `sudo pear channel-discover components.ez.no`
-- `sudo pear update-channels`
-- `sudo pear upgrade-all`
-- `sudo pear install --alldeps phpunit/PHPUnit`
-- `sudo pear install --force --alldeps phpunit/PHPUnit`
-- `sudo wget http://cs.sensiolabs.org/get/php-cs-fixer.phar -O /usr/local/bin/php-cs-fixer`
-- `sudo chmod a+x /usr/local/bin/php-cs-fixer`
-
 # nodejs & npm
 
 ## install
@@ -175,7 +136,7 @@ config:
 
 ## npm packages
 
-- `sudo npm i -g n np nsp eslint eslint-plugin-html eslint-plugin-import stylelint flow`
+- `sudo npm i -g n np nsp eslint eslint-plugin-html eslint-plugin-import stylelint flow-bin`
 - `npm i -g npm-check-updates npm-check npm-windows-upgrade gulp-cli bower tern`
 - `npm i -g npm-upgrade`
 - all bower packages install from github like arturparkhisenko/ig-css-addons
@@ -183,6 +144,7 @@ config:
 - `ncu -g` - check global updates
 - `npm outdated -g` - check global updates
 - `npm install nsp -g && nsp check`
+- `npm install --save-dev flow-bin` - for local flow-bin env
 - `npm i -g shrinkpack` (.tar.gz in node_shinkwrap, and updates npm-shrinkwrap.json, fix current deps --dev, speedups install in 2.5times! creates npm-shrinkwrap.json)
 - greenkeper.io
 
@@ -258,7 +220,7 @@ config:
 
 ## My gems
 
-- [x] `sudo gem install sass scss_lint`
+- [ ] `sudo gem install sass scss_lint`
 - [ ] `gem install sass-globbing bundler bourbon`
 
 # GIT
@@ -290,6 +252,46 @@ config:
 - post_max_size = 32m
 - upload_max_filesize = 32m
 - default_charset = utf8
+
+## PHP & APACHE
+
+- lamp or xampp
+- `sudo apt-get install php5 php5-cli php5-common php-apc php-pear php5-xdebug php5-curl php5-dev php5-xsl php5-intl`
+- `sudo apt-get install apache2`
+- `sudo a2enmod rewrite`
+- `sudo apt-get install libapache2-mod-php5`
+- `sudo apt-get install mysql-server mysql-client`
+- `sudo apt-get install php5-mysql`
+- `sudo apt-get install phpmyadmin`
+
+config:
+
+- `sudo nano /etc/apache2/apache2.conf ``
+- add-this-at-the-end -> `Include /etc/phpmyadmin/apache.conf`
+
+- ubuntu 15.0+ sudo service apache2 restart
+
+## PHP FIXERS
+
+- `sudo pear channel-update PEAR`
+- `sudo pear upgrade PEAR`
+- `sudo pear channel-discover pear.phing.info`
+- `sudo pear install phing/phing`
+- `sudo pear install PHP_CodeSniffer`
+- necessary if you already have installed phpunit via apt-get
+- `sudo apt-get remove phpunit`
+- <https://phpunit.de/getting-started.html>
+- install newest version of phpunit
+- `sudo pear channel-discover pear.phpunit.de`
+- `sudo pear channel-discover pear.symfony-project.com`
+- `sudo pear channel-discover components.ez.no`
+- `sudo pear update-channels`
+- `sudo pear upgrade-all`
+- `sudo pear install --alldeps phpunit/PHPUnit`
+- `sudo pear install --force --alldeps phpunit/PHPUnit`
+- `sudo wget http://cs.sensiolabs.org/get/php-cs-fixer.phar -O /usr/local/bin/php-cs-fixer`
+- `sudo chmod a+x /usr/local/bin/php-cs-fixer`
+
 
 ```
 Debugging with XDebug on Browser and Command line The example is made for PHPStorm IDE with Apache2 webserver. But other IDE's or webservers should work in a similar way.
