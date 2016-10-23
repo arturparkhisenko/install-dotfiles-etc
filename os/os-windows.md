@@ -2,6 +2,7 @@
 
 - [link, by processors, ru](http://www.intel.ru/content/www/ru/ru/support/graphics-drivers.html)
 - [link, en](https://downloadcenter.intel.com/)
+- get windows key cmd command: `wmic path SoftwareLicensingService get OA3xOriginalProductKey`
 
 # Secure or fast boot
 
@@ -21,28 +22,6 @@
 3. [CleanUnwantedUpdates](https://github.com/KOLANICH/CleanUnwantedUpdates)
 4. [WinsxsLite](https://sites.google.com/site/winsxslite/)
 5. [DisableWinTracking](https://github.com/10se1ucgo/DisableWinTracking) or [BlockWindows aka Anti-Spy](https://github.com/WindowsLies/BlockWindows)
-
-## Disable update to 10 notification
-
-- [GWX Control Panel](http://ultimateoutsider.com/downloads/)
-
-### Registry Tweak 1
-
-1. open `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows`
-2. Create a new key under Windows key and set its name as GWX
-3. So the final key path would be: `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\GWX`
-4. Now select GWX key and in right-side pane create a new DWORD DisableGWX and set its value to 1
-
-### Registry Tweak 2
-
-1. open `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows`
-2. Create a new key under Windows key and set its name as WindowsUpdate like `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate`
-3. Now select WindowsUpdate key and in right-side pane create a new DWORD DisableOSUpgrade and set its value to 1
-
-### Registry Tweak 3
-
-1. open `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\OSUpgrade`
-2. In right-side pane, look for two DWORDs AllowOSUpgrade and ReservationsAllowed and change their values to 0
 
 # Win, how to remove long name folders/files
 

@@ -25,7 +25,7 @@
 - [x] linter
 - [x] linter-eslint
 - [x] linter-htmlhint
-- [x] linter-jsxhint
+- [ ] linter-jsxhint
 - [x] linter-jsonlint
 - [x] linter-stylelint
 - [x] local-history
@@ -35,8 +35,9 @@
 - [x] minimap-linter
 - [x] pigments / webbox-color
 - [x] polymer-atom (from polylabs)
+- [x] polymer-ide (from polylabs)
 - [x] react
-- [x] seti-ui
+- [ ] seti-ui
 - [x] solarized-dark-syntax (default)
 - [x] sort-lines
 - [x] todo-show
@@ -55,7 +56,7 @@
 - [ ] emoji-syntax
 - [ ] ex-mode
 - [ ] fast-eslint
-- [ ] file-icons
+- [x] file-icons
 - [ ] filecolor
 - [ ] flux
 - [ ] git-control
@@ -229,6 +230,8 @@
 - [html5-video-speed-control](https://chrome.google.com/webstore/detail/html5-video-speed-control/ejdipbccipeloijefbkiakckfhdbgocg)
 - [notifier-for-github-chrome](https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn)
 - [tunnelbear-vpn](https://chrome.google.com/webstore/detail/tunnelbear-vpn/omdakjcmkglenbhjadbccaookpfjihpa)
+- [githunt](https://chrome.google.com/webstore/detail/githunt/khpcnaokfebphakjgdgpinmglconplhp)
+- [Distract off](https://chrome.google.com/webstore/detail/distractoff/hdnjpdhnjfiipibogpkeemefnldahcnk)
 
 **url to run chrome app list:** "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --show-app-list
 

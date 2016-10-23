@@ -97,60 +97,66 @@ Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <
 
 ## Win
 
-- Corel Draw / Corel Painter
-- Kompas
-- Solid Works
 - [adwCleaner](https://toolslib.net/downloads/viewdownload/1-adwcleaner/)
 - [ASCON KOMPAS](http://edu.ascon.ru/main/download/freeware/)
+- [Babun](https://babun.github.io/)
+- [blindscanner](http://www.blindscanner.com/ru/download.html)
+- [blue-screen]([http://www.nirsoft.net/utils/blue_screen_view.html#DownloadLinks)
+- [Ccleaner](https://www.piriform.com/ccleaner/download)
+- [Chocolatey](https://chocolatey.org/)
+- [Cmder](http://cmder.net/)
+- [Curse](https://www.curse.com)
+- [Defraggler](https://www.piriform.com/defraggler/download)
+- [FileOptimizer](http://nikkhokkho.sourceforge.net/static.php?page=FileOptimizer)
+- [Github Desktop](https://desktop.github.com/)
+- [handbrake](https://handbrake.fr/) (video conv)
+- [hwinfo](https://www.hwinfo.com/)
+- [InternetCensor](http://icensor.ru/)
+- [KLite Full](http://www.codecguide.com/download_k-lite_codec_pack_full.htm)
+- [posh-git](https://github.com/dahlbyk/posh-git)
+- [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+- [svg explorer extension](https://svgextension.codeplex.com/)
+- [syncback free](http://www.2brightsparks.com/freeware/index.html)
+- [wox](http://www.getwox.com/)
+- <https://irzyxa.wordpress.com/2015/08/10/volume1-1-4-347/>
 - Audacity
 - avc-free
 - avz4
-- [Babun](https://babun.github.io/)
-- [blue-screen]([http://www.nirsoft.net/utils/blue_screen_view.html#DownloadLinks)
 - CCEnhancer
-- [Ccleaner](https://www.piriform.com/ccleaner/download)
-- [Cmder](http://cmder.net/)
 - CD burner xp cdbxp
 - ClassicShell
 - Cmder
 - Composer
-- [Chocolatey](https://chocolatey.org/)
+- Corel Draw / Corel Painter
 - Curl
-- [Curse](https://www.curse.com)
 - DarkComet RAT Legacy
-- [Defraggler](https://www.piriform.com/defraggler/download)
 - DevID_agent
 - DjVuSolo
 - DoNotSpy10
 - DoPDF
 - dxWebSetup
 - FreeCommander
-- [FileOptimizer](http://nikkhokkho.sourceforge.net/static.php?page=FileOptimizer)
 - freeFTPd
 - freeSSHd
 - GeForce Experience
-- [Github Desktop](https://desktop.github.com/)
-- [handbrake](https://handbrake.fr/) (video conv)
 - HDDLLF
 - HijackThis
 - i.Disk
-- [InternetCensor](http://icensor.ru/)
 - IpScan
 - JPEGmini
-- [KLite Full](http://www.codecguide.com/download_k-lite_codec_pack_full.htm)
+- Kompas
 - mp3tag
 - MySQLWorkbench
 - Notepad++
 - Novicorp WinToFlash
 - Open Server
 - procexp
-- [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
 - Rufus
 - SOCRAT (translator)
+- Solid Works
 - Sony PC Companion_Web
 - Speccy
 - sqlyog
-- [svg explorer extension](https://svgextension.codeplex.com/)
 - Tnod
 - Tweak-Me
 - UNetBootin-windows
@@ -163,9 +169,6 @@ Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <
 - WinSCP
 - WinSetupFromUSB
 - winsxslite
-- <https://irzyxa.wordpress.com/2015/08/10/volume1-1-4-347/>
-- [blindscanner](http://www.blindscanner.com/ru/download.html)
-- [wox](http://www.getwox.com/)
 
 # fonts list
 

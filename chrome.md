@@ -13,6 +13,7 @@
 
 # flags
 
+- dont forget reset em (if you have any issues)
 - chrome://flags/#enable-fast-unload
 - chrome://flags/#enable-javascript-harmony
 - chrome://flags/#disable-hyperlink-auditing -- disable it anyway :)
@@ -25,6 +26,11 @@
 - `copy(document.body)` copy to the clipboard, and will JSON.stringify objects, but also get the outer HTML of DOM nodes, `copy($0)` is pretty common for me
 - `inspect(document.body.firstChild)`
 - `console.timeStamp('Please be super fast, k?')`
+- `getEventListeners($(‘selector’))` returns an array of objects that contains all the events bound to that element. 
+- `console.time('myTime');` //Starts the timer with label - myTime
+- `console.timeEnd('mytime');` //Ends the timer with Label - myTime /Output: myTime:123.00 ms
+- `dir($(‘selector’))` returns an object with all of the properties associated with its DOM element
+- `document.designMode = 'on'` :)
 
 # blackboxing
 

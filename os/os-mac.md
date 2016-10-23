@@ -95,16 +95,43 @@
 
 ## not mine macOS soft
 
+- [alfred](https://github.com/willfarrell/alfred-pkgman-workflow)
+- [awesome-osx](https://github.com/iCHAIT/awesome-osx)
+- [BitTorrent Sync](https://www.getsync.com/platforms/desktop)
+- [choosyosx](https://www.choosyosx.com/)
+- [ColorSnapper](http://colorsnapper.com/)
+- [Cut and Slice me](http://www.cutandslice.me/) assets from PS CS
+- [functionflip](http://kevingessner.com/software/functionflip/)
+- [Homebrew](http://brew.sh/)
+- [Icon Slate](http://www.kodlian.com/apps/icon-slate) exporting icons
+- [ImageAlpha](http://pngmini.com/)
+- [ImageOptim](https://imageoptim.com/)
+- [Kaleidoscope](http://www.kaleidoscopeapp.com/)
+- [kapeli.com/dash](https://kapeli.com/dash)
+- [licecap](http://www.cockos.com/licecap/)
+- [macbartender](https://www.macbartender.com/)
+- [marathono](http://www.marathono.com/)
+- [mixture](http://mixture.io/)
+- [Parallels Desktop](http://www.parallels.com/products/desktop/download/)
+- [patterns](http://krillapps.com/patterns/)
+- [Reflector 2](http://www.airsquirrels.com/reflector/features/mac/)
+- [Renamer](http://renamer.com/)
+- [safari TP](https://developer.apple.com/safari/technology-preview/)
+- [Slicy](http://macrabbit.com/slicy/) assets from PS
+- [sourcetree](https://www.sourcetreeapp.com/)
+- [Spectacle](http://spectacleapp.com/)
+- [Things](https://culturedcode.com/things/)
+- [totalterminal](http://totalterminal.binaryage.com/)
+- [Tower](http://www.git-tower.com/)
+- [Transmission](http://www.transmissionbt.com/download/)
+- [TunnelBear](https://www.tunnelbear.com/download/)
+- [vlc](https://www.videolan.org/vlc/index.html)
 - 1Password
 - alcatraz
-- [macbartender](https://www.macbartender.com/)
-- caleidoscope
 - carthage
 - charles
 - cocoapods
 - Coinverter
-- dash
-- Dash 3
 - DM1
 - Elmedia
 - fabric.io
@@ -122,37 +149,10 @@
 - Sketch 3
 - Slack
 - xScope 4
-- [alfred](https://github.com/willfarrell/alfred-pkgman-workflow)
-- [awesome-osx](https://github.com/iCHAIT/awesome-osx)
-- [BitTorrent Sync](https://www.getsync.com/platforms/desktop)
-- [ColorSnapper](http://colorsnapper.com/)
-- [Cut and Slice me](http://www.cutandslice.me/) assets from PS CS
-- [Icon Slate](http://www.kodlian.com/apps/icon-slate) exporting icons
-- [ImageAlpha](http://pngmini.com/)
-- [ImageOptim](https://imageoptim.com/)
-- [imageoptim](https://imageoptim.com/)
-- [Kaleidoscope](http://www.kaleidoscopeapp.com/)
-- [kapeli.com/dash](https://kapeli.com/dash)
-- [licecap](http://www.cockos.com/licecap/)
-- [mixture](http://mixture.io/)
-- [Parallels Desktop](http://www.parallels.com/products/desktop/download/)
-- [Reflector 2](http://www.airsquirrels.com/reflector/features/mac/)
-- [Renamer](http://renamer.com/)
-- [Slicy](http://macrabbit.com/slicy/) assets from PS
-- [Spectacle](http://spectacleapp.com/)
-- [Things](https://culturedcode.com/things/)
-- [totalterminal](http://totalterminal.binaryage.com/)
-- [Tower](http://www.git-tower.com/)
-- [transmissionbt](http://www.transmissionbt.com/)
-- [Transmission](http://www.transmissionbt.com/download/)
-- [TunnelBear](https://www.tunnelbear.com/download/)
-- [vlc](https://www.videolan.org/vlc/index.html)
-- [choosyosx](https://www.choosyosx.com/)
-- [patterns](http://krillapps.com/patterns/)
-- [functionflip](http://kevingessner.com/software/functionflip/)
 
 ## macOS config
 - [zchee](https://github.com/zchee/scripts/blob/master/mac/mac-secret-settings.sh)
+- command+R - bootcamp (recovery and etc.)
 
 ## ColorSnapper
 

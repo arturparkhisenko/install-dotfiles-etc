@@ -27,3 +27,18 @@
 ## windows cmd config
 - opacity 90%
 - colors: bg(0 43 54), text(147 161 161)
+
+# some shell scripts
+#!/bin/sh
+
+# outer ip
+curl ifconfig.co
+
+# script name and rights from bin
+chmod +x ~/bin/anyscript.sh
+
+# webserver
+while ( nc -l 80 < file.html > : ) ; do : ; done
+
+# radio
+mpv --volume=50 -playlist ~/16bit.fm_128.m3u

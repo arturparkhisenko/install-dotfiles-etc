@@ -8,7 +8,6 @@
     showIndentGuide: true
     softWrap: true
     softWrapAtPreferredLineLength: true
-    tabType: "soft"
     zoomFontWhenCtrlScrolling: false
   "exception-reporting":
     userId: "009b4c30-7938-233f-c016-ca09c6844536"
@@ -17,6 +16,13 @@
     themes: [
       "one-dark-ui"
       "solarized-dark-syntax"
+    ]
+    disabledPackages: [
+      "javascript-snippets"
+      "language-javascript-better"
+      "vim-mode"
+      "atom-typescript"
+      "whitespace"
     ]
   "atom-beautify":
     css:
