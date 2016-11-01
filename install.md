@@ -99,6 +99,7 @@ Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <
 
 - [adwCleaner](https://toolslib.net/downloads/viewdownload/1-adwcleaner/)
 - [ASCON KOMPAS](http://edu.ascon.ru/main/download/freeware/)
+- [alldup](http://www.alldup.info/en_download_alldup.php)
 - [Babun](https://babun.github.io/)
 - [blindscanner](http://www.blindscanner.com/ru/download.html)
 - [blue-screen]([http://www.nirsoft.net/utils/blue_screen_view.html#DownloadLinks)

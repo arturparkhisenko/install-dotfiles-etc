@@ -4,7 +4,6 @@
 
 root = true
 
-
 [*]
 
 # Change these settings to your own preference
@@ -19,7 +18,3 @@ insert_final_newline = true
 
 [*.md]
 trim_trailing_whitespace = false
-
-[{testfile1,testfile2}.js]
-indent_style = space
-indent_size = 4
