@@ -1,6 +1,7 @@
 //webpack --progress --colors
 //webpack-dev-server --progress --colors
 //http://localhost:8080/webpack-dev-server/
+//loaders 'style!css' should be read as style(css(input))
 
 var path = require('path');
 var webpack = require('webpack');

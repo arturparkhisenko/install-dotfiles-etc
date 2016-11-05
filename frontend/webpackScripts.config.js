@@ -4,6 +4,7 @@
 //https://github.com/webpack/docs/wiki/shimming-modules
 //https://www.npmjs.com/package/globals-loader
 //http://stackoverflow.com/questions/23305599/webpack-provideplugin-vs-externals
+//loaders 'style!css' should be read as style(css(input))
 
 var webpack = require('webpack');
 var path = require('path');
