@@ -3,7 +3,7 @@
 ## System
 
 1. Set up iCloud Keychain
-2. Remove icons and hide Dock
+2. Remove icons
 3. Default address in iMessage
 4. Install Updates
 5. Add Ru Input Sources
@@ -12,22 +12,16 @@
 8. Trackpad, all checkboxes
 9. Change computer's name to 'hydra' XXX in Sharing
 10. Enable Screen Sharing
-11. Turn off energy savings: Battery, Power Adapter: Never
+11. Turn off energy savings: Power Adapter: Never
 12. Turn off screen saver: Never
 13. Disable guest user
-14. Add login items
-
-  - iTunes
-  - Spectacle
-  - BitTorent Sync
-  - Fantastical
-
-15. Login options
-
+  - Open System Preferences.
+  - Go to “Users & Groups” and click the unlock icon.
+  - Click on “Guest User”
+  - Uncheck the box for 'Allow guests to log in to this computer'
+14. Login options
   - Hide buttons
   - Name and password
-
-16. Accessibility -- Zoom -- Use scroll gesture, smooth: off
 
 ## Hardware
 
@@ -48,20 +42,29 @@
 4. New windows show ~/
 5. Search the current folder
 6. Icons View:
-
   - Sort Name
   - Size 16
   - Grid Max
   - Label Right
   - Use as Default
-
 7. Desktop view
-
   - Size 64
   - Grid Min
   - Sort Name
-
 8. Hide Public folder: chflags hidden ~/Public/
+
+# Mac tune:
+- Show All File Extensions `defaults write NSGlobalDomain AppleShowAllExtensions -bool true`
+- Show Hidden Files `defaults write com.apple.finder AppleShowAllFiles true`
+- Show Path Bar `defaults write com.apple.finder ShowPathbar -bool true`
+- Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
+  - `defaults write com.apple.screencapture type -string "png"`
+
+# iterm2
+## Install the Solarized Dark theme for iTerm
+- `open "${HOME}/init/Solarized Dark.itermcolors"`
+## Don’t display the annoying prompt when quitting iTerm
+- `defaults write com.googlecode.iterm2 PromptOnQuit -bool false`
 
 ## macOS Soft
 
@@ -153,6 +156,42 @@
 ## macOS config
 - [zchee](https://github.com/zchee/scripts/blob/master/mac/mac-secret-settings.sh)
 - command+R - bootcamp (recovery and etc.)
+
+https://github.com/drduh/macOS-Security-and-Privacy-Guide
+https://fix-macosx.com/
+https://www.iterm2.com/
+https://www.cakebrew.com/
+https://justgetflux.com/
+https://getkap.co/
+https://hyper.is/
+http://totalterminal.binaryage.com/
+https://www.alfredapp.com/ https://www.alfredapp.com/workflows/
+
+https://github.com/zsh-users/zsh-syntax-highlighting
+
+# Mac tune:
+## Show All File Extensions
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+##Show Hidden Files
+defaults write com.apple.finder AppleShowAllFiles true
+##Show Path Bar 
+defaults write com.apple.finder ShowPathbar -bool true
+## Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
+defaults write com.apple.screencapture type -string "png"
+
+# iterm2
+## Install the Solarized Dark theme for iTerm
+open "${HOME}/init/Solarized Dark.itermcolors"
+## Don’t display the annoying prompt when quitting iTerm
+defaults write com.googlecode.iterm2 PromptOnQuit -bool false
+
+# sindresorhus Mac Keybinds:
+Ctrl ` to toggle TotalTerminal.
+Alt ` to toggle TotalFinder.
+Alt Space to toggle Dash.
+Cmd Space to toggle Alfred.
+Cmd Tab to switch between apps.
+Ctrl Tab to switch between Chrome/TotalFinder/Sublime tabs.s
 
 ## ColorSnapper
 
@@ -258,8 +297,6 @@
 ## Environment
 
 1. CLI tools: make
-2. [io.js](https://iojs.org/en/index.html)
-3. sh utils.sh
 
 ## Terminal
 
@@ -267,11 +304,3 @@
 2. Ask before closing: never
 3. Pepelsbey.terminal profile
 4. Font: Consolas, 14pt
-
-## Sublime Text
-
-1. Install [Package Control](https://packagecontrol.io/installation) by Ctrl and pasting code.
-
-## Atom
-
-1. Install: sync-settings

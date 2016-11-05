@@ -2,6 +2,13 @@
 bind "set completion-ignore-case on"
 bind "set show-all-if-ambiguous on"
 
+# aliases
+alias g=git
+alias ni='npm install'
+alias nig='npm install -g'
+alias nis='npm install --save'
+alias nid='npm install --save-dev'
+
 # @gf3’s Sexy Bash Prompt, inspired by “Extravagant Zsh Prompt”
 # Shamelessly copied from https://github.com/gf3/dotfiles
 
