@@ -2,7 +2,7 @@
   welcome:
     showOnStartup: false
   editor:
-    fontSize: 16
+    fontSize: 17
     lineHeight: 1.1
     scrollPastEnd: true
     showIndentGuide: true
