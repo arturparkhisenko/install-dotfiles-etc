@@ -31,12 +31,11 @@
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
 
-'atom-text-editor atom-workspace':
+'atom-text-editor':
+  'ctrl-alt-l': 'beautify:beautify-editor'
   'ctrl-shift-m': 'minifier:minify'
   'ctrl-shift-t': 'atom-terminal:open'
   'alt-shift-t': 'atom-terminal:open-project-root'
   'alt-j': 'fixmyjs'
   'alt-c': 'css-comb:comb'
   'alt-x': 'autoprefixer'
-'.editor':
-  'ctrl-alt-l': 'atom-beautify:beautify-editor'
