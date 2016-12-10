@@ -2,18 +2,11 @@
 
 - Date format `%Y%m%e, %a, %H:%M`
 
-# Git config (first commit/push)
+# Git config
 
-- `git config --global user.email "your@email.com"`
-- `git config --global user.name "yourname"`
 - `git config --global push.default simple`
-- `git config --global help.autocorrect -1`
-- `git config --global alias.l "log --graph --oneline --decorate --all"`
+- `git config --global help.autocorrect -1` - currently not using
 - `git config --global credential.helper 'cache --timeout=86400'`
-- `git add .` or `git add --all` with removed
-- `git status`
-- `git commit -a -m "init commit"`
-- `git push`
 
 ## git update forked repository (syncing-a-fork) [official doc](https://help.github.com/articles/syncing-a-fork/)
 

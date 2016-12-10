@@ -1,1 +1,2 @@
+prefix=${HOME}/.npm-packages
 cache-min=3600

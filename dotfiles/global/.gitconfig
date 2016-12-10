@@ -8,6 +8,7 @@
 # 	gpgsign = true
 
 [alias]
+  g = git
 	gl = log --graph --oneline --decorate --all
   gs = status -s
   gc = commit -Sam

@@ -16,6 +16,3 @@
 
 direct download:
  <a class="" href="http://goo.gl/file.pdf" type="application/octet-stream" download>Download Catalog</a>
-
-## x-tag
-## bosonic

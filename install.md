@@ -1,7 +1,7 @@
 # OS
 
-- Windows
 - MacOS
+- Windows
 - Linux
   - Deb [Linux Mint](http://www.linuxmint.com/) | [Kubuntu](https://www.kubuntu.org/) | [Ubuntu](http://www.ubuntu.com/)
   - Deb [Kali](https://www.kali.org/) | [BlackArch](http://blackarch.org/)
@@ -24,8 +24,7 @@
   - `sudo apt-get update && sudo apt-get install atom`
 
 - [BattleNet](https://eu.battle.net/)
-
-- [FileZilla](https://filezilla-project.org/) -ftp client
+- [FileZilla](https://filezilla-project.org/) - ftp client
 - [Gimp](https://www.gimp.org/)
 - [Git](https://git-scm.com/) - for GitHub/BitBucket
 - [Google Chrome Canary](https://www.google.com/chrome/browser/canary.html)
@@ -50,8 +49,6 @@
   - `sudo apt-get install fluxgui`
   - lat 47.8334 long 35.1425
 
-- [ ] [Yandex Disk](https://disk.yandex.ua/client/disk)
-- [ ] [DropBox](https://www.dropbox.com/)
 - [ ] [fbreader](https://fbreader.org/)
 - [ ] [KeePass](http://keepass.info/)
 - [ ] [XnViewMP](http://www.xnview.com/en/xnviewmp/)
@@ -170,12 +167,17 @@ Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <
 - WinSCP
 - WinSetupFromUSB
 - winsxslite
+- [x] [eyeleo](http://eyeleo.com/)
 
 # fonts list
 
-- Consolas
+- `font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;`
+
+- Menlo — OS X
+- Consolas — Windows
+- DejaVu Sans Mono — Some flavors of Linux
+
 - Inconsolata
-- Menlo
 - Monaco
 - Ubuntu Mono
 - [monoid](https://github.com/larsenwork/monoid)

@@ -6,26 +6,20 @@
 
 - [x] atom-beautify
 - [x] atom-css-comb
-- [x] atom-language-postcss
-- [x] atom-ternjs
 - [x] autoclose-html
-- [x] autocomplete-paths
+- [x] autocomplete-paths (slows down perf)
 - [x] autoprefixer
-- [x] background-tips
-- [x] css-clean
 - [x] docblockr
 - [x] double-tag
 - [x] editorconfig (sindresorhus)
 - [x] emmet
+- [x] file-icons
 - [x] highlight-line
 - [x] highlight-selected
-- [x] hyperclick
-- [x] js-hyperclick
 - [x] language-javascript-better
 - [x] linter
 - [x] linter-eslint
 - [x] linter-htmlhint
-- [ ] linter-jsxhint
 - [x] linter-jsonlint
 - [x] linter-stylelint
 - [x] local-history
@@ -36,27 +30,26 @@
 - [x] pigments / webbox-color
 - [x] polymer-atom (from polylabs)
 - [x] polymer-ide (from polylabs)
-- [x] react
-- [ ] seti-ui
 - [x] solarized-dark-syntax (default)
 - [x] sort-lines
 - [x] todo-show
-- [x] turbo-javascript
-- [x] vim-mode
 - [ ] activate-power-mode
 - [ ] atom-commander
 - [ ] atom-html-preview
+- [ ] atom-language-postcss
 - [ ] atom-react-native-css
+- [ ] atom-ternjs
 - [ ] atom-typescript
 - [ ] atomic-chrome
 - [ ] auto-detect-indentation
 - [ ] auto-update-packages
+- [ ] background-tips
 - [ ] codecademy-atom-syntax
+- [ ] css-clean
 - [ ] cursor-history
 - [ ] emoji-syntax
 - [ ] ex-mode
 - [ ] fast-eslint
-- [x] file-icons
 - [ ] filecolor
 - [ ] flux
 - [ ] git-control
@@ -66,9 +59,12 @@
 - [ ] gulp-control
 - [ ] headerify
 - [ ] highlight-cov
+- [ ] hyperclick
 - [ ] javascript-snippets
+- [ ] js-hyperclick
 - [ ] language-lua-wow
 - [ ] linter-csslint
+- [ ] linter-jsxhint
 - [ ] meld-diff
 - [ ] minimap-cursorline
 - [ ] no-syntax-highlighting-syntax
@@ -77,14 +73,18 @@
 - [ ] paste-image-2
 - [ ] platformio-ide-terminal
 - [ ] rainbow-tabs (or rainbox-tabs)
+- [ ] react
 - [ ] regex-railroad-diagram
 - [ ] scroll-percentage
 - [ ] selectors
+- [ ] seti-ui
 - [ ] split-diff
 - [ ] symbols-tree-view
 - [ ] sync-settings
 - [ ] synced-sidebar
 - [ ] tree-view-open-files
+- [ ] turbo-javascript
+- [ ] vim-mode
 - [ ] you-complete-me
 
 ## Atom temporary
@@ -165,7 +165,6 @@
 ## Chrome
 
 - [x] [stop-autoplay-for-youtube](https://chrome.google.com/webstore/detail/stop-autoplay-for-youtube/figkapeodjhdgnpiamleongcmecfjccb/)
-- [x] [devtools-author](https://chrome.google.com/webstore/detail/devtools-author/egfhcfdfnajldliefpdoaojgahefjhhi)
 - [X] [Twitter for GitHub](https://chrome.google.com/webstore/detail/twitter-for-github/joalalcafnlmimkfkihjbdgmphgedojc)
 - [x] github-awesome-autocomple
 - [x] github-highlight-selected
@@ -173,9 +172,13 @@
 - [x] Google Docs Offline
 - [x] HTTP/2 and SPDY indicator
 - [x] Https Everywhere
-- [x] Motivation
+- [x] uBlock Origin
+- [x] WhatFont / Fontface Ninja
 - [x] [Google Keep](https://chrome.google.com/webstore/detail/google-keep-chrome-extens/lpcaedmchfhocbbapmcbpinfpgnhiddi)
 - [x] [Google Inbox](https://chrome.google.com/webstore/detail/inbox-by-gmail/gkljgfmjocfalijkgoogmfffkhmkbgol)
+- [x]  [html5-video-speed-control](https://chrome.google.com/webstore/detail/html5-video-speed-control/ejdipbccipeloijefbkiakckfhdbgocg)
+- [ ] Motivation
+- [ ] [devtools-author](https://chrome.google.com/webstore/detail/devtools-author/egfhcfdfnajldliefpdoaojgahefjhhi)
 - [ ] [aria-validator](https://chrome.google.com/webstore/detail/aria-validator/oigghlanfjgnkcndchmnlnmaojahnjoc)
 - [ ] [xss-rays](https://chrome.google.com/webstore/detail/xss-rays/kkopfbcgaebdaklghbnfmjeeonmabidj)
 - [ ] [Isometric Contributions](https://chrome.google.com/webstore/detail/isometric-contributions/mjoedlfflcchnleknnceiplgaeoegien)
@@ -217,7 +220,6 @@
 - [ ] uBlock Origin / AdBlock
 - [ ] Visual Event
 - [ ] Web Developer Checklist
-- [ ] WhatFont / Fontface Ninja
 - [ ] Xdebug helper
 - [ ] Yslow
 - [ ] [data-saver](https://chrome.google.com/webstore/detail/data-saver/pfmgfdlgomnbgkofeojodiodmgpgmkac)
@@ -227,7 +229,6 @@
 - [ ] [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
 - [ ] [User-Agent Switcher for Google Chrome](https://chrome.google.com/webstore/detail/user-agent-switcher-for-g/ffhkkpnppgnfaobgihpdblnhmmbodake/related?hl=en-US&gl=US)
 - [ ] [Vysor](https://chrome.google.com/webstore/detail/vysor-beta/gidgenkbbabolejbgbpnhbimgjbffefm/related?hl=en-US)
-- [html5-video-speed-control](https://chrome.google.com/webstore/detail/html5-video-speed-control/ejdipbccipeloijefbkiakckfhdbgocg)
 - [notifier-for-github-chrome](https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn)
 - [tunnelbear-vpn](https://chrome.google.com/webstore/detail/tunnelbear-vpn/omdakjcmkglenbhjadbccaookpfjihpa)
 - [githunt](https://chrome.google.com/webstore/detail/githunt/khpcnaokfebphakjgdgpinmglconplhp)
@@ -350,50 +351,6 @@ Allow: /
 - [x] html tag
 - [x] mime tools
 - [x] jslint
-
-## Brackets
-
-- angularjs code hints
-- angularjs for brackets
-- atom light theme
-- autoprefixer
-- Beautify
-- Bigger Extensions Panel
-- Brackets Fonts
-- brackets icons
-- Closure Linter
-- CSSfier
-- csslint
-- editorconfig
-- emmet
-- Epic Linter
-- ES6 As JS
-- extension highlighter
-- Extensions Rating
-- FixMyJs
-- FTP-Sync (eqFTP)
-- htmlhint better than Brackets htmllint
-- <http://www.apptoix.com/#bracketstoix>
-- Indent Guides
-- Integrated Development
-- jshint
-- jsonlint extension for brackets
-- markdown preview
-- minifier
-- monokai theme
-- More HTML5 Code Hints
-- php code quality tools
-- phplint for brackets php must installed
-- php syntax hint
-- Pop-up Menu Brackets
-- preferences setup ui
-- quickdocsjs
-- quickdocsphp
-- Quick Search
-- response for brackets
-- scsslint
-- Strict JavaScript
-- [PHP-SIG] PHP SmartHints
 
 ## ADBLOCK
 

@@ -1,38 +1,26 @@
-# macOS
+# MacOS
 
 ## System
 
 1. Set up iCloud Keychain
 2. Remove icons
-3. Default address in iMessage
-4. Install Updates
-5. Add Ru Input Sources
-6. Set up Shortcuts
-7. Show Character viewer in menu bar
-8. Trackpad, all checkboxes
-9. Change computer's name to 'hydra' XXX in Sharing
-10. Enable Screen Sharing
-11. Turn off energy savings: Power Adapter: Never
-12. Turn off screen saver: Never
-13. Disable guest user
+3. Install Updates
+4. Add Ru Input Sources
+5. Set up Shortcuts
+6. Change computer's name to 'mbpap' in Sharing
+7. Turn off screen saver: Never
+8. Disable guest user
   - Open System Preferences.
   - Go to “Users & Groups” and click the unlock icon.
   - Click on “Guest User”
   - Uncheck the box for 'Allow guests to log in to this computer'
-14. Login options
+9. Login options
   - Hide buttons
   - Name and password
 
 ## Hardware
 
 - [External monitor fix](http://www.ireckon.net/2013/03/force-rgb-mode-in-mac-os-x-to-fix-the-picture-quality-of-an-external-monitor)
-
-## Contacts
-
-1. Remove local contacts group
-2. Hide groups Cmd 1
-3. Show first name last
-4. Sort by last name
 
 ## Finder
 
@@ -65,6 +53,10 @@
 - `open "${HOME}/init/Solarized Dark.itermcolors"`
 ## Don’t display the annoying prompt when quitting iTerm
 - `defaults write com.googlecode.iterm2 PromptOnQuit -bool false`
+
+https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo
+
+https://github.com/sindresorhus/guides/blob/master/set-environment-variables.md
 
 ## macOS Soft
 
@@ -169,6 +161,62 @@ https://www.alfredapp.com/ https://www.alfredapp.com/workflows/
 
 https://github.com/zsh-users/zsh-syntax-highlighting
 
+https://gist.github.com/arturparkhisenko/41631f295bf927cc4fc82fea8fc6b044
+
+### brew
+
+brew update
+brew outdated
+brew upgrade
+brew cleanup
+brew doctor
+
+brew update && brew outdated && brew upgrade && brew cleanup
+
+brew install node
+brew install neovim/neovim/neovim
+brew install wget
+brew install git
+
+brew cask install vlc
+brew cask install atom
+
+
+npm i -g babel-cli
+add linter-flow atom
+npm i stylelint-config-standard --save-dev
+npm i -g flow-bin
+
+enable firewall
+enable encryption
+enable find my mac
+enable icloud https://www.apple.com/ru/icloud/setup/mac.html
+enable keychain 
+
+remove imovies, garage band, ibooks, ipages
+
+add mac folder to safari
+this links
+https://www.icloud.com/
+https://checkcoverage.apple.com/ru/ru/?sn=c02SH1QAFVH3
+
+http://macpaw.com/cleanmymac
+https://www.iterm2.com/
+https://hyper.is/
+https://symless.com/synergy/
+
+https://www.spectacleapp.com/
+
+http://www.titanium.free.fr/onyx.html - utility
+
+http://macpaw.com/gemini - $ anti duplicates
+https://daisydiskapp.com/ - $ disk stats
+https://www.arqbackup.com/ - $ 
+https://www.macbartender.com/ - $
+https://www.boastr.net/bettersnaptool/ - $
+
+
+
 # Mac tune:
 ## Show All File Extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
@@ -192,17 +240,6 @@ Alt Space to toggle Dash.
 Cmd Space to toggle Alfred.
 Cmd Tab to switch between apps.
 Ctrl Tab to switch between Chrome/TotalFinder/Sublime tabs.s
-
-## ColorSnapper
-
-1. Ctrl Shift ~
-2. CSS Hex
-3. Shorthand version
-
-## Parallels Desktop
-
-1. Show Parallels icon in menu bar: Off
-2. Virtual machines folder: ~/Applications/Parallels
 
 ## Clean My Mac
 
@@ -229,21 +266,6 @@ Ctrl Tab to switch between Chrome/TotalFinder/Sublime tabs.s
   - LR 4
   - Larger =
   - Smaller -
-
-## BitTorrent Sync
-
-1. Links device (Screen Sharing)
-2. Pause sync
-3. `rm -rf ~/F && mv ~/F\ \(1\)/ ~/F` for
-
-  - Desktop
-  - Documents
-  - Downloads
-
-4. Resume sync
-
-5. Store deleted files Off for every folder
-6. Remove all archives `rm -rf ~/*/.sync/Archive/`
 
 ## Sketch
 
@@ -280,27 +302,9 @@ Ctrl Tab to switch between Chrome/TotalFinder/Sublime tabs.s
 
 5. Copy to ~/Library/Services
 
-## Slack
-
-1. odevrel
-2. web-standards
-3. polymer
-
 ## Tower
 
 1. Diff, Merge tool: Kaleidoscope
 2. Service accounts: GitHub
-3. Hide toolbar
-4. Git binary: /usr/local/bin/git
-5. Integration: Install
-
-## Environment
-
-1. CLI tools: make
-
-## Terminal
-
-1. Shell open with command: /usr/local/bin/bash
-2. Ask before closing: never
-3. Pepelsbey.terminal profile
-4. Font: Consolas, 14pt
+3. Git binary: /usr/local/bin/git
+4. Integration: Install

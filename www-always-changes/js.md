@@ -3,7 +3,6 @@
 - use webpack + webpackdevserver (optionally: babel loader)
 - use browsersync + browserify/jspm (optionally: babelify)
 - [x] app-shell (wsk/amp)
-- [ ] [https://github.com/arturparkhisenko/task.js](https://github.com/arturparkhisenko/task.js)
 - backend mockups: mockable.io, apiary.io, jsonplaceholder.typicode.com
 - getBoundingClientRect
 - gulp -> npm start / npm test on src/dist
@@ -42,13 +41,6 @@
 
 ### requirejs
 [http://stackoverflow.com/questions/5608685/using-requirejs-how-do-i-pass-in-global-objects-or-singletons-around](http://stackoverflow.com/questions/5608685/using-requirejs-how-do-i-pass-in-global-objects-or-singletons-around) [http://stackoverflow.com/questions/18450276/how-to-share-data-between-different-modules-in-requirejs-javascript](http://stackoverflow.com/questions/18450276/how-to-share-data-between-different-modules-in-requirejs-javascript)
-
-## todo
-- update my site and use colors from my palette and [http://www.colorhunt.co/](http://www.colorhunt.co/)
-  - I DO: FRONT-END DEVELOPMENT, FRONT-END PROJECT MANAGEMENT & CONSULTING, WEBSITE TESTING, CODE AUDITS AND REVIEWS. I WRITE ARTICLES.
-  - nice too [https://helloanselm.com/cv/](https://helloanselm.com/cv/)
-
-- REGISTER ON STACKOVERFLOW
 
 # software design principles
 - DRY don't repeat yourself

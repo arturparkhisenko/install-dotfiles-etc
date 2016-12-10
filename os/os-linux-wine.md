@@ -3,7 +3,7 @@
 - I'd prefer to use 32bit wine now
 - install [wine-staging](https://wine-staging.com/) from [wine-compholio](https://github.com/wine-compholio/wine-staging/wiki/Installation#-ubuntulinux-mint)
 - install(maybe you need only `build-essentials`) [this packages](https://github.com/arturparkhisenko/install-dotfiles-etc/blob/master/apt-npm-gem-git.md#build-tools)
-- install WineTricks and [this libs](https://github.com/arturparkhisenko/install-dotfiles-etc/blob/master/os-linux-wine.md#required-libs)
+- install WineTricks and [this libs](https://github.com/arturparkhisenko/install-dotfiles-etc/blob/master/os/os-linux-wine.md#required-libs)
 - that's all!
 - if you have issues with textures you can fix it by installing [this packages](https://github.com/arturparkhisenko/install-dotfiles-etc/blob/master/apt-npm-gem-git.md#fix-textures-in-opengl)
 - better if you run bnet client, but if you wont you can make a direct link:
