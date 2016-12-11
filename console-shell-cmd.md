@@ -11,6 +11,16 @@
 - `htop`
 - `touch filename.ext`
 
+# ssh
+- `chmod 600 id_rsa`
+- `ssh -T -p 443 git@ssh.github.com`
+- `ssh -T git@ssh.github.com`
+
+# gpg
+- install *without mail - `Mac GPG Installer, from the gpgtools project` on [gnupg.org](https://www.gnupg.org/download/)
+- copy `.gpg` folder
+- check it with `gpg --list-secret-keys --keyid-format LONG`
+
 ## folder sizes
 
 - `du --si --max-depth=1`

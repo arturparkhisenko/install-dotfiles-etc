@@ -4,8 +4,8 @@
 	email = *email here*@gmail.com
 	signinkey = *key here*
 
-# [commit]
-# 	gpgsign = true
+[commit]
+ 	gpgsign = true
 
 [alias]
   g = git

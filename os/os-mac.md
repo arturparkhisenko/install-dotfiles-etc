@@ -87,6 +87,7 @@ https://github.com/sindresorhus/guides/blob/master/set-environment-variables.md
 - [ ] [dlite](https://github.com/nlf/dlite)
 - [ ] [iterm2](https://www.iterm2.com/)
 - [ ] [svgs](http://www.svgs.us/)
+- [x] The Unarchiver
 
 ## not mine macOS soft
 
