@@ -1,0 +1,31 @@
+# SublimeText plugins
+
+- Auto Close HTML Tags
+- AutoFileName
+- Color Highlighter
+- CSS3
+- CSScomb
+- DocBlockr
+- Dotfiles Syntax Highlighting
+- EditorConfig
+- Emmet
+- GitGutter
+- HTML-CSS-JS Prettify
+- HTML5
+- JavaScriptNext - ES6 Syntax
+- JSONLint
+- Schemr
+- SideBarEnchancements
+- Solarized Color Scheme
+- SublimeLinter
+- SublimeLinter-contrib-eslint
+- SublimeLinter-contrib-htmlhint
+- SublimeLinter-contrib-stylelint
+- SublimeLinter-flow
+- Themr
+- zz File Icons
+
+# other
+
+- EsLint
+- SublimeCodeIntel
