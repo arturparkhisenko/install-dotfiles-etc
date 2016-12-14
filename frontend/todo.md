@@ -1,1 +1,0 @@
-- [nodejs](https://github.com/nodejs/node/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+contribution%22)
