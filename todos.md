@@ -8,6 +8,7 @@
 - перевести https://developer.mozilla.org/ru/docs/MDN/Contribute/Howto
 - frontend junkies
 - jabba script or mr handy (framework)
+- [nodejs](https://github.com/nodejs/node/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+contribution%22)
 
 # ideas
 - add old me near young me on old photos https://twitter.com/andrey_sitnik/status/703203060294639618

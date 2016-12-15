@@ -19,6 +19,7 @@
 - [x] language-javascript-better
 - [x] linter
 - [x] linter-eslint
+- [x] linter-flow
 - [x] linter-htmlhint
 - [x] linter-jsonlint
 - [x] linter-stylelint

@@ -1,3 +1,5 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
 {
 	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme",
 	"font_size": 17,

@@ -39,6 +39,7 @@
 - <https://twitter.com/steveklabnik/status/717514738389925889>
 
 # [Oh My ZSH](http://ohmyz.sh/)
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
 ## Required:
 
@@ -51,44 +52,11 @@
 - `sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
 - `sudo shutdown -r 0` - restart after install
 
-## Config:
-
-- [Themes](http://zshthem.es)
-
-# APT
-
-## all
-
-- `sudo apt-get autoclean && sudo apt-get autoremove && sudo apt-get update`
-
-## build tools
-
-- `sudo apt-get install git curl yui-compressor`
-- `sudo apt-get install zlib1g-dev build-essential sqlite3 libsqlite3-dev python-software-properties`
-- `sudo apt-get install libyaml-dev libssl-dev libreadline-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev`
-
-## ruby
-
-- `sudo apt-get install ruby-full rubygems-integration`
-
-## java
-
-- `sudo apt-get install default-jre default-jdk`
-
-## fonts
-
-- `sudo apt-get install fonts-droid fonts-noto ttf-mscorefonts-installer`
-
-## fix textures in openGL
-
-- `sudo apt-get install lib32-mesa-libgl`
-- `sudo apt-get install libtxc-dxtn-s2tc0 libtxc-dxtn-s2tc0:i386`
-- `sudo apt-get install program:i386 gcc-multilib`
-
 # nodejs & npm
 
 ## install
 
+- [fixing-npm-permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
 - [linux](https://github.com/nodesource/distributions#installation-instructions)
 
 ### update nodejs on linux
@@ -129,8 +97,15 @@
 
 ## npm packages
 
-- `sudo npm i -g n np nsp eslint eslint-plugin-html eslint-plugin-import stylelint flow-bin`
-- `npm i -g npm-check-updates npm-check npm-windows-upgrade gulp-cli bower tern`
+### my global packages
+
+- `sudo npm i -g n np nsp npm-check-updates` node tools
+- `sudo npm i -g babel-cli gulp-cli` cli's
+- `shtmlhint eslint eslint-plugin-html eslint-plugin-import stylelint flow-bin` linters
+
+### other packages
+
+- `npm i -g npm-check npm-windows-upgrade bower tern`
 - `npm i -g npm-upgrade`
 - all bower packages install from github like arturparkhisenko/ig-css-addons
 - `ncu -m bower` - check bower.json updates
@@ -139,10 +114,7 @@
 - `npm install nsp -g && nsp check`
 - `npm install --save-dev flow-bin` - for local flow-bin env
 - `npm i -g shrinkpack` (.tar.gz in node_shinkwrap, and updates npm-shrinkwrap.json, fix current deps --dev, speedups install in 2.5times! creates npm-shrinkwrap.json)
-- greenkeper.io
-
-**not global**
-
+- [greenkeper.io](greenkeper.io)
 - `npm i husky -D` (adds scripts support: precommit, prepush, postcommit, postpush)
 - `npm i sw-precache sw-toolbox`
 - `npm i babel-preset-es2015`
@@ -188,6 +160,36 @@
 - <http://habrahabr.ru/post/177465/>
 - <http://habrahabr.ru/post/208890/>
 - <http://browsenpm.org/package.json>
+
+# APT
+
+## all
+
+- `sudo apt-get autoclean && sudo apt-get autoremove && sudo apt-get update`
+
+## build tools
+
+- `sudo apt-get install git curl yui-compressor`
+- `sudo apt-get install zlib1g-dev build-essential sqlite3 libsqlite3-dev python-software-properties`
+- `sudo apt-get install libyaml-dev libssl-dev libreadline-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev`
+
+## ruby
+
+- `sudo apt-get install ruby-full rubygems-integration`
+
+## java
+
+- `sudo apt-get install default-jre default-jdk`
+
+## fonts
+
+- `sudo apt-get install fonts-droid fonts-noto ttf-mscorefonts-installer`
+
+## fix textures in openGL
+
+- `sudo apt-get install lib32-mesa-libgl`
+- `sudo apt-get install libtxc-dxtn-s2tc0 libtxc-dxtn-s2tc0:i386`
+- `sudo apt-get install program:i386 gcc-multilib`
 
 ## ionic
 
