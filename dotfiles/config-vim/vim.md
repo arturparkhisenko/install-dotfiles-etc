@@ -24,6 +24,27 @@ set title
 set showcmd
 set wildmenu
 
-
 vim http://oli.me.uk/2013/06/29/equipping-vim-for-javascript/
 vim .vim(unix) vimfiles(win)
+
+if has('win32')
+    ......
+elseif has('mac')
+    ......
+elseif has('unix')
+    ......
+endif
+
+has('gui_running') 
+
+https://github.com/scrooloose/nerdtree
+https://github.com/mattn/emmet-vim
+https://github.com/kien/ctrlp.vim
+:set wildmode=full
+http://vim.wikia.com/wiki/File_explorer
+https://www.youtube.com/watch?v=WfyXKnQ9kAQ&list=PL8tzorAO7s0jy7DQ3Q0FwF3BnXGQnDirs&index=6
+https://stackoverflow.com/questions/8977649/how-to-locate-the-vimrc-file-used-by-vim-editor
+https://www.reddit.com/r/vim/comments/27evpc/crossplatform_vim_configuration_windows_and_linux/?st=iup5bp7x&sh=271d63a6
+https://stackoverflow.com/questions/3942783/pros-and-cons-for-each-vimrc-cross-platform-solution
+http://www.dotnetsurfers.com/blog/2013/10/15/using-the-same-vimrc-with-multiple-operating-systems
+https://superuser.com/questions/194715/how-to-make-vim-settings-computer-dependent-in-vimrc

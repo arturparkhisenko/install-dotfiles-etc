@@ -152,13 +152,15 @@
 
 ## IntelliJ IDEA Php/WebStorm
 
+> Settings/Preferences | Editor | General | Code Folding --> XML entities ---> Uncheck that option and re-open the file - should do the job.
+
 - [x] bashsupport
-- [x] code glance
-- [x] ignore
+- [x] .ignore
 - [x] Markdown
 - [x] Spy-js
-- [x] key promoter
+- [x] Key promoter
 - [ ] AngularJS
+- [ ] CodeGlance
 - [ ] css-x-fire
 - [ ] phonegap
 - [ ] scss-lint
