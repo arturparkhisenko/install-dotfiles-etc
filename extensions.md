@@ -165,10 +165,40 @@
 - [ ] phonegap
 - [ ] scss-lint
 
+## SublimeText3
+
+- [x] Auto Close HTML Tags
+- [x] AutoFileName
+- [x] Color Highlighter
+- [x] CSS3
+- [x] CSScomb
+- [x] DocBlockr
+- [x] Dotfiles Syntax Highlighting
+- [x] EditorConfig
+- [x] Emmet
+- [x] EsLint
+- [x] GitGutter
+- [x] HTML-CSS-JS Prettify
+- [x] HTML5
+- [x] JavaScriptNext - ES6 Syntax
+- [x] JSONLint
+- [x] Schemr
+- [x] SideBarEnchancements
+- [x] Solarized Color Scheme
+- [x] SublimeCodeIntel
+- [x] SublimeLinter
+- [x] SublimeLinter-contrib-eslint
+- [x] SublimeLinter-contrib-htmlhint
+- [x] SublimeLinter-contrib-stylelint
+- [x] SublimeLinter-flow
+- [x] Themr
+- [x] zz File Icons
+
 ## Chrome
 
 - [x] [stop-autoplay-for-youtube](https://chrome.google.com/webstore/detail/stop-autoplay-for-youtube/figkapeodjhdgnpiamleongcmecfjccb/)
 - [X] [Twitter for GitHub](https://chrome.google.com/webstore/detail/twitter-for-github/joalalcafnlmimkfkihjbdgmphgedojc)
+- [x] [grammarly](https://www.grammarly.com/)
 - [x] github-awesome-autocomple
 - [x] github-highlight-selected
 - [x] github-notifier
