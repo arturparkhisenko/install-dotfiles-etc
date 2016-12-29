@@ -85,6 +85,7 @@ defaults write com.apple.screencapture type -string "png"
 - [x] Sketch 3
 - [x] [sourcetree](https://www.sourcetreeapp.com/)
 - [ ] [alfredapp](https://www.alfredapp.com/) and [alfred workflows](https://github.com/willfarrell/alfred-pkgman-workflow)
+- [ ] [appfresh](http://metaquark.de/appfresh/mac) - $
 - [ ] [arqbackup](https://www.arqbackup.com/) - $ 
 - [ ] [arthur, settings](http://arthur-osx.com/)
 - [ ] [batteryguardian](http://www.dssw.co.uk/batteryguardian/)
@@ -118,6 +119,8 @@ defaults write com.apple.screencapture type -string "png"
 - [ ] [licecap](http://www.cockos.com/licecap/)
 - [ ] [LiveView](http://www.zambetti.com/)
 - [ ] [macbartender](https://www.macbartender.com/)
+- [ ] [macdownload](http://macdownload.informer.com/landing/) - free
+- [ ] [macupdate](https://www.macupdate.com/desktop) - $
 - [ ] [marathono](http://www.marathono.com/)
 - [ ] [Memory Clean - Monitor and Free Up Memory](https://itunes.apple.com/ru/app/memory-clean-monitor-free/id451444120?mt=12)
 - [ ] [mixture](http://mixture.io/)
