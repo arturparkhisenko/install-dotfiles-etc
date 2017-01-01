@@ -21,7 +21,6 @@
 11. Enable: Firewall, Encryption, Find my mac, [icloud](https://www.apple.com/ru/icloud/setup/mac.html), Keychain 
 12. Remove: iMovies, Garage Band, iBooks, iPages
 
-
 # Mac tune:
 ## Show All File Extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
@@ -85,6 +84,7 @@ defaults write com.apple.screencapture type -string "png"
 - [x] Sketch 3
 - [x] [sourcetree](https://www.sourcetreeapp.com/)
 - [ ] [alfredapp](https://www.alfredapp.com/) and [alfred workflows](https://github.com/willfarrell/alfred-pkgman-workflow)
+- [ ] [appcleaner](https://freemacsoft.net/appcleaner/)
 - [ ] [appfresh](http://metaquark.de/appfresh/mac) - $
 - [ ] [arqbackup](https://www.arqbackup.com/) - $ 
 - [ ] [arthur, settings](http://arthur-osx.com/)
