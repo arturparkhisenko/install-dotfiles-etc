@@ -37,7 +37,7 @@ defaults write com.apple.screencapture type -string "png"
 - Show Path Bar `defaults write com.apple.finder ShowPathbar -bool true`
 - Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
   - `defaults write com.apple.screencapture type -string "png"`
-- [npm-global-without-sudo](https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo)
+- [npm-global-without-sudo](https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md)
 - [set-environment-variables](https://github.com/sindresorhus/guides/blob/master/set-environment-variables.md)
 - [awesome-osx](https://github.com/iCHAIT/awesome-osx)
 - [zchee's mac-secret-settings](https://github.com/zchee/scripts/blob/master/mac/mac-secret-settings.sh)
