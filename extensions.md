@@ -186,6 +186,7 @@
 - [x] SideBarEnchancements
 - [x] Solarized Color Scheme
 - [x] SublimeCodeIntel
+- [x] SublimeHyperClick
 - [x] SublimeLinter
 - [x] SublimeLinter-contrib-eslint
 - [x] SublimeLinter-contrib-htmlhint
