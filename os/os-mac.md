@@ -126,6 +126,7 @@ defaults write com.apple.screencapture type -string "png"
 - [ ] [mixture](http://mixture.io/)
 - [ ] [Monolingual](http://monolingual.sourceforge.net/) remove unnened langs
 - [ ] [Moom](http://manytricks.com/moom/) Managing app windows
+- [ ] [noodlesoft, cleaner](https://www.noodlesoft.com/) - $
 - [ ] [onyx](http://www.titanium.free.fr/onyx.html) - utility
 - [ ] [Paragon NTFS on Mac](http://www.paragon-software.com/home/ntfs-mac/)
 - [ ] [Parallels Desktop](http://www.parallels.com/products/desktop/download/)
