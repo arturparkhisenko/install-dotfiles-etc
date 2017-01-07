@@ -97,6 +97,7 @@ alias ll='ls -lh'
 alias la='ls -A'
 alias rm='rm -i'
 alias whereami='pwd'
+alias bcu='brew update && brew outdated && brew upgrade && brew cleanup'
 
 alias e='atom .'
 
