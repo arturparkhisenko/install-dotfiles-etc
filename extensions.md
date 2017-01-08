@@ -214,6 +214,7 @@
 - [ ] Motivation
 - [ ] [devtools-author](https://chrome.google.com/webstore/detail/devtools-author/egfhcfdfnajldliefpdoaojgahefjhhi)
 - [ ] [aria-validator](https://chrome.google.com/webstore/detail/aria-validator/oigghlanfjgnkcndchmnlnmaojahnjoc)
+- [ ] [new tab breathtaking VR/360° photos](https://svrf.com/apps/tabs.html)
 - [ ] [xss-rays](https://chrome.google.com/webstore/detail/xss-rays/kkopfbcgaebdaklghbnfmjeeonmabidj)
 - [ ] [Isometric Contributions](https://chrome.google.com/webstore/detail/isometric-contributions/mjoedlfflcchnleknnceiplgaeoegien)
 - [ ] batarang
