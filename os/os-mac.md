@@ -190,6 +190,7 @@ defaults write com.apple.screencapture type -string "png"
 - `brew install neovim/neovim/neovim`
 - `brew install wget`
 - `brew install git`
+- `brew install yarn`
 
 #### brew install apps
 

@@ -99,7 +99,7 @@
 
 ### my global packages
 
-- `sudo npm i -g n np nsp npm-check-updates` node tools
+- `sudo npm i -g n np nsp npm-check-updates` node tools (yarn in brew)
 - `sudo npm i -g babel-cli gulp-cli` cli's
 - `shtmlhint eslint eslint-plugin-html eslint-plugin-import stylelint flow-bin` linters
 

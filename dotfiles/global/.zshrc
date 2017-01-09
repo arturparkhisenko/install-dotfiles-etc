@@ -67,6 +67,9 @@ unset MANPATH # delete if you already modified MANPATH elsewhere in your config
 export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 ## NODE NPM END
 
+# YARN
+export PATH="$PATH:`yarn global bin`"
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
