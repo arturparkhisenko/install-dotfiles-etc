@@ -168,6 +168,7 @@ Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <
 - WinSetupFromUSB
 - winsxslite
 - [x] [eyeleo](http://eyeleo.com/)
+- [ ] [macomfort](https://leonardo.re/macomfort/)
 
 # fonts list
 

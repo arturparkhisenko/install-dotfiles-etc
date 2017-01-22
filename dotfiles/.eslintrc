@@ -2,11 +2,12 @@
   "extends": [
     "eslint:recommended",
     "plugin:import/errors",
-    "plugin:import/warnings"
+    "plugin:import/warnings",
+    "airbnb/base"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
-    "ecmaVersion": 2017,
+    "ecmaVersion": 8,
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true

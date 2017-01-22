@@ -103,8 +103,11 @@ alias whereami='pwd'
 alias bcu='brew update && brew outdated && brew upgrade && brew cleanup'
 
 alias e='atom .'
+alias atom='atom .'
 
 alias ni='npm install'
 alias nig='npm install -g'
 alias nis='npm install --save'
 alias nid='npm install --save-dev'
+alias nlg='npm list -g --depth=0'
+alias nсс='npm cache clean'
