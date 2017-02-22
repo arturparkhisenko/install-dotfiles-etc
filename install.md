@@ -169,6 +169,7 @@ Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <
 - winsxslite
 - [x] [eyeleo](http://eyeleo.com/)
 - [ ] [macomfort](https://leonardo.re/macomfort/)
+- [ ] [clink](https://mridgers.github.io/clink/)
 
 # fonts list
 
