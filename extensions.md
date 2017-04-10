@@ -34,6 +34,7 @@
 - [x] solarized-dark-syntax (default)
 - [x] sort-lines
 - [x] todo-show
+- [x] swackets
 - [ ] activate-power-mode
 - [ ] atom-commander
 - [ ] atom-handlebars
@@ -198,6 +199,10 @@
 - [x] Themr
 - [x] zz File Icons
 
+## VScode
+
+- [x] rainbow brackets
+
 ## Chrome
 
 - [x] [stop-autoplay-for-youtube](https://chrome.google.com/webstore/detail/stop-autoplay-for-youtube/figkapeodjhdgnpiamleongcmecfjccb/)
@@ -250,6 +255,7 @@
 - [ ] qSnap (скриншоты страницы + хостинг скриншотов)
 - [ ] RegExp Tester (тестирование регул¤рных выражений)
 - [ ] SEOquake
+- [ ] [ExtensionSave My Eyes](https://chrome.google.com/webstore/detail/save-my-eyes/mbhpdkldehghoilbopkcpfijdhnincmh)
 - [ ] SEO Site Tools, Site Analysis
 - [ ] Simple Time Track
 - [ ] Tab Ahead

@@ -1,5 +1,8 @@
-vim https://vimeo.com/34201803
-vim http://vimgifs.com/
+# vim 
+
+https://vimeo.com/34201803
+http://vimgifs.com/
+https://dougblack.io/words/a-good-vimrc.html
 http://www.vim.org/download.php#pc
 https://github.com/miripiruni/vimi/blob/master/.vimrc
 + theme aka dotfiles
@@ -8,8 +11,10 @@ http://www.openvim.com/
 http://www.vimgenius.com/
 http://vim.rtorr.com/
 https://github.com/wincent/command-t
+
 my vimfile minimal:
-" arturparkhisenko 2016
+
+" arturparkhisenko 2017
 set nocompatible
 set encoding=utf-8 nobomb
 set number

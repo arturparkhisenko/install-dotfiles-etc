@@ -99,6 +99,7 @@ defaults write com.apple.screencapture type -string "png"
 - [ ] [Cut and Slice me](http://www.cutandslice.me/) assets from PS CS
 - [ ] [daisydiskapp](https://daisydiskapp.com/) - $ disk stats
 - [ ] [Dash](https://kapeli.com/dash) offline access to 150+ API documentation sets
+- [ ] [Desktopr](https://itunes.apple.com/us/app/desktopr/id452693880?mt=12&ref=producthunt) site as a wallpaper
 - [ ] [dlite](https://github.com/nlf/dlite)
 - [ ] [EnvPane](https://github.com/hschmidt/EnvPane)
 - [ ] [F.lux](https://justgetflux.com/) screen color change
@@ -106,7 +107,7 @@ defaults write com.apple.screencapture type -string "png"
 - [ ] [functionflip](http://kevingessner.com/software/functionflip/)
 - [ ] [gasmask](https://github.com/2ndalpha/gasmask)
 - [ ] [gemini](http://macpaw.com/gemini) - $ anti duplicates
-- [ ] [getkap](https://getkap.co/) - capture screen
+- [x] [getkap](https://getkap.co/) - capture screen
 - [ ] [GitUp](http://gitup.co/)
 - [ ] [hyper](https://hyper.is/)
 - [ ] [Icon Slate](http://www.kodlian.com/apps/icon-slate) exporting icons
@@ -127,7 +128,7 @@ defaults write com.apple.screencapture type -string "png"
 - [ ] [Monolingual](http://monolingual.sourceforge.net/) remove unnened langs
 - [ ] [Moom](http://manytricks.com/moom/) Managing app windows
 - [ ] [noodlesoft, cleaner](https://www.noodlesoft.com/) - $
-- [ ] [onyx](http://www.titanium.free.fr/onyx.html) - utility
+- [x] [onyx](http://www.titanium.free.fr/onyx.html) - utility
 - [ ] [Paragon NTFS on Mac](http://www.paragon-software.com/home/ntfs-mac/)
 - [ ] [Parallels Desktop](http://www.parallels.com/products/desktop/download/)
 - [ ] [patterns](http://krillapps.com/patterns/)
@@ -168,6 +169,7 @@ defaults write com.apple.screencapture type -string "png"
 - [ ] Pttrns.com
 - [ ] Slack
 - [ ] xScope 4
+- [ ] [Keyshape](https://www.pixofield.com/) - svg animations editor
 
 ### iterm2
 

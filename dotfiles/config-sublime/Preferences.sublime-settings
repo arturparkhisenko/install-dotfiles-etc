@@ -8,5 +8,9 @@
 	"always_show_minimap_viewport": true,
 	"highlight_modified_tabs": true,
 	"animation_enabled": false,
-	"tree_animation_enabled": false
+	"tree_animation_enabled": false,
+  "ignored_packages":
+	[
+		"Vintage"
+	]
 }

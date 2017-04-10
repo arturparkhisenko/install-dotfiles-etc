@@ -38,3 +38,83 @@
 - cmd command: `bootrec /FixMbr`
 - cmd command: `bootrec /FixBoot`
 - cmd command: `bootrec /RebuildBcd`
+
+## Win Soft
+
+- [adwCleaner](https://toolslib.net/downloads/viewdownload/1-adwcleaner/)
+- [ASCON KOMPAS](http://edu.ascon.ru/main/download/freeware/)
+- [alldup](http://www.alldup.info/en_download_alldup.php)
+- [Babun](https://babun.github.io/)
+- [blindscanner](http://www.blindscanner.com/ru/download.html)
+- [blue-screen]([http://www.nirsoft.net/utils/blue_screen_view.html#DownloadLinks)
+- [Ccleaner](https://www.piriform.com/ccleaner/download)
+- [Chocolatey](https://chocolatey.org/)
+- [Cmder](http://cmder.net/)
+- [Curse](https://www.curse.com)
+- [Defraggler](https://www.piriform.com/defraggler/download)
+- [DeepRemove](https://deepremove.codeplex.com/)
+- [FileOptimizer](http://nikkhokkho.sourceforge.net/static.php?page=FileOptimizer)
+- [Github Desktop](https://desktop.github.com/)
+- [handbrake](https://handbrake.fr/) (video conv)
+- [hwinfo](https://www.hwinfo.com/)
+- [InternetCensor](http://icensor.ru/)
+- [KLite Full](http://www.codecguide.com/download_k-lite_codec_pack_full.htm)
+- [posh-git](https://github.com/dahlbyk/posh-git)
+- [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+- [svg explorer extension](https://svgextension.codeplex.com/)
+- [syncback free](http://www.2brightsparks.com/freeware/index.html)
+- [wox](http://www.getwox.com/)
+- <https://irzyxa.wordpress.com/2015/08/10/volume1-1-4-347/>
+- Audacity
+- avc-free
+- avz4
+- CCEnhancer
+- CD burner xp cdbxp
+- ClassicShell
+- Cmder
+- Composer
+- Corel Draw / Corel Painter
+- Curl
+- DarkComet RAT Legacy
+- DevID_agent
+- DjVuSolo
+- DoNotSpy10
+- DoPDF
+- dxWebSetup
+- FreeCommander
+- freeFTPd
+- freeSSHd
+- GeForce Experience
+- HDDLLF
+- HijackThis
+- i.Disk
+- IpScan
+- JPEGmini
+- Kompas
+- mp3tag
+- MySQLWorkbench
+- Notepad++
+- Novicorp WinToFlash
+- Open Server
+- procexp
+- Rufus
+- SOCRAT (translator)
+- Solid Works
+- Sony PC Companion_Web
+- Speccy
+- sqlyog
+- Tnod
+- Tweak-Me
+- UNetBootin-windows
+- Universal-USB-Installer
+- USBVaccineSetup
+- USBWriter
+- UwAmp web server
+- Win-to-usb-DirectGRUB
+- WinDjView
+- WinSCP
+- WinSetupFromUSB
+- winsxslite
+- [x] [eyeleo](http://eyeleo.com/)
+- [ ] [macomfort](https://leonardo.re/macomfort/)
+- [ ] [clink](https://mridgers.github.io/clink/)
