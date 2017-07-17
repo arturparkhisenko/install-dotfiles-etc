@@ -31,6 +31,10 @@ defaults write com.apple.finder ShowPathbar -bool true
 ## Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
 defaults write com.apple.screencapture type -string "png"
 
+## Resets
+- [NVRAM](https://support.apple.com/ru-ru/HT204063)
+- [SMC](https://support.apple.com/ru-ru/HT201295)
+
 ### other config
 - Show All File Extensions `defaults write NSGlobalDomain AppleShowAllExtensions -bool true`
 - Show Hidden Files `defaults write com.apple.finder AppleShowAllFiles true`
@@ -123,6 +127,7 @@ defaults write com.apple.screencapture type -string "png"
 - [ ] [macdownload](http://macdownload.informer.com/landing/) - free
 - [ ] [macupdate](https://www.macupdate.com/desktop) - $
 - [ ] [marathono](http://www.marathono.com/)
+- [ ] [malwarebytes](https://www.malwarebytes.com)
 - [ ] [Memory Clean - Monitor and Free Up Memory](https://itunes.apple.com/ru/app/memory-clean-monitor-free/id451444120?mt=12)
 - [ ] [mixture](http://mixture.io/)
 - [ ] [Monolingual](http://monolingual.sourceforge.net/) remove unnened langs
@@ -147,6 +152,7 @@ defaults write com.apple.screencapture type -string "png"
 - [ ] [Tower](http://www.git-tower.com/)
 - [ ] [Transmission](http://www.transmissionbt.com/download/)
 - [ ] [TunnelBear](https://www.tunnelbear.com/download/)
+- [ ] [vanilla](http://matthewpalmer.net/vanilla/)
 - [ ] [vlc](https://www.videolan.org/vlc/index.html)
 - [ ] 1Password
 - [ ] alcatraz
@@ -193,6 +199,7 @@ defaults write com.apple.screencapture type -string "png"
 - `brew install wget`
 - `brew install git`
 - `brew install yarn`
+- `brew install gcc` - requires `xcode-select --install`
 
 #### brew install apps
 

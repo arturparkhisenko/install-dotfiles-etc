@@ -67,6 +67,7 @@
 - [ ] javascript-snippets
 - [ ] js-hyperclick
 - [ ] language-lua-wow
+- [ ] language-toc-wow
 - [ ] linter-csslint
 - [ ] linter-handlebars
 - [ ] linter-jsxhint
@@ -163,6 +164,7 @@
 - [x] Markdown
 - [x] Spy-js
 - [x] Key promoter
+- [x] NodeJS
 - [ ] AngularJS
 - [ ] CodeGlance
 - [ ] css-x-fire
@@ -208,6 +210,7 @@
 - [x] [stop-autoplay-for-youtube](https://chrome.google.com/webstore/detail/stop-autoplay-for-youtube/figkapeodjhdgnpiamleongcmecfjccb/)
 - [X] [Twitter for GitHub](https://chrome.google.com/webstore/detail/twitter-for-github/joalalcafnlmimkfkihjbdgmphgedojc)
 - [x] [grammarly](https://www.grammarly.com/)
+- [x] [aXe](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd)
 - [x] github-awesome-autocomple
 - [x] github-highlight-selected
 - [x] github-notifier
@@ -219,6 +222,7 @@
 - [x] [Google Keep](https://chrome.google.com/webstore/detail/google-keep-chrome-extens/lpcaedmchfhocbbapmcbpinfpgnhiddi)
 - [x] [Google Inbox](https://chrome.google.com/webstore/detail/inbox-by-gmail/gkljgfmjocfalijkgoogmfffkhmkbgol)
 - [x]  [html5-video-speed-control](https://chrome.google.com/webstore/detail/html5-video-speed-control/ejdipbccipeloijefbkiakckfhdbgocg)
+- [ ]  [google data-saver](https://chrome.google.com/webstore/detail/data-saver/pfmgfdlgomnbgkofeojodiodmgpgmkac)
 - [ ] Motivation
 - [ ] [devtools-author](https://chrome.google.com/webstore/detail/devtools-author/egfhcfdfnajldliefpdoaojgahefjhhi)
 - [ ] [aria-validator](https://chrome.google.com/webstore/detail/aria-validator/oigghlanfjgnkcndchmnlnmaojahnjoc)

@@ -101,11 +101,12 @@
 
 - `sudo npm i -g n np nsp npm-check-updates` node tools (yarn in brew)
 - `sudo npm i -g babel-cli gulp-cli` cli's
-- `shtmlhint eslint eslint-plugin-html eslint-plugin-import stylelint flow-bin` linters
+- `sudo npm i -g htmlhint eslint eslint-plugin-html eslint-plugin-import stylelint flow-bin` linters
 
 ### other packages
 
 - `npm i -g npm-check npm-windows-upgrade bower tern`
+- `npm i -g jsdoc`
 - `npm i -g npm-upgrade`
 - all bower packages install from github like arturparkhisenko/ig-css-addons
 - `ncu -m bower` - check bower.json updates

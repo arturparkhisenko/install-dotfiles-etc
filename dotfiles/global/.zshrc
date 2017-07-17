@@ -67,9 +67,6 @@ unset MANPATH # delete if you already modified MANPATH elsewhere in your config
 export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 ## NODE NPM END
 
-# YARN
-export PATH="$PATH:`yarn global bin`"
-
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -106,6 +103,7 @@ alias zcu='upgrade_oh_my_zsh'
 
 alias e='atom .'
 alias atom='atom .'
+alias serve='python -m SimpleHTTPServer 8000'
 
 alias n_i='npm install'
 alias n_ig='npm install -g'
@@ -114,4 +112,3 @@ alias n_id='npm install --save-dev'
 alias n_lg='npm list -g --depth=0'
 alias n_cu='npm outdated -g'
 alias n_cc='npm cache clean'
-alias y_cc='yarn cache clean'

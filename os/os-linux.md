@@ -107,3 +107,7 @@ place new and local fonts to user /home/.fonts/
 ## virtualbox shared folder
 - sudo adduser xxxxxxx vboxsf
 - and share it on windows for all with full access
+
+## Linux Soft
+
+- [calibre-ebook](https://calibre-ebook.com/download_linux)
