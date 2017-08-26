@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/artur/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -20,7 +20,7 @@ ZSH_THEME="ys"
 # DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
-export UPDATE_ZSH_DAYS=1
+export UPDATE_ZSH_DAYS=5
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -51,7 +51,9 @@ export UPDATE_ZSH_DAYS=1
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git npm zsh-syntax-highlighting)
+# zsh-autosuggestions
+# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=247"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -112,3 +114,7 @@ alias n_id='npm install --save-dev'
 alias n_lg='npm list -g --depth=0'
 alias n_cu='npm outdated -g'
 alias n_cc='npm cache clean'
+
+alias get='curl -O -L -#'
+alias myip='curl -s https://4.ifcfg.me'
+alias mylocalip='ifconfig | sed -En "s/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p"'

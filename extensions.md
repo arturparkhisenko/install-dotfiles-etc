@@ -4,7 +4,7 @@
 
 ## Atom
 
-- [x] atom-beautify
+- [ ] atom-beautify
 - [x] atom-css-comb
 - [x] autoclose-html
 - [x] autocomplete-paths (slows down perf)
@@ -31,6 +31,7 @@
 - [x] pigments / webbox-color
 - [x] polymer-atom (from polylabs)
 - [x] polymer-ide (from polylabs)
+- [x] prettier-atom
 - [x] solarized-dark-syntax (default)
 - [x] sort-lines
 - [x] todo-show

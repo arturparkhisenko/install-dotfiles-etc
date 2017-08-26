@@ -79,14 +79,16 @@ defaults write com.apple.screencapture type -string "png"
 
 ## macOS Soft
 
-- [x] [cleanmymac](http://macpaw.com/cleanmymac)
+- [ ] [cleanmymac](http://macpaw.com/cleanmymac)
 - [x] [unarchiver](http://unarchiver.c3.cx/unarchiver)
 - [x] [dejal, eye breaks](http://www.dejal.com/)
 - [x] [iterm2](https://www.iterm2.com/)
 - [x] [Homebrew](http://brew.sh/)
 - [x] Keynote
 - [x] Sketch 3
-- [x] [sourcetree](https://www.sourcetreeapp.com/)
+- [ ] [sourcetree](https://www.sourcetreeapp.com/)
+- [x] [trash-cli](https://github.com/sindresorhus/trash-cli)
+- [x] [lock-cli](https://github.com/sindresorhus/lock-cli)
 - [ ] [alfredapp](https://www.alfredapp.com/) and [alfred workflows](https://github.com/willfarrell/alfred-pkgman-workflow)
 - [ ] [appcleaner](https://freemacsoft.net/appcleaner/)
 - [ ] [appfresh](http://metaquark.de/appfresh/mac) - $
@@ -176,6 +178,7 @@ defaults write com.apple.screencapture type -string "png"
 - [ ] Slack
 - [ ] xScope 4
 - [ ] [Keyshape](https://www.pixofield.com/) - svg animations editor
+- [ ] [Wineskin](http://wineskin.urgesoftware.com)
 
 ### iterm2
 

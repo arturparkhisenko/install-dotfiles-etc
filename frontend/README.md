@@ -27,6 +27,7 @@
   - emmet (plugin)
   - css @support
   - css methodologies (BOOCSS, ACSS, BEM, SMACSS), proper naming (en only)
+  - [css hex colors](https://medium.com/dev-channel/css-hex-colors-demystified-51c712179982)
   - [LAYOUTS on developers google](https://developers.google.com/web/fundamentals/design-and-ui/responsive/?hl=en)
   - http://tilda.education/courses/web-design/basicsteps/
 - graphics editors (photoshop(win/ios) / sketch(ios) / gimp / inkscape -> zeplin / csshat / avocode)
@@ -39,6 +40,7 @@
 - [Devtools youtube ru](https://www.youtube.com/watch?v=nPYmp586EE0)
 - [Абсолютные и относительные ссылки](http://htmlbook.ru/samhtml/ssylki/absolyutnye-i-otnositelnye-ssylki)
 - [Bash: Основы командной строки, Hexlet](https://ru.hexlet.io/courses/bash)
+- [AWK, grep, sed](http://www.grymoire.com/Unix/Awk.html)
 - [git official site](https://git-scm.com/)
   - [ru, video about git](https://www.youtube.com/watch?v=PEKN8NtBDQ0)
   - [try.github.io](https://try.github.io/levels/1/challenges/1)
@@ -55,6 +57,7 @@
   - [types intro](https://learn.javascript.ru/types-intro)
   - [types basic](http://javascript.ru/basic/types)
   - [types array](https://learn.javascript.ru/array)
+  - [data-structures](https://proglib.io/p/data-structures/)
 - After that, read through the following sections in [MDN’s JavaScript guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide):
   Grammar and types, Control flow and error handling, Loops and iterations, Functions
   - [funfunfunction about this and objects](https://www.youtube.com/watch?v=PIkA60I0dKU)
