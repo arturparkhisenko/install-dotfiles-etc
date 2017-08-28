@@ -1,15 +1,15 @@
 
 [user]
-	name = arturparkhisenko
-	email = *email here*
-	signingkey = *key here*
+  name = arturparkhisenko
+  email = *email here*
+  signingkey = *key here*
 
 [commit]
- 	gpgsign = true
+	gpgsign = true
 
 [alias]
   g = git
-	gl = log --graph --oneline --decorate --all --date-order
+  gl = log --graph --oneline --decorate --all --date-order
   gs = status -s
   gc = commit -Sam
   gaa = add --all
@@ -35,36 +35,36 @@
   }; f"
 
 [core]
-	eol = lf
-	autocrlf = input
+  eol = lf
+  autocrlf = input
 
 [push]
-	default = current
+  default = current
 
 [credential]
-	helper = cache --timeout=86400
+  helper = cache --timeout=86400
   # helper = osxkeychain
 
 [color]
-	ui = always
+  ui = always
 
 [color "branch"]
-	current = yellow reverse
-	local = yellow
-	remote = green
+  current = yellow reverse
+  local = yellow
+  remote = green
 
 [color "diff"]
-	meta = yellow bold
-	frag = magenta bold
-	old = red bold
-	new = green bold
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
 
 [color "status"]
-	added = yellow
-	changed = green
-	untracked = cyan
+  added = yellow
+  changed = green
+  untracked = cyan
 
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  required = true
