@@ -60,6 +60,9 @@ $RECYCLE.BIN/
 .idea
 .vagrant
 .npmrc
+.tmp
+.vscode
+.history
 dist/
 tmp/
 src/bower_components/

@@ -69,6 +69,7 @@
 - database (сущности, связи)
 - backend api endpoints / rest / restFull
   - Rest(restfull) [link, ru](http://eax.me/rest/)
+  - [ACID](https://en.wikipedia.org/wiki/ACID)
 - MVC, abstraction, black box, Frameworks Basic (css/js)
 - CS50 intro and matherials from their [study site](https://study.cs50.net/)
 - [Function Composition](http://prgssr.ru/development/kompoziciya-funkcij.html)
@@ -156,6 +157,11 @@
 - [install and play, css layout visualization](http://pesticide.io/)
 - [google guide-to-technical-development, en](https://www.google.com/about/careers/students/guide-to-technical-development.html)
 - [patterns, hexlet, ru](https://www.youtube.com/watch?v=wX6BBaQZpzE)
+- [FIZZLEFADE, habr, ru](https://habrahabr.ru/post/337036/) or [original](http://fabiensanglard.net/fizzlefade/index.php)
+- [0x5f3759df](https://habrahabr.ru/company/infopulse/blog/336110/) or [original](http://h14s.p5r.org/2012/09/0x5f3759df.html?mwh=1)
+- [Lambda Calculus](https://youtu.be/eis11j_iGMs)
+- [Functional Programming's Y Combinator](https://youtu.be/9T8A89jgeTI)
+- [Map of Computer Science](https://youtu.be/SzJ46YA_RaA)
 
 ## Sources
 

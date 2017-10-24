@@ -4,38 +4,49 @@
 
 ## Atom
 
-- [ ] atom-beautify
+- [x] atom-beautify
 - [x] atom-css-comb
+- [x] atom-handlebars
+- [x] atom-ide-ui
+- [x] atom-import-cost
 - [x] autoclose-html
-- [x] autocomplete-paths (slows down perf)
+- [x] autocomplete-clang
+- [x] autocomplete-modules
 - [x] autoprefixer
 - [x] docblockr
 - [x] double-tag
 - [x] editorconfig (sindresorhus)
 - [x] emmet
 - [x] file-icons
-- [x] highlight-line
 - [x] highlight-selected
+- [x] ide-flowtype
+- [x] language-babel
 - [x] language-javascript-better
+- [x] language-wast
 - [x] linter
+- [x] linter-clang
 - [x] linter-eslint
 - [x] linter-flow
+- [x] linter-handlebars
 - [x] linter-htmlhint
 - [x] linter-jsonlint
+- [x] linter-luaparse
 - [x] linter-stylelint
+- [x] linter-ui-default
 - [x] local-history
 - [x] merge-conflicts
 - [x] minimap
 - [x] minimap-git-diff
 - [x] minimap-linter
-- [x] pigments / webbox-color
+- [x] pigments
 - [x] polymer-atom (from polylabs)
 - [x] polymer-ide (from polylabs)
 - [x] prettier-atom
 - [x] solarized-dark-syntax (default)
 - [x] sort-lines
-- [x] todo-show
 - [x] swackets
+- [x] todo-show
+- [x] turbo-javascript
 - [ ] activate-power-mode
 - [ ] atom-commander
 - [ ] atom-handlebars
@@ -47,6 +58,7 @@
 - [ ] atomic-chrome
 - [ ] auto-detect-indentation
 - [ ] auto-update-packages
+- [ ] autocomplete-paths (slows down perf)
 - [ ] background-tips
 - [ ] codecademy-atom-syntax
 - [ ] css-clean
@@ -64,6 +76,7 @@
 - [ ] gulp-control
 - [ ] headerify
 - [ ] highlight-cov
+- [ ] highlight-line
 - [ ] hyperclick
 - [ ] javascript-snippets
 - [ ] js-hyperclick
@@ -90,50 +103,31 @@
 - [ ] sync-settings
 - [ ] synced-sidebar
 - [ ] tree-view-open-files
-- [ ] turbo-javascript
 - [ ] vim-mode
 - [ ] you-complete-me
 
 ## Atom temporary
 
-- github-2016-syntax
-- atom-refactoring-tools
 - megafinder
-- atom-watcher
 - angularjs
 - atom-fuzzy-grep
 - atom-polymer
 - atom-terminal
-- atom-x
-- autocomplete-modules
 - autocomplete-polymer
 - clipboard-plus
 - color-picker
 - comment
-- fixmyjs
 - jshint by sindresorhus
-- language-javascript-jsx
-- linter-jscs
-- linter-jshint
 - linter-php
 - linter-phpcs
 - linter-phpmd
-- linter-scss-lint
-- linter-xo
 - livereload
 - merge-conflicts
 - minifier
 - minimap-color-highlight
 - minimap-highlight-selected
-- myth
 - polymer-snippets
-- project-manager
 - remote-edit or secure copy
-- script
-- set-syntax
-- seti-syntax
-- tool-bar
-- tool-bar-main
 
 ## Atom shortcuts
 
@@ -166,6 +160,7 @@
 - [x] Spy-js
 - [x] Key promoter
 - [x] NodeJS
+- [x] import cost
 - [ ] AngularJS
 - [ ] CodeGlance
 - [ ] css-x-fire
@@ -211,12 +206,8 @@
 - [x] [stop-autoplay-for-youtube](https://chrome.google.com/webstore/detail/stop-autoplay-for-youtube/figkapeodjhdgnpiamleongcmecfjccb/)
 - [X] [Twitter for GitHub](https://chrome.google.com/webstore/detail/twitter-for-github/joalalcafnlmimkfkihjbdgmphgedojc)
 - [x] [grammarly](https://www.grammarly.com/)
-- [x] [aXe](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd)
-- [x] github-awesome-autocomple
-- [x] github-highlight-selected
-- [x] github-notifier
+- [x] github-awesome-autocomplete
 - [x] Google Docs Offline
-- [x] HTTP/2 and SPDY indicator
 - [x] Https Everywhere
 - [x] uBlock Origin
 - [x] WhatFont / Fontface Ninja
@@ -225,7 +216,6 @@
 - [x]  [html5-video-speed-control](https://chrome.google.com/webstore/detail/html5-video-speed-control/ejdipbccipeloijefbkiakckfhdbgocg)
 - [ ]  [google data-saver](https://chrome.google.com/webstore/detail/data-saver/pfmgfdlgomnbgkofeojodiodmgpgmkac)
 - [ ] Motivation
-- [ ] [devtools-author](https://chrome.google.com/webstore/detail/devtools-author/egfhcfdfnajldliefpdoaojgahefjhhi)
 - [ ] [aria-validator](https://chrome.google.com/webstore/detail/aria-validator/oigghlanfjgnkcndchmnlnmaojahnjoc)
 - [ ] [new tab breathtaking VR/360° photos](https://svrf.com/apps/tabs.html)
 - [ ] [xss-rays](https://chrome.google.com/webstore/detail/xss-rays/kkopfbcgaebdaklghbnfmjeeonmabidj)
@@ -276,12 +266,14 @@
 - [ ] [motivation (untill)](https://chrome.google.com/webstore/detail/motivation/kcngcjbgnnhcdgnaonkmjheanflddmpo?hl=ru)
 - [ ] [Leoh New Tab](https://chrome.google.com/webstore/detail/leoh-new-tab/ijhhakihjccpanbibbcceofpjnebokcb)
 - [ ] [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
+- [ ] [Redux DevTools](https://github.com/zalmoxisus/redux-devtools-extension)
 - [ ] [User-Agent Switcher for Google Chrome](https://chrome.google.com/webstore/detail/user-agent-switcher-for-g/ffhkkpnppgnfaobgihpdblnhmmbodake/related?hl=en-US&gl=US)
 - [ ] [Vysor](https://chrome.google.com/webstore/detail/vysor-beta/gidgenkbbabolejbgbpnhbimgjbffefm/related?hl=en-US)
 - [notifier-for-github-chrome](https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn)
 - [tunnelbear-vpn](https://chrome.google.com/webstore/detail/tunnelbear-vpn/omdakjcmkglenbhjadbccaookpfjihpa)
 - [githunt](https://chrome.google.com/webstore/detail/githunt/khpcnaokfebphakjgdgpinmglconplhp)
 - [Distract off](https://chrome.google.com/webstore/detail/distractoff/hdnjpdhnjfiipibogpkeemefnldahcnk)
+- [WhatRuns](https://www.whatruns.com/?source=plugin)
 
 **url to run chrome app list:** "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --show-app-list
 

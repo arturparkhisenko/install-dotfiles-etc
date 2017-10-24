@@ -100,7 +100,7 @@ alias la='ls -A'
 alias rm='rm -i'
 alias whereami='pwd'
 
-alias bcu='brew update && brew outdated && brew upgrade && brew cleanup'
+alias bcu='brew update && brew doctor && brew outdated && brew upgrade && brew cleanup'
 alias zcu='upgrade_oh_my_zsh'
 
 alias e='atom .'
@@ -113,7 +113,7 @@ alias n_is='npm install --save'
 alias n_id='npm install --save-dev'
 alias n_lg='npm list -g --depth=0'
 alias n_cu='npm outdated -g'
-alias n_cc='npm cache clean'
+alias n_cc='npm cache clean --force'
 
 alias get='curl -O -L -#'
 alias myip='curl -s https://4.ifcfg.me'

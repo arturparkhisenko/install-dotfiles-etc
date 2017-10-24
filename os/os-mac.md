@@ -89,6 +89,7 @@ defaults write com.apple.screencapture type -string "png"
 - [ ] [sourcetree](https://www.sourcetreeapp.com/)
 - [x] [trash-cli](https://github.com/sindresorhus/trash-cli)
 - [x] [lock-cli](https://github.com/sindresorhus/lock-cli)
+- [x] [gfxCardStatus](https://gfx.io/)
 - [ ] [alfredapp](https://www.alfredapp.com/) and [alfred workflows](https://github.com/willfarrell/alfred-pkgman-workflow)
 - [ ] [appcleaner](https://freemacsoft.net/appcleaner/)
 - [ ] [appfresh](http://metaquark.de/appfresh/mac) - $

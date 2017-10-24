@@ -1,32 +1,6 @@
 "*":
-  welcome:
-    showOnStartup: false
-  editor:
-    fontSize: 17
-    lineHeight: 1.3
-    scrollPastEnd: true
-    showIndentGuide: true
-    softWrap: true
-    softWrapAtPreferredLineLength: true
-    zoomFontWhenCtrlScrolling: false
-  "exception-reporting":
-    userId: "acd480d9-1ccb-1075-75e5-442a75cdf688"
-  core:
-    warnOnLargeFileLimit: 5
-    openEmptyEditorOnStart: false
-    telemetryConsent: "limited"
-    themes: [
-      "one-dark-ui"
-      "solarized-dark-syntax"
-    ]
-    disabledPackages: [
-      "javascript-snippets"
-      "language-javascript-better"
-      "vim-mode"
-      "atom-typescript"
-      "whitespace"
-    ]
   "atom-beautify":
+    cpp: {}
     css:
       convert_quotes: "double"
       default_beautifier: "Pretty Diff"
@@ -38,18 +12,52 @@
       beautifyEntireFileOnSave: false
   "atom-css-comb":
     readyMadeConfigs: "zen"
+  "atom-ide-ui":
+    use:
+      "atom-ide-diagnostics-ui": false
   "atom-ternjs":
     useSnippets: true
-  linter:
-    alwaysTakeMinimumSpace: false
-    errorPanelHeight: 25
-    inlineTooltipInterval: 120
+  core:
+    disabledPackages: [
+      "javascript-snippets"
+      "language-javascript-better"
+      "vim-mode"
+      "whitespace"
+      "atom-typescript"
+      "linter-php"
+      "linter-flow"
+      "linter-luaparse"
+      "php-cs-fixer"
+    ]
+    openEmptyEditorOnStart: false
+    restorePreviousWindowsOnStart: "always"
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "solarized-dark-syntax"
+    ]
+    warnOnLargeFileLimit: 5
+  editor:
+    fontSize: 17
+    lineHeight: 1.3
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    zoomFontWhenCtrlScrolling: false
+  "exception-reporting":
+    userId: "acd480d9-1ccb-1075-75e5-442a75cdf688"
+  linter: {}
   "linter-eslint":
-    disableWhenNoEslintConfig: false
     lintHtmlFiles: true
+  "linter-flow": {}
+  "linter-luacheck": {}
   "linter-stylelint":
     enableHtmlLinting: true
     usePreset: true
+  "linter-ui-default":
+    panelHeight: 70
+    showPanel: true
   minimap:
     plugins:
       "git-diff": true
@@ -58,8 +66,10 @@
       linter: true
       linterDecorationsZIndex: 0
       selection: true
-  "one-dark-ui":
-    layoutMode: "Compact"
+  "prettier-atom":
+    prettierOptions:
+      singleQuote: true
+    useEslint: true
   "split-diff":
     diffWords: true
     ignoreWhitespace: true
@@ -72,3 +82,7 @@
       "**/bower_components/"
       "**/src/bower_components/"
     ]
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false

@@ -1,16 +1,18 @@
 {
   "extends": [
     "eslint:recommended",
+    "airbnb/base",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "airbnb/base"
+    "plugin:react/recommended"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
-    "ecmaVersion": 8,
+    "ecmaVersion": 2017,
     "sourceType": "module",
     "ecmaFeatures": {
-      "jsx": true
+      "jsx": true,
+      "experimentalObjectRestSpread": true
     }
   },
   "env": {
@@ -27,54 +29,12 @@
   },
   "plugins": [
     "html",
-    "import"
+    "import",
+    "react"
   ],
   "rules": {
-    "arrow-parens": 2,
-    "block-scoped-var": 1,
-    "camelcase": 1,
-    "comma-dangle": [2, "never"],
-    "curly": 2,
-    "eqeqeq": 2,
-    "func-names": 0,
-    "no-bitwise": 2,
-    "no-caller": 2,
     "no-console": 0,
-    "no-duplicate-case": 2,
-    "no-undef": 2,
-    "no-unused-vars": 1,
-    "no-use-before-define": 2,
-    "object-shorthand": [2, "always"],
-    "one-var": [2, "never"],
-    "prefer-arrow-callback": 2,
-    "prefer-spread": 2,
-    "semi": [2, "always"],
-    "space-before-function-paren": 0,
-    "trailing-spaces": 0,
-    "wrap-iife": [
-      2,
-      "any"
-    ],
-    "indent": [
-      2,
-      2, {
-        "SwitchCase": 1
-      }
-    ],
-    "quotes": [
-      2,
-      "single"
-    ],
-    "max-len": [
-      2,
-      220
-    ],
-    "brace-style": [2, "1tbs", {
-      "allowSingleLine": true
-    }],
-    "new-cap": [2, {
-      "newIsCap": true,
-      "capIsNew": false
-    }]
+    "react/prop-types": 0,
+    "semi": ["error", "always"]
   }
 }
