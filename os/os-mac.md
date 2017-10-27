@@ -79,17 +79,24 @@ defaults write com.apple.screencapture type -string "png"
 
 ## macOS Soft
 
-- [ ] [cleanmymac](http://macpaw.com/cleanmymac)
-- [x] [unarchiver](http://unarchiver.c3.cx/unarchiver)
-- [x] [dejal, eye breaks](http://www.dejal.com/)
-- [x] [iterm2](https://www.iterm2.com/)
+- [x] [backup and sync](https://www.google.com/drive/download/backup-and-sync/)
+- [x] [filezilla](https://filezilla-project.org/)
+- [x] [gfxCardStatus](https://gfx.io/)
+- [x] [GitUp](http://gitup.co/)
 - [x] [Homebrew](http://brew.sh/)
+- [x] [ImageOptim](https://imageoptim.com/)
+- [x] [LibreOffice](https://www.libreoffice.org/)
+- [x] [lock-cli](https://github.com/sindresorhus/lock-cli)
+- [x] [Skype](https://www.skype.com/)
+- [x] [TeamSpeak](https://www.teamspeak.com/)
+- [x] [TeamViewer](https://www.teamviewer.com/)
+- [x] [the unarchiver](http://unarchiver.c3.cx/unarchiver)
+- [x] [time out, dejal, eye breaks](http://www.dejal.com/)
+- [x] [Transmission](https://transmissionbt.com/)
+- [x] [trash-cli](https://github.com/sindresorhus/trash-cli)
+- [x] [VLC](https://www.videolan.org/vlc/index.html)
 - [x] Keynote
 - [x] Sketch 3
-- [ ] [sourcetree](https://www.sourcetreeapp.com/)
-- [x] [trash-cli](https://github.com/sindresorhus/trash-cli)
-- [x] [lock-cli](https://github.com/sindresorhus/lock-cli)
-- [x] [gfxCardStatus](https://gfx.io/)
 - [ ] [alfredapp](https://www.alfredapp.com/) and [alfred workflows](https://github.com/willfarrell/alfred-pkgman-workflow)
 - [ ] [appcleaner](https://freemacsoft.net/appcleaner/)
 - [ ] [appfresh](http://metaquark.de/appfresh/mac) - $
@@ -101,6 +108,7 @@ defaults write com.apple.screencapture type -string "png"
 - [ ] [BitTorrent Sync](https://www.getsync.com/platforms/desktop)
 - [ ] [cakebrew](https://www.cakebrew.com/)
 - [ ] [choosyosx](https://www.choosyosx.com/)
+- [ ] [cleanmymac](http://macpaw.com/cleanmymac)
 - [ ] [ColorSnapper](http://colorsnapper.com/)
 - [ ] [CrossOver](http://www.codeweavers.com/products/) and [Parallels](http://www.parallels.com/) for win apps
 - [ ] [Cut and Slice me](http://www.cutandslice.me/) assets from PS CS
@@ -114,29 +122,29 @@ defaults write com.apple.screencapture type -string "png"
 - [ ] [functionflip](http://kevingessner.com/software/functionflip/)
 - [ ] [gasmask](https://github.com/2ndalpha/gasmask)
 - [ ] [gemini](http://macpaw.com/gemini) - $ anti duplicates
-- [x] [getkap](https://getkap.co/) - capture screen
-- [ ] [GitUp](http://gitup.co/)
+- [ ] [getkap](https://getkap.co/) - capture screen
 - [ ] [hyper](https://hyper.is/)
 - [ ] [Icon Slate](http://www.kodlian.com/apps/icon-slate) exporting icons
 - [ ] [iExplorer](http://www.macroplant.com/iexplorer/) transfering files between ios devices
 - [ ] [ImageAlpha](http://pngmini.com/)
-- [ ] [ImageOptim](https://imageoptim.com/)
 - [ ] [Induction](http://inductionapp.com/) db
+- [ ] [iterm2](https://www.iterm2.com/)
 - [ ] [Kaleidoscope](http://www.kaleidoscopeapp.com/)
 - [ ] [karabiner](https://pqrs.org/osx/karabiner/)
+- [ ] [Keyshape](https://www.pixofield.com/) - svg animations editor
 - [ ] [licecap](http://www.cockos.com/licecap/)
 - [ ] [LiveView](http://www.zambetti.com/)
 - [ ] [macbartender](https://www.macbartender.com/)
 - [ ] [macdownload](http://macdownload.informer.com/landing/) - free
 - [ ] [macupdate](https://www.macupdate.com/desktop) - $
-- [ ] [marathono](http://www.marathono.com/)
 - [ ] [malwarebytes](https://www.malwarebytes.com)
+- [ ] [marathono](http://www.marathono.com/)
 - [ ] [Memory Clean - Monitor and Free Up Memory](https://itunes.apple.com/ru/app/memory-clean-monitor-free/id451444120?mt=12)
 - [ ] [mixture](http://mixture.io/)
 - [ ] [Monolingual](http://monolingual.sourceforge.net/) remove unnened langs
 - [ ] [Moom](http://manytricks.com/moom/) Managing app windows
 - [ ] [noodlesoft, cleaner](https://www.noodlesoft.com/) - $
-- [x] [onyx](http://www.titanium.free.fr/onyx.html) - utility
+- [ ] [onyx](http://www.titanium.free.fr/onyx.html) - utility
 - [ ] [Paragon NTFS on Mac](http://www.paragon-software.com/home/ntfs-mac/)
 - [ ] [Parallels Desktop](http://www.parallels.com/products/desktop/download/)
 - [ ] [patterns](http://krillapps.com/patterns/)
@@ -146,6 +154,7 @@ defaults write com.apple.screencapture type -string "png"
 - [ ] [ScreenFlow](http://www.telestream.net/screenflow/) for recording
 - [ ] [ShiftIt](https://github.com/fikovnik/ShiftIt)
 - [ ] [Slicy](http://macrabbit.com/slicy/) assets from PS
+- [ ] [sourcetree](https://www.sourcetreeapp.com/)
 - [ ] [Spectacle](http://spectacleapp.com/)
 - [ ] [svgs](http://www.svgs.us/)
 - [ ] [synergy](https://symless.com/synergy/)
@@ -153,10 +162,9 @@ defaults write com.apple.screencapture type -string "png"
 - [ ] [Things](https://culturedcode.com/things/)
 - [ ] [totalterminal](http://totalterminal.binaryage.com/)
 - [ ] [Tower](http://www.git-tower.com/)
-- [ ] [Transmission](http://www.transmissionbt.com/download/)
 - [ ] [TunnelBear](https://www.tunnelbear.com/download/)
 - [ ] [vanilla](http://matthewpalmer.net/vanilla/)
-- [ ] [vlc](https://www.videolan.org/vlc/index.html)
+- [ ] [Wineskin](http://wineskin.urgesoftware.com)
 - [ ] 1Password
 - [ ] alcatraz
 - [ ] carthage
@@ -178,8 +186,9 @@ defaults write com.apple.screencapture type -string "png"
 - [ ] Pttrns.com
 - [ ] Slack
 - [ ] xScope 4
-- [ ] [Keyshape](https://www.pixofield.com/) - svg animations editor
-- [ ] [Wineskin](http://wineskin.urgesoftware.com)
+
+### term
+- install [solarized theme](http://ethanschoonover.com/solarized)
 
 ### iterm2
 
