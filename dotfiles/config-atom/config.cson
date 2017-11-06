@@ -1,6 +1,7 @@
 "*":
   "atom-beautify":
-    cpp: {}
+    cpp:
+      default_beautifier: "clang-format"
     css:
       convert_quotes: "double"
       default_beautifier: "Pretty Diff"

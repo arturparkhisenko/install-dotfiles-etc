@@ -1,5 +1,6 @@
 {
   "extends": "stylelint-config-standard",
+  "processors": ["stylelint-processor-html"],
   "rules": {
     "at-rule-empty-line-before": "never",
     "comment-empty-line-before": [
