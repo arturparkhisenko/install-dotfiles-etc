@@ -26,9 +26,29 @@
       "whitespace"
       "atom-typescript"
       "linter-php"
-      "linter-flow"
       "linter-luaparse"
       "php-cs-fixer"
+      "atom-css-comb"
+      "atom-ide-ui"
+      "atom-import-cost"
+      "autocomplete-module-import"
+      "autoprefixer"
+      "double-tag"
+      "language-babel"
+      "turbo-javascript"
+      "language-coffee-script"
+      "language-csharp"
+      "language-clojure"
+      "language-go"
+      "language-java"
+      "language-less"
+      "language-objective-c"
+      "language-perl"
+      "language-ruby"
+      "language-ruby-on-rails"
+      "language-sass"
+      "language-sql"
+      "language-toml"
     ]
     openEmptyEditorOnStart: false
     restorePreviousWindowsOnStart: "always"
@@ -58,7 +78,6 @@
     usePreset: true
   "linter-ui-default":
     panelHeight: 70
-    showPanel: true
   minimap:
     plugins:
       "git-diff": true

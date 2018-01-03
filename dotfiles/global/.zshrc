@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -7,7 +9,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="ys"
+export ZSH_THEME="ys"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -51,10 +53,11 @@ export UPDATE_ZSH_DAYS=5
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git npm zsh-syntax-highlighting)
+export plugins=(git npm zsh-syntax-highlighting)
 # zsh-autosuggestions
 # ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=247"
 
+# shellcheck source=~/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -66,7 +69,8 @@ NPM_PACKAGES="${HOME}/.npm-packages"
 PATH="$NPM_PACKAGES/bin:$PATH"
 # Unset manpath so we can inherit from /etc/manpath via the `manpath` command
 unset MANPATH # delete if you already modified MANPATH elsewhere in your config
-export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
+MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
+export MANPATH
 ## NODE NPM END
 
 # You may need to manually set your language environment
@@ -83,7 +87,7 @@ export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-export SSH_KEY_PATH="~/.ssh/rsa_id"
+export SSH_KEY_PATH="$HOME/.ssh/rsa_id"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -118,3 +122,7 @@ alias n_cc='npm cache clean --force'
 alias get='curl -O -L -#'
 alias myip='curl -s https://4.ifcfg.me'
 alias mylocalip='ifconfig | sed -En "s/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p"'
+
+# emsdk
+# shellcheck source=~
+source $HOME/Documents/GitHub/emsdk/emsdk_env.sh

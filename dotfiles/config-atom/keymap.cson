@@ -34,12 +34,7 @@
 'atom-text-editor':
   'ctrl-shift-l': 'prettier:format'
   'cmd-shift-l': 'prettier:format'
-  'ctrl-alt-l': 'beautify:beautify-editor'
   'ctrl-shift-m': 'minifier:minify'
   'cmd-shift-m': 'minifier:minify'
   'ctrl-shift-t': 'atom-terminal:open'
-  'alt-shift-t': 'atom-terminal:open'
   'cmd-shift-t': 'atom-terminal:open'
-  'alt-j': 'fixmyjs'
-  'alt-c': 'css-comb:comb'
-  'alt-x': 'autoprefixer'
