@@ -33,6 +33,7 @@
 ### Hotkeys
 - `cmd+R` - bootcamp (recovery and etc.)
 - `cmd+alt(option)+R` - bootcamp with Ethernet (recovery and etc.)
+- `cmd+ctrl+space` - emoji picker
 
 ### Links
 
@@ -81,6 +82,7 @@
 - [x] [VLC](https://www.videolan.org/vlc/index.html)
 - [x] Keynote
 - [x] Sketch 3
+- [x] CCleaner
 - [NVM](https://github.com/creationix/nvm)
 - [ ] [alfredapp](https://www.alfredapp.com/) and [alfred workflows](https://github.com/willfarrell/alfred-pkgman-workflow)
 - [ ] [appcleaner](https://freemacsoft.net/appcleaner/)
@@ -164,8 +166,10 @@
 - [ ] Numbers
 - [ ] Pages
 - [ ] Pttrns.com
-- [ ] Slack
+- [x] Slack
 - [ ] xScope 4
+- [ ] [SpotMenu](https://kmikiy.github.io/SpotMenu/) - for music
+- [ ] [lulu](https://objective-see.com/products/lulu.html) - firewall
 
 ### term
 - install [solarized theme](http://ethanschoonover.com/solarized)
@@ -235,3 +239,17 @@
   - HTML to Markdown
 
 5. Copy to ~/Library/Services
+
+## Folders that contains app's files
+
+- `~/Library/Caches` and `./`
+- `~/Library/LaunchAgents` and `./`
+- `~/Library/LaunchDaemons` and `./`
+- `~/Library/Application Support` and `./`
+- `~/Library/Application Scripts`
+- `~/Library/Containers`
+- `~/Library/PreferencePanes`
+- `~/Library/Preferences`
+- `~/Library/Saved Application State`
+- `~/Library/Saved`
+- `~/Library/StartupItems`

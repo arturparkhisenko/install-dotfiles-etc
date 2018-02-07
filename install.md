@@ -59,6 +59,9 @@
 - [ ] [vpnbook openvpn](https://www.vpnbook.com/howto/setup-openvpn-on-ubuntu)
 - [ ] [buffer](https://buffer.com/)
 - [ ] [ack(grep)](http://beyondgrep.com/)
+- [ ] [ai-bolit](https://revisium.com/ai/)
+- [ ] [darktable](https://www.darktable.org/)
+- [ ] [kdenlive](https://kdenlive.org/features/)
 
 Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <https://windirstat.info>
 

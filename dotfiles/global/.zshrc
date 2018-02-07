@@ -103,9 +103,12 @@ alias ll='ls -lhG'
 alias la='ls -A'
 alias rm='rm -i'
 alias whereami='pwd'
+alias rename='mv'
+alias move='mv'
 
 alias bcu='brew update && brew doctor && brew outdated && brew upgrade && brew cleanup'
 alias zcu='upgrade_oh_my_zsh'
+alias acu='bcu&&zcu&&ncu -g'
 
 alias e='atom .'
 alias atom='atom .'

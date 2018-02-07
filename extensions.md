@@ -25,6 +25,7 @@
 - [x] language-wast
 - [x] linter
 - [x] linter-clang
+- [x] linter-shellcheck
 - [x] linter-eslint
 - [x] linter-flow
 - [x] linter-handlebars

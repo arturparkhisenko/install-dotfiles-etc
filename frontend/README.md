@@ -47,9 +47,9 @@
   - [Шпаргалка по Git](https://medium.com/@ABatickaya/%D1%88%D0%BF%D0%B0%D1%80%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0-%D0%BF%D0%BE-git-55eeea487676#.egt8ws81g)
   - [git-diff-tips-and-tricks](https://blog.twobucks.co/git-diff-tips-and-tricks/)
 - [semver](http://semver.org/lang/ru/) and [picture](http://www.jontejada.com/blog/assets/semver03.png)
+- [cors](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#Simple_requests) and [cors-guide](https://medium.com/statuscode/cors-a-guided-tour-4e72230a8739)
 - js - [eloquentjavascript_ru online](https://karmazzin.gitbooks.io/eloquentjavascript_ru/content/) ,
     [eloquentjavascript_ru github link](https://github.com/karmazzin/eloquentjavascript_ru)
-  - [the little javascripter](http://thelittlejavascripter.com)
   - [Основы программирования, Hexlet](https://ru.hexlet.io/courses/programming-basics)
   - [Введение в Javascript](https://ru.hexlet.io/courses/javascript_101)
   - [JS: подготовка к работе, Hexlet](https://ru.hexlet.io/courses/javascript_setup)
@@ -77,8 +77,10 @@
 - [Что дальше? видео с hexlet Введение в Javascript](https://www.youtube.com/watch?v=ro7dL-Dy3cQ)
 - [Хороший каталог общих паттернов design-patterns](https://refactoring.guru/ru/design-patterns/catalog)
 - [programming-mental-models, medium](https://medium.com/@preethikasireddy/programming-mental-models-47ccc65eb334#.558qjslzo)
+- [glossary-of-modern-javascript-concepts](https://medium.com/devschacht/glossary-of-modern-javascript-concepts-1198b24e8f56)
 - [meta-language](http://frantic.im/meta-language)
 - [js-modules-formats-loaders-builders](https://tproger.ru/translations/js-modules-formats-loaders-builders/)
+- [s-expression](https://en.wikipedia.org/wiki/S-expression)
 
 ## PRACTICE on github/codepen :godmode:
 
