@@ -7,31 +7,41 @@
 - [x] atom-beautify
 - [x] atom-css-comb
 - [x] atom-handlebars
+- [x] atom-handlebars
 - [x] atom-ide-ui
 - [x] atom-import-cost
 - [x] autoclose-html
 - [x] autocomplete-clang
 - [x] autocomplete-modules
 - [x] autoprefixer
+- [x] busy-signal
 - [x] docblockr
 - [x] double-tag
 - [x] editorconfig (sindresorhus)
 - [x] emmet
 - [x] file-icons
 - [x] highlight-selected
+- [x] ide-cpp
 - [x] ide-flowtype
+- [x] ide-json
+- [x] ide-rust
+- [x] ide-typescript
+- [x] intentions
 - [x] language-babel
 - [x] language-javascript-better
+- [x] language-rust
+- [x] language-wast
 - [x] language-wast
 - [x] linter
 - [x] linter-clang
-- [x] linter-shellcheck
 - [x] linter-eslint
 - [x] linter-flow
 - [x] linter-handlebars
 - [x] linter-htmlhint
 - [x] linter-jsonlint
 - [x] linter-luaparse
+- [x] linter-rust
+- [x] linter-shellcheck
 - [x] linter-stylelint
 - [x] linter-ui-default
 - [x] local-history
@@ -50,7 +60,6 @@
 - [x] turbo-javascript
 - [ ] activate-power-mode
 - [ ] atom-commander
-- [ ] atom-handlebars
 - [ ] atom-html-preview
 - [ ] atom-language-postcss
 - [ ] atom-react-native-css
@@ -107,29 +116,6 @@
 - [ ] vim-mode
 - [ ] you-complete-me
 
-## Atom temporary
-
-- megafinder
-- angularjs
-- atom-fuzzy-grep
-- atom-polymer
-- atom-terminal
-- autocomplete-polymer
-- clipboard-plus
-- color-picker
-- comment
-- jshint by sindresorhus
-- linter-php
-- linter-phpcs
-- linter-phpmd
-- livereload
-- merge-conflicts
-- minifier
-- minimap-color-highlight
-- minimap-highlight-selected
-- polymer-snippets
-- remote-edit or secure copy
-
 ## Atom shortcuts
 
 - `ctrl+shift+d` - duplicate line
@@ -162,11 +148,20 @@
 - [x] Key promoter
 - [x] NodeJS
 - [x] import cost
-- [ ] AngularJS
 - [ ] CodeGlance
-- [ ] css-x-fire
-- [ ] phonegap
-- [ ] scss-lint
+
+## VSCode
+
+- [x] EditorConfig
+- [x] ESLint
+- [x] Flow Language Support
+- [x] GitLens
+- [x] hide-gitignored
+- [x] Local History
+- [x] npm
+- [x] Prettier
+- [x] Stylelint
+- [ ] rainbow-brackets
 
 ## SublimeText3
 
@@ -198,83 +193,37 @@
 - [x] Themr
 - [x] zz File Icons
 
-## VScode
-
-- [x] rainbow brackets
-
 ## Chrome
 
-- [x] [stop-autoplay-for-youtube](https://chrome.google.com/webstore/detail/stop-autoplay-for-youtube/figkapeodjhdgnpiamleongcmecfjccb/)
-- [X] [Twitter for GitHub](https://chrome.google.com/webstore/detail/twitter-for-github/joalalcafnlmimkfkihjbdgmphgedojc)
-- [x] [grammarly](https://www.grammarly.com/)
-- [x] github-awesome-autocomplete
-- [x] Google Docs Offline
-- [x] Https Everywhere
-- [x] uBlock Origin
-- [x] WhatFont / Fontface Ninja
-- [x] [Google Keep](https://chrome.google.com/webstore/detail/google-keep-chrome-extens/lpcaedmchfhocbbapmcbpinfpgnhiddi)
-- [x] [Google Inbox](https://chrome.google.com/webstore/detail/inbox-by-gmail/gkljgfmjocfalijkgoogmfffkhmkbgol)
 - [x]  [html5-video-speed-control](https://chrome.google.com/webstore/detail/html5-video-speed-control/ejdipbccipeloijefbkiakckfhdbgocg)
+- [x] [Grammarly for chrome](https://www.grammarly.com/)
+- [x] Google Docs Offline
+- [x] Google Translate
+- [x] HTTPS Everywhere
+- [x] uBlock Origin
 - [ ]  [google data-saver](https://chrome.google.com/webstore/detail/data-saver/pfmgfdlgomnbgkofeojodiodmgpgmkac)
-- [ ] Motivation
-- [ ] [aria-validator](https://chrome.google.com/webstore/detail/aria-validator/oigghlanfjgnkcndchmnlnmaojahnjoc)
-- [ ] [new tab breathtaking VR/360° photos](https://svrf.com/apps/tabs.html)
-- [ ] [xss-rays](https://chrome.google.com/webstore/detail/xss-rays/kkopfbcgaebdaklghbnfmjeeonmabidj)
-- [ ] [Isometric Contributions](https://chrome.google.com/webstore/detail/isometric-contributions/mjoedlfflcchnleknnceiplgaeoegien)
-- [ ] batarang
-- [ ] BuiltWith technology profiler
-- [ ] Cacoo (прототипирование и построение диаграмм)
-- [ ] clear-session
-- [ ] CSS Shapes Editor
-- [ ] DHC / Postman Interceptor / Postman
-- [ ] Dimensions Legacy
-- [ ] Disconnect
-- [ ] Ember Inspector
-- [ ] JavaScript Error Notifier
-- [ ] JetBrains IDE Support
-- [ ] Kingsquare HTML Validator
-- [ ] LinguaLeo English Tracker
-- [ ] Live Web Development
-- [ ] Meta seo inspector
-- [ ] MyPermissions Cleaner
-- [ ] ng-inspector for AngularJS
-- [ ] [Octo Linker](https://chrome.google.com/webstore/detail/octo-linker/jlmafbaeoofdegohdhinkhilhclaklkp)
-- [ ] Page Ruler
-- [ ] PageSpeed Insights (by Google)
-- [ ] Password Alert
-- [ ] perfectpixel-by-welldonec
-- [ ] PerfectPixel by WellDoneCode
-- [ ] Perfmap
-- [ ] Polymer DevTools Extension
-- [ ] Proxy [Hola](https://chrome.google.com/webstore/detail/unlimited-free-vpn-hola/gkojfkhlekighikafcpjkiklfbnlmeio)
-- [ ] qSnap
-- [ ] qSnap (скриншоты страницы + хостинг скриншотов)
-- [ ] RegExp Tester (тестирование регул¤рных выражений)
-- [ ] SEOquake
-- [ ] [ExtensionSave My Eyes](https://chrome.google.com/webstore/detail/save-my-eyes/mbhpdkldehghoilbopkcpfijdhnincmh)
-- [ ] SEO Site Tools, Site Analysis
-- [ ] Simple Time Track
-- [ ] Tab Ahead
-- [ ] Tape
-- [ ] The Great Suspender
-- [ ] uBlock Origin / AdBlock
-- [ ] Visual Event
-- [ ] Web Developer Checklist
-- [ ] Xdebug helper
-- [ ] Yslow
-- [ ] [data-saver](https://chrome.google.com/webstore/detail/data-saver/pfmgfdlgomnbgkofeojodiodmgpgmkac)
+- [ ] [Distract off](https://chrome.google.com/webstore/detail/distractoff/hdnjpdhnjfiipibogpkeemefnldahcnk)
 - [ ] [dotjs](https://chrome.google.com/webstore/detail/dotjs/dlnccnmhpmdidoiecanghgienhoglnim)
 - [ ] [motivation (untill)](https://chrome.google.com/webstore/detail/motivation/kcngcjbgnnhcdgnaonkmjheanflddmpo?hl=ru)
-- [ ] [Leoh New Tab](https://chrome.google.com/webstore/detail/leoh-new-tab/ijhhakihjccpanbibbcceofpjnebokcb)
-- [ ] [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
-- [ ] [Redux DevTools](https://github.com/zalmoxisus/redux-devtools-extension)
-- [ ] [User-Agent Switcher for Google Chrome](https://chrome.google.com/webstore/detail/user-agent-switcher-for-g/ffhkkpnppgnfaobgihpdblnhmmbodake/related?hl=en-US&gl=US)
+- [ ] [notifier-for-github-chrome](https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn)
+- [ ] [Octo Linker](https://chrome.google.com/webstore/detail/octo-linker/jlmafbaeoofdegohdhinkhilhclaklkp)
+- [ ] [Twitter for GitHub](https://chrome.google.com/webstore/detail/twitter-for-github/joalalcafnlmimkfkihjbdgmphgedojc)
 - [ ] [Vysor](https://chrome.google.com/webstore/detail/vysor-beta/gidgenkbbabolejbgbpnhbimgjbffefm/related?hl=en-US)
-- [notifier-for-github-chrome](https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn)
-- [tunnelbear-vpn](https://chrome.google.com/webstore/detail/tunnelbear-vpn/omdakjcmkglenbhjadbccaookpfjihpa)
-- [githunt](https://chrome.google.com/webstore/detail/githunt/khpcnaokfebphakjgdgpinmglconplhp)
-- [Distract off](https://chrome.google.com/webstore/detail/distractoff/hdnjpdhnjfiipibogpkeemefnldahcnk)
-- [WhatRuns](https://www.whatruns.com/?source=plugin)
+- [ ] [WhatRuns](https://www.whatruns.com/?source=plugin)
+- [ ] [xss-rays](https://chrome.google.com/webstore/detail/xss-rays/kkopfbcgaebdaklghbnfmjeeonmabidj)
+- [ ] BuiltWith technology profiler
+- [ ] CSS Shapes Editor
+- [ ] Disconnect
+- [ ] github-awesome-autocomplete
+- [ ] Password Alert
+- [ ] PerfectPixel by WellDoneCode
+- [ ] Perfmap
+- [ ] Postman
+- [ ] qSnap
+- [ ] Simple Time Track
+- [ ] Visual Event
+- [ ] WhatFont / Fontface Ninja
+- [ ] Xdebug helper
 
 **url to run chrome app list:** "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --show-app-list
 
