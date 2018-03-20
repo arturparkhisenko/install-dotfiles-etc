@@ -11,13 +11,24 @@
   g = git
   gl = log --graph --oneline --decorate --all --date-order
   gs = status -s
-  gc = commit -Sam
+  gc = commit -S
+  gcm = commit -Sm
+  gca = commit -Sa
+  gclean = git clean -xdf
   gaa = add --all
   gcl = clone
   gps = push -u
   gpu = pull
   gdf = diff --color --color-words --abbrev
   gco = checkout
+  grup = remote update --prune
+
+
+  # create a branch from another branch
+  #   git checkout master
+  #   git checkout -b dev master
+  #   git checkout dev
+  #   git checkout -b branch1 dev
 
   # Show the diff between the latest commit and the current state
   gd = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"

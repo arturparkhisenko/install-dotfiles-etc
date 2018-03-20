@@ -20,6 +20,10 @@ insert_final_newline = true
 [*.md]
 trim_trailing_whitespace = false
 
+# Use tabs for indentation (Makefiles require tabs)
+[{Makefile,**.mk}]
+indent_style = tab
+
 [{testfile1,testfile2}.js]
 indent_style = space
 indent_size = 4

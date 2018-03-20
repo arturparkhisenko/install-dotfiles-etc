@@ -13,10 +13,11 @@
 
 # flags
 
-- dont forget reset em (if you have any issues)
-- chrome://flags/#enable-fast-unload
-- chrome://flags/#enable-javascript-harmony
-- chrome://flags/#disable-hyperlink-auditing -- disable it anyway :)
+- don't forget to reset em (if you have any issues)
+- `chrome://flags/#enable-fast-unload`
+- `chrome://flags/#enable-javascript-harmony`
+- `chrome://flags/#disable-hyperlink-auditing` -- disable it anyway :)
+- `chrome://flags/#allow-insecure-localhost`
 
 # console pro tips
 

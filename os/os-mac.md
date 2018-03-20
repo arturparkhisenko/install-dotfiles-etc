@@ -14,6 +14,7 @@
 9. Safari - set UTF8 default encoding
 10. Remove: iMovies, Garage Band, iPages
 11. apply [GPG/PGP](https://github.com/drduh/macOS-Security-and-Privacy-Guide#pgpgpg) and [Passwords](https://github.com/drduh/macOS-Security-and-Privacy-Guide#passwords)
+12. Thin local Time Machine snapshots `tmutil thinLocalSnapshots / 10000000000 4`
 
 ## Resets
 - [NVRAM](https://support.apple.com/en-us/HT204063)
@@ -98,7 +99,6 @@
 - [ ] [ColorSnapper](https://colorsnapper.com/)
 - [ ] [CrossOver](https://www.codeweavers.com/products/) and [Parallels](https://www.parallels.com/) for win apps
 - [ ] [Cut and Slice me](http://www.cutandslice.me/) assets from PS CS
-- [ ] [daisydiskapp](https://daisydiskapp.com/) - $ disk stats
 - [ ] [Dash](https://kapeli.com/dash) offline access to 150+ API documentation sets
 - [ ] [Desktopr](https://itunes.apple.com/us/app/desktopr/id452693880?mt=12&ref=producthunt) site as a wallpaper
 - [ ] [dlite](https://github.com/nlf/dlite)
@@ -170,6 +170,9 @@
 - [ ] xScope 4
 - [ ] [SpotMenu](https://kmikiy.github.io/SpotMenu/) - for music
 - [ ] [lulu](https://objective-see.com/products/lulu.html) - firewall
+- [ ] [timemachineeditor](https://tclementdev.com/timemachineeditor/)
+- [ ] [GrandPerspective](http://grandperspectiv.sourceforge.net/)
+- [ ] [helium](http://heliumfloats.com/)
 
 ### term
 - install [solarized theme](http://ethanschoonover.com/solarized)
@@ -195,12 +198,8 @@
 - `brew install node wget git gcc clang-format cmake`
 - `brew install neovim`
 
-#### brew install apps
-
-- `brew cask install vlc`
-- `brew cask install atom`
-
 # sindresorhus Mac Keybinds:
+
 - `Ctrl `\` to toggle TotalTerminal.
 - `Alt `\` to toggle TotalFinder.
 - `Alt Space` to toggle Dash.
@@ -240,7 +239,7 @@
 
 5. Copy to ~/Library/Services
 
-## Folders that contains app's files
+## Folders that contains app's files (to cleanup)
 
 - `~/Library/Caches` and `./`
 - `~/Library/LaunchAgents` and `./`
@@ -253,3 +252,4 @@
 - `~/Library/Saved Application State`
 - `~/Library/Saved`
 - `~/Library/StartupItems`
+- `~/Library/Developer/Xcode`
