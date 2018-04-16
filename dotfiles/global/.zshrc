@@ -53,7 +53,7 @@ export UPDATE_ZSH_DAYS=5
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-export plugins=(git npm zsh-syntax-highlighting)
+export plugins=(git npm node brew zsh-syntax-highlighting)
 # zsh-autosuggestions
 # ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=247"
 
@@ -108,6 +108,10 @@ alias move='mv'
 alias copy='cp'
 alias zipp='zip -e'
 alias zippf='zip -er'
+
+alias mem='ps aux | sort -nk 4' # processes sorted by memory
+alias cpu='ps aux | sort -nk 3' # processes sorted by cpu
+
 alias encodingof='file -I'
 # alias toutf8='iconv -f iso-8859-1 -t utf-8 < file > file.new'
 alias npmigtools='npm i -g lock-cli trash-cli np nsp npm-check-updates'

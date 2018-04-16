@@ -99,9 +99,10 @@
 
 ### my global packages
 
-- `sudo npm i -g trash-cli np nsp npm-check-updates` node tools
-- `sudo npm i -g babel-cli gulp-cli` cli's
-- `sudo npm i -g htmlhint eslint eslint-plugin-html eslint-plugin-import stylelint flow-bin` linters
+- `npm i -g trash-cli np nsp npm-check-updates` node tools
+- `npm i -g babel-cli gulp-cli` cli's
+- `npm i -g htmlhint eslint eslint-plugin-html eslint-plugin-import stylelint flow-bin` linters
+- `npm i -g tldr` example: `tldr cp`
 
 ### other packages
 

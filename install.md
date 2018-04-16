@@ -3,9 +3,9 @@
 - MacOS
 - Windows
 - Linux
-  - Deb [Linux Mint](http://www.linuxmint.com/) | [Kubuntu](https://www.kubuntu.org/) | [Ubuntu](http://www.ubuntu.com/)
-  - Deb [Kali](https://www.kali.org/) | [BlackArch](http://blackarch.org/)
-  - Arch [Antergos](http://antergos.com/) | [Apricity](https://apricityos.com/) | [Fedora](https://getfedora.org/)
+  - Deb [Linux Mint](https://www.linuxmint.com/) | [Kubuntu](https://www.kubuntu.org/) | [Ubuntu](https://www.ubuntu.com/)
+  - Deb [Kali](https://www.kali.org/) | [BlackArch](https://blackarch.org/)
+  - Arch [Antergos](http://antergos.com/) | [Fedora](https://getfedora.org/)
 
 ## Related to that
 

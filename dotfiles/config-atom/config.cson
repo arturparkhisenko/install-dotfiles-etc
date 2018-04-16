@@ -1,5 +1,7 @@
 "*":
   "atom-beautify":
+    c:
+      default_beautifier: "clang-format"
     cpp:
       default_beautifier: "clang-format"
     css:
@@ -15,7 +17,9 @@
     readyMadeConfigs: "zen"
   "atom-ide-ui":
     use:
-      "atom-ide-diagnostics-ui": false
+      "atom-ide-diagnostics-ui": "never"
+  "atom-package-deps":
+    ignored: []
   "atom-ternjs":
     useSnippets: true
   core:
@@ -24,18 +28,6 @@
       "language-javascript-better"
       "vim-mode"
       "whitespace"
-      "atom-typescript"
-      "linter-php"
-      "linter-luaparse"
-      "php-cs-fixer"
-      "atom-css-comb"
-      "atom-ide-ui"
-      "atom-import-cost"
-      "autocomplete-module-import"
-      "autoprefixer"
-      "double-tag"
-      "language-babel"
-      "turbo-javascript"
       "language-coffee-script"
       "language-csharp"
       "language-clojure"
@@ -64,18 +56,21 @@
     scrollPastEnd: true
     showIndentGuide: true
     softWrap: true
-    softWrapAtPreferredLineLength: true
     zoomFontWhenCtrlScrolling: false
   "exception-reporting":
     userId: "acd480d9-1ccb-1075-75e5-442a75cdf688"
+  "ide-cpp":
+    clangdPath: "./Users/artur/Documents/GitHub/clang+llvm-6.0.0-x86_64-apple-darwin/bin/clangd"
   linter: {}
   "linter-eslint":
     lintHtmlFiles: true
   "linter-flow": {}
   "linter-luacheck": {}
   "linter-stylelint":
+    disableWhenNoConfig: false
     enableHtmlLinting: true
     usePreset: true
+    useStandard: true
   "linter-ui-default":
     panelHeight: 70
   minimap:
@@ -87,9 +82,11 @@
       linterDecorationsZIndex: 0
       selection: true
   "prettier-atom":
+    prettierEslintOptions: {}
     prettierOptions:
       singleQuote: true
     useEslint: true
+    useStylelint: true
   "split-diff":
     diffWords: true
     ignoreWhitespace: true
@@ -102,7 +99,6 @@
       "**/bower_components/"
       "**/src/bower_components/"
     ]
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   welcome:
     showOnStartup: false

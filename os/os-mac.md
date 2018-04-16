@@ -127,6 +127,7 @@
 - [ ] [Moom](https://manytricks.com/moom/) Managing app windows
 - [ ] [noodlesoft, cleaner](https://www.noodlesoft.com/) - $
 - [ ] [onyx](https://www.titanium-software.fr/en/onyx.html) - utility
+- [ ] [OmniDiskSweeper](https://www.omnigroup.com/more) - cleanup
 - [ ] [Paragon NTFS on Mac](https://www.paragon-software.com/ufsdhome/ntfs-mac/)
 - [ ] [Parallels Desktop](https://www.parallels.com/products/desktop/download/)
 - [ ] [patterns](https://krillapps.com/patterns/)
@@ -171,7 +172,7 @@
 - [ ] [SpotMenu](https://kmikiy.github.io/SpotMenu/) - for music
 - [ ] [lulu](https://objective-see.com/products/lulu.html) - firewall
 - [ ] [timemachineeditor](https://tclementdev.com/timemachineeditor/)
-- [ ] [GrandPerspective](http://grandperspectiv.sourceforge.net/)
+- [x] [GrandPerspective](http://grandperspectiv.sourceforge.net/)
 - [ ] [helium](http://heliumfloats.com/)
 
 ### term
