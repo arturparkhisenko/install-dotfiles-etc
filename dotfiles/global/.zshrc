@@ -53,7 +53,7 @@ export UPDATE_ZSH_DAYS=5
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-export plugins=(git npm node brew zsh-syntax-highlighting)
+export plugins=(git npm node brew ssh-agent zsh-syntax-highlighting)
 # zsh-autosuggestions
 # ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=247"
 
