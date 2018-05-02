@@ -65,6 +65,8 @@
 
 ## Soft
 
+> [open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps)
+
 - [x] [backup and sync](https://www.google.com/drive/download/backup-and-sync/)
 - [x] [filezilla](https://filezilla-project.org/)
 - [x] [gfxCardStatus](https://gfx.io/)

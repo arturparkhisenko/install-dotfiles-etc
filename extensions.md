@@ -7,7 +7,6 @@
 - [x] atom-beautify
 - [x] atom-css-comb
 - [x] atom-handlebars
-- [x] atom-handlebars
 - [x] atom-ide-ui
 - [x] atom-import-cost
 - [x] autoclose-html
@@ -30,7 +29,6 @@
 - [x] language-babel
 - [x] language-javascript-better
 - [x] language-rust
-- [x] language-wast
 - [x] language-wast
 - [x] linter
 - [x] linter-clang
@@ -152,16 +150,19 @@
 
 ## VSCode
 
-- [x] EditorConfig
+- [x] EditorConfig for VSCode
 - [x] ESLint
-- [x] Flow Language Support
+- [x] TSLint
 - [x] GitLens
-- [x] hide-gitignored
-- [x] Local History
-- [x] npm
-- [x] Prettier
-- [x] Stylelint
-- [ ] rainbow-brackets
+- [x] npm - from egamma
+- [x] Prettier - from Esben Petersen
+- [x] Stylelint - from Sinnosuke
+- [x] Bracket Pair Colorizer
+- [x] Polymer IDE
+- [x] Indenticator - from SirTori
+- [x] TODO Highlight - from Wayou Liu
+- [ ] hide-gitignored
+- [ ] Local History
 
 ## SublimeText3
 
