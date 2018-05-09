@@ -47,7 +47,7 @@
 
 [core]
   eol = lf
-  autocrlf = input
+  autocrlf = true
 
 [push]
   default = current

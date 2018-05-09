@@ -109,6 +109,10 @@ alias copy='cp'
 alias zipp='zip -e'
 alias zippf='zip -er'
 
+alias get='curl -O -L -#'
+alias myip='curl -s https://4.ifcfg.me'
+alias mylocalip='ifconfig | sed -En "s/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p"'
+
 alias mem='ps aux | sort -nk 4' # processes sorted by memory
 alias cpu='ps aux | sort -nk 3' # processes sorted by cpu
 
@@ -116,26 +120,18 @@ alias encodingof='file -I'
 # alias toutf8='iconv -f iso-8859-1 -t utf-8 < file > file.new'
 alias npmigtools='npm i -g lock-cli trash-cli np nsp npm-check-updates'
 
-alias bcu='brew update && brew doctor && brew outdated && brew upgrade && brew cleanup'
+alias serve='python -m SimpleHTTPServer 8000'
+
+alias bcu='brew update&& brew doctor&& brew outdated&& brew upgrade&& brew cleanup'
 alias zcu='upgrade_oh_my_zsh'
 alias acu='bcu&&zcu&&ncu -g'
 
-alias e='atom .'
-alias atom='atom .'
-alias serve='python -m SimpleHTTPServer 8000'
-
-alias n_i='npm install'
-alias n_ig='npm install -g'
-alias n_is='npm install --save'
-alias n_id='npm install --save-dev'
 alias n_lg='npm list -g --depth=0'
-alias n_cu='npm outdated -g'
+alias n_og='npm outdated -g'
+alias n_in='npm install npm@latest -g'
 alias n_cc='npm cache clean --force'
-
-alias get='curl -O -L -#'
-alias myip='curl -s https://4.ifcfg.me'
-alias mylocalip='ifconfig | sed -En "s/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p"'
+alias y_cc='yarn cache clean'
 
 # emsdk
 # shellcheck source=~
-source $HOME/Documents/GitHub/emsdk/emsdk_env.sh
+# source $HOME/Documents/GitHub/emsdk/emsdk_env.sh
