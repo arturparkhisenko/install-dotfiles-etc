@@ -38,14 +38,14 @@
 - <https://github.com/blog/2144-gpg-signature-verification>
 - <https://twitter.com/steveklabnik/status/717514738389925889>
 
-# [Oh My ZSH](http://ohmyz.sh/)
+# [Oh My ZSH](https://ohmyz.sh/)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
-## Required:
+## Required
 
 - `sudo apt-get install git-core`
 
-## Install:
+## Install
 
 - `sudo apt-get install zsh`
 - `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
@@ -68,10 +68,6 @@
 - `npm install arturparkhisenko/ig-css-addons`
 - `npm update -g`
 - `npm-prune` to remove unlisted packages in package.json
-
-### update npm on windows
-
-- [npm-windows-upgrade](https://github.com/felixrieseberg/npm-windows-upgrade)
 
 ## npm commands
 
@@ -99,9 +95,13 @@
 
 ### my global packages
 
-- `npm i -g trash-cli np nsp npm-check-updates` node tools
-- `npm i -g babel-cli gulp-cli` cli's
-- `npm i -g htmlhint eslint eslint-plugin-html eslint-plugin-import stylelint flow-bin` linters
+- `npm i -g trash-cli eslint npm-check-updates np`
+
+### recommended global packages
+
+- `npm i -g trash-cli np npm-check-updates` node tools
+- `npm i -g gulp-cli` cli's
+- `npm i -g htmlhint eslint eslint-plugin-html eslint-plugin-import stylelint` linters
 - `npm i -g tldr` example: `tldr cp`
 
 ### other packages
@@ -113,28 +113,16 @@
 - `ncu -m bower` - check bower.json updates
 - `ncu -g` - check global updates
 - `npm outdated -g` - check global updates
-- `npm install nsp -g && nsp check`
-- `npm install --save-dev flow-bin` - for local flow-bin env
-- `npm i -g shrinkpack` (.tar.gz in node_shinkwrap, and updates npm-shrinkwrap.json, fix current deps --dev, speedups install in 2.5times! creates npm-shrinkwrap.json)
-- [greenkeper.io](greenkeper.io)
 - `npm i husky -D` (adds scripts support: precommit, prepush, postcommit, postpush)
-- `npm i sw-precache sw-toolbox`
-- `npm i babel-preset-es2015`
-- `npm i uglify-js gulp-babel jspm trash bower bower-check-updates`
 
-**webpack**
-
-- `npm i -D webpack bower-webpack-plugin`
-- `npm i -D style-loader css-loader url-loader babel-loader babel-runtime eslint-loader cssnext-loader`
-
-**paths**
+## paths
 
 - linux node: `/usr/local/bin/scss`
 - linux ruby: `/var/lib/gems/1.9.1/gems/sass-3.4.16/bin/sass`
 - win node: `c:\users\username\appdata\roaming\npm\node_modules`
 - win ruby: `C:\Programs\rubygems\gem\sass` or `c:\RubyXX\lib`
 
-**intellijIdea watcher conf**
+## intellijIdea watcher conf
 
 - `--no-cache --update $FileName$:$FileNameWithoutExtension$.min.css --style compressed`
 - update file with .min too!
@@ -261,7 +249,7 @@
 - `sudo apt-get install php5-mysql`
 - `sudo apt-get install phpmyadmin`
 
-config:
+### config:
 
 - `sudo nano /etc/apache2/apache2.conf ``
 - add-this-at-the-end -> `Include /etc/phpmyadmin/apache.conf`
@@ -295,7 +283,10 @@ Debugging with XDebug on Browser and Command line The example is made for PHPSto
 ```
 
 - Ubuntu 12.04 Edit `/etc/php5/cli/conf.d/xdebug.ini`
-- Ubuntu 14.04 with php-fpm -> sudo ln -s /etc/php5/mods-available/xdebug.ini /etc/php5/fpm/conf.d/20-xdebug.ini with apache2 -> sudo ln -s /etc/php5/mods-available/xdebug.ini /etc/php5/apache2/conf.d/20-xdebug.ini with cli -> sudo ln -s /etc/php5/mods-available/xdebug.ini /etc/php5/cli/conf.d/20-xdebug.ini Edit /etc/php5/mods-available/xdebug.ini Configuration
+- Ubuntu 14.04 with
+```
+php-fpm -> sudo ln -s /etc/php5/mods-available/xdebug.ini /etc/php5/fpm/conf.d/20-xdebug.ini with apache2 -> sudo ln -s /etc/php5/mods-available/xdebug.ini /etc/php5/apache2/conf.d/20-xdebug.ini with cli -> sudo ln -s /etc/php5/mods-available/xdebug.ini /etc/php5/cli/conf.d/20-xdebug.ini Edit /etc/php5/mods-available/xdebug.ini Configuration
+```
 
 # xdebug.ini
 
@@ -310,19 +301,19 @@ Debugging with XDebug on Browser and Command line The example is made for PHPSto
 - xdebug.max_nesting_level = 1000
 - `sudo service apache2 restart`
 
--Add to /home/
-
+- Add to /home/
+```
 <your_username>/.bashrc export XDEBUG_CONFIG="PHPSTORM";</your_username>
+```
 
--reload bash settings source ~/.bashrc Edit Settings in PHPStorm Go to File->Settings->PHP->Debug Change XDebug Debug Port to 9002 Install Easy XDebug Plugin for Firefox <https://addons.mozilla.org/de/firefox/addon/easy-xdebug/>
+- reload bash settings source `~/.bashrc` Edit Settings in PHPStorm Go to File->Settings->PHP->Debug Change XDebug Debug Port to 9002 Install Easy XDebug Plugin for Firefox <https://addons.mozilla.org/de/firefox/addon/easy-xdebug/>
 
 # SERVER
 
 - [win ssl on apache](http://adminsnotes.blogspot.com/2008/01/apache-openssl-windows.html)
-
-if phpmyadmin not found: sudo ln -s /usr/share/phpmyadmin /var/www/html/ Include /etc/phpmyadmin/apache.conf
-
--dontuse: -vsftpd -<http://ubuntuforums.org/showthread.php?t=518293> -<https://www.digitalocean.com/community/tutorials/how-to-configure-vsftpd-to-use-ssl-tls-on-an-ubuntu-vps>
+- if phpmyadmin not found: `sudo ln -s /usr/share/phpmyadmin /var/www/html/ Include /etc/phpmyadmin/apache.conf`
+- dontuse: `-vsftpd` -<http://ubuntuforums.org/showthread.php?t=518293>
+- <https://www.digitalocean.com/community/tutorials/how-to-configure-vsftpd-to-use-ssl-tls-on-an-ubuntu-vps>
 
 ```
     <VirtualHost dropbox.local:80>

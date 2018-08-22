@@ -9,7 +9,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-export ZSH_THEME="ys"
+export ZSH_THEME="muse"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -122,7 +122,7 @@ alias npmigtools='npm i -g lock-cli trash-cli np nsp npm-check-updates'
 
 alias serve='python -m SimpleHTTPServer 8000'
 
-alias bcu='brew update&& brew doctor&& brew outdated&& brew upgrade&& brew cleanup'
+alias bcu='brew update&&brew outdated&&brew upgrade&&brew cleanup'
 alias zcu='upgrade_oh_my_zsh'
 alias acu='bcu&&zcu&&ncu -g'
 
@@ -135,3 +135,8 @@ alias y_cc='yarn cache clean'
 # emsdk
 # shellcheck source=~
 # source $HOME/Documents/GitHub/emsdk/emsdk_env.sh
+
+# python from brew
+alias python='python3'
+alias python-config='python3-config'
+alias pip='pip3'

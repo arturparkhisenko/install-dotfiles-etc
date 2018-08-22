@@ -17,6 +17,7 @@
 12. Thin local Time Machine snapshots `tmutil thinLocalSnapshots / 10000000000 4`
 
 ## Resets
+
 - [NVRAM](https://support.apple.com/en-us/HT204063)
 - [SMC](https://support.apple.com/en-us/HT201295)
 
@@ -32,6 +33,7 @@
 - [about file share smb](https://apple.stackexchange.com/questions/238813/why-is-my-hard-drive-and-user-folder-shared-when-i-turn-on-osx-file-sharing)
 
 ### Hotkeys
+
 - `cmd+R` - bootcamp (recovery and etc.)
 - `cmd+alt(option)+R` - bootcamp with Ethernet (recovery and etc.)
 - `cmd+ctrl+space` - emoji picker
@@ -70,48 +72,64 @@
 - [x] [backup and sync](https://www.google.com/drive/download/backup-and-sync/)
 - [x] [filezilla](https://filezilla-project.org/)
 - [x] [gfxCardStatus](https://gfx.io/)
-- [x] [GitUp](http://gitup.co/)
+- [x] [GrandPerspective](http://grandperspectiv.sourceforge.net/)
 - [x] [Homebrew](https://brew.sh/)
 - [x] [ImageOptim](https://imageoptim.com/)
 - [x] [LibreOffice](https://www.libreoffice.org/)
-- [x] [lock-cli](https://github.com/sindresorhus/lock-cli)
 - [x] [Skype](https://www.skype.com/)
+- [x] [Spectacle](https://www.spectacleapp.com/)
 - [x] [TeamSpeak](https://www.teamspeak.com/)
 - [x] [TeamViewer](https://www.teamviewer.com/)
 - [x] [the unarchiver](https://theunarchiver.com/)
 - [x] [time out, dejal, eye breaks](http://www.dejal.com/)
-- [x] [Transmission](https://transmissionbt.com/)
 - [x] [trash-cli](https://github.com/sindresorhus/trash-cli)
 - [x] [VLC](https://www.videolan.org/vlc/index.html)
-- [x] Keynote
-- [x] Sketch 3
-- [x] CCleaner
-- [NVM](https://github.com/creationix/nvm)
+- [x] [CCleaner](https://www.ccleaner.com/ccleaner-mac)
+- [x] [Keynote](https://www.apple.com/keynote/)
+- [x] [Sketch app](https://www.sketchapp.com/)
+- [x] [Slack](https://slack.com/)
+
+- [ ] [1Password](https://1password.com/)
+- [ ] [Airmail 3](https://itunes.apple.com/us/app/airmail-3/id918858936?mt=12&app=apps&ign-mpt=uo%3D4)
+- [ ] [alcatraz](##Soft)
 - [ ] [alfredapp](https://www.alfredapp.com/) and [alfred workflows](https://github.com/willfarrell/alfred-pkgman-workflow)
 - [ ] [appcleaner](https://freemacsoft.net/appcleaner/)
 - [ ] [arqbackup](https://www.arqbackup.com/) - $ 
-- [ ] [arthur, settings](http://arthur-osx.com/)
 - [ ] [batteryguardian](https://www.dssw.co.uk/batteryguardian/)
 - [ ] [bettersnaptool](https://www.boastr.net/bettersnaptool/) - $
 - [ ] [BetterZip 3](https://macitbetter.com/) zip
 - [ ] [BitTorrent Sync](https://www.getsync.com/platforms/desktop)
 - [ ] [cakebrew](https://www.cakebrew.com/)
+- [ ] [carthage](##Soft)
+- [ ] [charles](##Soft)
 - [ ] [choosyosx](https://www.choosyosx.com/)
 - [ ] [cleanmymac](https://macpaw.com/cleanmymac)
+- [ ] [cocoapods](##Soft)
+- [ ] [Coinverter](##Soft)
 - [ ] [ColorSnapper](https://colorsnapper.com/)
 - [ ] [CrossOver](https://www.codeweavers.com/products/) and [Parallels](https://www.parallels.com/) for win apps
 - [ ] [Cut and Slice me](http://www.cutandslice.me/) assets from PS CS
 - [ ] [Dash](https://kapeli.com/dash) offline access to 150+ API documentation sets
 - [ ] [Desktopr](https://itunes.apple.com/us/app/desktopr/id452693880?mt=12&ref=producthunt) site as a wallpaper
 - [ ] [dlite](https://github.com/nlf/dlite)
+- [ ] [DM1](##Soft)
+- [ ] [Elmedia](##Soft)
 - [ ] [EnvPane](https://github.com/hschmidt/EnvPane)
 - [ ] [F.lux](https://justgetflux.com/) screen color change
+- [ ] [fabric.io](##Soft)
+- [ ] [Fantastical 2](##Soft)
+- [ ] [fastlane](##Soft)
+- [ ] [Final Cut Pro](##Soft)
 - [ ] [fix-macosx](https://fix-macosx.com/)
 - [ ] [functionflip](http://kevingessner.com/software/functionflip/)
 - [ ] [gasmask](https://github.com/2ndalpha/gasmask)
 - [ ] [gemini](https://macpaw.com/gemini) - $ anti duplicates
 - [ ] [getkap](https://getkap.co/) - capture screen
+- [ ] [GitUp](http://gitup.co/)
+- [ ] [Hazel](##Soft)
+- [ ] [helium](http://heliumfloats.com/)
 - [ ] [hyper](https://hyper.is/)
+- [ ] [iA Writer Pro](##Soft)
 - [ ] [Icon Slate](http://www.kodlian.com/apps/icon-slate) exporting icons
 - [ ] [iExplorer](https://macroplant.com/iexplorer) transfering files between ios devices
 - [ ] [ImageAlpha](https://pngmini.com/)
@@ -120,19 +138,26 @@
 - [ ] [karabiner](https://pqrs.org/osx/karabiner/)
 - [ ] [Keyshape](https://www.pixofield.com/) - svg animations editor
 - [ ] [licecap](https://www.cockos.com/licecap/)
+- [ ] [lulu](https://objective-see.com/products/lulu.html) - firewall
 - [ ] [macbartender](https://www.macbartender.com/)
 - [ ] [macdownload](http://macdownload.informer.com/landing/) - free
 - [ ] [macupdate](https://www.macupdate.com/desktop) - $
 - [ ] [malwarebytes](https://www.malwarebytes.com)
 - [ ] [Memory Clean - Monitor and Free Up Memory](https://itunes.apple.com/ru/app/memory-clean-monitor-free/id451444120?mt=12)
+- [ ] [MindNode 2](##Soft)
+- [ ] [mogenerator](##Soft)
 - [ ] [Monolingual](https://ingmarstein.github.io/Monolingual/) remove unneeded lang's
 - [ ] [Moom](https://manytricks.com/moom/) Managing app windows
 - [ ] [noodlesoft, cleaner](https://www.noodlesoft.com/) - $
-- [ ] [onyx](https://www.titanium-software.fr/en/onyx.html) - utility
+- [ ] [Numbers](##Soft)
+- [ ] [NVM](https://github.com/creationix/nvm)
 - [ ] [OmniDiskSweeper](https://www.omnigroup.com/more) - cleanup
+- [ ] [onyx](https://www.titanium-software.fr/en/onyx.html) - utility
+- [ ] [Pages](##Soft)
 - [ ] [Paragon NTFS on Mac](https://www.paragon-software.com/ufsdhome/ntfs-mac/)
 - [ ] [Parallels Desktop](https://www.parallels.com/products/desktop/download/)
 - [ ] [patterns](https://krillapps.com/patterns/)
+- [ ] [Pttrns.com](##Soft)
 - [ ] [Reflector](http://www.airsquirrels.com/reflector/) like LiveView
 - [ ] [Renamer](https://renamer.com/)
 - [ ] [Safari technology-preview](https://developer.apple.com/safari/technology-preview/)
@@ -140,44 +165,22 @@
 - [ ] [ShiftIt](https://github.com/fikovnik/ShiftIt)
 - [ ] [Slicy](http://macrabbit.com/slicy/) assets from PS
 - [ ] [sourcetree](https://www.sourcetreeapp.com/)
-- [x] [Spectacle](https://www.spectacleapp.com/)
+- [ ] [SpotMenu](https://kmikiy.github.io/SpotMenu/) - for music
 - [ ] [svgs](http://www.svgs.us/)
 - [ ] [synergy](https://symless.com/synergy/)
 - [ ] [TermHere](https://itunes.apple.com/us/app/termhere/id1114363220?mt=12)
 - [ ] [Things](https://culturedcode.com/things/)
+- [ ] [timemachineeditor](https://tclementdev.com/timemachineeditor/)
 - [ ] [totalterminal](https://totalterminal.binaryage.com/)
 - [ ] [Tower](https://www.git-tower.com)
+- [ ] [Transmission](https://transmissionbt.com/)
 - [ ] [TunnelBear](https://www.tunnelbear.com/download/)
 - [ ] [vanilla](http://matthewpalmer.net/vanilla/)
 - [ ] [Wineskin](http://wineskin.urgesoftware.com)
-- [ ] 1Password
-- [ ] alcatraz
-- [ ] carthage
-- [ ] charles
-- [ ] cocoapods
-- [ ] Coinverter
-- [ ] DM1
-- [ ] Elmedia
-- [ ] fabric.io
-- [ ] Fantastical 2
-- [ ] fastlane
-- [ ] Final Cut Pro
-- [ ] Hazel
-- [ ] iA Writer Pro
-- [ ] MindNode 2
-- [ ] mogenerator
-- [ ] Numbers
-- [ ] Pages
-- [ ] Pttrns.com
-- [x] Slack
-- [ ] xScope 4
-- [ ] [SpotMenu](https://kmikiy.github.io/SpotMenu/) - for music
-- [ ] [lulu](https://objective-see.com/products/lulu.html) - firewall
-- [ ] [timemachineeditor](https://tclementdev.com/timemachineeditor/)
-- [x] [GrandPerspective](http://grandperspectiv.sourceforge.net/)
-- [ ] [helium](http://heliumfloats.com/)
+- [ ] [xScope 4](##Soft)
 
 ### term
+
 - install [solarized theme](http://ethanschoonover.com/solarized)
 
 ### iterm2
@@ -193,7 +196,7 @@
 - `brew upgrade`
 - `brew cleanup`
 - `brew doctor`
-- `brew update && brew outdated && brew upgrade && brew cleanup`
+- `brew update&&brew outdated&&brew upgrade&&brew cleanup`
 
 #### brew install
 
@@ -201,7 +204,7 @@
 - `brew install node wget git gcc clang-format cmake fd cppcheck gcc shellcheck wget yarn`
 - `brew install neovim`
 
-# sindresorhus Mac Keybinds:
+## sindresorhus Mac Keybinds
 
 - `Ctrl `\` to toggle TotalTerminal.
 - `Alt `\` to toggle TotalFinder.

@@ -1,0 +1,40 @@
+{
+  "compileOnSave": true,
+  "include": [
+    "./src/**/*"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declarationDir": ".",
+    "lib": [
+      "dom",
+      "scripthost",
+      "es2015",
+      "es2016",
+      "es2017",
+      "es2018",
+      "esnext"
+    ],
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "removeComments": true,
+    "pretty": true,
+    "importHelpers": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictPropertyInitialization": false,
+    "allowJs": false,
+    "checkJs": false,
+    "noImplicitAny": false,
+    "isolatedModules": false
+  }
+}

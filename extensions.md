@@ -2,6 +2,26 @@
 
 > currently installed - marked as completed
 
+## VSCode [current editor]
+
+- [x] EditorConfig for VSCode
+- [x] ESLint
+- [x] Import Cost
+- [x] Indenticator - from SirTori
+- [x] markdownlint
+- [x] npm - from egamma
+- [x] polacode
+- [x] Prettier - from Esben Petersen
+- [x] Python
+- [x] Stylelint - from Sinnosuke
+- [x] TODO Highlight - from Wayou Liu
+- [ ] TSLint
+- [ ] GitLens
+- [ ] Bracket Pair Colorizer
+- [ ] Polymer IDE
+- [ ] hide-gitignored
+- [ ] Local History
+
 ## Atom
 
 - [x] atom-beautify
@@ -147,22 +167,6 @@
 - [x] NodeJS
 - [x] import cost
 - [ ] CodeGlance
-
-## VSCode
-
-- [x] EditorConfig for VSCode
-- [x] ESLint
-- [x] TSLint
-- [x] GitLens
-- [x] npm - from egamma
-- [x] Prettier - from Esben Petersen
-- [x] Stylelint - from Sinnosuke
-- [x] Bracket Pair Colorizer
-- [x] Polymer IDE
-- [x] Indenticator - from SirTori
-- [x] TODO Highlight - from Wayou Liu
-- [ ] hide-gitignored
-- [ ] Local History
 
 ## SublimeText3
 

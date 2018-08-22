@@ -1,0 +1,27 @@
+{
+  "name": "ts-examples",
+  "version": "1.0.0",
+  "description": "ts-examples",
+  "main": "src/index.js",
+  "private": true,
+  "author": "Artur Parkhisenko",
+  "license": "MIT",
+  "scripts": {
+    "test": "",
+    "tslint-check": "tslint-config-prettier-check ./tslint.json",
+    "start": "node src/index.js",
+    "build": "tsc -p .",
+    "watch": "tsc -p . --watch"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.109",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "tslint-eslint-rules": "^5.3.1",
+    "tslint-plugin-prettier": "^1.3.0",
+    "typescript": "^2.8.3"
+  }
+}
