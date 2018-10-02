@@ -14,6 +14,7 @@
 - [x] Prettier - from Esben Petersen
 - [x] Python
 - [x] Stylelint - from Sinnosuke
+- [x] Sublime Babel
 - [x] TODO Highlight - from Wayou Liu
 - [ ] TSLint
 - [ ] GitLens

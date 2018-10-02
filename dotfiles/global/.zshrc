@@ -108,6 +108,7 @@ alias move='mv'
 alias copy='cp'
 alias zipp='zip -e'
 alias zippf='zip -er'
+alias gitclean='git prune&&git remote prune origin&&git remote update --prune'
 
 alias get='curl -O -L -#'
 alias myip='curl -s https://4.ifcfg.me'
@@ -119,6 +120,7 @@ alias cpu='ps aux | sort -nk 3' # processes sorted by cpu
 alias encodingof='file -I'
 # alias toutf8='iconv -f iso-8859-1 -t utf-8 < file > file.new'
 alias npmigtools='npm i -g lock-cli trash-cli np nsp npm-check-updates'
+alias fixmacostools='xcode-select --install'
 
 alias serve='python -m SimpleHTTPServer 8000'
 
@@ -131,6 +133,7 @@ alias n_og='npm outdated -g'
 alias n_in='npm install npm@latest -g'
 alias n_cc='npm cache clean --force'
 alias y_cc='yarn cache clean'
+alias find_nm='find ./ -type d -name "node_modules"'
 
 # emsdk
 # shellcheck source=~
