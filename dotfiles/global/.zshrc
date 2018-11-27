@@ -99,19 +99,34 @@ export SSH_KEY_PATH="$HOME/.ssh/rsa_id"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias ..='cd ..'
-alias ll='ls -lhG'
-alias la='ls -A'
+alias ll='ls -lhG' # long + sizes + color
+alias la='ls -a' # with hidden
 alias rm='rm -i'
 alias whereami='pwd'
 alias rename='mv'
 alias move='mv'
 alias copy='cp'
-alias zipp='zip -e'
-alias zippf='zip -er'
-alias gitclean='git prune&&git remote prune origin&&git remote update --prune'
+# https://linux.die.net/man/1/zip
+alias zap='zip --encrypt --recurse-paths'
 
-alias get='curl -O -L -#'
-alias myip='curl -s https://4.ifcfg.me'
+alias g_aa='git add --all'
+alias g_ad='git add .' # same as --all
+alias g_c='git commit --gpg-sign'
+alias g_ca='git commit --gpg-sign --all'
+alias g_cm='git commit --gpg-sign -m' # message
+alias g_cl='git clone'
+alias g_clean='git clean -xdf'
+alias g_cleanup='git prune&&git remote prune origin&&git remote update --prune'
+alias g_co='git checkout'
+alias g_df='git diff --color --color-words --abbrev'
+alias g_l='git log --graph --oneline --decorate --all --date-order'
+alias g_ps='git push --set-upstream'
+alias g_pu='git pull'
+alias g_s='git status --short --branch'
+
+# https://curl.haxx.se/docs/manpage.html
+alias get='curl --location --progress-bar --verbose'
+alias myip='curl -silent https://4.ifcfg.me'
 alias mylocalip='ifconfig | sed -En "s/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p"'
 
 alias mem='ps aux | sort -nk 4' # processes sorted by memory

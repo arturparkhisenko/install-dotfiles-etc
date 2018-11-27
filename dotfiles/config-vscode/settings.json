@@ -1,5 +1,15 @@
 {
   "workbench.colorTheme": "Solarized Dark",
   "editor.fontSize": 16,
-  "window.zoomLevel": 0
+  "editor.tabSize": 2,
+  "window.zoomLevel": 0,
+  "eslint.options": {
+    "quotes": ["error", "single"]
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "files.defaultLanguage": "markdown",
+  "prettier.singleQuote": true,
+  "prettier.eslintIntegration": true
 }

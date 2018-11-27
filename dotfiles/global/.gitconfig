@@ -8,46 +8,10 @@
 	gpgsign = true
 
 [alias]
-  g = git
-  gl = log --graph --oneline --decorate --all --date-order
-  gs = status -s
-  gc = commit -S
-  gcm = commit -Sm
-  gca = commit -Sa
-  gclean = git clean -xdf
-  gaa = add --all
-  gcl = clone
-  gps = push -u
-  gpu = pull
-  gdf = diff --color --color-words --abbrev
-  gco = checkout
-  grup = remote update --prune
-
-
-  # create a branch from another branch
-  #   git checkout master
-  #   git checkout -b dev master
-  #   git checkout dev
-  #   git checkout -b branch1 dev
-
-  # Show the diff between the latest commit and the current state
-  gd = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
-
-  # Merge GitHub pull request on top of the `master` branch
-  mpr = "!f() { \
-    if [ $(printf \"%s\" \"$1\" | grep '^[0-9]\\+$' > /dev/null; printf $?) -eq 0 ]; then \
-      git fetch origin refs/pull/$1/head:pr/$1 && \
-      git rebase master pr/$1 && \
-      git checkout master && \
-      git merge pr/$1 && \
-      git branch -D pr/$1 && \
-      git commit --amend -m \"$(git log -1 --pretty=%B)\n\nCloses #$1.\"; \
-    fi \
-  }; f"
 
 [core]
   eol = lf
-  autocrlf = true
+  # autocrlf = true
 
 [push]
   default = current
