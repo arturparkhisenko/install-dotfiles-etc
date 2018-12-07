@@ -11,5 +11,6 @@
   },
   "files.defaultLanguage": "markdown",
   "prettier.singleQuote": true,
-  "prettier.eslintIntegration": true
+  "prettier.eslintIntegration": true,
+  "workbench.editor.highlightModifiedTabs": true
 }

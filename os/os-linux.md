@@ -1,3 +1,27 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [linux-ubuntu](#linux-ubuntu)
+  - [ssd/hdd](#ssdhdd)
+    - [Tips](#tips)
+  - [antergos (arch)](#antergos-arch)
+    - [commands](#commands)
+    - [nvidia bumblebee](#nvidia-bumblebee)
+  - [Nvidia](#nvidia)
+    - [After install of drivers in driver-manager](#after-install-of-drivers-in-driver-manager)
+    - [Nvidia for Ubuntu only (manually install)](#nvidia-for-ubuntu-only-manually-install)
+      - [Unnecessary](#unnecessary)
+    - [ATI](#ati)
+  - [shell](#shell)
+  - [Ubuntu greeter](#ubuntu-greeter)
+  - [tweaks](#tweaks)
+  - [fonts](#fonts)
+  - [virtualbox shared folder](#virtualbox-shared-folder)
+  - [Linux Soft](#linux-soft)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # linux-ubuntu
 
 - [Desktop Linux Problems](http://itvision.altervista.org/why.linux.is.not.ready.for.the.desktop.current.html)
@@ -9,7 +33,9 @@
 3. `/home` - all space
 4. ~15% reserved space for ssd
 
-<http://help.ubuntu.ru/wiki/ssd>
+### Tips
+
+- [help.ubuntu.ru/wiki/ssd](https://help.ubuntu.ru/wiki/ssd)
 
 ## antergos (arch)
 
@@ -44,7 +70,7 @@
   - `sudo add-apt-repository ppa:graphics-drivers/ppa`
   - `sudo add-apt-repository ppa:xorg-edgers/ppa -y` [xorg-edgers ppa](https://launchpad.net/~xorg-edgers/+archive/ubuntu/ppa)
   - `sudo apt-get update`
-  - `sudo apt-get install nvidia-XXX (352, only major)` - check latest [here](http://www.nvidia.com/page/home.html)
+  - `sudo apt-get install nvidia-XXX (352, only major)` - check latest [here](https://www.nvidia.com)
   - or `sudo apt-get install nvidia-current` - for latest (352)
 
 #### Unnecessary
@@ -56,7 +82,7 @@ In the "device" section of your xorg.conf:
 
 ### ATI
 
-- download their latest .run file
+- download their latest `.run` file
 - `sudo apt-get install build-essential`
 - `sudo apt-get install linux-headers-$(uname -r)`
 - `sudo apt-get install linux-source`
@@ -105,7 +131,8 @@ place new and local fonts to user /home/.fonts/
 - `fc-list`
 
 ## virtualbox shared folder
-- sudo adduser xxxxxxx vboxsf
+
+- `sudo adduser xxxxxxx vboxsf`
 - and share it on windows for all with full access
 
 ## Linux Soft

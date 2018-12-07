@@ -1,6 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [dual-boot](#dual-boot)
+  - [uefi](#uefi)
+  - [3 volumes on /sda with MBR](#3-volumes-on-sda-with-mbr)
+  - [in bios, disable](#in-bios-disable)
+  - [boot fix, run from liveCD](#boot-fix-run-from-livecd)
+  - [time problem on dualboot](#time-problem-on-dualboot)
+  - [battery saving on lenovo and linux](#battery-saving-on-lenovo-and-linux)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # dual-boot
 
 ## uefi
+
 - [UEFI and GPT, habr, ru](https://habrahabr.ru/post/259283/)
 - [UEFI and Secure Boot, habr, ru](https://habrahabr.ru/post/185492/)
 
@@ -39,5 +54,5 @@ Switch to windows way and use «UTC», we need edit **/etc/default/rcS** like th
 
 ## battery saving on lenovo and linux
 
-- [source](http://askubuntu.com/questions/34452/how-can-i-limit-battery-charging-to-80-capacity)
+- [source](https://askubuntu.com/questions/34452/how-can-i-limit-battery-charging-to-80-capacity)
 - [ThinWiki](http://www.thinkwiki.org/wiki/Tp_smapi)

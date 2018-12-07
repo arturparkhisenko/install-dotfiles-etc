@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [commands bash and cdm](#commands-bash-and-cdm)
+  - [hotkeys](#hotkeys)
+  - [commands](#commands)
+  - [MANual (docs)](#manual-docs)
+  - [in out (std)](#in-out-std)
+  - [pipeline |](#pipeline-)
+  - [.bash_history](#bash_history)
+  - [aliases](#aliases)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # commands bash and cdm
 
 - [windows2unix](http://www.lemoda.net/windows/windows2unix/windows2unix.html)

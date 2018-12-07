@@ -1,17 +1,33 @@
-# config
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Chrome browser](#chrome-browser)
+  - [config](#config)
+  - [keybinds](#keybinds)
+  - [flags](#flags)
+  - [console pro tips](#console-pro-tips)
+  - [blackboxing](#blackboxing)
+  - [debugging](#debugging)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+# Chrome browser
+
+## config
 
 - enable sourcemaps + livereload for css/js
 - add blackboxing in chrome like that: `/jquery.*\.js`
 - [two step verification by phone](https://www.google.com/intl/ru/landing/2step/)
 
-# keybinds
+## keybinds
 
 - ctrl+u - source
 - f12 - devtools
 - ctrl+w - close
 - shift+tab / ctrl+shift+tab - moving on tabs
 
-# flags
+## flags
 
 - don't forget to reset em (if you have any issues)
 - `chrome://flags/#enable-fast-unload`
@@ -19,7 +35,7 @@
 - `chrome://flags/#disable-hyperlink-auditing` -- disable it anyway :)
 - `chrome://flags/#allow-insecure-localhost`
 
-# console pro tips
+## console pro tips
 
 - `$_` the result of the last expression
 - `$0` or `$$0` selected el DOM node in the elements panel
@@ -33,12 +49,12 @@
 - `dir($(‘selector’))` returns an object with all of the properties associated with its DOM element
 - `document.designMode = 'on'` :)
 
-# blackboxing
+## blackboxing
 
 - `/jquery.*\.js`
 - `/polymer.*\.html`
 
-# debugging
+## debugging
 
 - `monitorEvents(window, 'load')`
 - `monitorEvents(window, ['load', 'resize'])`

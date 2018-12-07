@@ -1,10 +1,22 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [css the right way aka bleeding edge](#css-the-right-way-aka-bleeding-edge)
+  - [PostCSS](#postcss)
+    - [Plugins postcss.parts](#plugins-postcssparts)
+  - [Animations](#animations)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # css the right way aka bleeding edge
-100% = 1 em ~= 16px ~= 14pt
 
-## PostCSS
-- [video tuts](http://leveluptuts.com/tutorials/postcss-tutorials/)
+> 100% = 1 em ~= 16px ~= 14pt
 
-### plugins http://postcss.parts/
+## [PostCSS](https://postcss.org/)
+
+### Plugins [postcss.parts](https://www.postcss.parts/)
+
 - [https://github.com/postcss/gulp-postcss](https://github.com/postcss/gulp-postcss)
 - [https://github.com/postcss/autoprefixer](https://github.com/postcss/autoprefixer) (-core is deprecated)
 - [https://github.com/cssnext/postcss-cssnext](https://github.com/cssnext/postcss-cssnext)
@@ -37,6 +49,7 @@ gulp.task('styles', () => {
 ```
 
 ## Animations
+
 - web animations
 - css animations
 - css transitions

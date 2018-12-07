@@ -1,14 +1,24 @@
-# Linux
+# APT, NPM, GEM, GIT
+
+## Linux
 
 - Date format `%Y%m%e, %a, %H:%M`
 
-# Git config
+## GIT
 
+### config
+
+- `git config --global color.ui true`
+- `git config --global user.name "YOUR NAME"`
+- `git config --global user.email "YOUR@EMAIL.com"`
 - `git config --global push.default simple`
 - `git config --global help.autocorrect -1` - currently not using
 - `git config --global credential.helper 'cache --timeout=86400'`
+- `ssh-keygen -t rsa -C "YOUR@EMAIL.com"`
+- `cat ~/.ssh/id_rsa.pub`
+- `ssh -T git@github.com`
 
-## git update forked repository (syncing-a-fork) [official doc](https://help.github.com/articles/syncing-a-fork/)
+### git update forked repository (syncing-a-fork) [official doc](https://help.github.com/articles/syncing-a-fork/)
 
 - `git remote add upstream https://github.com/whoever/whatever.git`
 - `git fetch upstream`
@@ -20,11 +30,11 @@
 - `git stash list`
 - `git stash pop`
 
-## git revert commit (not files)
+### git revert commit (not files)
 
 - `git config --global alias.undo-commit 'reset --soft HEAD^'` Then just type git `undo-commit`
 
-## clone git repository with specific revision/changeset?
+### clone git repository with specific revision/changeset?
 
 - `git clone $URL`
 - `git reset --hard $SHA1`
@@ -38,23 +48,24 @@
 - <https://github.com/blog/2144-gpg-signature-verification>
 - <https://twitter.com/steveklabnik/status/717514738389925889>
 
-# [Oh My ZSH](https://ohmyz.sh/)
+## [Oh My ZSH](https://ohmyz.sh/)
+
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
-## Required
+### Required
 
 - `sudo apt-get install git-core`
 
-## Install
+### install (linux)
 
 - `sudo apt-get install zsh`
 - `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 - `sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
 - `sudo shutdown -r 0` - restart after install
 
-# nodejs & npm
+## nodejs & npm
 
-## install
+### install
 
 - [fixing-npm-permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
 - [linux](https://github.com/nodesource/distributions#installation-instructions)
@@ -69,7 +80,7 @@
 - `npm update -g`
 - `npm-prune` to remove unlisted packages in package.json
 
-## npm commands
+### npm commands
 
 - `.npmrc`
 - `npm root -g` root folder of global modules
@@ -86,25 +97,22 @@
   - git push
 - `npm i --production` - without devDependencies
 - `npm prune --production` - clear from devDependencies
+- `bower cache clean` - deprecated
 
-**bower**
+### npm packages
 
-- `bower cache clean`
-
-## npm packages
-
-### my global packages
+#### my global packages
 
 - `npm i -g trash-cli eslint npm-check-updates np`
 
-### recommended global packages
+#### recommended global packages
 
 - `npm i -g trash-cli np npm-check-updates` node tools
 - `npm i -g gulp-cli` cli's
 - `npm i -g htmlhint eslint eslint-plugin-html eslint-plugin-import stylelint` linters
 - `npm i -g tldr` example: `tldr cp`
 
-### other packages
+#### other packages
 
 - `npm i -g npm-check npm-windows-upgrade bower tern`
 - `npm i -g jsdoc`
@@ -127,7 +135,7 @@
 - `--no-cache --update $FileName$:$FileNameWithoutExtension$.min.css --style compressed`
 - update file with .min too!
 
-### upgrade node
+## upgrade node
 
 - `sudo npm cache clean -f`
 - `sudo npm install -g n`
@@ -151,46 +159,37 @@
 - <http://habrahabr.ru/post/208890/>
 - <http://browsenpm.org/package.json>
 
-# APT
+## APT
 
-## all
+### all
 
 - `sudo apt-get autoclean && sudo apt-get autoremove && sudo apt-get update`
 
-## build tools
+### build tools
 
 - `sudo apt-get install git curl yui-compressor`
 - `sudo apt-get install zlib1g-dev build-essential sqlite3 libsqlite3-dev python-software-properties`
 - `sudo apt-get install libyaml-dev libssl-dev libreadline-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev`
 
-## ruby
+### ruby
 
 - `sudo apt-get install ruby-full rubygems-integration`
 
-## java
+### java
 
 - `sudo apt-get install default-jre default-jdk`
 
-## fonts
+### fonts
 
 - `sudo apt-get install fonts-droid fonts-noto ttf-mscorefonts-installer`
 
-## fix textures in openGL
+### fix textures in openGL
 
 - `sudo apt-get install lib32-mesa-libgl`
 - `sudo apt-get install libtxc-dxtn-s2tc0 libtxc-dxtn-s2tc0:i386`
 - `sudo apt-get install program:i386 gcc-multilib`
 
-## ionic
-
-- `npm install -g cordova ionic`
-- `ionic start myApp sidemenu`
-- <http://ionicframework.com/docs/guide/starting.html>
-- <https://github.com/driftyco/ionic-contrib-frosted-glass>
-- `cordova platform update ios`
-- `cordova platform update android`
-
-# GEM
+## GEM
 
 **path to gems will be like:** /var/lib/gems/1.8/bin
 
@@ -203,21 +202,13 @@
 - `gem clean` remove outdated versions of gem's
 - `gem uninstall mysql` remove gem
 
-## My gems
+### My gems
 
 - [ ] `sudo gem install sass scss_lint`
 - [ ] `gem install sass-globbing bundler bourbon`
 
-# GIT
 
-- `git config --global color.ui true`
-- `git config --global user.name "YOUR NAME"`
-- `git config --global user.email "YOUR@EMAIL.com"`
-- `ssh-keygen -t rsa -C "YOUR@EMAIL.com"`
-- `cat ~/.ssh/id_rsa.pub`
-- `ssh -T git@github.com`
-
-# phpStorm
+## phpStorm
 
 - for PHPUnit Code Completion add PHPUnit path under file->settings->directories
 - Usually it's stored in
@@ -226,7 +217,7 @@
 - Usually it's stored in
 - /usr/bin/phpunit-skelgen
 
-# PHP CONFIG
+## PHP CONFIG
 
 - Change this settings in /etc/php5/cli/php.ini for for all webservers
 - Change this settings in /etc/php5/apache2/php.ini if you have installed apache2
@@ -238,7 +229,7 @@
 - upload_max_filesize = 32m
 - default_charset = utf8
 
-## PHP & APACHE
+### PHP & APACHE
 
 - lamp or xampp
 - `sudo apt-get install php5 php5-cli php5-common php-apc php-pear php5-xdebug php5-curl php5-dev php5-xsl php5-intl`
@@ -249,14 +240,13 @@
 - `sudo apt-get install php5-mysql`
 - `sudo apt-get install phpmyadmin`
 
-### config:
+#### apache
 
 - `sudo nano /etc/apache2/apache2.conf ``
 - add-this-at-the-end -> `Include /etc/phpmyadmin/apache.conf`
-
 - ubuntu 15.0+ sudo service apache2 restart
 
-## PHP FIXERS
+### PHP FIXERS
 
 - `sudo pear channel-update PEAR`
 - `sudo pear upgrade PEAR`
@@ -288,7 +278,7 @@ Debugging with XDebug on Browser and Command line The example is made for PHPSto
 php-fpm -> sudo ln -s /etc/php5/mods-available/xdebug.ini /etc/php5/fpm/conf.d/20-xdebug.ini with apache2 -> sudo ln -s /etc/php5/mods-available/xdebug.ini /etc/php5/apache2/conf.d/20-xdebug.ini with cli -> sudo ln -s /etc/php5/mods-available/xdebug.ini /etc/php5/cli/conf.d/20-xdebug.ini Edit /etc/php5/mods-available/xdebug.ini Configuration
 ```
 
-# xdebug.ini
+### xdebug.ini
 
 - xdebug.remote_enable=On
 - xdebug.remote_host=localhost
@@ -308,7 +298,7 @@ php-fpm -> sudo ln -s /etc/php5/mods-available/xdebug.ini /etc/php5/fpm/conf.d/2
 
 - reload bash settings source `~/.bashrc` Edit Settings in PHPStorm Go to File->Settings->PHP->Debug Change XDebug Debug Port to 9002 Install Easy XDebug Plugin for Firefox <https://addons.mozilla.org/de/firefox/addon/easy-xdebug/>
 
-# SERVER
+### SERVER
 
 - [win ssl on apache](http://adminsnotes.blogspot.com/2008/01/apache-openssl-windows.html)
 - if phpmyadmin not found: `sudo ln -s /usr/share/phpmyadmin /var/www/html/ Include /etc/phpmyadmin/apache.conf`

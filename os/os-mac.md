@@ -1,9 +1,32 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [MacOS](#macos)
+  - [System](#system)
+    - [Other config](#other-config)
+    - [Resets](#resets)
+    - [Hotkeys](#hotkeys)
+  - [Links](#links)
+  - [Hardware](#hardware)
+  - [Finder](#finder)
+  - [Soft](#soft)
+    - [term](#term)
+    - [iterm2](#iterm2)
+    - [brew](#brew)
+      - [brew install](#brew-install)
+    - [Spectacle](#spectacle)
+  - [Sindre Sorhus Keybinds](#sindre-sorhus-keybinds)
+  - [Markdown Service Tools](#markdown-service-tools)
+  - [Folders that contains app's files (to cleanup)](#folders-that-contains-apps-files-to-cleanup)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # MacOS
 
 ## System
 
-1. Set up iCloud Keychain
-  - Enable: Firewall (+stealth mode), Encryption, Find my mac, Keychain
+1. Set up iCloud Keychain: Enable: Firewall (+stealth mode), Encryption, Find my mac
 2. Remove unneeded icons
 3. Install Updates
 4. Add Input Sources
@@ -16,12 +39,8 @@
 11. apply [GPG/PGP](https://github.com/drduh/macOS-Security-and-Privacy-Guide#pgpgpg) and [Passwords](https://github.com/drduh/macOS-Security-and-Privacy-Guide#passwords)
 12. Thin local Time Machine snapshots `tmutil thinLocalSnapshots / 10000000000 4`
 
-## Resets
-
-- [NVRAM](https://support.apple.com/en-us/HT204063)
-- [SMC](https://support.apple.com/en-us/HT201295)
-
 ### Other config
+
 - [x] Show All File Extensions (can be enabled in a Finder) `defaults write NSGlobalDomain AppleShowAllExtensions -bool true`
 - [x] Show Hidden Files (hotkey: `cmd+shift+.`) `defaults write com.apple.finder AppleShowAllFiles true`
 - [x] Show Path Bar `defaults write com.apple.finder ShowPathbar -bool true`
@@ -32,13 +51,18 @@
 - [macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
 - [about file share smb](https://apple.stackexchange.com/questions/238813/why-is-my-hard-drive-and-user-folder-shared-when-i-turn-on-osx-file-sharing)
 
+### Resets
+
+- [NVRAM](https://support.apple.com/en-us/HT204063)
+- [SMC](https://support.apple.com/en-us/HT201295)
+
 ### Hotkeys
 
 - `cmd+R` - bootcamp (recovery and etc.)
 - `cmd+alt(option)+R` - bootcamp with Ethernet (recovery and etc.)
 - `cmd+ctrl+space` - emoji picker
 
-### Links
+## Links
 
 - [iCloud](https://www.icloud.com/)
 - [AppleId](https://appleid.apple.com)
@@ -69,6 +93,7 @@
 
 > [open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps)
 
+- [x] [1Password](https://1password.com/)
 - [x] [backup and sync](https://www.google.com/drive/download/backup-and-sync/)
 - [x] [filezilla](https://filezilla-project.org/)
 - [x] [gfxCardStatus](https://gfx.io/)
@@ -89,7 +114,6 @@
 - [x] [Sketch app](https://www.sketchapp.com/)
 - [x] [Slack](https://slack.com/)
 
-- [ ] [1Password](https://1password.com/)
 - [ ] [Airmail 3](https://itunes.apple.com/us/app/airmail-3/id918858936?mt=12&app=apps&ign-mpt=uo%3D4)
 - [ ] [alcatraz](##Soft)
 - [ ] [alfredapp](https://www.alfredapp.com/) and [alfred workflows](https://github.com/willfarrell/alfred-pkgman-workflow)
@@ -204,22 +228,12 @@
 - `brew install node wget git gcc clang-format cmake fd cppcheck gcc shellcheck wget yarn`
 - `brew install neovim`
 
-## sindresorhus Mac Keybinds
-
-- `Ctrl `\` to toggle TotalTerminal.
-- `Alt `\` to toggle TotalFinder.
-- `Alt Space` to toggle Dash.
-- `Cmd Space` to toggle Alfred.
-- `Cmd Tab` to switch between apps.
-- `Ctrl Tab` to switch between Chrome/TotalFinder/Sublime tabs.s
-
-## Spectacle
+### Spectacle
 
 1. A11y in System Preferences
 2. Launch at login
 3. Run as a background application
 4. Shortcuts with Ctr Option Cmd
-
   - Center M
   - Full F
   - Left ?
@@ -233,16 +247,23 @@
   - Larger =
   - Smaller -
 
+## Sindre Sorhus Keybinds
+
+- `Ctrl `\` to toggle TotalTerminal.
+- `Alt `\` to toggle TotalFinder.
+- `Alt Space` to toggle Dash.
+- `Cmd Space` to toggle Alfred.
+- `Cmd Tab` to switch between apps.
+- `Ctrl Tab` to switch between Chrome/TotalFinder/Sublime tabs.s
+
 ## Markdown Service Tools
 
 1. [Download](http://brettterpstra.com/projects/markdown-service-tools/)
 2. md - Convert - HTML to Clipboard
 3. md - Convert - HTML to Markdown
 4. Show package content, Info.plist
-
   - Markdown to HTML
   - HTML to Markdown
-
 5. Copy to ~/Library/Services
 
 ## Folders that contains app's files (to cleanup)

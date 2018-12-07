@@ -1,48 +1,48 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [js the right way aka bleeding edge](#js-the-right-way-aka-bleeding-edge)
+  - [good things for app](#good-things-for-app)
+  - [linting](#linting)
+  - [bundlers](#bundlers)
+  - [Software design principles](#software-design-principles)
+  - [Technology stack](#technology-stack)
+  - [bpbp555 (for new tec or languages)](#bpbp555-for-new-tec-or-languages)
+  - [4 steps of bpbp555](#4-steps-of-bpbp555)
+  - [not an architecture](#not-an-architecture)
+    - [Code patterns](#code-patterns)
+    - [OOP patterns (OOP it's all about state)](#oop-patterns-oop-its-all-about-state)
+    - [GUI&DB Patterns](#guidb-patterns)
+    - [Communication Patterns](#communication-patterns)
+    - [Deployment models](#deployment-models)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # js the right way aka bleeding edge
-2 best ways of app:
+
+## good things for app
+
 - use webpack + webpackdevserver (optionally: babel loader)
-- use browsersync + browserify/jspm (optionally: babelify)
+- use browsersync
 - [x] app-shell (wsk/amp)
 - backend mockups: mockable.io, apiary.io, jsonplaceholder.typicode.com
 - getBoundingClientRect
 - gulp -> npm start / npm test on src/dist
 
 ## linting
+
 - eslint-plugin-html
 - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
 - [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
 
 ## bundlers
-## transpile
-### babel
-- run es6 in console with babel-node
-- [https://github.com/babel/babel/tree/development/packages](https://github.com/babel/babel/tree/development/packages)
-- [https://www.npmjs.com/search?q=babel-plugin](https://www.npmjs.com/search?q=babel-plugin)
 
-### es2015
-- [frontender.info/es6-modules](http://frontender.info/es6-modules/)
+- [webpack](https://webpack.js.org/)
+- [rollup](https://rollupjs.org)
 
-### webpack
-- [youtube webpack screencast](https://www.youtube.com/watch?v=Om6yGdU_YlQ&list=PLDyvV36pndZHfBThhg4Z0822EEG9VGenn&index=17)
-- webpack externals - for libs from tag script or cdn
-- webpack providePlugin - for libs from local path
-- imports-loader
-- exports-loader: imports!exports
-- expose-loader: expose!imports!exports
+## Software design principles
 
-### jspm
-[https://github.com/jspm/jspm-cli/blob/master/docs/getting-started.md#4-write-application-code](https://github.com/jspm/jspm-cli/blob/master/docs/getting-started.md#4-write-application-code) [https://github.com/jspm/jspm-cli/issues/171](https://github.com/jspm/jspm-cli/issues/171) [https://stackoverflow.com/questions/31350001/use-jspm-to-load-script-that-depends-on-global-jquery](https://stackoverflow.com/questions/31350001/use-jspm-to-load-script-that-depends-on-global-jquery) [https://github.com/systemjs/systemjs/blob/master/docs/config-api.md#meta](https://github.com/systemjs/systemjs/blob/master/docs/config-api.md#meta)
-- `jspm bundle app/**/* - [app/**/*] dependency-bundle`
-- It traces your entire app and its third party dependencies, and then removes your app from the bundle... leaving you with just your third party dependencies. This could just as easily be:
-- `jspm bundle react + bluebird + react-router dependency-bundle.js`
-
-### rollup
-[http://rollupjs.org/](http://rollupjs.org/)
-
-### requirejs
-[http://stackoverflow.com/questions/5608685/using-requirejs-how-do-i-pass-in-global-objects-or-singletons-around](http://stackoverflow.com/questions/5608685/using-requirejs-how-do-i-pass-in-global-objects-or-singletons-around) [http://stackoverflow.com/questions/18450276/how-to-share-data-between-different-modules-in-requirejs-javascript](http://stackoverflow.com/questions/18450276/how-to-share-data-between-different-modules-in-requirejs-javascript)
-
-# software design principles
 - DRY don't repeat yourself
 - YAGNI you aren't gonna need it (yet)
 - SRP single responsible reason
@@ -52,13 +52,15 @@
 - DIP dependency injection principle
 - CQRS Command-Query Responsibility Segregation
 
-# Technology stack
+## Technology stack
+
 - TT(technology trigger): Rust
 - EE(extended expectations): React
 - SE(slofp enlightment): Ember
 - PP(plato of productivity): Node, Java
 
 ## bpbp555 (for new tec or languages)
+
 - build tools
 - package manager
 - basic ideas
@@ -69,6 +71,7 @@
 - all + and - of tec.
 
 ## 4 steps of bpbp555
+
 - awareness (10% of time)
 - exploration (20% of time)
 - investment (60% of time)
@@ -77,25 +80,31 @@
 - productivity
 
 ## not an architecture
-### Code patterns:
+
+### Code patterns
+
 - Middleware
 - Routers
 - Single entry point...
 
-### OOP patterns (OOP it's all about state):
+### OOP patterns (OOP it's all about state)
+
 - Facade, Singletone
 - Mixin, Closure
 - Factory, Decorator
 - Class, Object
 - Prototype, Dependency Injection
 
-### GUI&DB Patterns:
+### GUI&DB Patterns
+
 - MVC, MVP, MVVM
 - ORM, CRUD, Key-Value
 
-### Communication Patterns:
+### Communication Patterns
+
 - Pull/Push, Pub/Sub
 - REST, RPC, etc.
 
-### Deployment models:
+### Deployment models
+
 - Cloud, SaaS, PaaS
