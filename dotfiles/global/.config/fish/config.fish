@@ -73,6 +73,7 @@ set -g -x MANPATH "$NPM_PACKAGES/share/man" $MANPATH
 
 # # SSH
 # export SSH_KEY_PATH="$HOME/.ssh/rsa_id"
+set -g -x SSH_KEY_PATH "$HOME/.ssh/rsa_id" $SSH_KEY_PATH
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
