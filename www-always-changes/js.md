@@ -1,25 +1,24 @@
+# js the right way aka bleeding edge
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [js the right way aka bleeding edge](#js-the-right-way-aka-bleeding-edge)
-  - [good things for app](#good-things-for-app)
-  - [linting](#linting)
-  - [bundlers](#bundlers)
-  - [Software design principles](#software-design-principles)
-  - [Technology stack](#technology-stack)
-  - [bpbp555 (for new tec or languages)](#bpbp555-for-new-tec-or-languages)
-  - [4 steps of bpbp555](#4-steps-of-bpbp555)
-  - [not an architecture](#not-an-architecture)
-    - [Code patterns](#code-patterns)
-    - [OOP patterns (OOP it's all about state)](#oop-patterns-oop-its-all-about-state)
-    - [GUI&DB Patterns](#guidb-patterns)
-    - [Communication Patterns](#communication-patterns)
-    - [Deployment models](#deployment-models)
+- [good things for app](#good-things-for-app)
+- [linting](#linting)
+- [bundlers](#bundlers)
+- [Software design principles](#software-design-principles)
+- [Technology stack](#technology-stack)
+- [bpbp555 (for new tec or languages)](#bpbp555-for-new-tec-or-languages)
+- [4 steps of bpbp555](#4-steps-of-bpbp555)
+- [not an architecture](#not-an-architecture)
+  - [Code patterns](#code-patterns)
+  - [OOP patterns (OOP it's all about state)](#oop-patterns-oop-its-all-about-state)
+  - [GUI&DB Patterns](#guidb-patterns)
+  - [Communication Patterns](#communication-patterns)
+  - [Deployment models](#deployment-models)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# js the right way aka bleeding edge
 
 ## good things for app
 

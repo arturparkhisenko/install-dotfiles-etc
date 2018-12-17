@@ -1,17 +1,16 @@
+# css the right way aka bleeding edge
+
+> 100% = 1 em ~= 16px ~= 14pt
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [css the right way aka bleeding edge](#css-the-right-way-aka-bleeding-edge)
-  - [PostCSS](#postcss)
-    - [Plugins postcss.parts](#plugins-postcssparts)
-  - [Animations](#animations)
+- [PostCSS](#postcss)
+  - [Plugins postcss.parts](#plugins-postcssparts)
+- [Animations](#animations)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# css the right way aka bleeding edge
-
-> 100% = 1 em ~= 16px ~= 14pt
 
 ## [PostCSS](https://postcss.org/)
 

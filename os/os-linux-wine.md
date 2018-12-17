@@ -1,17 +1,19 @@
+# OS Linux, Wine-staging
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [OS Linux, Wine-staging](#os-linux-wine-staging)
-  - [game tests and guides](#game-tests-and-guides)
-  - [etc stuff, not important](#etc-stuff-not-important)
-  - [required libs](#required-libs)
-  - [reinstall wine](#reinstall-wine)
-  - [other configurations from guides, a little bit old](#other-configurations-from-guides-a-little-bit-old)
+- [Notes](#notes)
+- [game tests and guides](#game-tests-and-guides)
+- [etc stuff, not important](#etc-stuff-not-important)
+- [required libs](#required-libs)
+- [reinstall wine](#reinstall-wine)
+- [other configurations from guides, a little bit old](#other-configurations-from-guides-a-little-bit-old)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# OS Linux, Wine-staging
+## Notes
 
 - I'd prefer to use 32bit wine now
 - install [wine-staging](https://wine-staging.com/) from [wine-compholio](https://github.com/wine-compholio/wine-staging/wiki/Installation#-ubuntulinux-mint)

@@ -1,5 +1,51 @@
 # APT, NPM, GEM, GIT
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Linux](#linux)
+- [GIT](#git)
+  - [config](#config)
+  - [git update forked repository (syncing-a-fork) official doc](#git-update-forked-repository-syncing-a-fork-official-doc)
+  - [git revert commit (not files)](#git-revert-commit-not-files)
+  - [clone git repository with specific revision/changeset](#clone-git-repository-with-specific-revisionchangeset)
+- [git gpg](#git-gpg)
+- [Oh My ZSH](#oh-my-zsh)
+  - [Required](#required)
+  - [install (linux)](#install-linux)
+- [nodejs & npm](#nodejs--npm)
+  - [install](#install)
+  - [update nodejs on linux](#update-nodejs-on-linux)
+  - [npm commands](#npm-commands)
+  - [npm packages](#npm-packages)
+    - [my global packages](#my-global-packages)
+    - [recommended global packages](#recommended-global-packages)
+    - [other packages](#other-packages)
+- [paths](#paths)
+- [intellijIdea watcher conf](#intellijidea-watcher-conf)
+- [upgrade node](#upgrade-node)
+- [nvm](#nvm)
+- [gulp](#gulp)
+- [APT](#apt)
+  - [all](#all)
+  - [build tools](#build-tools)
+  - [ruby](#ruby)
+  - [java](#java)
+  - [fonts](#fonts)
+  - [fix textures in openGL](#fix-textures-in-opengl)
+- [GEM](#gem)
+  - [My gems](#my-gems)
+- [phpStorm](#phpstorm)
+- [PHP CONFIG](#php-config)
+  - [PHP & APACHE](#php--apache)
+    - [apache](#apache)
+  - [PHP FIXERS](#php-fixers)
+  - [xdebug.ini](#xdebugini)
+  - [SERVER](#server)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Linux
 
 - Date format `%Y%m%e, %a, %H:%M`
@@ -34,7 +80,7 @@
 
 - `git config --global alias.undo-commit 'reset --soft HEAD^'` Then just type git `undo-commit`
 
-### clone git repository with specific revision/changeset?
+### clone git repository with specific revision/changeset
 
 - `git clone $URL`
 - `git reset --hard $SHA1`

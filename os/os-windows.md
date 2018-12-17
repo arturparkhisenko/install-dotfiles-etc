@@ -1,18 +1,17 @@
+# OS Windows
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [OS Windows](#os-windows)
-  - [Intel Drivers](#intel-drivers)
-  - [Secure or fast boot](#secure-or-fast-boot)
-  - [Updates](#updates)
-  - [Problems solving](#problems-solving)
-    - [How to remove long name folders/files](#how-to-remove-long-name-foldersfiles)
-  - [Soft](#soft)
+- [Intel Drivers](#intel-drivers)
+- [Secure or fast boot](#secure-or-fast-boot)
+- [Updates](#updates)
+- [Problems solving](#problems-solving)
+  - [How to remove long name folders/files](#how-to-remove-long-name-foldersfiles)
+- [Soft](#soft)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# OS Windows
 
 ## Intel Drivers
 

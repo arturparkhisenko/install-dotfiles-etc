@@ -1,18 +1,17 @@
+# dual-boot
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [dual-boot](#dual-boot)
-  - [uefi](#uefi)
-  - [3 volumes on /sda with MBR](#3-volumes-on-sda-with-mbr)
-  - [in bios, disable](#in-bios-disable)
-  - [boot fix, run from liveCD](#boot-fix-run-from-livecd)
-  - [time problem on dualboot](#time-problem-on-dualboot)
-  - [battery saving on lenovo and linux](#battery-saving-on-lenovo-and-linux)
+- [uefi](#uefi)
+- [3 volumes on /sda with MBR](#3-volumes-on-sda-with-mbr)
+- [in bios, disable](#in-bios-disable)
+- [boot fix, run from liveCD](#boot-fix-run-from-livecd)
+- [time problem on dualboot](#time-problem-on-dualboot)
+- [battery saving on lenovo and linux](#battery-saving-on-lenovo-and-linux)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# dual-boot
 
 ## uefi
 

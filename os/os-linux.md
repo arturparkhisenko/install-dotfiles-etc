@@ -1,28 +1,30 @@
+# linux-ubuntu
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [linux-ubuntu](#linux-ubuntu)
-  - [ssd/hdd](#ssdhdd)
-    - [Tips](#tips)
-  - [antergos (arch)](#antergos-arch)
-    - [commands](#commands)
-    - [nvidia bumblebee](#nvidia-bumblebee)
-  - [Nvidia](#nvidia)
-    - [After install of drivers in driver-manager](#after-install-of-drivers-in-driver-manager)
-    - [Nvidia for Ubuntu only (manually install)](#nvidia-for-ubuntu-only-manually-install)
-      - [Unnecessary](#unnecessary)
-    - [ATI](#ati)
-  - [shell](#shell)
-  - [Ubuntu greeter](#ubuntu-greeter)
-  - [tweaks](#tweaks)
-  - [fonts](#fonts)
-  - [virtualbox shared folder](#virtualbox-shared-folder)
-  - [Linux Soft](#linux-soft)
+- [linux problems](#linux-problems)
+- [ssd/hdd](#ssdhdd)
+  - [Tips](#tips)
+- [antergos (arch)](#antergos-arch)
+  - [commands](#commands)
+  - [nvidia bumblebee](#nvidia-bumblebee)
+- [Nvidia](#nvidia)
+  - [After install of drivers in driver-manager](#after-install-of-drivers-in-driver-manager)
+  - [Nvidia for Ubuntu only (manually install)](#nvidia-for-ubuntu-only-manually-install)
+    - [Unnecessary](#unnecessary)
+  - [ATI](#ati)
+- [shell](#shell)
+- [Ubuntu greeter](#ubuntu-greeter)
+- [tweaks](#tweaks)
+- [fonts](#fonts)
+- [virtualbox shared folder](#virtualbox-shared-folder)
+- [Linux Soft](#linux-soft)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# linux-ubuntu
+## linux problems
 
 - [Desktop Linux Problems](http://itvision.altervista.org/why.linux.is.not.ready.for.the.desktop.current.html)
 

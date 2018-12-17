@@ -1,4 +1,4 @@
-# vim 
+# vim
 
 https://vimeo.com/34201803
 http://vimgifs.com/
@@ -40,7 +40,7 @@ elseif has('unix')
     ......
 endif
 
-has('gui_running') 
+has('gui_running')
 
 https://github.com/scrooloose/nerdtree
 https://github.com/mattn/emmet-vim

@@ -4,8 +4,8 @@
   email = *email here*
   signingkey = *key here*
 
-[commit]
-	gpgsign = true
+#[commit]
+#  gpgsign = true
 
 [alias]
 
@@ -22,24 +22,3 @@
 
 [color]
   ui = always
-
-[color "branch"]
-  current = yellow reverse
-  local = yellow
-  remote = green
-
-[color "diff"]
-  meta = yellow bold
-  frag = magenta bold
-  old = red bold
-  new = green bold
-
-[color "status"]
-  added = yellow
-  changed = green
-  untracked = cyan
-
-[filter "lfs"]
-  clean = git-lfs clean -- %f
-  smudge = git-lfs smudge -- %f
-  required = true

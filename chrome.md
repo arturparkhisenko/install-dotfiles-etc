@@ -1,18 +1,17 @@
+# Chrome browser
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Chrome browser](#chrome-browser)
-  - [config](#config)
-  - [keybinds](#keybinds)
-  - [flags](#flags)
-  - [console pro tips](#console-pro-tips)
-  - [blackboxing](#blackboxing)
-  - [debugging](#debugging)
+- [config](#config)
+- [keybinds](#keybinds)
+- [flags](#flags)
+- [console pro tips](#console-pro-tips)
+- [blackboxing](#blackboxing)
+- [debugging](#debugging)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# Chrome browser
 
 ## config
 

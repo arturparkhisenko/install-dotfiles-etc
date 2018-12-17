@@ -1,29 +1,28 @@
+# Extensions for TextEditor's/IDE's/CMS's
+
+> currently installed - marked as completed
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Extensions for TextEditor's/IDE's/CMS's](#extensions-for-texteditorsidescmss)
-  - [VSCode [current editor]](#vscode-current-editor)
-  - [Atom](#atom)
-  - [Atom shortcuts](#atom-shortcuts)
-  - [Atom tip](#atom-tip)
-  - [IntelliJ IDEA Php/WebStorm](#intellij-idea-phpwebstorm)
-  - [SublimeText3](#sublimetext3)
-  - [Chrome](#chrome)
-  - [Firefox](#firefox)
-  - [Wordpress](#wordpress)
-    - [SEO](#seo)
-    - [performance](#performance)
-    - [content (sliders/etc.)](#content-slidersetc)
-    - [theme/commerce](#themecommerce)
-  - [NP++](#np)
-  - [ADBLOCK](#adblock)
+- [VSCode [current editor]](#vscode-current-editor)
+- [Atom](#atom)
+- [Atom shortcuts](#atom-shortcuts)
+- [Atom tip](#atom-tip)
+- [IntelliJ IDEA Php/WebStorm](#intellij-idea-phpwebstorm)
+- [SublimeText3](#sublimetext3)
+- [Chrome](#chrome)
+- [Firefox](#firefox)
+- [Wordpress](#wordpress)
+  - [SEO](#seo)
+  - [performance](#performance)
+  - [content (sliders/etc.)](#content-slidersetc)
+  - [theme/commerce](#themecommerce)
+- [NP++](#np)
+- [ADBLOCK](#adblock)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# Extensions for TextEditor's/IDE's/CMS's
-
-> currently installed - marked as completed
 
 ## VSCode [current editor]
 

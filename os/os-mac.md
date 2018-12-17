@@ -1,28 +1,27 @@
+# MacOS
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [MacOS](#macos)
-  - [System](#system)
-    - [Other config](#other-config)
-    - [Resets](#resets)
-    - [Hotkeys](#hotkeys)
-  - [Links](#links)
-  - [Hardware](#hardware)
-  - [Finder](#finder)
-  - [Soft](#soft)
-    - [term](#term)
-    - [iterm2](#iterm2)
-    - [brew](#brew)
-      - [brew install](#brew-install)
-    - [Spectacle](#spectacle)
-  - [Sindre Sorhus Keybinds](#sindre-sorhus-keybinds)
-  - [Markdown Service Tools](#markdown-service-tools)
-  - [Folders that contains app's files (to cleanup)](#folders-that-contains-apps-files-to-cleanup)
+- [System](#system)
+  - [Other config](#other-config)
+  - [Resets](#resets)
+  - [Hotkeys](#hotkeys)
+- [Links](#links)
+- [Hardware](#hardware)
+- [Finder](#finder)
+- [Soft](#soft)
+  - [term](#term)
+  - [iterm2](#iterm2)
+  - [brew](#brew)
+    - [brew install](#brew-install)
+  - [Spectacle](#spectacle)
+- [Sindre Sorhus Keybinds](#sindre-sorhus-keybinds)
+- [Markdown Service Tools](#markdown-service-tools)
+- [Folders that contains app's files (to cleanup)](#folders-that-contains-apps-files-to-cleanup)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# MacOS
 
 ## System
 

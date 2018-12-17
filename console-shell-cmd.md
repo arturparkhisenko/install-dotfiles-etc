@@ -1,18 +1,17 @@
+# Console, shell, cmd
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Console, shell, cmd](#console-shell-cmd)
-  - [commands](#commands)
-  - [.bash_history](#bash_history)
-  - [ssh](#ssh)
-  - [gpg](#gpg)
-  - [urls](#urls)
-  - [windows cmd config](#windows-cmd-config)
+- [commands](#commands)
+- [.bash_history](#bash_history)
+- [ssh](#ssh)
+- [gpg](#gpg)
+- [urls](#urls)
+- [windows cmd config](#windows-cmd-config)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# Console, shell, cmd
 
 ## commands
 

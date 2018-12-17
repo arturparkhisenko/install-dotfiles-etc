@@ -1,18 +1,20 @@
+# OS
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [OS](#os)
-  - [Related to that](#related-to-that)
+- [List](#list)
+- [Related to that](#related-to-that)
 - [Soft](#soft)
   - [Any OS](#any-os)
   - [Linux (apt)](#linux-apt)
-- [fonts list](#fonts-list)
+    - [fonts list](#fonts-list)
 - [credits](#credits)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# OS
+## List
 
 - MacOS
 - Windows
@@ -28,9 +30,9 @@
 - switch mint to xfce desktop: synaptics package manager - search xfce4 - mark for install - apply
 - Arch OS use with ([Pacaur](https://wiki.archlinux.org/index.php/Pacaur) | [Yaourt](https://wiki.archlinux.org/index.php/Yaourt))
 
-# Soft
+## Soft
 
-## Any OS
+### Any OS
 
 - [Atom](https://atom.io/)
 
@@ -79,7 +81,7 @@
 
 Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <https://windirstat.info>
 
-## Linux (apt)
+### Linux (apt)
 
 - [Terminator](http://gnometerminator.blogspot.com/p/introduction.html)
 - [Linux Brew](http://linuxbrew.sh/)
@@ -109,7 +111,7 @@ Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <
 - [ ] [Back in Time](http://backintime.le-web.org/)
 - [ ] [gTile](https://github.com/lundal/vibou.gTile)
 
-# fonts list
+#### fonts list
 
 - `font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;`
 
@@ -127,6 +129,6 @@ Node unetbootin Firefox Python Vagrant VirtualBox docker WinDirStat(linux too) <
 - [Montserrat](https://www.google.com/fonts/specimen/Montserrat)
 - [Hind](https://www.google.com/fonts/specimen/Hind)
 
-# credits
+## credits
 
 - [pepelsbey install.md](https://gist.github.com/pepelsbey/2c9acf8917364e0150d4)

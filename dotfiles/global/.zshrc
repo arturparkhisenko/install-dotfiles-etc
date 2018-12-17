@@ -128,6 +128,7 @@ alias g_s='git status --short --branch'
 alias get='curl --location --progress-bar --verbose'
 alias myip='curl -silent https://4.ifcfg.me'
 alias mylocalip='ifconfig | sed -En "s/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p"'
+alias weather = 'curl -4 http://wttr.in'
 
 alias mem='ps aux | sort -nk 4' # processes sorted by memory
 alias cpu='ps aux | sort -nk 3' # processes sorted by cpu
@@ -155,6 +156,6 @@ alias find_nm='find ./ -type d -name "node_modules"'
 # source $HOME/Documents/GitHub/emsdk/emsdk_env.sh
 
 # python from brew
-alias python='python3'
-alias python-config='python3-config'
-alias pip='pip3'
+# alias python='python3'
+# alias python-config='python3-config'
+# alias pip='pip3'
