@@ -51,7 +51,6 @@
 # You should periodically run the following command to update those completions, which are stored in ~/.config/fish/completions by default:
 #   fish_update_completions
 
-# NOT USED: set shell=sh
 # NOT USED:
 # Install omf (Oh-My-Fish): github/oh-my-fish
 # Oh My Fish provides core infrastructure to allow you to install packages which extend or modify the look of your shell. It’s fast, extensible and easy to use.
@@ -75,50 +74,43 @@ set -g -x MANPATH "$NPM_PACKAGES/share/man" $MANPATH
 # export SSH_KEY_PATH="$HOME/.ssh/rsa_id"
 set -g -x SSH_KEY_PATH "$HOME/.ssh/rsa_id" $SSH_KEY_PATH
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# Personal aliases
 
 alias ..='cd ..'
 alias ll='ls -lhG' # long + sizes + color
 alias la='ls -a' # with hidden
 alias rm='rm -i'
-alias whereami='pwd'
+#alias whereami='pwd'
 alias rename='mv'
 alias move='mv'
 alias copy='cp'
 # https://linux.die.net/man/1/zip
 alias zap='zip --encrypt --recurse-paths'
 
-alias g_aa='git add --all'
-alias g_ad='git add .' # same as --all
-alias g_c='git commit --gpg-sign'
-alias g_ca='git commit --gpg-sign --all'
-alias g_cm='git commit --gpg-sign -m' # message
-alias g_cl='git clone'
-alias g_clean='git clean -xdf'
-# alias g_cleanup='git prune&&git remote prune origin&&git remote update --prune' # bash
-alias g_cleanup='git prune; and git remote prune origin; and git remote update --prune' # fish
-alias g_co='git checkout'
-alias g_df='git diff --color --color-words --abbrev'
+# alias g_aa='git add --all'
+# alias g_ad='git add .' # same as --all
+# alias g_c='git commit --gpg-sign'
+# alias g_ca='git commit --gpg-sign --all'
+# alias g_cm='git commit --gpg-sign -m' # message
+# alias g_cl='git clone'
+# alias g_clean='git prune&&git remote prune origin&&git remote update --prune' # bash
+alias g_clean='git prune; and git remote prune origin; and git remote update --prune' # fish
+alias g_cleanup='git clean -xdf'
+# alias g_co='git checkout'
+# alias g_df='git diff --color --color-words --abbrev'
 alias g_l='git log --graph --oneline --decorate --all --date-order'
-alias g_ps='git push --set-upstream'
-alias g_pu='git pull'
-alias g_s='git status --short --branch'
+# alias g_ps='git push --set-upstream'
+# alias g_pu='git pull'
+# alias g_s='git status --short --branch'
 
 # # https://curl.haxx.se/docs/manpage.html
 alias get='curl --location --progress-bar --verbose'
-alias myip='curl -silent https://4.ifcfg.me'
-alias mylocalip='ifconfig | sed -En "s/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p"'
-alias weather='curl -4 http://wttr.in'
+# alias myip='curl -silent https://4.ifcfg.me'
+# alias mylocalip='ifconfig | sed -En "s/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p"'
+# alias weather='curl -4 http://wttr.in'
 
-alias mem='ps aux | sort -nk 4' # processes sorted by memory
-alias cpu='ps aux | sort -nk 3' # processes sorted by cpu
+# alias mem='ps aux | sort -nk 4' # processes sorted by memory
+# alias cpu='ps aux | sort -nk 3' # processes sorted by cpu
 
 alias encodingof='file -I'
 # alias toutf8='iconv -f iso-8859-1 -t utf-8 < file > file.new'
@@ -132,11 +124,11 @@ alias bcu='brew update; and brew outdated; and brew upgrade; and brew cleanup' #
 # alias zcu='upgrade_oh_my_zsh'
 alias scu='fish_update_completions'
 # alias acu='bcu&&zcu&&ncu -g' # bash
-alias acu='bcu; and zcu; and ncu -g' # fish
+alias acu='bcu; and scu; and ncu -g' # fish
 
 alias n_lg='npm list -g --depth=0'
-alias n_og='npm outdated -g'
-alias n_in='npm install npm@latest -g'
+# alias n_og='npm outdated -g'
+# alias n_in='npm install npm@latest -g'
 alias n_cc='npm cache clean --force'
 alias y_cc='yarn cache clean'
 alias find_nm='find ./ -type d -name "node_modules"'

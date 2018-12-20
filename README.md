@@ -10,7 +10,7 @@
 | :sunrise: [os-linux](os/os-linux.md) | Linux tweaks and tricks |
 | :house: [os-windows](os/os-windows.md) | Windows tweaks and tricks |
 | :package: [apt-npm-gem-git](apt-npm-gem-git.md) | copy, paste, run |
-| :shell: [console-shell-cmd](console-shell-cmd.md) | commands and tips |
+| :shell: [console-bash-cmd](console-bash-cmd.md) | commands and tips |
 | :pencil: [editor-config](editor-config.md) | text-editor/ide |
 | :zap: [extensions](extensions.md) | Extensions and Plugins |
 | :cloud: [chrome](chrome.md) | Settings, keybinds, tips |
