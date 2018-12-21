@@ -59,20 +59,16 @@
 # # User configuration
 set fish_greeting ""
 
-set -g -x PATH /usr/local/bin $PATH # /usr/local/sbin
-set -g -x PATH /usr/bin /usr/sbin $PATH
-set -g -x PATH /bin /sbin $PATH
-
 ## NODE NPM
-set -g -x NPM_PACKAGES "$HOME/.npm-packages" $NPM_PACKAGES
-set NPM_PACKAGES "$HOME/.npm-packages"
-set -g -x PATH "$NPM_PACKAGES/bin" $PATH
-set -g -x MANPATH "$NPM_PACKAGES/share/man" $MANPATH
+set --global --export NPM_PACKAGES $NPM_PACKAGES "$HOME/.npm-packages"
+set --global --export PATH $PATH "$NPM_PACKAGES/bin"
+set --global --export MANPATH $MANPATH "$NPM_PACKAGES/share/man"
+# CAN BE RUN ONCE: set -g fish_user_paths $fish_user_paths "/usr/local/opt/node@8/bin"
 ## NODE NPM END
 
 # # SSH
 # export SSH_KEY_PATH="$HOME/.ssh/rsa_id"
-set -g -x SSH_KEY_PATH "$HOME/.ssh/rsa_id" $SSH_KEY_PATH
+set --global --export SSH_KEY_PATH "$HOME/.ssh/rsa_id" $SSH_KEY_PATH
 
 # Personal aliases
 
