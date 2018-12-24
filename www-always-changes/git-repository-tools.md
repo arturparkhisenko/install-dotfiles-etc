@@ -2,7 +2,6 @@
 
 - git-shell
 - Gitolite
-- Gitosis (DEPRECATED)
 - Gerrit
 - Kallithea
 - Rhodecode

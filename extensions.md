@@ -182,13 +182,14 @@
 
 > Settings/Preferences | Editor | General | Code Folding --> XML entities ---> Uncheck that option and re-open the file - should do the job.
 
-- [x] bashsupport
+- [x] .env files support
 - [x] .ignore
-- [x] Markdown
-- [x] Spy-js
+- [x] bashsupport
+- [x] Import Cost
 - [x] Key promoter
-- [x] NodeJS
-- [x] import cost
+- [x] Lines Sorter
+- [x] PostCSS support
+- [x] Upsource Integration
 - [ ] CodeGlance
 
 ## SublimeText3
