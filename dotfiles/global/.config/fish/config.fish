@@ -89,8 +89,7 @@ alias zap='zip --encrypt --recurse-paths'
 # alias g_ca='git commit --gpg-sign --all'
 # alias g_cm='git commit --gpg-sign -m' # message
 # alias g_cl='git clone'
-alias g_clean='git prune&&git remote prune origin&&git remote update --prune&&git fetch --tags' # bash
-# alias g_clean='git prune; and git remote prune origin; and git remote update --prune' # fish
+alias g_clean='git prune&&git remote prune origin&&git remote update --prune&&git fetch --tags&&git gc' # bash
 alias g_cleanup='git clean -xdf'
 # alias g_co='git checkout'
 # alias g_df='git diff --color --color-words --abbrev'
@@ -112,6 +111,7 @@ alias encodingof='file -I'
 # alias toutf8='iconv -f iso-8859-1 -t utf-8 < file > file.new'
 alias npmigtools='npm i -g lock-cli trash-cli np npm-check-updates'
 alias fixmacostools='xcode-select --install'
+alias node_trace_webpack='node --trace-deprecation ./node_modules/.bin/webpack'
 
 alias serve='python -m SimpleHTTPServer 8000'
 
@@ -131,7 +131,9 @@ alias find_nm='find ./ -type d -name "node_modules"'
 
 # emsdk
 # shellcheck source=~
-# source $HOME/Documents/GitHub/emsdk/emsdk_env.sh
+# source $HOME/Documents/GitHub/emsdk/emsdk_set_env.sh
+# Rust-up
+# set --global --export PATH $PATH "$HOME/.cargo/bin"
 
 # python from brew
 # alias python='python3'

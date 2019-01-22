@@ -137,6 +137,7 @@ alias encodingof='file -I'
 # alias toutf8='iconv -f iso-8859-1 -t utf-8 < file > file.new'
 alias npmigtools='npm i -g lock-cli trash-cli np nsp npm-check-updates'
 alias fixmacostools='xcode-select --install'
+alias node_trace_webpack='node --trace-deprecation ./node_modules/.bin/webpack'
 
 alias serve='python -m SimpleHTTPServer 8000'
 
@@ -153,7 +154,7 @@ alias find_nm='find ./ -type d -name "node_modules"'
 
 # emsdk
 # shellcheck source=~
-# source $HOME/Documents/GitHub/emsdk/emsdk_env.sh
+# source $HOME/Documents/GitHub/emsdk/emsdk_set_env.sh
 
 # python from brew
 # alias python='python3'
