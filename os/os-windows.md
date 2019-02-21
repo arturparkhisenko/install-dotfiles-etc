@@ -4,8 +4,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
+- [CLI commands](#cli-commands)
 - [Intel Drivers](#intel-drivers)
-- [Secure or fast boot](#secure-or-fast-boot)
 - [Updates](#updates)
 - [Problems solving](#problems-solving)
   - [How to remove long name folders/files](#how-to-remove-long-name-foldersfiles)
@@ -13,27 +13,19 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## CLI commands
+
+- Get windows key cmd command: `wmic path SoftwareLicensingService get OA3xOriginalProductKey`
+
 ## Intel Drivers
 
-- [link, by processors, ru](https://www.intel.ru/content/www/ru/ru/support/products/80939/graphics-drivers.html)
-- [link, en](https://downloadcenter.intel.com/)
-- get windows key cmd command: `wmic path SoftwareLicensingService get OA3xOriginalProductKey`
-
-## Secure or fast boot
-
-1. Disable Windows 8 Fast Boot. To do this, go to the Control Panel
-2. (in Windows 8 hold X while hitting the Windows key and select "Control Panel")
-3. and select Power Options -> Choose What the power buttons do. Then select the link
-4. that says "Change settings that are currently unavailable". This will give you access
-5. to the checkbox "Turn on fast startup (recommended)". Turn it off.
-6. Then disable secure boot in the bios. You get to the bios on the Lenovo Z580
-7. by holding down F2 while powering on. The secure boot option is inaccessible
-8. until you create an admin password. Then you can turn secure boot off.
+- [By CPU generations](https://www.intel.com/content/www/us/en/support/products/80939/graphics-drivers.html)
+- [Download center](https://downloadcenter.intel.com/)
 
 ## Updates
 
-1. stop service Windows Update
-2. clean c:\Windows\SoftwareDistribution\
+1. Stop service Windows Update
+2. Clean `C:\Windows\SoftwareDistribution\`
 3. [CleanUnwantedUpdates](https://github.com/KOLANICH/CleanUnwantedUpdates)
 4. [WinsxsLite](https://sites.google.com/site/winsxslite/)
 5. [DisableWinTracking](https://github.com/10se1ucgo/DisableWinTracking) or [BlockWindows aka Anti-Spy](https://github.com/WindowsLies/BlockWindows)
@@ -56,37 +48,39 @@
 
 ## Soft
 
+- [x] [Ccleaner](https://www.ccleaner.com/ccleaner/download)
+- [x] [Github Desktop](https://desktop.github.com/)
+- [x] [KLite Full](http://www.codecguide.com/download_k-lite_codec_pack_full.htm)
+- [x] [GeForce Experience](https://www.nvidia.com/en-us/geforce/geforce-experience/)
+- [x] [Notepad++](https://notepad-plus-plus.org/download/)
+
 - [adwCleaner](https://toolslib.net/downloads/viewdownload/1-adwcleaner/)
-- [ASCON KOMPAS](http://edu.ascon.ru/main/download/freeware/)
 - [alldup](http://www.alldup.info/en_download_alldup.php)
+- [ASCON KOMPAS](http://edu.ascon.ru/main/download/freeware/)
 - [Babun](https://babun.github.io/)
 - [blindscanner](http://www.blindscanner.com/ru/download.html)
-- [blue-screen]([http://www.nirsoft.net/utils/blue_screen_view.html#DownloadLinks)
-- [Ccleaner](https://www.piriform.com/ccleaner/download)
 - [Chocolatey](https://chocolatey.org/)
+- [clink](https://mridgers.github.io/clink/)
 - [Cmder](http://cmder.net/)
-- [Curse](https://www.curse.com)
-- [Defraggler](https://www.piriform.com/defraggler/download)
-- [DeepRemove](https://deepremove.codeplex.com/)
-- [FileOptimizer](http://nikkhokkho.sourceforge.net/static.php?page=FileOptimizer)
-- [Github Desktop](https://desktop.github.com/)
+- [DeepRemove](https://github.com/juanpablojofre/deepremove)
+- [Defraggler](https://www.ccleaner.com/defraggler/download)
+- [eyeleo](http://eyeleo.com/)
+- [FileOptimizer](https://nikkhokkho.sourceforge.io/static.php?page=FileOptimizer)
 - [handbrake](https://handbrake.fr/) (video conv)
 - [hwinfo](https://www.hwinfo.com/)
-- [InternetCensor](http://icensor.ru/)
-- [KLite Full](http://www.codecguide.com/download_k-lite_codec_pack_full.htm)
+- [macomfort](https://leonardo.re/macomfort/)
 - [posh-git](https://github.com/dahlbyk/posh-git)
-- [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
-- [svg explorer extension](https://svgextension.codeplex.com/)
-- [syncback free](http://www.2brightsparks.com/freeware/index.html)
-- [wox](http://www.getwox.com/)
-- <https://irzyxa.wordpress.com/2015/08/10/volume1-1-4-347/>
+- [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+- [svg explorer extension](https://archive.codeplex.com/?p=svgextension)
+- [syncback free](https://www.2brightsparks.com/freeware/index.html)
+- [wox](http://www.wox.one/)
+
 - Audacity
 - avc-free
 - avz4
 - CCEnhancer
 - CD burner xp cdbxp
 - ClassicShell
-- Cmder
 - Composer
 - Corel Draw / Corel Painter
 - Curl
@@ -99,7 +93,6 @@
 - FreeCommander
 - freeFTPd
 - freeSSHd
-- GeForce Experience
 - HDDLLF
 - HijackThis
 - i.Disk
@@ -108,7 +101,6 @@
 - Kompas
 - mp3tag
 - MySQLWorkbench
-- Notepad++
 - Novicorp WinToFlash
 - Open Server
 - procexp
@@ -130,6 +122,3 @@
 - WinSCP
 - WinSetupFromUSB
 - winsxslite
-- [x] [eyeleo](http://eyeleo.com/)
-- [ ] [macomfort](https://leonardo.re/macomfort/)
-- [ ] [clink](https://mridgers.github.io/clink/)
