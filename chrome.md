@@ -10,6 +10,7 @@
 - [console pro tips](#console-pro-tips)
 - [blackboxing](#blackboxing)
 - [debugging](#debugging)
+- [cors](#cors)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -67,3 +68,7 @@ Set a breakpoint at the beginning of the sumNumbers function
 Set a breakpoint at the beginning of the autoInit method of the Sticky object
 
 - `debug(Sticky.autoInit)`
+
+## cors
+
+- `open /Applications/Google\ Chrome.app --args --disable-web-security --user-data-dir` no-cors

@@ -124,7 +124,7 @@
 - [ ] [BitTorrent Sync](https://www.getsync.com/platforms/desktop)
 - [ ] [cakebrew](https://www.cakebrew.com/)
 - [ ] [carthage](##Soft)
-- [ ] [charles](##Soft)
+- [ ] [charles](https://www.charlesproxy.com/)
 - [ ] [choosyosx](https://www.choosyosx.com/)
 - [ ] [cleanmymac](https://macpaw.com/cleanmymac)
 - [ ] [cocoapods](##Soft)

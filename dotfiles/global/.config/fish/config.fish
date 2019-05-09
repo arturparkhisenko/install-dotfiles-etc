@@ -67,8 +67,8 @@ set --global --export MANPATH $MANPATH "$NPM_PACKAGES/share/man"
 ## NODE NPM END
 
 # # SSH
-# export SSH_KEY_PATH="$HOME/.ssh/rsa_id"
-set --global --export SSH_KEY_PATH "$HOME/.ssh/rsa_id" $SSH_KEY_PATH
+# export SSH_KEY_PATH="$HOME/.ssh/id_rsa"
+set --global --export SSH_KEY_PATH "$HOME/.ssh/id_rsa" $SSH_KEY_PATH
 
 # Personal aliases
 
@@ -116,7 +116,7 @@ alias node_trace_webpack='node --trace-deprecation ./node_modules/.bin/webpack'
 alias serve='python -m SimpleHTTPServer 8000'
 
 # alias bcu='brew update&&brew outdated&&brew upgrade&&brew cleanup' # bash
-alias bcu='brew update; and brew outdated; and brew upgrade; and brew cleanup' # fish
+alias bcu='brew update; and brew outdated; and brew upgrade; and brew cleanup -s' # fish
 # alias zcu='upgrade_oh_my_zsh'
 alias scu='fish_update_completions'
 # alias acu='bcu&&zcu&&ncu -g' # bash
