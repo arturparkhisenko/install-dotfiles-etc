@@ -26,24 +26,34 @@
 
 ## VSCode [current editor]
 
-- [x] EditorConfig for VSCode
-- [x] ESLint
-- [x] Import Cost
-- [x] Indenticator - from SirTori
-- [x] markdownlint
-- [x] npm - from egamma
-- [x] polacode
-- [x] Prettier - from Esben Petersen
-- [x] Python
-- [x] Stylelint - from Sinnosuke
 - [x] Babel JavaScript
-- [x] TODO Highlight - from Wayou Liu
-- [ ] TSLint
-- [ ] GitLens
+- [x] C/C++ by Microsoft
+- [x] EditorConfig for VSCode
+- [x] ES7 React/Redux/GraphQL by dsznajder
+- [x] ESLint
+- [x] fish-ide by Sebastian Wiesner
+- [x] fish-vscode by skyapps
+- [x] Import Cost by Wix
+- [x] Indenticator by SirTori
+- [x] markdownlint
+- [x] npm by egamma
+- [x] npm Intellisense by Christian Cohler
+- [x] polacode
+- [x] Prettier by Esben Petersen
+- [x] Python by microsoft
+- [x] Stylelint by Sinnosuke
+- [x] TODO Highlight by Wayou Liu
+- [x] Version Lens by pflannery
+- [x] vscode-lua by trixnz
+- [x] WebAssembly by Dmitriy Tsvettsikh
+- [x] WoW Bunle by Septh
+- [x] XML Tools by Josh Johnson
 - [ ] Bracket Pair Colorizer
-- [ ] Polymer IDE
+- [ ] GitLens
 - [ ] hide-gitignored
 - [ ] Local History
+- [ ] Polymer IDE
+- [ ] TSLint
 
 ## Atom
 
