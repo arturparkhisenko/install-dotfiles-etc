@@ -54,25 +54,15 @@ export UPDATE_ZSH_DAYS=5
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 export plugins=(git npm node brew ssh-agent zsh-syntax-highlighting zsh-autosuggestions)
-# zsh-autosuggestions
-# Install: https://github.com/zsh-users/zsh-autosuggestions
-# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=247"
+
+# https://github.com/lukechilds/zsh-nvm
+# https://github.com/zsh-users/zsh-autosuggestions
+
+# FZF
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # shellcheck source=~/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
-
-# User configuration
-# export MANPATH="/usr/local/man:$MANPATH"
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
-
-## NODE NPM
-NPM_PACKAGES="${HOME}/.npm-packages"
-PATH="$NPM_PACKAGES/bin:$PATH"
-# Unset manpath so we can inherit from /etc/manpath via the `manpath` command
-unset MANPATH # delete if you already modified MANPATH elsewhere in your config
-MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
-export MANPATH
-## NODE NPM END
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -116,8 +106,8 @@ alias g_c='git commit --gpg-sign'
 alias g_ca='git commit --gpg-sign --all'
 alias g_cm='git commit --gpg-sign -m' # message
 alias g_cl='git clone'
-alias g_clean='git clean -xdf'
-alias g_cleanup='git prune&&git remote prune origin&&git remote update --prune&&git fetch --tags'
+alias g_reset='git clean -xdf&&git prune&&git remote prune origin&&git remote update --prune&&git fetch --tags&&git gc' # bash
+alias g_cleanup='git clean -xdf'
 alias g_co='git checkout'
 alias g_df='git diff --color --color-words --abbrev'
 alias g_l='git log --graph --oneline --decorate --all --date-order'
@@ -136,7 +126,6 @@ alias cpu='ps aux | sort -nk 3' # processes sorted by cpu
 
 alias encodingof='file -I'
 # alias toutf8='iconv -f iso-8859-1 -t utf-8 < file > file.new'
-alias npmigtools='npm i -g lock-cli trash-cli np nsp npm-check-updates'
 alias fixmacostools='xcode-select --install'
 alias node_trace_webpack='node --trace-deprecation ./node_modules/.bin/webpack'
 
@@ -144,8 +133,9 @@ alias serve='python -m SimpleHTTPServer 8000'
 
 alias bcu='brew update&&brew outdated&&brew upgrade&&brew cleanup'
 alias zcu='upgrade_oh_my_zsh'
-alias acu='bcu&&zcu&&ncu -g'
+alias acu='bcu&&zcu&&ncu -g' # bash
 
+alias n_ig='npm i -g eslint doctoc np npm-check-updates trash-cli'
 alias n_lg='npm list -g --depth=0'
 alias n_og='npm outdated -g'
 alias n_in='npm install npm@latest -g'

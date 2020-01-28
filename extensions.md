@@ -196,7 +196,7 @@
 - [x] .ignore
 - [x] bashsupport
 - [x] Import Cost
-- [x] Key promoter
+- [x] Key promoter X
 - [x] Lines Sorter
 - [x] PostCSS support
 - [x] Upsource Integration

@@ -12,5 +12,11 @@
   "files.defaultLanguage": "markdown",
   "prettier.singleQuote": true,
   "prettier.eslintIntegration": true,
-  "workbench.editor.highlightModifiedTabs": true
+  "workbench.editor.highlightModifiedTabs": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

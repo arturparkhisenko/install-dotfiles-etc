@@ -76,7 +76,7 @@ alias ..='cd ..'
 alias ll='ls -lhG' # long + sizes + color
 alias la='ls -a' # with hidden
 alias rm='rm -i'
-#alias whereami='pwd'
+alias whereami='pwd'
 alias rename='mv'
 alias move='mv'
 alias copy='cp'
@@ -89,7 +89,7 @@ alias zap='zip --encrypt --recurse-paths'
 # alias g_ca='git commit --gpg-sign --all'
 # alias g_cm='git commit --gpg-sign -m' # message
 # alias g_cl='git clone'
-alias g_clean='git prune&&git remote prune origin&&git remote update --prune&&git fetch --tags&&git gc' # bash
+alias g_reset='git clean -xdf&&git prune&&git remote prune origin&&git remote update --prune&&git fetch --tags&&git gc' # bash
 alias g_cleanup='git clean -xdf'
 # alias g_co='git checkout'
 # alias g_df='git diff --color --color-words --abbrev'
@@ -109,7 +109,6 @@ alias get='curl --location --progress-bar --verbose'
 
 alias encodingof='file -I'
 # alias toutf8='iconv -f iso-8859-1 -t utf-8 < file > file.new'
-alias npmigtools='npm i -g lock-cli trash-cli np npm-check-updates'
 alias fixmacostools='xcode-select --install'
 alias node_trace_webpack='node --trace-deprecation ./node_modules/.bin/webpack'
 
@@ -122,6 +121,7 @@ alias scu='fish_update_completions'
 # alias acu='bcu&&zcu&&ncu -g' # bash
 alias acu='bcu; and scu; and ncu -g' # fish
 
+alias n_ig='npm i -g eslint doctoc np npm-check-updates trash-cli'
 alias n_lg='npm list -g --depth=0'
 # alias n_og='npm outdated -g'
 # alias n_in='npm install npm@latest -g'
