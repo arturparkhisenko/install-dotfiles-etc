@@ -136,5 +136,3 @@
 
 - [jscourse tasks](http://jscourse.com/tasks)
 - [hexlet js challenges](https://ru.hexlet.io/challenges)
-
-![License MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)

@@ -1,13 +1,13 @@
-# Frontend :fire:
+# Frontend
 
-## Map (in order, from top to bottom):
+## Map (in order, from top to bottom)
 
 - English (all docs, plugins, etc..)
 - PC as black box (simplest description and explanation)
 - Software (os, editor, etc tools)
 - File encoding [link 1, ru](http://dimox.name/utf-8-without-bom/), [link 2, en](http://kunststube.net/encoding/)
 - bit/byte/kbyte, 2binary/10/hex(colors and etc) positional numeral system
- - [bit byte and etc, stanford](https://web.stanford.edu/class/cs101/bits-bytes.html)
+  - [bit byte and etc, stanford](https://web.stanford.edu/class/cs101/bits-bytes.html)
 - Math (expressions (x=y+z), functions(math funcs), matrix), [mathisfun](http://www.mathsisfun.com/index.htm)
   - [function](http://www.mathsisfun.com/definitions/function.html)
   - [algorithm](http://www.mathsisfun.com/definitions/algorithm.html)
@@ -29,7 +29,7 @@
   - css methodologies (BOOCSS, ACSS, BEM, SMACSS), proper naming (en only)
   - [css hex colors](https://medium.com/dev-channel/css-hex-colors-demystified-51c712179982)
   - [LAYOUTS on developers google](https://developers.google.com/web/fundamentals/design-and-ui/responsive/?hl=en)
-  - http://tilda.education/courses/web-design/basicsteps/
+  - [tilda.education web-design basicsteps](http://tilda.education/courses/web-design/basicsteps/)
 - graphics editors (photoshop(win/ios) / sketch(ios) / gimp / inkscape -> zeplin / csshat / avocode)
   - нарезка, стили слоя, информация о тексте и размерах
   - vector vs raster
@@ -82,7 +82,9 @@
 - [js-modules-formats-loaders-builders](https://tproger.ru/translations/js-modules-formats-loaders-builders/)
 - [s-expression](https://en.wikipedia.org/wiki/S-expression)
 
-## PRACTICE on github/codepen :godmode:
+## PRACTICE on github/codepen
+
+> :godmode:
 
 - [learnlayout, ru](http://ru.learnlayout.com/)
 - git/github
