@@ -224,8 +224,7 @@
 #### brew install
 
 - `xcode-select --install` - for gcc
-- `brew install node wget git gcc clang-format cmake fd cppcheck gcc shellcheck wget yarn`
-- `brew install neovim`
+- `brew install node wget git gcc clang-format cmake fd cppcheck gcc shellcheck wget yarn httpie`
 
 ### Spectacle
 
