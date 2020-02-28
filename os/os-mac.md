@@ -100,6 +100,7 @@
 - [x] [Homebrew](https://brew.sh/)
 - [x] [ImageOptim](https://imageoptim.com/)
 - [x] [LibreOffice](https://www.libreoffice.org/)
+- [x] [MediaInfo](https://mediaarea.net/en/MediaInfo)
 - [x] [Skype](https://www.skype.com/)
 - [x] [Spectacle](https://www.spectacleapp.com/)
 - [x] [TeamSpeak](https://www.teamspeak.com/)
