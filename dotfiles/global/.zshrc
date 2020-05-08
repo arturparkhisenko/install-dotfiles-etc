@@ -53,10 +53,19 @@ export UPDATE_ZSH_DAYS=5
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-export plugins=(git npm node brew ssh-agent zsh-syntax-highlighting zsh-autosuggestions)
-
-# https://github.com/lukechilds/zsh-nvm
-# https://github.com/zsh-users/zsh-autosuggestions
+export plugins=(
+  brew
+  dotenv
+  fzf
+  git
+  history-substring-search
+  node
+  npm
+  ssh-agent
+  yarn
+  zsh-autosuggestions # https://github.com/zsh-users/zsh-autosuggestions
+  zsh-nvm             # https://github.com/lukechilds/zsh-nvm
+)
 
 # FZF
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -91,7 +100,7 @@ export SSH_KEY_PATH="$HOME/.ssh/rsa_id"
 
 alias ..='cd ..'
 alias ll='ls -lhG' # long + sizes + color
-alias la='ls -a' # with hidden
+alias la='ls -a'   # with hidden
 alias rm='rm -i'
 alias whereami='pwd'
 alias rename='mv'
@@ -151,3 +160,16 @@ alias find_nm='find ./ -type d -name "node_modules"'
 # alias python='python3'
 # alias python-config='python3-config'
 # alias pip='pip3'
+
+### Apple HTTPLiveStreamingTools
+alias mediastreamsegmenter='/usr/local/bin/mediastreamsegmenter'
+alias mediafilesegmenter='/usr/local/bin/mediafilesegmenter'
+alias mediasubtitlesegmenter='/usr/local/bin/mediasubtitlesegmenter'
+alias variantplaylistcreator='/usr/local/bin/variantplaylistcreator'
+alias mediastreamvalidator='/usr/local/bin/mediastreamvalidator'
+alias hlsreport='/usr/local/bin/hlsreport.py'
+alias id3taggenerator='/usr/local/bin/id3taggenerator'
+
+## DNS config - /etc/hosts
+## 127.0.0.1	local.site.com
+## sudo killall -HUP mDNSResponder; sleep 2;
