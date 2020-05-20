@@ -63,12 +63,15 @@ set fish_greeting ""
 set --global --export NPM_PACKAGES $NPM_PACKAGES "$HOME/.npm-packages"
 set --global --export PATH $PATH "$NPM_PACKAGES/bin"
 set --global --export MANPATH $MANPATH "$NPM_PACKAGES/share/man"
-# CAN BE RUN ONCE: set -g fish_user_paths $fish_user_paths "/usr/local/opt/node@8/bin"
+set --global fish_user_paths $fish_user_paths "/usr/local/opt/node@12/bin"
+# CAN BE RUN ONCE: set -g fish_user_paths $fish_user_paths "/usr/local/opt/node@12/bin"
+# global npm packages
+# npm i -g doctoc eslint gulp-cli np npm-check-updates prisma trash-cli
 ## NODE NPM END
 
 # # SSH
-# export SSH_KEY_PATH="$HOME/.ssh/id_rsa"
-set --global --export SSH_KEY_PATH "$HOME/.ssh/id_rsa" $SSH_KEY_PATH
+# export SSH_KEY_PATH="$HOME/.ssh/rsa_id"
+set --global --export SSH_KEY_PATH "$HOME/.ssh/rsa_id" $SSH_KEY_PATH
 
 # Personal aliases
 
@@ -121,7 +124,7 @@ alias scu='fish_update_completions'
 # alias acu='bcu&&zcu&&ncu -g' # bash
 alias acu='bcu; and scu; and ncu -g' # fish
 
-alias n_ig='npm i -g eslint doctoc np npm-check-updates trash-cli'
+alias n_ig='npm i -g doctoc eslint np npm-check-updates trash-cli'
 alias n_lg='npm list -g --depth=0'
 # alias n_og='npm outdated -g'
 # alias n_in='npm install npm@latest -g'
@@ -129,11 +132,17 @@ alias n_cc='npm cache clean --force'
 alias y_cc='yarn cache clean'
 alias find_nm='find ./ -type d -name "node_modules"'
 
+# brew
+set --global fish_user_paths "/usr/local/sbin" $fish_user_paths
+
 # emsdk
 # shellcheck source=~
 # source $HOME/Documents/GitHub/emsdk/emsdk_set_env.sh
 # Rust-up
 # set --global --export PATH $PATH "$HOME/.cargo/bin"
+
+# yarn
+set --global --export PATH $PATH "$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:"
 
 # python from brew
 # alias python='python3'
