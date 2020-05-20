@@ -112,9 +112,7 @@ export plugins=(
 
 ## NODE NPM
 # global npm packages
-# npm i -g doctoc eslint gulp-cli np npm-check-updates prisma trash-cli
-export NPM_PACKAGES="$HOME/.npm-packages"
-export PATH="$NPM_PACKAGES/bin:$PATH"
+# npm i -g doctoc eslint expo-cli gatsby-cli np npm-check-updates trash-cli
 ## NODE NPM END
 
 # FZF
