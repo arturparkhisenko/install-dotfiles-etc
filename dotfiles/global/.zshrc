@@ -167,7 +167,7 @@ alias node_trace_webpack='node --trace-deprecation ./node_modules/.bin/webpack'
 alias serve='python -m SimpleHTTPServer 8080'
 
 alias bcu='brew update&&brew outdated&&brew upgrade&&brew cleanup'
-alias zcu='upgrade_oh_my_zsh'
+alias zcu='omz update'
 alias acu='bcu&&zcu&&ncu -g' # bash
 
 alias n_ig='npm i -g eslint doctoc np npm-check-updates trash-cli'
