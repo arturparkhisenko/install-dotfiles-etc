@@ -1,22 +1,43 @@
 {
-  "workbench.colorTheme": "Solarized Dark",
   "editor.fontSize": 16,
   "editor.tabSize": 2,
+  "workbench.colorTheme": "Solarized Dark",
+  "window.menuBarVisibility": "visible",
   "window.zoomLevel": 0,
+  "files.defaultLanguage": "markdown",
+  "workbench.editor.highlightModifiedTabs": true,
   "eslint.options": {
     "quotes": ["error", "single"]
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "files.defaultLanguage": "markdown",
-  "prettier.singleQuote": true,
-  "prettier.eslintIntegration": true,
-  "workbench.editor.highlightModifiedTabs": true,
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+  "lua.luacheckPath": "C:\\Program Files\\Luacheck\\luacheck.exe",
+  "editor.suggestSelection": "first",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "lua.format.singleQuote": true,
+  "prettier.singleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "fabianlauer.vs-code-xml-format"
+  },
+  "explorer.confirmDelete": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
